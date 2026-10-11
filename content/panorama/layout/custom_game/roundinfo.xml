@@ -1,0 +1,121 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/layout/custom_game/roundinfo/roundinfo.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/layout/custom_game/roundinfo/roundinfo.js" />
+    </scripts>
+    <snippets>
+        <snippet name="roundinfo_player">
+            <Panel  class="tableLine" hittest="false">
+                <Panel  class="colPlayer">
+                    <!-- <DOTAAvatarImage class="playerAvatar" steamid="local" /> -->
+                    <Label id="player_name"  class="colItem" text="{s:player_name}" html="true"/>
+                    
+                </Panel>
+                <Panel  class="colValue">
+                    <Label  class="colItem" text="{s:player_value}" />
+                </Panel>
+                <Panel  class="colIncome">
+                    <Label  class="colItem" text="{s:player_income}" />
+                </Panel>
+                <Panel  class="colLumber">
+                    <Label  class="colItem" text="{s:player_lumber}/{s:wood_collect}" />
+                </Panel>
+                <Panel  class="colKills">
+                    <Label  class="colItem" text="{s:player_kills}" />
+                </Panel>
+            </Panel>
+        </snippet>
+        <snippet name="roundinfo_2">
+            <Panel class="">
+                
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel class="roundinfoRoot" hittest="false">
+        <!-- <Panel id="smallInfo" class="">
+            <Panel id="smallBtn" class="">
+                <Label id="smallBtnTimer" class="" text="00:01:02" />
+            </Panel>
+        </Panel> -->
+        <Panel id="bigInfo" class="" hittest="true">
+            <Panel id="roundHead" class="" onactivate="toggleContent();">
+                <Panel id="roundHeadBg" class="">
+                </Panel>
+                <Label  id="roundLabelLeft" text="{s:rount_info}" />
+                <Label  id="roundLabelRight" text="{s:rount_timer}" />
+            </Panel>
+            <Panel id="bigContent" class=""  >
+                <Panel class="teamInfo">
+                    <Panel  class="tableHeader"  >
+                        <Panel  class="colPlayer" >
+                            <Label  class="colHeader" text="#tooltip_Player" />
+                        </Panel>
+                        <Panel  class="colValue">
+                            <Label  class="colHeader" text="#tooltip_Value" />
+                        </Panel>
+                        <Panel  class="colIncome">
+                            <Label  class="colHeader" text="#tooltip_Income" />
+                        </Panel>
+                        <Panel  class="colLumber">
+                            <Label  class="colHeader" text="#tooltip_Lumber" />
+                        </Panel>
+                        <Panel  class="colKills">
+                            <Label  class="colHeader" text="#tooltip_Kills" />
+                        </Panel>
+                    </Panel>
+                    <Panel id="goodPlayers" class="playeList">
+                        
+                    </Panel>
+                </Panel>
+                <Panel class="teamInfo">
+                    <Panel id="badPlayers" class="playeList">
+                    </Panel>
+                </Panel>
+                <Panel  class="aliveAndHp">
+                    <Panel id="" class="aliveAndHpLeft">
+                        <Panel id="westAliveColor" class="aliveColor">
+                                
+                            </Panel>
+                        <Label  class="aliveLabel" text="{s:west_alive}" />
+                    </Panel>
+                    <Panel id="" class="aliveAndHpRight">
+                        <Panel id="westHpColor" class="hpColor">
+                                
+                            </Panel>
+                        <Label  class="hpLabel" text="{s:west_king_hp}" />
+                    </Panel>
+                </Panel>
+                <Panel  class="aliveAndHp">
+                    <Panel id="" class="aliveAndHpLeft">
+                        <Panel id="eastAliveColor" class="aliveColor">
+                            </Panel>
+                        <Label  class="aliveLabel" text="{s:east_alive}" />
+                    </Panel>
+                    <Panel id="" class="aliveAndHpRight">
+                        <Panel id="eastHpColor" class="hpColor">
+                                
+                            </Panel>
+                        <Label  class="hpLabel" text="{s:east_king_hp}" />
+                    </Panel>
+                </Panel>
+                <Panel class="modesBoard" id="modesBoard">
+                    
+                    <Label id="game_mode" class="modesLabel" text="AP"/>
+                    <Label id="sell_mode" class="modesLabel" text="FS"/>
+
+                    <Label id="mind_open" class="modesLabel" text="MO"  onmouseover="DOTAShowTextTooltip('#ui_mind_open_desc')" onmouseout="DOTAHideTextTooltip()"/>
+                    <Label id="half_creep" class="modesLabel" text="HC" onmouseover="DOTAShowTextTooltip('#ui_half_creep_desc')" onmouseout="DOTAHideTextTooltip()" />
+                    <Label id="x2" class="modesLabel" text="X2" onmouseover="DOTAShowTextTooltip('#ui_x2_desc')" onmouseout="DOTAHideTextTooltip()" />
+                    <Label id="creep_stack" class="modesLabel" text="CS" onmouseover="DOTAShowTextTooltip('#ui_creep_stack_desc')" onmouseout="DOTAHideTextTooltip()" />
+
+                    <Label id="fighter_stack" class="modesLabel" text="FI" onmouseover="DOTAShowTextTooltip('#ui_fighter_stack_desc')" onmouseout="DOTAHideTextTooltip()" />
+                    <Label id="limited_income" class="modesLabel" text="LI" onmouseover="DOTAShowTextTooltip('#ui_limited_income_desc')" onmouseout="DOTAHideTextTooltip()" />
+                    
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

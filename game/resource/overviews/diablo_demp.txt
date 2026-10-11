@@ -1,0 +1,8 @@
+diablo_demp
+{
+	material materials/overviews/diablo_demp.vmat
+	pos_x -3520
+	pos_y 3488
+	scale 6.938
+}
+

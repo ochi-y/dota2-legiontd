@@ -1,0 +1,472 @@
+"DOTAAbilities"    
+{
+    "undead_life_steal"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_life_steal"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "life_stealer_feast"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_lifesteal.vpcf"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "undead_firestorm"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_firestorm"
+        "AbilityTextureName"    "abyssal_underlord_firestorm"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityCastRange"    "750"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "3.0"
+        "AbilityManaCost"    "10"
+        "MaxLevel"    "1"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/heroes_underlord/abyssal_underlord_firestorm_wave_burn.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "radius"    "400"
+            "wave_duration"    "8.0"
+            "wave_count"    "7"
+            "wave_damage"    "5"
+            "wave_interval"    "1.0"
+            "burn_damage"    "0.5"
+            "burn_interval"    "1.0"
+            "burn_duration"    "3.0"
+            "first_wave_delay"    "0.0"
+            "round"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "undead_life_steal_2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_life_steal_2"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "life_stealer_feast"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_lifesteal.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "life_steal"    "20"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "undead_small_splash"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_small_splash"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "black_dragon_fireball"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "small_radius"    "100"
+            "small_damage_pct"    "20"
+        }
+    }
+    "undead_raise_dead"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_raise_dead"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "dark_troll_warlord_raise_dead"
+        "AbilityCooldown"    "40"
+        "AbilityCastPoint"    "0.3"
+        "AbilityManaCost"    "60"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "count"    "1"
+            "duration"    "60"
+            "tooltip_damage"    "18"
+            "tooltip_attack_rate"    "0.4"
+            "tooltip_hp"    "100"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "undead_raise_dead_2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_raise_dead_2"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "dark_troll_warlord_raise_dead"
+        "AbilityCooldown"    "40"
+        "AbilityCastPoint"    "0.3"
+        "AbilityManaCost"    "60"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "count"    "3"
+            "duration"    "60"
+            "tooltip_damage"    "18"
+            "tooltip_attack_rate"    "0.4"
+            "tooltip_hp"    "100"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "lifestealer_feast_lua"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/lifestealer_feast_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "2"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+            "hp_leech_percent"    "8 12"
+            "hp_damage_percent"    "8 12"
+            "boss_hp_leech_percent"    "2 3"
+            "boss_hp_damage_percent"    "2 3"
+        }
+    }
+    "amumu_cursed_touch"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/amumu_cursed_touch"
+        "AbilityTextureName"    "ancient_apparition_chilling_touch"
+        "MaxLevel"    "2"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_debuff.vpcf"
+        }
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityValues"    
+        {
+            "move_slow"    "100"
+            "slow_duration"    "0.2 0.3"
+            "duration"    "5"
+            "damage_pct"    "15 20"
+        }
+    }
+    "undead_heartstopper_aura"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_heartstopper_aura"
+        "AbilityTextureName"    "necrolyte_heartstopper_aura"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityCastRange"    "700"
+        "MaxLevel"    "2"
+        "AbilityValues"    
+        {
+            "aura_damage"    "1.0"
+            "aura_radius"    "700"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "undead_infectious_diseases"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "pudge_rot"
+        "ScriptFile"    "ability/undead_infectious_diseases"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"    "300"
+        "AbilityValues"    
+        {
+            "radius"    "300"
+            "damage_reduction"    "5"
+        }
+    }
+    "undead_plague"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "pudge_rot"
+        "ScriptFile"    "ability/undead_plague"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"    "300"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_pudge/pudge_rot.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "radius"    "300"
+            "damage_reduction"    "10 10"
+        }
+    }
+    "undead_cleaving_attack"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_cleaving_attack"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "sven/immortal/sven_great_cleave"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_lifesteal.vpcf"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "small_radius"    "25"
+            "small_damage_pct"    "50"
+            "large_radius"    "100"
+            "large_radius_pct"    "10"
+        }
+    }
+    "undead_death_breath"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_death_breath"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "winter_wyvern_splinter_blast"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_lifesteal.vpcf"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "small_radius"    "100"
+            "small_damage_pct"    "25"
+            "large_radius"    "250"
+            "large_radius_pct"    "5"
+        }
+    }
+    "undead_rage"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_rage"
+        "AbilityTextureName"    "life_stealer_rage"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "AbilitySound"    "Hero_LifeStealer.Rage"
+        "AbilityCastPoint"    "0"
+        "AbilityCastRange"    "0"
+        "AbilityCooldown"    "5"
+        "AbilityManaCost"    "10"
+        "AbilityValues"    
+        {
+            "movement_speed_bonus"    
+            {
+                "value"    "15"
+            }
+            "duration"    
+            {
+                "value"    "6.0"
+            }
+            "attack_speed_bonus"    
+            {
+                "value"    "100"
+            }
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "undead_ancient_apparition_ice_blast"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_ancient_apparition_ice_blast"
+        "AbilityTextureName"    "ancient_apparition_ice_blast"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"    "2"
+        "HasShardUpgrade"    "1"
+        "AbilitySound"    "Hero_Ancient_Apparition.IceBlast.Target"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+        "MaxLevel"    "1"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCastRange"    "2000"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_4"
+        "AbilityCooldown"    "60.0"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "damage"    "300"
+            "radius_min"    "275"
+            "radius_grow"    "50.0"
+            "radius_max"    "1000"
+            "path_radius"    "275"
+            "frostbite_duration"    "10"
+            "dot_damage"    
+            {
+                "value"    "30"
+                "CalculateSpellDamageTooltip"    "1"
+            }
+            "speed"    "1500"
+            "kill_pct"    
+            {
+                "value"    "50"
+            }
+            "boss_kill_pct"    
+            {
+                "value"    "10"
+            }
+            "cold_feet_stun_duration_pct"    
+            {
+                "value"    "0.8"
+            }
+            "target_sight_radius"    "500"
+        }
+    }
+    "undead_meat_hook"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_meat_hook"
+        "AbilityTextureName"    "pudge_meat_hook"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PURE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+        "AbilityCastRange"    "1300"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "9"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "damage"    "800"
+            "hook_speed"    "1450.0"
+            "hook_width"    "100"
+            "hook_distance"    "1300"
+            "vision_radius"    "500"
+            "vision_duration"    "4.0"
+        }
+    }
+    "undead_arctic_burn"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_arctic_burn"
+        "AbilityTextureName"    "winter_wyvern_arctic_burn"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilitySound"    "Hero_WinterWyvern.ArcticBurn.Cast"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "HasScepterUpgrade"    "1"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityCastPoint"    "0.0"
+        "AbilityCooldown"    "6"
+        "AbilityManaCost"    "12"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "attack_point"    "0.1"
+            "boss_percent_damage"    "2.5"
+            "duration"    "12"
+            "attack_range_bonus"    "400"
+            "percent_damage"    "10"
+            "tick_rate"    "1.0"
+            "damage_duration"    "5.0"
+            "move_slow"    "30"
+            "night_vision_bonus"    "400"
+            "projectile_speed_bonus"    "500"
+            "tree_destruction_radius"    "175"
+        }
+    }
+    "undead_burning_oil"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_burning_oil"
+        "AbilityTextureName"    "war3r/BTNFireRocks-Reforged"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "FightRecapLevel"    "1"
+        "AbilityCastRange"    "800"
+        "AbilityCastPoint"    "0.3"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "0"
+        "AbilityManaCost"    "0"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_invoker/invoker_chaos_meteor_burn_debuff.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "missile_speed"    "900"
+            "radius"    "150"
+            "duration"    "5"
+            "debuff_duration"    "2"
+            "damage"    "10"
+            "burn_dps"    "50"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "undead_reapers_scythe"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/undead_reapers_scythe"
+        "AbilityTextureName"    "necrolyte_reapers_scythe"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "FightRecapLevel"    "2"
+        "AbilitySound"    "Hero_Necrolyte.ReapersScythe.Target"
+        "MaxLevel"    "1"
+        "AbilityCastPoint"    "0.45"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_4"
+        "AbilityCooldown"    "110"
+        "AbilityManaCost"    "0"
+        "AbilityCastRange"    "600"
+        "AbilityModifierSupportValue"    "0.1"
+        "AbilityValues"    
+        {
+            "damage_per_health"    "0.7"
+            "boss_damage_per_health"    "0.2"
+            "stun_duration"    "1.5"
+        }
+    }
+}

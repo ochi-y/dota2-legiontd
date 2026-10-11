@@ -1,0 +1,69 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/layout/custom_game/skin/skin.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/meta.js" />
+        <include src="s2r://panorama/layout/custom_game/skin/skin.js" />
+    </scripts>
+    <snippets>
+        <snippet name="snippet_raceBtn">
+            <Panel class="raceBtnContainer">
+                <Button id="btn" class="raceBtn" onactivate="">
+                    <Label class="raceName" text="{s:text_race}" />
+                </Button>
+            </Panel>
+        </snippet>
+        <snippet name="snippet_unitBtn">
+            <Panel class="unitBtnContainer">
+                <Button id="btn" class="unitBtn" onactivate="">
+                    <Label class="unitName" text="{s:text_unit}" />
+                </Button>
+            </Panel>
+        </snippet>
+        <snippet name="snippet_skinBtn">
+            <Panel class="skinBtnContainer">
+                <Button id="btn" class="skinBtn" onactivate="">
+                    <DOTAScenePanel id="smallUnitScene" allowrotation="true" style="width:100%;height:100%;" renderdeferred="true" unit="paladin_peasant" particleonly='false' light="hero_light" rotateonhover='true' antialias="false" yawmin='-30' yawmax='30' pitchmin='-20' pitchmax='20'/>
+                    <Panel class="skinOverlay">
+                        <Label class="skinName" text="{s:text_skin}" />
+                        <Panel class="skinCheckmark" />
+                    </Panel>
+                </Button>
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel class="root" hittest="false">
+        <Panel id="skinRoot" class="leaderboardRoot Hidden" hittest="true">
+            <Panel class="bg"></Panel>
+            <Panel class="container">
+                <Button id="closeBtn" onactivate="onCloseBtn();">
+                    <Label text="✕" />
+                </Button>
+                <Panel id="container1" class="" hittest="">
+                    <Panel id="container2" class="" hittest="">
+                        <Panel id="container3" class="">
+                            <Panel id="header" class="">
+                                <Label id="titleLabel" class="PanelClass" text="#ui_skin" />
+                                <Panel id="" class="HelpIcon" onmouseover="UIShowTextTooltip( #ui_skin_desc )" onmouseout="UIHideTextTooltip()">
+                                </Panel>
+                            </Panel>
+                            <Panel id="container4" class="PanelClass">
+                                <Panel id="raceList" class="">
+                                    <!-- Race buttons will be added here -->
+                                </Panel>
+                                <Panel id="unitList" class="">
+                                    <!-- Unit buttons will be added here -->
+                                </Panel>
+                                <Panel id="skinList" class="">
+                                    <!-- Skin cards will be added here -->
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

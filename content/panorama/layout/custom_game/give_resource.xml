@@ -1,0 +1,49 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<!-- <include src="s2r://panorama/styles/hudstyles.vcss_c" />
+		<include src="s2r://panorama/styles/hud/hud_reborn.vcss_c" />
+		<include src="s2r://panorama/styles/custom_ui.vcss_c" /> -->
+		<include src="s2r://panorama/styles/custom_game/give_resource.css" />
+	</styles>
+
+	<scripts>
+		<!-- <include src="s2r://panorama/scripts/sequence_actions.vjs_c" />
+		<include src="s2r://panorama/scripts/custom_game/common.vjs_c" />
+ 		 -->
+
+		<include src="s2r://panorama/scripts/custom_game/give_resource.js" />
+	</scripts>
+    <snippets>
+        <snippet name="give_resource_snippet_player">
+            <RadioButton group="playerlist" class="playerlistButton">
+                <DOTAAvatarImage id="ItemImage"/> 
+				<Label id="ItemName" text="{s:item_name}" html="true" />
+            </RadioButton>
+        </snippet>
+    </snippets>
+	<Panel class="quickuseRoot" hittest="false">
+	
+		<Panel id="QuickusePanel" class="Hidden" >
+			<Panel id="Quickuse" >
+                <Panel id="playerList" >
+				</Panel>
+				<Panel id="NumberAdjustment" >
+					<Slider id="NumberSlider" class="HorizontalSlider" direction="horizontal" />
+					<NumberEntry id="NumberEntry" textmode="numeric" oninputsubmit="Confirm()" />
+				</Panel>
+				<Panel id="ItemCost">
+					<Panel id="ItemCostIcon" />
+					<Label id="BuyCostLabel" text="{d:r:buy_cost}" />
+				</Panel>
+				<Panel id="QuickuseButtons">
+					<TextButton id="UseButton" class="QuickuseButton" text="#Quickuse_Use" onactivate="Confirm()" />
+					<TextButton id="CancelButton" class="QuickuseButton" text="#DialogBox_No" onactivate="End()" />
+				</Panel>
+			</Panel>
+		</Panel>
+<!-- 
+		<Panel id="Send_Gold" onmouseover="DOTAShowTextTooltip('#lu_Send_Gold_Tooltip')" onmouseout="DOTAHideTextTooltip()" onactivate="onSend_Gold()" /> -->
+
+	</Panel>
+</root>

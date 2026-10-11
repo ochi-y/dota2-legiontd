@@ -1,0 +1,403 @@
+"DOTAAbilities"    
+{
+    "beast_gnoll_poison"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_gnoll_poison"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "beastmaster_greater_boar_poison"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityValues"    
+        {
+            "move_slow"    "45"
+            "attack_slow"    "20"
+            "duration"    "5"
+            "damage"    "0"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_deadly_poison"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_deadly_poison"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "broodmother_poison_sting"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_beastmaster/beastmaster_boar_attack_explosion.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "damage"    "10 20"
+            "move_slow"    "70"
+            "attack_slow"    "25"
+            "duration"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_envenomed_weapon"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_envenomed_weapon"
+        "AbilityTextureName"    "gnoll_assassin_envenomed_weapon"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "isUltimateAbility"    "1"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "damage_per_second"    "0"
+            "duration"    "6"
+            "regen_reduction"    "75"
+        }
+    }
+    "beast_insatiable_hunger"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_insatiable_hunger"
+        "AbilityTextureName"    "broodmother_insatiable_hunger"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"    "2"
+        "HasShardUpgrade"    "1"
+        "isUltimateAbility"    "1"
+        "AbilityCastPoint"    "0.2"
+        "AbilityCastAnimation"    "ACT_DOTA_ATTACK"
+        "AbilityCooldown"    "5"
+        "AbilityManaCost"    "13"
+        "AbilityValues"    
+        {
+            "bonus_damage"    
+            {
+                "value"    "45"
+            }
+            "lifesteal_pct"    
+            {
+                "value"    "100"
+            }
+            "duration"    
+            {
+                "value"    "8"
+            }
+        }
+    }
+    "beast_chain_lightning"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_chain_lightning"
+        "AbilityTextureName"    "harpy_storm_chain_lightning"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "isUltimateAbility"    "1"
+        "AbilityCastRange"    "900"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "1"
+        "AbilityManaCost"    "4"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "initial_damage"    "200"
+            "jump_range"    "500"
+            "jump_delay"    "0.25"
+            "damage_percent_loss"    "20.0"
+            "max_targets"    "4"
+        }
+    }
+    "beast_rampage"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_rampage"
+        "AbilityTextureName"    "troll_warlord_rampage"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "MaxLevel"    "1"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityCastPoint"    "0.0"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_4"
+        "AbilityCastGestureSlot"    "DEFAULT"
+        "AbilityCooldown"    "4"
+        "AbilityManaCost"    "15"
+        "AbilityCastRange"    "400"
+        "AbilityValues"    
+        {
+            "attack_speed"    "25"
+            "duration"    "5"
+            "attackspeed_reduction_percentage"    "100"
+            "movespeed_reduction_percentage"    "100"
+            "radius"    "400"
+        }
+    }
+    "beast_berserkers_rage"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_berserkers_rage"
+        "AbilityTextureName"    "troll_warlord_berserkers_rage"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "isUltimateAbility"    "1"
+        "AbilityValues"    
+        {
+            "ensnare_chance"    "35"
+            "damage"    "300"
+            "ensnare_duration"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_rejuvenation"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_rejuvenation"
+        "AbilityTextureName"    "war3r/BTNRejuvenation-Reforged"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "isUltimateAbility"    "1"
+        "AbilityCastRange"    "400"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "14"
+        "AbilityManaCost"    "0"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "precache"    
+        {
+            "particle"    "particles/econ/events/fall_major_2016/radiant_fountain_regen_fm06_lvl2.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "duration"    "12"
+            "hp_gained"    "2000"
+        }
+    }
+    "beast_fireball"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_fireball"
+        "AbilityTextureName"    "black_dragon_fireball"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+        "FightRecapLevel"    "1"
+        "AbilityCastRange"    "1000"
+        "AbilityCastPoint"    "0.3"
+        "MaxLevel"    "1"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "isUltimateAbility"    "1"
+        "AbilityCooldown"    "2.5"
+        "AbilityManaCost"    "5"
+        "precache"  
+        {
+            "particle"    "particles/hw_fx/hw_rosh_fireball.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "damage"    "30"
+            "radius"    "150"
+            "missile_speed"    "1500"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_club_bash"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_club_bash"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "axe_culling_blade_unleashed"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityValues"    
+        {
+            "bash_chance"    "40"
+            "bash_damage"    "20"
+            "stun"    "1.5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_knock_out"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_knock_out"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "axe_culling_blade_unleashed"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityValues"    
+        {
+            "duration"    "2"
+            "chance"    "35 50"
+            "damage"    "45"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_envenom"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_envenom"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "venomancer_poison_sting"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityValues"    
+        {
+            "damage"    "3"
+            "attack_slow"    "15"
+            "move_slow"    "25"
+            "duration"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_enchanted_poison"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_enchanted_poison"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "venomancer_poison_sting"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityValues"    
+        {
+            "damage"    "15 30"
+            "attack_slow"    "30"
+            "move_slow"    "35"
+            "duration"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_adrenaline_rush"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_adrenaline_rush"
+        "MaxLevel"    "2"
+        "AbilityCastRange"    "1000"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "beastmaster_inner_beast"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityValues"    
+        {
+            "radius"    "1000"
+            "attack_speed_pct_bonus"    "8"
+            "move_speed_bonus"    "8"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "beast_battle_cry"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_battle_cry"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "lone_druid_savage_roar"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityManaCost"    "25"
+        "AbilityCooldown"    "23"
+        "AbilityCastRange"    "300"
+        "AbilityCastPoint"    "0.3"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "bonus_damage"    "30"
+            "bonus_armor"    "3"
+            "radius"    "300"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_ATTACK"
+    }
+    "beast_fervor"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_fervor"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityCastAnimation"    "ACT_INVALID"
+        "AbilityTextureName"    "troll_warlord_fervor"
+        "AbilityValues"    
+        {
+            "attack_speed"    "20"
+            "max_stacks"    "6"
+        }
+    }
+    "beast_circle_slash"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_circle_slash"
+        "MaxLevel"    "1"
+        "AbilityCastRange"    "1500"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "magnataur_empower"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_lycan/lycan_howl_buff.vpcf"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "small_radius"    "50"
+            "small_damage_pct"    "25"
+            "large_radius"    "100"
+            "large_radius_pct"    "10"
+        }
+    }
+    "beast_whitefire"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/beast_whitefire"
+        "MaxLevel"    "1"
+        "AbilityCastRange"    "1500"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "black_dragon_splash_attack"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_lycan/lycan_howl_buff.vpcf"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "small_radius"    "100"
+            "small_damage_pct"    "25"
+            "large_radius"    "250"
+            "large_radius_pct"    "10"
+        }
+    }
+}

@@ -1,0 +1,619 @@
+"DOTAAbilities"    
+{
+    "marine_frogmen_arm_of_the_deep"
+	{
+        "BaseClass"    "frogmen_arm_of_the_deep"
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "frogmen_arm_of_the_deep"
+        "ScriptFile"    "ability/marine_frogmen_arm_of_the_deep"
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Ability.Ravage"
+
+        "MaxLevel"                        "2"
+
+        "AbilityUnitTargetFlags"        "DOTA_UNIT_TARGET_FLAG_NONE"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"275"
+		"AbilityCastPoint"				"0.2"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"3"
+
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"6"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"projectile_width"				"100"
+			"damage"						"40 80" // 
+			"duration"						"0.5"
+			"range"							"275"
+			"speed"							"725"
+			"neutral_shared_cooldown"		"0"		// 0 disables
+		}
+	}
+
+    "marine_feast"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "ScriptFile"    "ability/marine_feast"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+            "attack_count"    "3"
+            "heal"    "70"
+        }
+    }
+    "ability_dark_pact"    
+    {
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Hero_Slark.DarkPact.Cast"
+        "ScriptFile"    "ability/ability_dark_pact"
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "slark_dark_pact"
+        "MaxLevel"    "2"
+        "RequiredLevel"    "0"
+        "AbilityCastAnimation"    "ACT_INVALID"
+        "AbilityCastPoint"    "0.001"
+        "AbilityCooldown"    "5"
+        "AbilityManaCost"    "11"
+        "AbilityValues"    
+        {
+            "delay"    "1.5"
+            "pulse_duration"    "1.0"
+            "radius"    "325"
+            "total_damage"    "45 90"
+            "total_pulses"    "10"
+            "pulse_interval"    "0.1"
+            "self_damage_pct"    "200"
+        }
+    }
+    "marine_biotoxin"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_biotoxin"
+        "AbilityTextureName"    "viper_poison_attack"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES_STRONG"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityCastRange"    "100"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "0"
+        "AbilityManaCost"    "3"
+        "AbilityDamage"    "0"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "attack_slow"    "20"
+            "move_slow"    "20"
+            "duration"    "5"
+        }
+    }
+    "marine_withdraw"    
+    {
+        "ScriptFile"    "ability/marine_withdraw"
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "tidehunter_kraken_shell"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"    "2"
+        "AbilitySound"    "Hero_Abaddon.BorrowedTime"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_4"
+        "AbilityCastGestureSlot"    "ABSOLUTE"
+        "HasScepterUpgrade"    "1"
+        "AbilityCooldown"    "15"
+        "AbilityManaCost"    "0 0 0"
+        "AbilityValues"    
+        {
+            "hp_threshold"    "400"
+            "duration"    "2.2"
+            "duration_scepter"    "5.0"
+            "ally_threshold_scepter"    "525"
+            "redirect_range_scepter"    "1600"
+        }
+    }
+    "marine_brawl"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "venomancer_venomous_gale_ti8"
+        "ScriptFile"    "ability/marine_brawl"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+            "crit"    "150"
+        }
+    }
+    "marine_delicacy"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "slark_fish_bait"
+        "ScriptFile"    "ability/marine_delicacy"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+            "tooltip_sell_pct"    "90"
+            "full_age_sell_price"    "110"
+        }
+    }
+    "marine_sphere"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_sphere"
+        "AbilityTextureName"    "ogre_magi_frost_armor"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "AbilityCastRange"    "800"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "11"
+        "AbilityManaCost"    "25"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "armor_bonus"    "3"
+            "duration"    "15"
+            "movespeed_slow"    "-20"
+            "attackspeed_slow"    "-20"
+            "slow_duration"    "3.0"
+        }
+    }
+    "marine_sphere_1"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_sphere"
+        "AbilityTextureName"    "ogre_magi_frost_armor"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "AbilityCastRange"    "800"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "7"
+        "AbilityManaCost"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "armor_bonus"    "3 3"
+            "duration"    "15 25"
+            "movespeed_slow"    "-20"
+            "attackspeed_slow"    "-20"
+            "slow_duration"    "3.0"
+        }
+    }
+    "marine_storm_geyser"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "slark_depth_shroud"
+        "ScriptFile"    "ability/marine_storm_geyser"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "2"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_oracle/oracle_scepter_rain_of_destiny.vpcf"
+        }
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityCastRange"    "700"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "7"
+        "AbilityManaCost"    "20"
+        "AbilityValues"    
+        {
+            "hp_regen"    "15 15"
+            "hit_count"    "3"
+            "damage"    "40 80"
+            "hit_gap"    "7"
+            "duration"    "15"
+            "radius"    "300 400"
+        }
+    }
+    "marine_triple_attack"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "viper/immortal/viper_poison_attack"
+        "ScriptFile"    "ability/marine_triple_attack"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "2"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+            "attack_count"    "3"
+            "tooltip_arrow_count"    "3"
+            "hit_damage"    "100"
+            "split_shot_bonus_range"    "150"
+            "arrow_count"    "2"
+        }
+    }
+    "marine_mitosis"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "undying_tombstone_zombie_deathstrike"
+        "ScriptFile"    "ability/marine_mitosis"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+    }
+    "marine_submerge"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_submerge"
+        "AbilityTextureName"    "war3r/BTNCryptFiendBurrow-Reforged"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "4"
+        "precache"    
+        {
+            "soundfile"    "soundevents/game_sounds_heroes/game_sounds_puck.vsndevts"
+            "particle"    "particles/units/heroes/hero_puck/puck_phase_shift.vpcf"
+        }
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "1.5"
+        "AbilityCooldown"    "7"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "duration"    "1.5"
+            "attackspeed_bonus"    "35"
+            "buff_duration"    "5"
+        }
+    }
+    "marine_concussion"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "slardar_bash"
+        "ScriptFile"    "ability/marine_concussion"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "2"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+            "attack_count"    "3 2"
+            "stun"    "2"
+            "crit"    "200"
+        }
+    }
+    "ability_essence_shift"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_essence_shift"
+        "AbilityTextureName"    "slark_essence_shift"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "2"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+            "attack_speed_gain"    "5 5"
+            "attack_speed_loss"    "5 5"
+            "duration"    "30"
+            "duration_boss"    "2"
+        }
+    }
+    "marine_poison_attack"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_poison_attack"
+        "AbilityTextureName"    "viper_poison_attack"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityCastRange"    "600"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "0.0"
+        "AbilityDamage"    "0"
+        "AbilityManaCost"    "0"
+        "MaxLevel"    "1"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "duration"    "4"
+            "damage"    "60"
+            "movement_speed"    "6"
+            "max_stacks"    "10"
+            "bonus_range"    "0"
+        }
+    }
+    "marine_impale"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/wave_1_champion_impale"
+        "AbilityTextureName"    "nyx_assassin_impale"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES_STRONG"
+        "FightRecapLevel"    "1"
+        "AbilityCastRange"    "700"
+        "AbilityCastPoint"    "0.4"
+        "AbilityCooldown"    "5"
+        "MaxLevel"    "1"
+        "AbilityManaCost"    "15"
+        "AbilityValues"    
+        {
+            "radius"    "125"
+            "missle_speed"    "1600"
+            "stun"    "0.7"
+            "air_time"    "0.2"
+            "damage"    "10"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "marine_tidal_wave"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_tidal_wave"
+        "AbilityTextureName"    "kunkka_tidal_wave"
+        "MaxLevel"    "1"
+        "HasScepterUpgrade"    "1"
+        "precache"    
+        {
+            "soundfile"    "soundevents/game_sounds_heroes/game_sounds_tidehunter.vsndevts"
+            "particle"    "particles/units/heroes/hero_tidehunter/tidehunter_gush_upgrade.vpcf"
+        }
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityCastRange"    "1000"
+        "AbilityCastPoint"    "0.48"
+        "AbilityCooldown"    "20"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "proj_speed"    "860"
+            "proj_width"    "1500"
+            "damage"    "70"
+            "min_slow"    "2.0"
+            "max_slow"    "4.0"
+            "slow"    "50"
+            "knockback_duration"    "1"
+            "range"    "2750"
+            "unit_count"    "15"
+        }
+    }
+    "ability_anchor_smash"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_anchor_smash"
+        "AbilityTextureName"    "tidehunter_anchor_smash"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"    "1"
+        "AbilityCastRange"    "300"
+        "AbilityCastPoint"    "0.4"
+        "AbilityCooldown"    "3"
+        "AbilityManaCost"    "8"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+        "AbilityValues"    
+        {
+            "attack_damage"    "30"
+            "damage_reduction"    "0"
+            "reduction_duration"    "4"
+            "radius"    "300"
+            "unit_count"    "7"
+        }
+    }
+    "marine_poison_sting"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_poison_sting"
+        "AbilityTextureName"    "venomancer_poison_sting"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityValues"    
+        {
+            "duration"    "15"
+            "damage"    "170"
+            "movement_speed"    "-15"
+            "regen_reduction"    "-50"
+        }
+    }
+    "ability_shadow_dance"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/wave_2_champion_shadow_dance"
+        "AbilityTextureName"    "slark_shadow_dance"
+        "FightRecapLevel"    "2"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NO_IMMEDIATE"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "AbilityCooldown"    "10"
+        "AbilityManaCost"    "13"
+        "AbilityValues"    
+        {
+            "duration"    "4"
+            "fade_time"    "0.0"
+            "bonus_movement_speed"    "50"
+            "bonus_regen_pct"    "10"
+            "activation_delay"    "0.5"
+            "neutral_disable"    "2.0"
+        }
+    }
+    "marine_torrent"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_torrent"
+        "AbilityTextureName"    "kunkka_torrent"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Ability.Torrent"
+        "AbilityDraftScepterAbility"    "kunkka_torrent_storm"
+        "MaxLevel"    "1"
+        "AbilityCastRange"    "1300"
+        "AbilityCastPoint"    "0.4"
+        "AbilityCooldown"    "16"
+        "AbilityManaCost"    "0"
+        "AbilityModifierSupportValue"    "0.5"
+        "AbilityValues"    
+        {
+            "radius"    
+            {
+                "value"    "300"
+            }
+            "movespeed_bonus"    "-40"
+            "slow_duration"    "2"
+            "stun_duration"    
+            {
+                "value"    "1.6"
+                "special_bonus_unique_kunkka_7"    "+30%"
+            }
+            "delay"    "1.6"
+            "torrent_damage"    
+            {
+                "value"    "300"
+            }
+            "damage_tick_interval"    "0.2"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "marine_vendetta"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_vendetta"
+        "AbilityTextureName"    "nyx_assassin_vendetta"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"    "2"
+        "AbilitySound"    "Hero_NyxAssassin.Vendetta"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_6"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "5"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "duration"    "10"
+            "fade_time"    "0.0"
+            "movement_speed"    "20"
+            "bonus_damage"    
+            {
+                "value"    "300"
+            }
+        }
+    }
+
+    "marine_largo_catchy_lick"
+	{
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/marine_largo_catchy_lick"
+		"AbilityType"					"ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilitySound"					"Hero_Largo.CatchyLick.Target.Layer1"
+
+        "AbilityTextureName"    "largo_catchy_lick"
+
+        "MaxLevel" "2"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+		"AbilityCastPoint"				"0.2"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"			"5"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"10"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"AbilityCastRange"				
+			{
+				"value"		"1200"
+				"special_bonus_unique_largo_4"	"+100"
+			}
+			"damage"
+			{
+				"value"		"90 180"
+				"special_bonus_unique_largo_5"	"+140"
+			}
+		}
+	}
+
+}

@@ -1,0 +1,1150 @@
+"DOTAAbilities"    
+{
+    "shield_all"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/shield_all"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "healthbar_pips"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/healthbar_pips"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "test_build_beast_ogre_spawn_of_dragon"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "buildinghelper/buildinghelper_build"
+        "AbilityTextureName"    "beast_ogre_dragon_aspect"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityCastPoint"    "0"
+        "Building"    "1"
+        "BuildingSize"    "2"
+        "BuildTime"    "0.1"
+        "ModelRotation"    "90.0"
+        "UnitName"    "beast_ogre_dragon_aspect"
+        "AbilityCastRange"    "200"
+        "UpdateHealth"    "1"
+        "Scale"    "1"
+        "PlayerCanControl"    "1"
+        "AbilityCooldown"    "0"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "builder.lua"
+                "Function"    "Build"
+            }
+        }
+        "AbilityValues"    
+        {
+            "damage"    "150"
+            "speed"    "1.5"
+            "range"    "100"
+            "hit_points"    "1360"
+            "gold"    "0"
+            "food"    "0"
+        }
+    }
+    "king_hit_points"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_hit_points"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNHealthStone-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "0.0"
+        "MaxLevel"    "20"
+        "AbilityCooldown"    "1"
+        "LegionUiType"    "wood"
+        "AbilityValues"    
+        {
+            "max_level"    "20"
+            "wood"    "80"
+            "income"    "3"
+            "max_bonus_hp"    "10000"
+        }
+    }
+    "king_hit_points_x2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_hit_points"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNHealthStone-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "0.0"
+        "MaxLevel"    "20"
+        "AbilityCooldown"    "1"
+        "LegionUiType"    "wood"
+        "AbilityValues"    
+        {
+            "max_level"    "40"
+            "wood"    "80"
+            "income"    "3"
+            "max_bonus_hp"    "925"
+        }
+    }
+    "ai_clear_target"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ai_clear_target"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "action_stop"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "0.0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "1"
+        "AbilityManaCost"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "king_attack"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_attack"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNSturdyWarAxe"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "0.0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "1"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "wood"
+        "AbilityValues"    
+        {
+            "max_level"    "30"
+            "wood"    "80"
+            "income"    "3"
+        }
+    }
+    "king_attack_x2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_attack"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNSturdyWarAxe"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "0.0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "1"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "wood"
+        "AbilityValues"    
+        {
+            "max_level"    "60"
+            "wood"    "80"
+            "income"    "3"
+        }
+    }
+    "king_regeneration"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_regeneration"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNHeal-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "0.0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "1"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "wood"
+        "precache"    
+        {
+            "particle"    "particles/generic_hero_status/hero_levelup_fallback_2.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "max_level"    "20"
+            "wood"    "80"
+            "income"    "3"
+        }
+    }
+    "king_regeneration_x2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_regeneration"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNHeal-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "0.0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "1"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "wood"
+        "precache"    
+        {
+            "particle"    "particles/generic_hero_status/hero_levelup_fallback_2.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "max_level"    "40"
+            "wood"    "80"
+            "income"    "3"
+        }
+    }
+    "upgrade_farm"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/upgrade_farm"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityTextureName"    "war3r/BTNFarm-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "10"
+        "MaxLevel"    "15"
+        "AbilityCooldown"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "goldAndWood"
+        "AbilityValues"    
+        {
+            "gold"    "24 24 24 24 24 24 24 24 24 60 60 60 60 60 60"
+            "wood"    "80 80 80 80 80 80 80 80 80 200 200 200 200 200 200"
+            "foodIncrease"    "8 8 8 8 8 8 8 8 8 20 20 20 20 20 20"
+        }
+    }
+    "upgrade_farm_x2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/upgrade_farm"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityTextureName"    "war3r/BTNFarm-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "10"
+        "MaxLevel"    "20"
+        "AbilityCooldown"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "goldAndWood"
+        "AbilityValues"    
+        {
+            "gold"    "24 24 24 24 24 24 24 24 24 60 60 60 60 60 60 60 60 60 60 60"
+            "wood"    "80 80 80 80 80 80 80 80 80 200 200 200 200 200 200 200 200 200 200 200"
+            "foodIncrease"    "8 8 8 8 8 8 8 8 8 20 20 20 20 20 20 20 20 20 20 20"
+        }
+    }
+    "farm_king_control"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/farm_king_control"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET "
+        "AbilityTextureName"    "war3r/BTNControlMagic-Reforged"
+        "AbilityCooldown"    "5"
+        "AbilityManaCost"    "0"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+    }
+    "farm_tp"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/farm_tp"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET "
+        "AbilityTextureName"    "war3r/BTNMassTeleport-Reforged"
+        "AbilityCooldown"    "1"
+        "AbilityManaCost"    "0"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+    }
+    "farm_tip1"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/farm_tip1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "attr_damage"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "farm_tip2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/farm_tip2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "attr_damage"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "game_master_abil"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/game_master_abil"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "attr_damage"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "upgrade_lumber_farm"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/upgrade_lumber_farm"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityTextureName"    "war3r/BTNHumanLumberUpgrade2-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "30"
+        "MaxLevel"    "7"
+        "AbilityCooldown"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "goldAndFood"
+        "AbilityValues"    
+        {
+            "gold"    "50"
+            "food"    "1"
+            "farmerCount"    "1"
+            "value_needed"    "350"
+        }
+    }
+    "upgrade_lumber_farm_speedup"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/upgrade_lumber_farm_speedup"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityTextureName"    "war3r/BTNHumanLumberMill-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "15"
+        "MaxLevel"    "15"
+        "AbilityCooldown"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "LegionUiType"    "goldAndWood"
+        "AbilityValues"    
+        {
+            "gold"    "60 80 100 120 140 160 180 200 200 200 200 200 200 200 200"
+            "wood"    "60 80 100 120 140 160 180 200 200 200 200 200 200 200 200"
+            "lumberIncrease"    "1"
+            "value_needed"    "600 1300"
+        }
+    }
+    "upgrade_lumber_farm_speedup_x2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/upgrade_lumber_farm_speedup"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityTextureName"    "war3r/BTNHumanLumberMill-Reforged"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "25"
+        "MaxLevel"    "25"
+        "AbilityCooldown"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "AbilityManaCost"    "60 80 100 120 140 160 180 200 200 200 200 200 200 200 200  200 200 200 200 200 200 200 200 200 200"
+        "LegionUiType"    "goldAndWood"
+        "AbilityValues"    
+        {
+            "gold"    "60 80 100 120 140 160 180 200 200 200 200 200 200 200 200  200 200 200 200 200 200 200 200 200 200"
+            "wood"    "60 80 100 120 140 160 180 200 200 200 200 200 200 200 200  200 200 200 200 200 200 200 200 200 200"
+            "lumberIncrease"    "1"
+            "value_needed"    "350"
+        }
+    }
+    "tb_effect"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/tb_effect"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+        "AbilityValues"    
+        {
+        }
+    }
+    "building_farm_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/building_farm_ambient"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+    }
+    "building_town_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/building_town_ambient"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+    }
+    "building_melee_barrack_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/building_melee_barrack_ambient"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+    }
+    "building_ranged_barrack_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/building_ranged_barrack_ambient"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+    }
+    "dummy_vision_ability"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/dummy_vision_ability"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_invulnerable"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_invulnerable"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+        "AbilityValues"    
+        {
+        }
+    }
+    "boss_strong"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/boss_strong"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "war3r/PASBTNResistantSkin-Reforged"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+        "AbilityValues"    
+        {
+            "attackspeed_reduction_percentage"    "40"
+            "movespeed_reduction_percentage"    "40"
+            "status_resistance"    "40"
+        }
+    }
+    "skeleton_king_boss_run"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/skeleton_king_boss_run"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+        "AbilityValues"    
+        {
+        }
+    }
+    "monkey_king_activity"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/monkey_king_activity"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+        "AbilityValues"    
+        {
+        }
+    }
+    "holy_light"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/holy_light"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET "
+        "AbilityTextureName"    "war3r/BTNHolyBolt-Reforged"
+        "AbilityCastPoint"    "0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "0"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "heal"    "10000"
+        }
+    }
+    "gameplay_unstuck"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/gameplay_unstuck"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE "
+        "AbilityTextureName"    "war3r/BTNAttackGround-Reforged"
+        "AbilityCastPoint"    "0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "0"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "gameplay_remake"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/gameplay_remake"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNTomeOfRetraining-Reforged"
+        "AbilityCastPoint"    "0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "5"
+        "AbilityCharges"    "5"
+        "AbilityChargeRestoreTime"    "3600"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "gold"    "0 50 100 150 200"
+            "wood"    "100 200 300 400 500"
+        }
+    }
+    "gameplay_prophet_remake"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/gameplay_prophet_remake"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "war3r/BTNTomeOfRetraining-Reforged"
+        "AbilityCastPoint"    "0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "5"
+        "AbilityCharges"    "5"
+        "AbilityChargeRestoreTime"    "3600"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "gold"    "0 50 100 150 200"
+            "wood"    "0 50 100 150 200"
+        }
+    }
+    "sell_building"    
+    {
+        "BaseClass"    "ability_datadriven"
+        "AbilityTextureName"    "alchemist_goblins_greed"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "MaxLevel"    "1"
+        "RequiredLevel"    "1"
+        "LevelsBetweenUpgrades"    "1"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "0"
+        "AbilityManaCost"    "0"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "builder.lua"
+                "Function"    "SellBuildingNoTarget"
+            }
+        }
+        "AbilityValues"    
+        {
+            "tooltip_cost_sell"    "50"
+            "tooltip_cost_full"    "100"
+        }
+    }
+    "hero_ambient_effects"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/hero_ambient_effects"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "IsOnCastBar"    "0"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_lotus_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_lotus_ambient"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "IsOnCastBar"    "0"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_empty"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_empty"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_empty1"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_empty1"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_empty2"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_empty2"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_empty3"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_empty3"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_empty4"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_empty4"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_empty5"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_empty5"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "ability_empty6"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/ability_empty6"
+        "AbilityTextureName"    "doom_bringer_empty1"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "gameplay_nogold"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/gameplay_nogold"
+        "AbilityTextureName"    "sniper_headshot_immortal"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "IsOnCastBar"    "0"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "gameplay_defense_mode"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/gameplay_defense_mode"
+        "AbilityTextureName"    "war3r/BTNUnholyArmor-Reforged"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "toggle_debuff_maker"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/toggle_debuff_maker"
+        "AbilityTextureName"    "war3r/BTNCripple-Reforged"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "0"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "king_bouns"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_bouns"
+        "AbilityTextureName"    "primal_beast_uproar"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "IsOnCastBar"    "1"
+        "MaxLevel"    "7"
+        "LevelsBetweenUpgrades"    "4"
+        "RequiredLevel"    "5"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "armor"    "2 4 6 8 10 12 14"
+            "attack_speed"    "10 20 30 40 50 60 70"
+        }
+    }
+    "king_auto_heal"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_auto_heal"
+        "AbilityTextureName"    "primal_beast_uproar"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "king_shockwave"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_shockwave"
+        "AbilityTextureName"    "magnataur_shockwave"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "FightRecapLevel"    "1"
+        "HasScepterUpgrade"    "0"
+        "MaxLevel"    "1"
+        "AbilityCastRange"    "1000"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "20"
+        "AbilityDuration"    "0.6875"
+        "AbilityManaCost"    "200"
+        "AbilityValues"    
+        {
+            "shock_speed"    "900"
+            "shock_width"    "250"
+            "shock_damage"    
+            {
+                "value"    "90"
+            }
+            "pull_duration"    "0.2"
+            "movement_slow"    "75"
+            "slow_duration"    "2"
+            "pull_distance"    "250"
+            "basic_slow_duration"    
+            {
+                "values"    "0.9"
+            }
+            "round"    "5"
+            "unit_count"    "100"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "king_war_stomp"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_war_stomp"
+        "AbilityTextureName"    "centaur_hoof_stomp"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET "
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES_STRONG"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Hero_Centaur.HoofStomp"
+        "MaxLevel"    "1"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "9"
+        "AbilityManaCost"    "250"
+        "AbilityCastRange"    "350"
+        "AbilityValues"    
+        {
+            "radius"    "350"
+            "stomp_damage"    "45"
+            "stun_duration"    
+            {
+                "value"    "1.5"
+            }
+            "round"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "king_permanent_immolation"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_permanent_immolation"
+        "AbilityTextureName"    "brewmaster_fire_permanent_immolation"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "AbilityCastRange"    "350"
+        "MaxLevel"    "1"
+        "AbilityValues"    
+        {
+            "damage"    "10"
+            "radius"    "350"
+            "round"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "king_firestorm"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_firestorm"
+        "AbilityTextureName"    "abyssal_underlord_firestorm"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityCastRange"    "750"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "18.0"
+        "AbilityManaCost"    "200"
+        "MaxLevel"    "1"
+        "AbilityValues"    
+        {
+            "radius"    "400"
+            "wave_duration"    "8.0"
+            "wave_count"    "7"
+            "wave_damage"    "15"
+            "wave_interval"    "1.0"
+            "burn_damage"    "1.5"
+            "burn_interval"    "1.0"
+            "burn_duration"    "2.0"
+            "first_wave_delay"    "0.0"
+            "round"    "5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "king_entangle"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_entangle"
+        "AbilityTextureName"    "lone_druid_entangling_claws"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES_STRONG"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityCastRange"    "1000"
+        "AbilityCastPoint"    "0.3"
+        "AbilityCooldown"    "18"
+        "AbilityManaCost"    "200"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_2"
+        "precache"    
+        {
+            "particle"    "particles/econ/items/treant_protector/treant_ti10_immortal_head/treant_ti10_immortal_overgrowth_root.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "duration"    "5"
+            "damage"    "20"
+            "radius"    "350"
+            "max_count"    "25"
+        }
+    }
+    "king_command_aura"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/king_command_aura"
+        "AbilityTextureName"    "vengefulspirit_command_aura"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "AbilityCastRange"    "1400"
+        "HasScepterUpgrade"    "0"
+        "AbilityValues"    
+        {
+            "bonus_base_damage"    "15"
+            "aura_radius"    "1400"
+            "round"    "15"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "legiontd_dummy_ability"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/legiontd_dummy_ability"
+        "AbilityTextureName"    "war3r/BTNDoom-Reforged"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "MaxLevel"    "1"
+        "AbilityValues"    
+        {
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "banned_aura"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/banned_aura"
+        "AbilityTextureName"    "war3r/BTNDoom-Reforged"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "AbilityCastRange"    "4000"
+        "HasScepterUpgrade"    "0"
+        "MaxLevel"    "1"
+        "AbilityValues"    
+        {
+            "aura_radius"    "4000"
+            "damage_reduce"    "10"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "king_devotion_aura"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "blue_dragonspawn_overseer_devotion_aura"
+        "ScriptFile"    "ability/king_devotion_aura"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"    "1400"
+        "AbilityValues"    
+        {
+            "bonus_armor"    "5"
+            "radius"    "1400"
+            "round"    "20"
+        }
+    }
+    "king_endurance_aura"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "centaur_khan_endurance_aura"
+        "ScriptFile"    "ability/king_endurance_aura"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"    "1400"
+        "AbilityValues"    
+        {
+            "move_speed"    "15"
+            "attack_speed"    "10"
+            "radius"    "1400"
+            "round"    "25"
+        }
+    }
+    "spell_immunity"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/spell_immunity"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "neutral_spell_immunity"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "1"
+        "AbilityValues"    
+        {
+        }
+    }
+    "midas_golden_valkyrie_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/midas_golden_valkyrie_ambient"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "neutral_spell_immunity"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+        "precache"    
+        {
+            "particle"    "particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_ambient_b.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "razor_arcana_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/razor_arcana_ambient"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE "
+        "AbilityTextureName"    "neutral_spell_immunity"
+        "MaxLevel"    "1"
+        "IsOnCastBar"    "0"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "fighter_death_spawn"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/fighter_death_spawn"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "meepo_divided_we_stand"
+        "MaxLevel"    "5"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "bonus_base_damage"    "100 200 300 400 500"
+            "model_scale"    "10 20 30 40 50"
+        }
+    }
+    "upgrade_fighter_level"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/upgrade_fighter_level"
+        "AbilityTextureName"    "war3r/BTNDrektharsSpellBook"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityCastPoint"    "0"
+        "AbilityCastRange"    "0"
+        "AbilityCooldown"    "1"
+        "LegionUiType"    "goldAndFood"
+        "AbilityValues"    
+        {
+            "start_round"    "11"
+        }
+    }
+    "learn_fighter_ultimate_ability"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/learn_fighter_ultimate_ability"
+        "AbilityTextureName"    "war3r/BTNTomeBrown-Reforged"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityCastPoint"    "0"
+        "AbilityCastRange"    "0"
+        "AbilityCooldown"    "1"
+        "LegionUiType"    "gold"
+        "AbilityValues"    
+        {
+            "start_round"    "16"
+            "required_round"    "21"
+            "required_level"    "2"
+        }
+    }
+    "death_spawn"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/death_spawn"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "meepo_divided_we_stand"
+        "MaxLevel"    "5"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "bonus_base_damage"    "50 100 150 200 250"
+            "bonus_base_damage_fly"    "60 120 180 240 300"
+            "model_scale"    "0"
+        }
+    }
+    "cant_move"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/cant_move"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"    "broodmother_incapacitating_bite"
+        "MaxLevel"    "5"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "auto_test_passive"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/auto_test_passive"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "broodmother_incapacitating_bite"
+        "MaxLevel"    "1"
+        
+        "AbilityTextureName"    "meepo_divided_we_stand"
+
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+}

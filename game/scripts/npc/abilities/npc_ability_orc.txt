@@ -1,0 +1,488 @@
+"DOTAAbilities"    
+{
+    "orc_frenzy"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_frenzy"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES"
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityCastPoint"    "0.0"
+        "AbilityCastRange"    "200"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityCooldown"    "1"
+        "AbilityManaCost"    "10"
+        "AbilityValues"    
+        {
+            "bonus_attack_speed"    "30"
+            "hp_lose"    "5"
+            "duration"    "25"
+        }
+    }
+    "orc_axe_jungle"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_axe_jungle"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"    "life_stealer_ghoul_frenzy"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityValues"    
+        {
+        }
+    }
+    "orc_finish_blow"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_finish_blow"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "primal_beast_trample"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "chance"    "6 10"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_finish_blow_hc"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_finish_blow"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "primal_beast_trample"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "chance"    "3"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_berserk"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_berserk"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "huskar_berserkers_blood"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "max_attack_speed"    "100"
+            "max_move_speed"    "100"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_cripple"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_cripple"
+        "AbilityTextureName"    "bane_enfeeble"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilitySound"    "Hero_Bane.Enfeeble"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_bane/bane_enfeeble.vpcf"
+        }
+        "AbilityCastPoint"    "0.2"
+        "AbilityCastRange"    "900"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "damage_reduction"    "20"
+            "duration"    "4"
+        }
+    }
+    "orc_corruption"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_corruption"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "nevermore_dark_lord"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "armor_reduce"    "4 5"
+            "duration"    "4 4"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_envenomed_spears"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_envenomed_spears"
+        "AbilityTextureName"    "huskar_burning_spear"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilitySound"    "Hero_Huskar.Burning_Spear"
+        "AbilityCastRange"    "450"
+        "AbilityCastPoint"    "0.0 0.0 0.0 0.0"
+        "AbilityCooldown"    "0.0 0.0 0.0 0.0"
+        "AbilityManaCost"    "0 0 0 0"
+        "MaxLevel"    "2"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_huskar/huskar_burning_spear_debuff.vpcf"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_2"
+        "AbilityValues"    
+        {
+            "health_cost"    "0"
+            "burn_damage"    "40 80"
+            "duration"    "4"
+        }
+    }
+    "orc_summon_wolf"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_summon_wolf"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "lycan_summon_wolves"
+        "AbilityCooldown"    "40"
+        "AbilityCastPoint"    "0.3"
+        "AbilityManaCost"    "60"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_lycan/lycan_summon_wolves_cast.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "tooltip_count"    "1"
+            "tooltip_duration"    "60"
+            "tooltip_damage"    "20"
+            "tooltip_attack_rate"    "1.35"
+            "tooltip_hp"    "150"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_summon_blood_wolf"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_summon_blood_wolf"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityTextureName"    "lycan/hunter_of_kings_ability_icons/lycan_summon_wolves"
+        "AbilityCooldown"    "40"
+        "AbilityCastPoint"    "0.3"
+        "AbilityManaCost"    "60"
+        "AbilityValues"    
+        {
+            "tooltip_count"    "1"
+            "tooltip_duration"    "60"
+            "tooltip_damage"    "55 110"
+            "tooltip_attack_rate"    "1.35"
+            "tooltip_hp"    "525 1050"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_healing_aura"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_healing_aura"
+        "AbilityCastRange"    "500"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "witch_doctor/ti10_immortal_weapon/witch_doctor_voodoo_restoration_immortal_ti10"
+        "AbilityValues"    
+        {
+            "hp_regen"    "8"
+            "radius"    "500"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_greater_healing_aura"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_greater_healing_aura"
+        "AbilityCastRange"    "500"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "witch_doctor/ti10_immortal_weapon/witch_doctor_voodoo_restoration_immortal_ti10_gold"
+        "AbilityValues"    
+        {
+            "hp_regen"    "16"
+            "radius"    "500"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_pulverize"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_pulverize"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "earthshaker_enchant_totem"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityCastRange"    "275"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityValues"    
+        {
+            "chance"    "25"
+            "damage"    "30"
+            "radius"    "275"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_storm_bolt"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_storm_bolt"
+        "AbilityTextureName"    "sven/cyclopean_marauder_ability_icons/sven_storm_bolt"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityCooldown"    "10"
+        "AbilityCastPoint"    "0.3"
+        "AbilityManaCost"    "15"
+        "AbilityCastRange"    "500"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_sven/sven_spell_storm_bolt.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "damage"    "300 600"
+            "duration"    "3 5"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_shapeshift"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_shapeshift"
+        "AbilityTextureName"    "lycan_shapeshift"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"    "2"
+        "AbilitySound"    "Hero_Lycan.Shapeshift.Cast"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_4"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "50"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "duration"    
+            {
+                "value"    "25"
+            }
+            "speed"    "550"
+            "bonus_night_vision"    "1000"
+            "transformation_time"    "1.1"
+            "crit_chance"    
+            {
+                "value"    "40"
+            }
+            "crit_multiplier"    "160"
+            "health_bonus"    "900"
+        }
+    }
+    "orc_sticky_napalm"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_sticky_napalm"
+        "AbilityTextureName"    "batrider_sticky_napalm"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilitySound"    "Hero_Batrider.StickyNapalm.Impact"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityCastRange"    "600"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "3.0"
+        "AbilityManaCost"    "0"
+        "AbilityModifierSupportValue"    "0.5"
+        "AbilityValues"    
+        {
+            "damage"    
+            {
+                "value"    "20"
+            }
+            "radius"    
+            {
+                "value"    "375"
+            }
+            "duration"    "6"
+            "movement_speed_pct"    "-6"
+            "turn_rate_pct"    "-50"
+            "max_stacks"    "10"
+            "unit_count"    "15"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_fatal_bonds"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_fatal_bonds"
+        "AbilityTextureName"    "warlock_fatal_bonds"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Hero_Warlock.FatalBonds"
+        "MaxLevel"    "2"
+        "AbilityCastAnimation"    "ACT_DOTA_FATAL_BONDS"
+        "AbilityCastRange"    "1000"
+        "AbilityCastGestureSlot"    "DEFAULT"
+        "AbilityCastPoint"    "0.2"
+        "AbilityCooldown"    "5 2.5"
+        "AbilityManaCost"    "10 5"
+        "AbilityValues"    
+        {
+            "count"    "4"
+            "damage_share_percentage"    "10"
+            "duration"    "10"
+            "search_aoe"    "700"
+            "boss_damage_share_percentage"    "2.5"
+        }
+    }
+    "orc_maledict"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_maledict"
+        "AbilityTextureName"    "witch_doctor_maledict"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Hero_WitchDoctor.Maledict_Cast"
+        "AbilityCastRange"    "575"
+        "AbilityCastPoint"    "0.35"
+        "AbilityCooldown"    "30"
+        "AbilityDuration"    "12.0"
+        "AbilityDamage"    "30"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "radius"    "180"
+            "bonus_damage"    "25"
+            "bonus_damage_threshold"    "100"
+            "ticks"    "3"
+            "damage"    "30"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_5"
+    }
+    "orc_counter_helix"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_counter_helix"
+        "AbilityTextureName"    "axe_counter_helix"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilitySound"    "Hero_Axe.CounterHelix"
+        "AbilityCooldown"    "0.3"
+        "AbilityValues"    
+        {
+            "damage"    
+            {
+                "value"    "135"
+            }
+            "radius"    "300"
+            "cooldown"    
+            {
+                "value"    "0.3"
+            }
+            "trigger_chance"    "17"
+            "unit_count"    "7"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "orc_paralyzing_cask"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/orc_paralyzing_cask"
+        "AbilityTextureName"    "witch_doctor_paralyzing_cask"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES_STRONG"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Hero_WitchDoctor.Paralyzing_Cask_Cast"
+        "MaxLevel"    "1"
+        "AbilityCastRange"    "600"
+        "AbilityCastPoint"    "0.35"
+        "AbilityCooldown"    "5"
+        "AbilityManaCost"    "12"
+        "AbilityValues"    
+        {
+            "hero_duration"    "0.7"
+            "creep_duration"    "0.7"
+            "base_damage"    
+            {
+                "value"    "50"
+            }
+            "bounce_range"    "575"
+            "bounces"    
+            {
+                "value"    "6"
+            }
+            "speed"    "1200"
+            "bounce_delay"    "0.3"
+            "bounce_bonus_damage"    
+            {
+                "value"    "50"
+            }
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "orc_chaos_strike"    
+    {
+        "BaseClass"    "Ability_lua"
+        "ScriptFile"    "ability/orc_chaos_strike"
+        "AbilityTextureName"    "chaos_knight_chaos_strike"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "AbilitySound"    "Hero_ChaosKnight.ChaosStrike"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityCooldown"    "4"
+        "AbilityValues"    
+        {
+            "crit_min"    "120"
+            "crit_max"    "175"
+            "lifesteal"    "25"
+            "chance"    "33.33"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+}

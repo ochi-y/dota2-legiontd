@@ -1,0 +1,8 @@
+legiontd_3000
+{
+	material materials/overviews/legiontd_3000.vmat
+	pos_x -8192
+	pos_y 8192
+	scale 16.000
+}
+

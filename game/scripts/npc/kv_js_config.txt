@@ -1,0 +1,13 @@
+"EOMConfig"
+{
+    "configs"
+    {
+        "OverrideHeros" "true"
+        "ObjectName"    "GameUI.CustomUIConfig()"
+        "OuputPath"     "panorama/scripts/kv"
+    }
+    "kvfiles"
+    {
+        "HeroesKv"      "npc/npc_heros_custom.txt"
+    }
+}

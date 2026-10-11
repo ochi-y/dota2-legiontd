@@ -1,0 +1,46 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/custom_game/customitemnode.css" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/customitemnode.js" />
+	</scripts>
+	<snippets>
+		<snippet name="attr">
+			<Panel class="attrCell" >
+				<Label hittest="false" class="needUnit" id="lb_attr" />
+			</Panel>
+		</snippet>
+	</snippets>
+
+	<Panel class="ItemTooltipRoot" ontooltiploaded="SetupTooltip()" hittest="false">
+		<!-- <Panel id="bg"></Panel> -->
+		<Panel id="Container">
+			<Label id="itemName" text="Build Hoodlum" class="itemName" html="true"/>
+			<Panel id="resourcePanel">
+				<Panel class="resItem" id="goldItem">
+					<Image id="gold_img" class="resIcon" src="file://{images}/custom_game/coin.png" hittest="false"/>
+					<Label id="gold" text="0" class="" hittest="false"></Label>
+				</Panel>
+				<Panel class="resItem" id="woodItem">
+					<Image id="gold_img" class="resIcon" src="file://{images}/custom_game/wood.png" hittest="false"/>
+					<Label id="wood" text="0" class="" hittest="false"></Label>
+				</Panel>
+				<Panel class="resItem" id="foodItem">
+					<Image id="gold_img" class="resIcon" src="file://{images}/custom_game/meat.png" hittest="false"/>
+					<Label id="food" text="0" class="" hittest="false"></Label>
+				</Panel>	
+			</Panel>
+			<Label id="itemDesc" text="1212" class="itemDesc" html="true"/>
+			<Label id="buildRequirement" text="Requires:" class="" html="true"/>
+
+			<!-- <Label id="itemDesc" text="" class="normal customFont" html="true"/>
+			<Label id="gold" text="" class="normal customFont" html="true"/>
+			<Label id="wood" text="" class="normal customFont" html="true"/>
+			<Label id="food" text="" class="normal customFont" html="true"/>
+			<Label id="itemNeed" text="#NEED" class="normal customFont" html="true"/>
+			<Panel id="attrList"> </Panel> -->
+			
+		</Panel>
+	</Panel>
+</root> 

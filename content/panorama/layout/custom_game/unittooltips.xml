@@ -1,0 +1,85 @@
+<!-- xml reconstructed by ValveResourceFormat: https://vrf.steamdb.info/ -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/unittooltips.css" />
+	</styles>
+	<scripts>
+	 	<include src="s2r://panorama/scripts/custom_game/meta.js" />
+		<include src="s2r://panorama/scripts/custom_game/unittooltips.js" />
+	</scripts>
+	<snippets>
+		<snippet name="UnitTooltip">
+			<Panel class="AbilityTooltip">
+				<Panel class="SummonHeader">
+					<DOTAAbilityImage id="AbilityIcon" abilityname="buy_barrack_demon" />
+					<Label id="SummonTitle" text="#text_Summon" class="TitleFont summonUnit" />
+				</Panel>
+				<Panel id="Header">
+					<Panel id="HeaderLabels">  
+						<Panel id="AbilityHeader">
+							<!-- Keep AbilityHeader for compatibility -->
+						</Panel>
+					</Panel>
+				</Panel>
+				<Panel id="AbilityCoreDetails">
+					<Panel id="AbilityDescriptionOuterContainer">
+						<Panel id="AbilityDescriptionContainer">
+							<Label class="DescLabel" id="DescLabel" text="#SummonItemTooltip" html="true" />
+							<Panel id="AbilityUnitArmorContainer">
+								<Panel class="armorTypeNode" id="attack_capability_node">
+									<Image id="attack_capability" src="file://{images}/custom_game/waves/wave_salamander_16.png"  />
+								</Panel>
+								<Panel class="armorTypeNode">
+									<DOTAAbilityImage id="attackTypeImg" abilityname="attack_siege" />
+									<Label class="" id="attackTypeLabel" text="null" html="true" />
+								</Panel>
+								<Panel class="armorTypeNode">
+									<DOTAAbilityImage  id="armorTypeImg" abilityname="armor_light" />
+									<Label class="" id="armorTypeLabel" text="null" html="true" />
+								</Panel>
+							</Panel>
+							<Panel id="abilityAttrContainer">
+								
+							</Panel>
+						</Panel>
+					</Panel>
+					<Panel class="AbilityCosts">
+						<Label id="Cooldown" class="Cooldown" text="100" html="true" />
+						<Label id="ManaCost" class="ManaCost" text="100" html="true" />
+					</Panel>
+				</Panel>
+			</Panel>
+		</snippet>
+		<snippet name="UnitAbility">
+			<Panel class="UnitAbility">
+				<Panel id="Header">
+					<Panel id="HeaderLabels">
+						<Panel id="AbilityHeader" >
+							<DOTAAbilityImage id="AbilityIcon" abilityname="build_arctic_tuskarr" />
+							<Label id="AbilityName" class="TitleFont" text="" html="true" />
+						</Panel>
+					</Panel>
+				</Panel>
+				<Panel id="AbilityCoreDetails">
+					<Panel id="AbilityDescriptionOuterContainer">
+						<Panel id="AbilityDescriptionContainer">
+							<Label class="DescLabel" id="DescLabel" text="" html="true" />
+						</Panel>
+					</Panel>
+				</Panel>
+			</Panel>
+		</snippet>
+		<snippet name="UnitAttr">
+			<Panel class="UnitAttr">
+				<Panel id="AttrLeft" class="UnitAttrNode">
+					<Label text="{s:attr_key}" html="true" class="AttrKey" />
+				</Panel>
+				<Panel id="AttrRight" class="UnitAttrNode">
+					<Label text="{s:attr_value}" html="true" class="AttrValue"/>
+				</Panel>
+			</Panel>
+		</snippet>
+	</snippets>
+	<Panel class="TooltipContents" ontooltiploaded="SetupTooltip()" />
+</root>

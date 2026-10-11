@@ -1,0 +1,164 @@
+{
+    "beast": {
+        "hero": "npc_dota_hero_beastmaster",
+        "building": [
+            "beast_gnoll_warrior",
+            "beast_ogre_basher",
+            "beast_ogre_harpy",
+            "beast_ogre_troll_fighter",
+            "beast_ogre_grizzly",
+            "beast_ogre_spawn_of_dragon"
+        ]
+    },
+    "element": {
+        "hero": "npc_dota_hero_storm_spirit",
+        "building": [
+            "element_proton",
+            "element_aqua_spirit",
+            "element_watcher",
+            "element_mudman",
+            "element_disciple",
+            "element_seer_of_darkness"
+        ]
+    },
+    "paladin": {
+        "hero": "npc_dota_hero_omniknight",
+        "building": [
+            "paladin_peasant",
+            "paladin_archer",
+            "paladin_footman",
+            "paladin_priest",
+            "paladin_knight",
+            "paladin_dragon_hawk"
+        ]
+    },
+    "goblin": {
+        "hero": "npc_dota_hero_tinker",
+        "building": [
+            "goblin_small_land_mine",
+            "goblin_geomancer",
+            "goblin_machine_turret",
+            "goblin_flying_machine",
+            "goblin_goblin_alchemist",
+            "goblin_steamroller"
+        ]
+    },
+    "nature": {
+        "hero": "npc_dota_hero_leshrac",
+        "building": [
+            "nature_ent",
+            "nature_ranger",
+            "nature_sprite",
+            "nature_tree_of_travel",
+            "nature_halfbreed",
+            "nature_yggdrasil"
+        ]
+    },
+    "ghost": {
+        "hero": "npc_dota_hero_necrolyte",
+        "building": [
+            "ghost_specter",
+            "ghost_wanderer",
+            "ghost_phantom",
+            "ghost_outcast",
+            "ghost_apparition",
+            "ghost_dark_priest"
+        ]
+    },
+    "undead": {
+        "hero": "npc_dota_hero_muerta",
+        "building": [
+            "undead_acolyte",
+            "undead_ghoul",
+            "undead_meta_wagon",
+            "undead_necromancer",
+            "undead_zombie",
+            "undead_guardian_of_death"
+        ]
+    },
+    "mech": {
+        "hero": "npc_dota_hero_rattletrap",
+        "building": [
+            "mech_peewee",
+            "mech_infantry",
+            "mech_captain",
+            "mech_tempest",
+            "mech_cyborg",
+            "mech_neotank"
+        ]
+    },
+    "shadow": {
+        "hero": "npc_dota_hero_pugna",
+        "building": [
+            "shadow_bone_warrior",
+            "shadow_carrion_spitter",
+            "shadow_gateguard",
+            "shadow_overseer",
+            "shadow_nightmare",
+            "shadow_lord_of_death"
+        ]
+    },
+    "arctic": {
+        "hero": "npc_dota_hero_tusk",
+        "building": [
+            "arctic_tuskarr",
+            "arctic_frost_wolf",
+            "arctic_ice_troll",
+            "arctic_polar_bear",
+            "arctic_wandigoo",
+            "arctic_young_frost_dragon"
+        ]
+    },
+    "marine": {
+        "hero": "npc_dota_hero_tidehunter",
+        "building": [
+            "marine_hatchling",
+            "marine_egg_sack",
+            "marine_bottom_feeder",
+            "marine_mermaid",
+            "marine_komodo",
+            "marine_sea_giant"
+        ]
+    },
+    "orc": {
+        "hero": "npc_dota_hero_juggernaut",
+        "building": [
+            "orc_orc_warrior",
+            "orc_orc_warlock",
+            "orc_raider",
+            "orc_young_witch_doctor",
+            "orc_wyvern",
+            "orc_orc_warchief"
+        ]
+    },
+    "elf": {
+        "hero": "npc_dota_hero_puck",
+        "building": [
+            "elf_colt",
+            "elf_novice",
+            "elf_sentry",
+            "elf_prisoner",
+            "elf_druid",
+            "elf_moon_guard"
+        ]
+    },
+    "prophet": {
+        "hero": "npc_dota_hero_rubick",
+        "building": []
+    },
+    "demi_human": {
+        "hero": "npc_dota_hero_kez",
+        "building": [
+            "demi_human_goblin_scientist",
+            "demi_human_servant",
+            "demi_human_tribesman",
+            "demi_human_medicine_man",
+            "demi_human_harlot",
+            "demi_human_minotaur"
+        ]
+    },
+    "hybrid": {
+        "hero": "npc_dota_hero_morphling",
+        "building": []
+    }
+}

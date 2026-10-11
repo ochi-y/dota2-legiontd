@@ -1,0 +1,914 @@
+{
+    "beast": {
+        "race": "beast",
+        "hero": "npc_dota_hero_beastmaster",
+        "trees": [
+            {
+                "name": "beast_gnoll_warrior",
+                "upgrades": [
+                    {
+                        "name": "beast_gnoll_savage",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "beast_ogre_basher",
+                "upgrades": [
+                    {
+                        "name": "beast_ogre_pulverizer",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "beast_ogre_harpy",
+                "upgrades": [
+                    {
+                        "name": "beast_ogre_medusa",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "beast_ogre_troll_fighter",
+                "upgrades": [
+                    {
+                        "name": "beast_ogre_troll_champion",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "beast_ogre_grizzly",
+                "upgrades": [
+                    {
+                        "name": "beast_ogre_greymane",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "beast_ogre_spawn_of_dragon",
+                "upgrades": [
+                    {
+                        "name": "beast_ogre_dragon_aspect",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "element": {
+        "race": "element",
+        "hero": "npc_dota_hero_storm_spirit",
+        "trees": [
+            {
+                "name": "element_proton",
+                "upgrades": [
+                    {
+                        "name": "element_adept",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "element_aqua_spirit",
+                "upgrades": [
+                    {
+                        "name": "element_oceanus",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "element_watcher",
+                "upgrades": [
+                    {
+                        "name": "element_violet",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "element_mudman",
+                "upgrades": [
+                    {
+                        "name": "element_golem",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "element_disciple",
+                "upgrades": [
+                    {
+                        "name": "element_messiah",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "element_seer_of_darkness",
+                "upgrades": [
+                    {
+                        "name": "element_fenix",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "paladin": {
+        "race": "paladin",
+        "hero": "npc_dota_hero_omniknight",
+        "trees": [
+            {
+                "name": "paladin_peasant",
+                "upgrades": [
+                    {
+                        "name": "paladin_militia",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "paladin_archer",
+                "upgrades": [
+                    {
+                        "name": "paladin_elite_archer",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "paladin_footman",
+                "upgrades": [
+                    {
+                        "name": "paladin_guard",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "paladin_priest",
+                "upgrades": [
+                    {
+                        "name": "paladin_high_priest",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "paladin_knight",
+                "upgrades": [
+                    {
+                        "name": "paladin_cavalier",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "paladin_dragon_hawk",
+                "upgrades": [
+                    {
+                        "name": "paladin_royal_griffin",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "goblin": {
+        "race": "goblin",
+        "hero": "npc_dota_hero_tinker",
+        "trees": [
+            {
+                "name": "goblin_small_land_mine",
+                "upgrades": [
+                    {
+                        "name": "goblin_medium_land_mine",
+                        "upgrades": [
+                            {
+                                "name": "goblin_ultra_land_mine",
+                                "upgrades": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "goblin_geomancer",
+                "upgrades": [
+                    {
+                        "name": "goblin_clockwreck",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "goblin_machine_turret",
+                "upgrades": [
+                    {
+                        "name": "goblin_machine_robot",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "goblin_flying_machine",
+                "upgrades": [
+                    {
+                        "name": "goblin_helicopter",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "goblin_goblin_alchemist",
+                "upgrades": [
+                    {
+                        "name": "goblin_goblin_blaster",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "goblin_steamroller",
+                "upgrades": [
+                    {
+                        "name": "goblin_assault_tank",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "nature": {
+        "race": "nature",
+        "hero": "npc_dota_hero_leshrac",
+        "trees": [
+            {
+                "name": "nature_ent",
+                "upgrades": [
+                    {
+                        "name": "nature_guardian",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "nature_ranger",
+                "upgrades": [
+                    {
+                        "name": "nature_meliai",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "nature_sprite",
+                "upgrades": [
+                    {
+                        "name": "nature_thunderbird",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "nature_tree_of_travel",
+                "upgrades": [
+                    {
+                        "name": "nature_tree_of_time",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "nature_halfbreed",
+                "upgrades": [
+                    {
+                        "name": "nature_goliath",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "nature_yggdrasil",
+                "upgrades": [
+                    {
+                        "name": "nature_tree_of_life",
+                        "upgrades": []
+                    },
+                    {
+                        "name": "nature_tree_of_knowledge",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "ghost": {
+        "race": "ghost",
+        "hero": "npc_dota_hero_necrolyte",
+        "trees": [
+            {
+                "name": "ghost_specter",
+                "upgrades": [
+                    {
+                        "name": "ghost_wraith",
+                        "upgrades": [
+                            {
+                                "name": "ghost_mercurial",
+                                "upgrades": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "ghost_wanderer",
+                "upgrades": [
+                    {
+                        "name": "ghost_soul_of_hero",
+                        "upgrades": []
+                    },
+                    {
+                        "name": "ghost_soul_of_villain",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "ghost_phantom",
+                "upgrades": [
+                    {
+                        "name": "ghost_hell_raiser",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "ghost_outcast",
+                "upgrades": [
+                    {
+                        "name": "ghost_forsaken_one",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "ghost_apparition",
+                "upgrades": [
+                    {
+                        "name": "ghost_gravekeeper",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "ghost_dark_priest",
+                "upgrades": [
+                    {
+                        "name": "ghost_meridian",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "undead": {
+        "race": "undead",
+        "hero": "npc_dota_hero_muerta",
+        "trees": [
+            {
+                "name": "undead_acolyte",
+                "upgrades": [
+                    {
+                        "name": "undead_revenant",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "undead_ghoul",
+                "upgrades": [
+                    {
+                        "name": "undead_freezen_ghoul",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "undead_meta_wagon",
+                "upgrades": [
+                    {
+                        "name": "undead_war_machine",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "undead_necromancer",
+                "upgrades": [
+                    {
+                        "name": "undead_necrolyte",
+                        "upgrades": []
+                    },
+                    {
+                        "name": "undead_ghost",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "undead_zombie",
+                "upgrades": [
+                    {
+                        "name": "undead_the_butcher",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "undead_guardian_of_death",
+                "upgrades": [
+                    {
+                        "name": "undead_death_dragon",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "mech": {
+        "race": "mech",
+        "hero": "npc_dota_hero_rattletrap",
+        "trees": [
+            {
+                "name": "mech_peewee",
+                "upgrades": [
+                    {
+                        "name": "mech_veteran",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "mech_infantry",
+                "upgrades": [
+                    {
+                        "name": "mech_zeus",
+                        "upgrades": []
+                    },
+                    {
+                        "name": "mech_pyro",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "mech_captain",
+                "upgrades": [
+                    {
+                        "name": "mech_admiral",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "mech_tempest",
+                "upgrades": [
+                    {
+                        "name": "mech_leviathan",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "mech_cyborg",
+                "upgrades": [
+                    {
+                        "name": "mech_krogoth",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "mech_neotank",
+                "upgrades": [
+                    {
+                        "name": "mech_doomsday_machine",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "shadow": {
+        "race": "shadow",
+        "hero": "npc_dota_hero_pugna",
+        "trees": [
+            {
+                "name": "shadow_bone_warrior",
+                "upgrades": [
+                    {
+                        "name": "shadow_skeletor",
+                        "upgrades": []
+                    },
+                    {
+                        "name": "shadow_fire_archer",
+                        "upgrades": []
+                    },
+                    {
+                        "name": "shadow_dark_mage",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "shadow_carrion_spitter",
+                "upgrades": [
+                    {
+                        "name": "shadow_carrion_nightcrawler",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "shadow_gateguard",
+                "upgrades": [
+                    {
+                        "name": "shadow_carrion_harbinger",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "shadow_overseer",
+                "upgrades": [
+                    {
+                        "name": "shadow_keeper_of_souls",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "shadow_nightmare",
+                "upgrades": [
+                    {
+                        "name": "shadow_doppelganger",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "shadow_lord_of_death",
+                "upgrades": [
+                    {
+                        "name": "shadow_hades",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "arctic": {
+        "race": "arctic",
+        "hero": "npc_dota_hero_tusk",
+        "trees": [
+            {
+                "name": "arctic_tuskarr",
+                "upgrades": [
+                    {
+                        "name": "arctic_tuskarr_spearman",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "arctic_frost_wolf",
+                "upgrades": [
+                    {
+                        "name": "arctic_pandaren",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "arctic_ice_troll",
+                "upgrades": [
+                    {
+                        "name": "arctic_ice_troll_shaman",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "arctic_polar_bear",
+                "upgrades": [
+                    {
+                        "name": "arctic_magnataur",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "arctic_wandigoo",
+                "upgrades": [
+                    {
+                        "name": "arctic_ancient_wandigoo",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "arctic_young_frost_dragon",
+                "upgrades": [
+                    {
+                        "name": "arctic_azure_dragon",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "marine": {
+        "race": "marine",
+        "hero": "npc_dota_hero_tidehunter",
+        "trees": [
+            {
+                "name": "marine_hatchling",
+                "upgrades": [
+                    {
+                        "name": "marine_swamprunner",
+                        "upgrades": [
+                            {
+                                "name": "marine_largo",
+                                "upgrades": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "marine_froglet_mage",
+                        "upgrades": [
+                            {
+                                "name": "marine_grown_frog_mage",
+                                "upgrades": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "marine_egg_sack",
+                "upgrades": [
+                    {
+                        "name": "marine_sky_dragon",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "marine_bottom_feeder",
+                "upgrades": [
+                    {
+                        "name": "marine_king_claw",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "marine_mermaid",
+                "upgrades": [
+                    {
+                        "name": "marine_highborne",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "marine_komodo",
+                "upgrades": [
+                    {
+                        "name": "marine_trident",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "marine_sea_giant",
+                "upgrades": [
+                    {
+                        "name": "marine_hydra",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "orc": {
+        "race": "orc",
+        "hero": "npc_dota_hero_juggernaut",
+        "trees": [
+            {
+                "name": "orc_orc_warrior",
+                "upgrades": [
+                    {
+                        "name": "orc_blood_orc_warrior",
+                        "upgrades": [
+                            {
+                                "name": "orc_wolverine",
+                                "upgrades": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "orc_orc_warlock",
+                "upgrades": [
+                    {
+                        "name": "orc_blood_orc_warlock",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "orc_raider",
+                "upgrades": [
+                    {
+                        "name": "orc_blood_raider",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "orc_young_witch_doctor",
+                "upgrades": [
+                    {
+                        "name": "orc_elder_witch_doctor",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "orc_wyvern",
+                "upgrades": [
+                    {
+                        "name": "orc_wind_rider",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "orc_orc_warchief",
+                "upgrades": [
+                    {
+                        "name": "orc_thrall",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "elf": {
+        "race": "elf",
+        "hero": "npc_dota_hero_puck",
+        "trees": [
+            {
+                "name": "elf_colt",
+                "upgrades": [
+                    {
+                        "name": "elf_hoodwink",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "elf_novice",
+                "upgrades": [
+                    {
+                        "name": "elf_crusader",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "elf_sentry",
+                "upgrades": [
+                    {
+                        "name": "elf_nightsaber",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "elf_prisoner",
+                "upgrades": [
+                    {
+                        "name": "elf_puck",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "elf_druid",
+                "upgrades": [
+                    {
+                        "name": "elf_ascendant",
+                        "upgrades": []
+                    },
+                    {
+                        "name": "elf_sword_mage",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "elf_moon_guard",
+                "upgrades": [
+                    {
+                        "name": "elf_warden",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "prophet": {
+        "race": "prophet",
+        "hero": "npc_dota_hero_rubick",
+        "trees": []
+    },
+    "demi_human": {
+        "race": "demi_human",
+        "hero": "npc_dota_hero_kez",
+        "trees": [
+            {
+                "name": "demi_human_goblin_scientist",
+                "upgrades": [
+                    {
+                        "name": "demi_human_dwarven_engineer",
+                        "upgrades": [
+                            {
+                                "name": "demi_human_mutant",
+                                "upgrades": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "demi_human_servant",
+                "upgrades": [
+                    {
+                        "name": "demi_human_slavemaster",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "demi_human_tribesman",
+                "upgrades": [
+                    {
+                        "name": "demi_human_alpha_male",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "demi_human_medicine_man",
+                "upgrades": [
+                    {
+                        "name": "demi_human_oracle",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "demi_human_harlot",
+                "upgrades": [
+                    {
+                        "name": "demi_human_mistress",
+                        "upgrades": []
+                    }
+                ]
+            },
+            {
+                "name": "demi_human_minotaur",
+                "upgrades": [
+                    {
+                        "name": "demi_human_bigfoot",
+                        "upgrades": []
+                    }
+                ]
+            }
+        ]
+    },
+    "hybrid": {
+        "race": "hybrid",
+        "hero": "npc_dota_hero_morphling",
+        "trees": []
+    }
+}

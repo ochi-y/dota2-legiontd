@@ -1,0 +1,173 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/styles/custom_game/hud_main.css" />
+        <include src="s2r://panorama/styles/custom_game/resource.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/meta.js" />
+        <include src="s2r://panorama/scripts/keyreg.js" />
+        <include src="s2r://panorama/scripts/custom_game/hud_main.js" />
+        <include src="s2r://panorama/scripts/custom_game/hud_main_tooltips.js" />
+    </scripts>
+    <snippets>
+    
+        <snippet name="item_btn">
+            <Panel class="ItemPanel" draggable="true">
+                <Button id="ItemButton"
+					onmouseover="ItemShowTooltip()"
+					onmouseout="ItemHideTooltip()"
+					onactivate="ActivateItem()"
+					ondblclick="DoubleClickItem()"
+					oncontextmenu="RightClickItem()"
+					>
+                    <DOTAItemImage hittest="false" id="ItemImage" />
+                    <Panel hittest="false" id="Cooldown">
+                        <Panel hittest="false" id="CooldownOverlay" />
+                        <Label hittest="false" id="CooldownTimer" />
+                    </Panel>
+                    <Label hittest="false" class="Charges" id="ChargeCount" />
+                    <Label hittest="false" class="Charges" id="AltChargeCount" />
+                    <Panel hittest="false" id="DropTargetHighlight" />
+                </Button>
+                <Panel hittest="false" id="Hotkey">
+                    <Label hittest="false" id="HotkeyText" />
+                </Panel>
+            </Panel>
+        </snippet>
+        <snippet name="timerbar">
+            <Panel class="timerbar">
+                <Label id="TimerLabel" text="99"/>
+                <ProgressBar class="progress_css">
+                    <Panel class="ProgressBarLeft" id="ProgressBarLeft">
+                        <Panel class="DotaSceneContainer">
+                            <DOTAScenePanel id="timebarscene" class="SceneLoaded"  map="scenes/hud/healthbarburner" camera="camera_1" />
+                        </Panel>
+                    </Panel>
+                    <Panel id="timebarprogressright"/>
+                    <Label id="TimerTick" text="99"/>
+                </ProgressBar>
+            </Panel>
+        </snippet>
+        <snippet name="damage_item">
+            <Panel id="" class="damageItem">
+                <Panel id="" class="damageItemLeft">
+                    <Label id="" class="damageItemName" text="{s:unit_name}" />
+                </Panel>
+                <Panel id="" class="damageItemMid">
+                    <Label id="" class="damageItemNumber" text="{s:damage_value}" />
+                </Panel>
+                <Panel id="" class="damageItemRight">
+                    <Panel id="damageList" class="">
+                        <Panel id="damageColorPhysical" class="">
+                            <Label id="" class="" text="{s:damage_physical}" />
+                        </Panel>
+                        <Panel id="damageColorMagical" class="">
+                            <Label id="" class="" text="{s:damage_magical}" />
+                        </Panel>
+                        <Panel id="damageColorPure" class="">
+                            <Label id="" class="" text="{s:damage_pure}" />
+                        </Panel>
+                        <Panel id="damageColorHpremoval" class="">
+                            <Label id="" class="" text="{s:damage_hpremoval}" />
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+        <snippet name="snippet_fighter">
+            <Panel id="" class="unitPoolCell">
+                <Panel id="unitPoolCellCont" class="">
+                    <DOTAAbilityImage id="fighterAbilityImage" class="" abilityname="attack_siege" showtooltip="true"/>
+
+                    <!-- Slash strike-through -->
+                    <Panel id="unitPoolCellSlash" class="usedSlash">
+                        <Panel class="slashLine"></Panel>
+                    </Panel>
+
+                    <!-- Used marker -->
+                    <Panel id="unitPoolCellUsedMark" class="usedMark">
+                        <Label class="usedMarkText" text="✗" />
+                    </Panel>
+                </Panel>
+
+                <Label id="" class="unitPoolCellName" text="{s:name}" />
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel hittest="false" class="CustomHudRoot Minimized">
+        <Panel id="DungeonHUDContents" hittest="false" class="CustomHudContents">
+            <Panel hittest="false" id="PartyPortraits" class="LeftRightFlow"/>
+            <Panel hittest="false" id="PartyArrows"/>
+            <Panel hittest="false" id="ZoneToastPanel" always-cache-composition-layer="true" require-composition-layer="true" >
+                <Label hittest="false" id="ZoneNameLabel" text="" class="TitleFont"/>
+            </Panel>
+            <Panel id="DungeonHUD" hittest="false">
+	  	</Panel>
+        </Panel>
+        <Panel id="TimerPanel"></Panel>
+        <Panel id="errorMsgBG">
+            <Label id="errorMsgTxt" text=""></Label>
+        </Panel>
+        <Panel id="damageTable" class="damageTable">
+            <Panel id="damageTableMain" class="">
+                <Label id="damageTableTitle" class="" text="#damage_table" />
+                <Panel id="damageItemList" class="">
+				</Panel>
+            </Panel>
+            <Panel id="ControlPanelSlideThumbContainer" class="">
+                <Button id="ControlPanelSlideThumb" acceptsjoyfocus="true" onactivate="SlideThumbActivate()">
+                    <Panel class="RightArrowButtonIcon" />
+                </Button>
+            </Panel>
+        </Panel>
+        <Panel id="unitPoolBtn" class="Hidden" hittest="true" hittestchildren="true" onactivate="ShowUnitPool()">
+            <Label text="#ui_fighter_pool" />
+        </Panel>
+        <Panel id="unitPool" class="Hidden">
+            <Button id="closeBtn" onactivate="onCloseUnitPool();"  />
+            <Label id="unitPoolTitle" class="" text="#ui_fighter_pool" />
+            <Panel id="unitCollection" class="">
+                <Panel id="" class="unitTierLine">
+                    
+                    <Label id="" class="unitTierLineTitle" text="Tier 1" />
+                    
+                    <Panel id="unitTier1" class="unitTier">
+                    
+                    </Panel>
+                </Panel>
+                <Panel id="" class="unitTierLine">
+                    <Label id="" class="unitTierLineTitle" text="Tier 2" />
+                    <Panel id="unitTier2" class="unitTier">
+                   
+                    </Panel>
+                </Panel>
+                <Panel id="" class="unitTierLine">
+                    <Label id="" class="unitTierLineTitle" text="Tier 3" />
+                    <Panel id="unitTier3" class="unitTier">
+                   
+                    </Panel>
+                </Panel>
+                <Panel id="" class="unitTierLine">
+                    <Label id="" class="unitTierLineTitle" text="Tier 4" />
+                    <Panel id="unitTier4" class="unitTier">
+                   
+                    </Panel>
+                </Panel>
+                <Panel id="" class="unitTierLine">
+                    <Label id="" class="unitTierLineTitle" text="Tier 5" />
+                    <Panel id="unitTier5" class="unitTier">
+                   
+                    </Panel>
+                </Panel>
+                <Panel id="" class="unitTierLine">
+                    <Label id="" class="unitTierLineTitle" text="Tier 6" />
+                    <Panel id="unitTier6" class="unitTier">
+                   
+                    </Panel>
+                </Panel>
+            </Panel>
+        </Panel>
+       
+    </Panel>
+</root>

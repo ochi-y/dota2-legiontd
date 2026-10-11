@@ -1,0 +1,219 @@
+{
+    "1": {
+        "count": "36",
+        "name": "1",
+        "preRoundTime": "50",
+        "unit": "wave_crab_1",
+        "value": "250",
+        "waveGold": "11"
+    },
+    "2": {
+        "count": "30",
+        "name": "2",
+        "unit": "wave_murloc_2",
+        "value": "350",
+        "waveGold": "12"
+    },
+    "3": {
+        "count": "30",
+        "name": "3",
+        "unit": "wave_scorpion_3",
+        "value": "500",
+        "waveGold": "13"
+    },
+    "4": {
+        "count": "30",
+        "name": "4",
+        "unit": "wave_quilbeast_4",
+        "value": "650",
+        "waveGold": "14"
+    },
+    "5": {
+        "count": "30",
+        "name": "5",
+        "unit": "wave_hawk_5",
+        "value": "800",
+        "waveGold": "16"
+    },
+    "6": {
+        "count": "30",
+        "name": "6",
+        "unit": "wave_rock_golem_6",
+        "value": "1000",
+        "waveGold": "18"
+    },
+    "7": {
+        "count": "30",
+        "name": "7",
+        "unit": "wave_satyr_7",
+        "value": "1200",
+        "waveGold": "20"
+    },
+    "8": {
+        "count": "30",
+        "name": "8",
+        "unit": "wave_aoclyte_8",
+        "value": "1450",
+        "waveGold": "23"
+    },
+    "9": {
+        "count": "30",
+        "name": "9",
+        "unit": "wave_zombie_9",
+        "value": "1600",
+        "waveGold": "26"
+    },
+    "10": {
+        "count": "3",
+        "delay": "2",
+        "name": "10",
+        "unit": "wave_draenei_chieftain_10",
+        "value": "1850",
+        "waveGold": "60",
+        "isBoss": "1"
+    },
+    "11": {
+        "count": "30",
+        "name": "11",
+        "unit": "wave_clockwerk_goblin_11",
+        "value": "2050",
+        "waveGold": "35"
+    },
+    "12": {
+        "count": "30",
+        "name": "12",
+        "unit": "wave_siren_12",
+        "value": "2400",
+        "waveGold": "40"
+    },
+    "13": {
+        "count": "36",
+        "name": "13",
+        "unit": "wave_couatl_13",
+        "value": "2700",
+        "waveGold": "45"
+    },
+    "14": {
+        "count": "26",
+        "name": "14",
+        "unit": "wave_tuskar_warrior_14",
+        "value": "3100",
+        "waveGold": "50"
+    },
+    "15": {
+        "count": "24",
+        "name": "15",
+        "unit": "wave_centaur_15",
+        "value": "3500",
+        "waveGold": "55"
+    },
+    "16": {
+        "count": "30",
+        "name": "16",
+        "unit": "wave_salamander_16",
+        "value": "4000",
+        "waveGold": "60"
+    },
+    "17": {
+        "count": "30",
+        "name": "17",
+        "unit": "wave_flesh_golem_17",
+        "value": "4500",
+        "waveGold": "70"
+    },
+    "18": {
+        "count": "30",
+        "name": "18",
+        "unit": "wave_sludge_flinger_18",
+        "value": "5000",
+        "waveGold": "80"
+    },
+    "19": {
+        "count": "30",
+        "name": "19",
+        "unit": "wave_gaint_spider_19",
+        "value": "5500",
+        "waveGold": "90"
+    },
+    "20": {
+        "count": "3",
+        "delay": "2",
+        "name": "20",
+        "unit": "wave_dragon_turtle_20",
+        "value": "6000",
+        "waveGold": "200",
+        "isBoss": "1"
+    },
+    "21": {
+        "count": "20",
+        "name": "21",
+        "unit": "wave_hippogryph_21",
+        "value": "6500",
+        "waveGold": "110"
+    },
+    "22": {
+        "count": "26",
+        "name": "22",
+        "unit": "wave_mammoth_22",
+        "value": "7100",
+        "waveGold": "120"
+    },
+    "23": {
+        "count": "30",
+        "name": "23",
+        "unit": "wave_wildkin_23",
+        "value": "7700",
+        "waveGold": "130"
+    },
+    "24": {
+        "count": "28",
+        "name": "24",
+        "unit": "wave_revenant_24",
+        "value": "8500",
+        "waveGold": "140"
+    },
+    "25": {
+        "count": "25",
+        "name": "25",
+        "unit": "wave_succubus_25",
+        "value": "9600",
+        "waveGold": "150"
+    },
+    "26": {
+        "count": "30",
+        "name": "26",
+        "unit": "wave_myrmidon_26",
+        "value": "10600",
+        "waveGold": "160"
+    },
+    "27": {
+        "count": "24",
+        "name": "27",
+        "unit": "wave_doom_guard_27",
+        "value": "11800",
+        "waveGold": "170"
+    },
+    "28": {
+        "count": "18",
+        "name": "28",
+        "unit": "wave_juggernaut_28",
+        "value": "13000",
+        "waveGold": "180"
+    },
+    "29": {
+        "count": "30",
+        "name": "29",
+        "unit": "wave_frost_wyrm_29",
+        "value": "14000",
+        "waveGold": "190"
+    },
+    "30": {
+        "count": "3",
+        "delay": "2",
+        "name": "30",
+        "unit": "wave_magnataur_30",
+        "value": "15000",
+        "waveGold": "0",
+        "isBoss": "1"
+    }
+}

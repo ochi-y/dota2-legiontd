@@ -1,0 +1,118 @@
+.topButton {
+    height: 40px;
+    width: 40px;
+}
+
+.topButtonRoot {
+    flow-children: right;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.topButtonRoot Button {
+    tooltip-position: bottom;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: middle;
+    horizontal-align: center;
+    background-position: center;
+    opacity: 0.5;
+    wash-color: #CDF;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    img-shadow: 0px 0px 3px 3 black;
+}
+
+.topButtonRoot Button:hover {
+    opacity: 1.0;
+    wash-color: white;
+}
+
+.topButtonRoot Button:active {
+    opacity: 1.0;
+}
+
+#ToggleScoreboardButton {
+    background-image: url("s2r://panorama/images/control_icons/hamburger_png.vtex");
+    background-size: 26px;
+}
+
+.HeroDemo #ToggleCombatLogButton {
+    visibility: visible;
+}
+
+#ToggleCombatLogButton {
+    background-image: url("s2r://panorama/images/hud/reborn/icon_combat_log_psd.vtex");
+    background-size: 26px;
+    visibility: collapse;
+}
+
+#DashboardButton {
+    background-image: url("s2r://panorama/images/control_icons/return_to_game_png.vtex");
+    transform: scaleY(-1);
+}
+
+#SettingsButton {
+    background-image: url("s2r://panorama/images/control_icons/gear_png.vtex");
+    background-size: 27px;
+    margin-top: 2px;
+}
+
+.topButton {
+    tooltip-position: bottom;
+    vertical-align: top;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    font-weight: bold;
+    font-size: 36px;
+    background-image: url("file://{images}/custom_game/icon_mmr_medium.png");
+    z-index: 0;
+    opacity: 0.7;
+    height: 33px;
+    width: 33px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 12px;
+    background-size: 30px 30px;
+}
+
+.topButton:hover {
+    opacity: 1;
+}
+
+#LeaderButton {
+    background-image: url("file://{images}/custom_game/icon_rank.png");
+}
+
+#LeaderButtonFs {
+    /* background-image: url("file://{images}/custom_game/icon_mmr_medium.png"); */
+    background-image: url("file://{images}/custom_game/icon_rank.png");
+}
+
+#WikiButton {
+    background-image: url("file://{images}/custom_game/material-symbols_book.png");
+}
+
+#WikiProButton {
+    background-image: url("file://{images}/custom_game/material-symbols_book.png");
+}
+
+#DiscordButton {
+    background-image: url("file://{images}/custom_game/ic_outline-discord.png");
+}
+#SkinButton {
+    background-image: url("file://{images}/custom_game/ant-design_skin-filled.png");
+}
+/* .HeroDemo #SkinButton {
+    visibility: visible;
+} */
+#home {
+    background-image: url("file://{images}/custom_game/icon_home.png");
+}

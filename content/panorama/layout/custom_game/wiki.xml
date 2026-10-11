@@ -1,0 +1,540 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/styles/custom_game/wiki.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/meta.js" />
+        <include src="s2r://panorama/scripts/custom_game/wiki.js" />
+        
+    </scripts>
+    <snippets>
+        <snippet name="KingAbilityCard">
+            <Panel class="KingAbilityCard">
+                <Panel  class="KingAbilityName">
+                    <Label class="" text="{s:ability_name}" />
+                </Panel>
+                <Panel class="KingAbilityCardSub">
+                    <DOTAAbilityImage class="KingAbilityImage" id="AbilityImage" abilityname="orc_pulverize" showtooltip="true"/>
+                    <Label class="KingAbilityDesc" text="{s:ability_desc}" html="true" />
+                </Panel>
+            </Panel>
+        </snippet>
+        <snippet name="AbilityItem">
+            <Panel class="AbilityItem">
+                <DOTAAbilityImage class="" id="AbilityItem_abilityImage" abilityname="orc_pulverize" showtooltip="false"/>
+                <Label id="abilityLabel" class="PanelClass" text="{s:ability_name}" />
+            </Panel>
+        </snippet>
+        <snippet name="builderButton">
+            <Panel  class="builderIcon">
+                <Button  class="builderButton" onactivate="">
+                    <!-- <DOTAHeroImage id="builderHeroImage" heroname="npc_dota_hero_nevermore" /> -->
+                    <DOTAScenePanel class="heroPanel" id="builderHeroImage" style="width:100px;height:140px;" unit="npc_dota_hero_tusk" particleonly='false' rotateonhover='true' yawmin='-10' yawmax='10' pitchmin='-5' pitchmax='5'/>
+                </Button>
+                <Label  class="builderName" text="{s:builder_name}" />
+            </Panel>
+        </snippet>
+        <snippet name="FighterUnitCard">
+            <Panel class="UnitCard">
+                <Panel class="UnitCardHeader">
+                    <Label text="{s:unit_name}"/>
+                </Panel>
+                <Panel class="UnitCardContent">
+                    <!-- <DOTAAbilityImage id="abilityImage" abilityname="{s:ability_name}" /> -->
+
+                     <DOTAScenePanel id="unitScene" renderdeferred="true" style="width:250px;height:150px;" unit="npc_dota_roshan" particleonly='false' rotateonhover='true' antialias="true" yawmin='-20' yawmax='20' pitchmin='-10' pitchmax='10'/>
+
+                    <Panel class="AttrRow AttrHealth" >
+                        <Label class="AttrHealthText1" text="#ui_health"/>
+                        <Label class="AttrHealthText2" text="{s:health}"/>
+                        <Label class="AttrHealthText3" text="{s:health_regen}"/>
+                    </Panel>
+                    <Panel class="AttrRow AttrMana" >
+                        <Label class="AttrManaText1" text="#ui_mana"/>
+                        <Label class="AttrManaText2" text="{s:mana}"/>
+                        <Label class="AttrManaText3" text="{s:mana_regen}"/>
+                    </Panel>
+                    <Panel class="AttrRow1 AttackRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_attack_damage"/>
+                            <DOTAAbilityImage id="unitAttackType" class="" abilityname="attack_siege" showtooltip="true"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_damage}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_attack_speed"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_speed}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel AttackRow">
+                            <Label class="AttrLabelLeft" text="#ui_attack_range"/>
+                            <Image id="attack_capability" src="file://{images}/custom_game/waves/wave_salamander_16.png"  />
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_range}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 ArmorRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_armor"/>
+                            <DOTAAbilityImage id="unitArmorType"  class="" abilityname="armor_light" showtooltip="true"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:armor}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_move_speed"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:move_speed}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 LumberRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_gold_cost"/>
+                            <Image class="gold_icon" src="file://{images}/custom_game/gold_icon.png" onmouseover="UIShowTextTooltip(#tip_gold)" onmouseout="UIHideTextTooltip()" />
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:gold_cost}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1 LumberRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_food_cost"/>
+                            <Image class="food_icon" src="file://{images}/custom_game/food_icon.png" onmouseover="UIShowTextTooltip(#tip_food)" onmouseout="UIHideTextTooltip()" />
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:food_cost}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 AbilityRow" >
+                    
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_abilities"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel" id="abilityListPanel">
+                            <Panel class="AbilityItem">
+                                <DOTAAbilityImage class="" abilityname="orc_pulverize" showtooltip="true"/>
+                                <Label class="PanelClass" text="pulverize" />
+                            </Panel>
+                            <Panel class="AbilityItem">
+                                <DOTAAbilityImage class="" abilityname="orc_pulverize" showtooltip="true"/>
+                                <Label class="PanelClass" text="pulverize" />
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+        <snippet name="WaveUnitCard">
+            <Panel class="UnitCard">
+                <Panel class="UnitCardHeader">
+                    <Label text="{s:unit_name}"/>
+                </Panel>
+                <Panel class="UnitCardContent">
+                    <!-- <Image id="abilityImage"  src="file://{images}/custom_game/waves/wave_salamander_16.png"  /> -->
+
+                    
+                    <DOTAScenePanel id="unitScene" renderdeferred="true" style="width:250px;height:150px;" unit="npc_dota_roshan" particleonly='false' rotateonhover='true' antialias="true" yawmin='-20' yawmax='20' pitchmin='-10' pitchmax='10'/>
+                    
+
+                    <Panel class="AttrRow AttrHealth" >
+                        <Label class="AttrHealthText1" text="#ui_health"/>
+                        <Label class="AttrHealthText2" text="{s:health}"/>
+                        <Label class="AttrHealthText3" text="{s:health_regen}"/>
+                    </Panel>
+                    <Panel class="AttrRow AttrMana" >
+                        <Label class="AttrManaText1" text="#ui_mana"/>
+                        <Label class="AttrManaText2" text="{s:mana}"/>
+                        <Label class="AttrManaText3" text="{s:mana_regen}"/>
+                    </Panel>
+                    <Panel class="AttrRow1 AttackRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_attack_damage"/>
+                            <DOTAAbilityImage id="unitAttackType" class="" abilityname="attack_siege" showtooltip="true"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_damage}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_attack_speed"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_speed}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel ArmorRow">
+                            <Label class="AttrLabelLeft" text="#ui_attack_range"/>
+                            <Image id="attack_capability" src="file://{images}/custom_game/waves/wave_salamander_16.png"  />
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_range}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 ArmorRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_armor"/>
+                            <DOTAAbilityImage id="unitArmorType"  class="" abilityname="armor_light" showtooltip="true"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:armor}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_move_speed"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:move_speed}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_bounty"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:bounty}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_wave_gold"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:wave_gold}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_wave_value"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:wave_value}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_count"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:wave_count}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 AbilityRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_abilities"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel" id="abilityListPanel">
+                            <Panel class="AbilityItem">
+                                <DOTAAbilityImage class="" abilityname="orc_pulverize" showtooltip="true"/>
+                                <Label class="PanelClass" text="pulverize" />
+                            </Panel>
+                            <Panel class="AbilityItem">
+                                <DOTAAbilityImage class="" abilityname="orc_pulverize" showtooltip="true"/>
+                                <Label class="PanelClass" text="pulverize" />
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+        <snippet name="SummonUnitCard">
+            <Panel class="UnitCard">
+                <Panel class="UnitCardHeader">
+                    <Label text="{s:unit_name}"/>
+                </Panel>
+                <Panel class="UnitCardContent">
+                    <!-- <DOTAAbilityImage id="abilityImage" abilityname="{s:ability_name}" /> -->
+
+                     <DOTAScenePanel id="unitScene" renderdeferred="true" style="width:250px;height:150px;" unit="npc_dota_roshan" particleonly='false' rotateonhover='true' antialias="true" yawmin='-20' yawmax='20' pitchmin='-10' pitchmax='10'/>
+                     
+                    <Panel class="AttrRow AttrHealth" >
+                        <Label class="AttrHealthText1" text="#ui_health"/>
+                        <Label class="AttrHealthText2" text="{s:health}"/>
+                        <Label class="AttrHealthText3" text="{s:health_regen}"/>
+                    </Panel>
+                    <Panel class="AttrRow AttrMana" >
+                        <Label class="AttrManaText1" text="#ui_mana"/>
+                        <Label class="AttrManaText2" text="{s:mana}"/>
+                        <Label class="AttrManaText3" text="{s:mana_regen}"/>
+                    </Panel>
+                    <Panel class="AttrRow1 AttackRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_attack_damage"/>
+                            <DOTAAbilityImage id="unitAttackType" class="" abilityname="attack_siege" showtooltip="true"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_damage}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_attack_speed"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_speed}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel AttackRow">
+                            <Label class="AttrLabelLeft" text="#ui_attack_range"/>
+                            <Image id="attack_capability" src="file://{images}/custom_game/waves/wave_salamander_16.png"  />
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:attack_range}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 ArmorRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_armor"/>
+                            <DOTAAbilityImage id="unitArmorType"  class="" abilityname="armor_light" showtooltip="true"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:armor}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_move_speed"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:move_speed}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_bounty"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:bounty}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1 LumberRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_lumber_cost"/>
+                            <Image class="lumber_icon" src="file://{images}/custom_game/lumber_icon.png" onmouseover="UIShowTextTooltip(#tip_wood)" onmouseout="UIHideTextTooltip()" />
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:lumber_cost}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 IncomeRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_income"/>
+                            <!-- <Image class="" src="file://{images}/custom_game/gold_icon.png" onmouseover="UIShowTextTooltip(#tip_gold)" onmouseout="UIHideTextTooltip()" /> -->
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:income}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow1 IncomeRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_round"/>
+                            <!-- <Image class="" src="file://{images}/custom_game/gold_icon.png" onmouseover="UIShowTextTooltip(#tip_gold)" onmouseout="UIHideTextTooltip()" /> -->
+                        </Panel>
+                        <Panel  class="AttrRightPanel">
+                            <Label class="AttrLabelRight" text="{s:round}"/>
+                        </Panel>
+                    </Panel>
+                    <Panel class="AttrRow2 AbilityRow" >
+                        <Panel  class="AttrLeftPanel">
+                            <Label class="AttrLabelLeft" text="#ui_abilities"/>
+                        </Panel>
+                        <Panel  class="AttrRightPanel" id="abilityListPanel">
+                            <Panel class="AbilityItem">
+                                <DOTAAbilityImage class="" abilityname="orc_pulverize" showtooltip="true"/>
+                                <Label class="PanelClass" text="pulverize" />
+                            </Panel>
+                            <Panel class="AbilityItem">
+                                <DOTAAbilityImage class="" abilityname="orc_pulverize" showtooltip="true"/>
+                                <Label class="PanelClass" text="pulverize" />
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel class="wikiRoot" hittest="false" >
+        <Panel  id="wikiPanel" hittest="false" acceptsfocus="true" oncancel="onCloseBtn()" class="Hidden">
+            <Panel id="wikiPanelBg" class="">
+            
+            </Panel>
+            <Panel id="wikiPanelContent" class="">
+                <Panel id="topMenu" class="">
+                    <Button class="topButton" onactivate="onClickButton('Summons')">
+                        <Label text="#ui_summons"/>
+                    </Button>
+                    <Button class="topButton" onactivate="onClickButton('Waves')">
+                        <Label text="#ui_waves"/>
+                    </Button>
+                    <Button class="topButton" onactivate="onClickButton('Builders')">
+                        <Label text="#ui_builders"/>
+                    </Button>
+                    <Button class="topButton" onactivate="onClickButton('King')">
+                        <Label text="#ui_king"/>
+                    </Button>
+                    <Button class="topButton" onactivate="onClickButton('Commands')">
+                        <Label text="#ui_commands"/>
+                    </Button>
+                    <Button class="topButton classButton" onactivate="onCloseBtn();">
+                        <Label text="#ui_close"/>
+                    </Button>
+                    <!-- <Button id="closeBtn" onactivate="onCloseBtn();" onmouseover="UIShowTextTooltip(#tip_close)" onmouseout="UIHideTextTooltip()"/> -->
+                </Panel>
+                <Panel id="contentPanelList" class="">
+                    <Panel id="SummonsPanel" class="contentPanel">
+                        <Label class="WikiTitle" text="#ui_summons" />
+                        <Label  class="WikiDesc" text="#ui_summons_desc" />
+                        <Panel id="SummonsPanelSub" class="contentPanelSub">
+                            
+                        </Panel>
+                        <Panel  class="contentPanelBottom">
+                            
+                        </Panel>
+                    </Panel>
+                    <Panel id="WavesPanel"  class="contentPanel">
+                        <Label class="WikiTitle" text="#ui_waves" />
+                        <Label  class="WikiDesc" text="#ui_waves_desc" />
+                        <Panel id="WavesPanelSub" class="contentPanelSub">
+                            
+                        </Panel>
+                        <Panel  class="contentPanelBottom">
+                            
+                        </Panel>
+                    </Panel>
+                    <Panel id="BuildersPanel" class="contentPanel">
+                        <Label class="WikiTitle" text="#ui_builders" />
+                        <Label  class="WikiDesc" text="#ui_builders_desc" />
+                        <Panel  id="builderList" >
+                            <Panel  class="builderIcon">
+                                <Button  class="builderButton" onactivate="">
+                                    <DOTAHeroImage heroname="npc_dota_hero_nevermore" />
+                                </Button>
+                                <Label  class="builderName" text="Arctic" />
+                            </Panel>
+                            <Panel  class="builderIcon">
+                                <DOTAHeroImage heroname="npc_dota_hero_nevermore" />
+                                <Label  class="builderName" text="Arctic" />
+                            </Panel>
+                        </Panel>
+                        <Label  class="BuilderTitle" text="{s:builder_title}" />
+                        <Label  class="BuilderDesc" text="{s:builder_desc}" />
+                        <Panel id="BuildersPanelSub" class="contentPanelSub">
+                            
+                        </Panel>
+                        <Panel  class="contentPanelBottom">
+                            
+                        </Panel>
+                    </Panel>
+                    <Panel id="KingPanel" class="contentPanel">
+                        <Label class="WikiTitle" text="#ui_king" />
+                        <Label  class="WikiDesc" text="#ui_king_desc" />
+                        <Panel class="KingAbilityBlock">
+                            <Label class="KingAbilityTitle" text="#ui_upgrades" />
+                            <Panel  class="KingAbilityList" id="kingUpgradesList">
+                                <Panel class="KingAbilityCard">
+                                    <Panel  class="KingAbilityName">
+                                        <Label class="" text="Ability A" />
+                                    </Panel>
+                                    <Panel class="KingAbilityCardSub">
+                                        <DOTAAbilityImage class="KingAbilityImage"  abilityname="orc_pulverize" showtooltip="true"/>
+                                        <Label class="KingAbilityDesc" text="Ability Desc" />
+                                    </Panel>
+                                </Panel>
+                                <Panel class="KingAbilityCard">
+                                    <Panel  class="KingAbilityName">
+                                        <Label class="" text="Ability A" />
+                                    </Panel>
+                                    <Panel class="KingAbilityCardSub">
+                                        <DOTAAbilityImage class="KingAbilityImage"  abilityname="orc_pulverize" showtooltip="true"/>
+                                        <Label class="KingAbilityDesc" text="Ability Desc" />
+                                    </Panel>
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                        <Panel class="KingAbilityBlock">
+                            <Label class="KingAbilityTitle" text="#ui_innate" />
+                            <Panel  class="KingAbilityList" id="kingInnateList">
+                                
+                            </Panel>
+                        </Panel>
+                        <Panel class="KingAbilityBlock">
+                            <Label class="KingAbilityTitle" text="#ui_abilities" />
+                            <Panel  class="KingAbilityList" id="kingAbilityList">
+                                
+                            </Panel>
+                        </Panel>
+                        <Panel id="KingPanelSub" class="contentPanelSub">
+                            
+                        </Panel>
+                        <Panel  class="contentPanelBottom">
+                            
+                        </Panel>
+                    </Panel>
+                    <Panel id="CommandsPanel" class="contentPanel">
+                        <Label class="CommandsTitle" text="#ui_commands" />
+                        <Label  class="WikiDesc" text="#notify_legiontd_help_1" html="true" />
+                        <Label  class="WikiDesc" text="#notify_legiontd_help_2" html="true" />
+                        <Label  class="WikiDesc" text="#notify_legiontd_help_3" html="true" />
+                        <Label  class="WikiDesc" text="#notify_legiontd_help_4" html="true" />
+                        <Label  class="WikiDesc" text="#notify_legiontd_help_5" html="true" />
+                        <Label  class="WikiDesc" text="#notify_legiontd_help_6" html="true" />
+                        <Label  class="WikiDesc" text="#notify_legiontd_help_7" html="true" />
+
+                        <Label class="CommandsTitle" text="#ui_cheatcodes" />
+                        
+                        <Label  class="WikiDesc" text="#ui_cheatcodes_desc" html="true" />
+
+                        <Label  class="WikiDesc" text="#ui_debug_debug" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_fast" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_round" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_duel" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_clear" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_clearw" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_cleare" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_whosyourdaddy" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_westwin" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_eastwin" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_greedisgood" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_gold" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_lumber" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_food" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_income" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_buildall" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_start" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_pause" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_resmue" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_repick" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_abil" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_heal" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_healw" html="true" />
+                        <Label  class="WikiDesc" text="#ui_debug_heale" html="true" />
+
+
+
+
+                        <Panel id="CommandsPanelSub" class="contentPanelSub">
+                            
+                        </Panel>
+                        <Panel  class="contentPanelBottom">
+                            
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

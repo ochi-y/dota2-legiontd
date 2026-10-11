@@ -1,0 +1,74 @@
+"DOTAAbilities"    
+{
+    "jax_grandmasters_might"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/jax_grandmasters_might"
+        "AbilityTextureName"    "spirit_breaker_greater_bash"
+        "MaxLevel"    "1"
+        "precache"    
+        {
+            "soundfile"    "soundevents/game_sounds_heroes/game_sounds_mirana.vsndevts"
+            "particle"    "particles/econ/items/omniknight/omniknight_fall20_immortal/omniknight_fall20_immortal_degen_aura_debuff.vpcf"
+        }
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "AbilityValues"    
+        {
+            "bonus_damage"    "500"
+            "max_stacks"    "3"
+            "stack_duration"    "2.5"
+            "stun"    "0.5"
+        }
+    }
+    "war3_reincarnation"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/war3_reincarnation"
+        "AbilityTextureName"    "war3r/PASBTNReincarnation-Reforged"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "0"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "reincarnate_time"    "3"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "wave_astral_step"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/wave_astral_step"
+        "AbilityTextureName"    "void_spirit_astral_step"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "precache"    
+        {
+            "soundfile"    "soundevents/game_sounds_heroes/game_sounds_void_spirit.vsndevts"
+            "particle"    "particles/units/heroes/hero_void_spirit/astral_step/void_spirit_astral_step_dmg.vpcf"
+        }
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityCastPoint"    "0.2"
+        "AbilityCastRange"    "700"
+        "AbilityCooldown"    "7"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "radius"    "170"
+            "min_travel_distance"    "200"
+            "max_travel_distance"    "700"
+            "pop_damage_delay"    "1.25"
+            "pop_damage"    "150"
+            "movement_slow_pct"    "40"
+        }
+    }
+}

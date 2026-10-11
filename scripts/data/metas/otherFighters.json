@@ -1,0 +1,75 @@
+{
+    "files": [
+        "npc_units_foulfell.txt",
+        "npc_units_radiant.txt",
+        "npc_units_other_fighter.txt"
+    ],
+    "building": [
+        {
+            "name": "radiant_soldier",
+            "tier": "1",
+            "enabled": true
+        },
+        {
+            "name": "radiant_shadow_shaman",
+            "tier": "2",
+            "enabled": false
+        },
+        {
+            "name": "radiant_juggernaut",
+            "tier": "3",
+            "enabled": true
+        },
+       
+        {
+            "name": "radiant_relict",
+            "tier": "4",
+            "enabled": false
+        },
+        {
+            "name": "radiant_thunder_beast",
+            "tier": "5",
+            "enabled": true
+        },
+        {
+            "name": "radiant_ember_spirit",
+            "tier": "6",
+            "enabled": true
+        },
+        {
+            "name": "foulfell_spiderling",
+            "tier": "1",
+            "enabled": true
+        },
+        {
+            "name": "foulfell_bandit",
+            "tier": "2",
+            "enabled": false
+        },
+        {
+            "name": "foulfell_night_stalker",
+            "tier": "3",
+            "enabled": false
+        },
+        {
+            "name": "foulfell_medusa",
+            "tier": "4",
+            "enabled": true
+        },
+        {
+            "name": "foulfell_spectre",
+            "tier": "5",
+            "enabled": true
+        },
+        {
+            "name": "foulfell_golem_tower",
+            "tier": "6",
+            "enabled": true
+        },
+        {
+            "name": "legiontd_marci",
+            "tier": "6",
+            "enabled": false
+        }
+    ]
+}

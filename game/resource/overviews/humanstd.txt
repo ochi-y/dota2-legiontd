@@ -1,0 +1,8 @@
+humanstd
+{
+	material materials/overviews/humanstd.vmat
+	pos_x -10560
+	pos_y 10240
+	scale 20.312
+}
+

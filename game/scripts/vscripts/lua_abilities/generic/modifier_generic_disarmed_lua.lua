@@ -1,0 +1,75 @@
+modifier_generic_disarmed_lua = class({})
+
+--------------------------------------------------------------------------------
+-- Classifications
+function modifier_generic_disarmed_lua:IsDebuff()
+	return true
+end
+
+function modifier_generic_disarmed_lua:IsPurgable()
+	return false
+end
+
+function modifier_generic_disarmed_lua:IsStunDebuff()
+	return false
+end
+
+--------------------------------------------------------------------------------
+-- Initializations
+function modifier_generic_disarmed_lua:OnCreated( kv )
+	if not IsServer() then return end
+
+	self.particle = "particles/generic_gameplay/generic_stunned.vpcf"
+	if kv.bash==1 then
+		self.particle = "particles/generic_gameplay/generic_bashed.vpcf"
+	end
+
+
+	-- calculate status resistance
+	local resist = 1-self:GetParent():GetStatusResistance()
+	local duration = kv.duration*resist
+	self:SetDuration( duration, true )
+end
+
+function modifier_generic_disarmed_lua:OnRefresh( kv )
+	self:OnCreated( kv )
+end
+
+function modifier_generic_disarmed_lua:OnRemoved()
+end
+
+function modifier_generic_disarmed_lua:OnDestroy()
+end
+
+--------------------------------------------------------------------------------
+-- Status Effects
+function modifier_generic_disarmed_lua:CheckState()
+	local state = {
+		[MODIFIER_STATE_DISARMED] = true,
+	}
+	return state
+end
+
+--------------------------------------------------------------------------------
+-- Modifier Effects
+function modifier_generic_disarmed_lua:DeclareFunctions()
+	local funcs = {
+	-- 	MODIFIER_PROPERTY_OVERRIDE_ANIMATION,
+	}
+
+	return funcs
+end
+
+function modifier_generic_disarmed_lua:GetOverrideAnimation( params )
+	return ACT_DOTA_DISABLED
+end
+
+--------------------------------------------------------------------------------
+-- Graphics & Animations
+function modifier_generic_disarmed_lua:GetEffectName()
+	return self.particle
+end
+
+function modifier_generic_disarmed_lua:GetEffectAttachType()
+	return PATTACH_OVERHEAD_FOLLOW
+end

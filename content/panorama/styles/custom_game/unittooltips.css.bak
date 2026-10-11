@@ -1,0 +1,376 @@
+.TooltipContents {
+    width: 350px;
+    background-color: #10171c;
+    background-image: url("file://{images}/custom_game/hud/ability_tooltip.png");
+    background-repeat: no-repeat;
+
+    
+    background-position: 0px -2px;
+
+    padding: 0px;
+    margin: 0px;
+
+    
+}
+
+#unitScene{
+    border: 2px solid black;
+}
+
+.AbilityTooltip {
+    flow-children: down;
+    /* border: 1px solid white; */
+    width: 100%;
+    /* margin-left: 4px; */
+
+    padding-bottom: 4px;
+}
+
+.SummonHeader {
+    /* margin-bottom: 15px; */
+    flow-children: right;
+    height: 40px;
+}
+
+#Header {
+
+    flow-children: right;
+    width: 100%;
+}
+
+#HeaderLabels {
+    flow-children: down;
+    width: 100%;
+}
+
+#AbilityHeader {
+    flow-children: right;
+    /* horizontal-align: center; */
+    width: 100%;
+}
+
+#AbilityIcon {
+    height: 60px;
+    margin-left: 8px;
+    border: 1px solid black;
+}
+
+.UnitAbility {
+    /* background-color: #4a6070; */
+    /* background-image: url("file://{images}/custom_game/hud/ability_tooltip.png");
+    background-repeat: no-repeat;
+    background-position: 0px -10px; */
+    flow-children: down;
+}
+
+.UnitAbility #AbilityHeader {
+    flow-children: right;
+    background-color: #34414047;
+    height: 34px;
+    margin-left: 6px;
+}
+
+#AbilityName,
+.summonUnit {
+    font-size: 18px;
+    color: #ffffff;
+    vertical-align: middle;
+    padding-left: 8px;
+    text-overflow: shrink;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px 0px 1.0 #00000090;
+    font-family: Radiance, FZLanTingHei-R-GBK, TH Sarabun New, YDYGO 540, Gulim, MingLiU;
+    text-transform: uppercase;
+    font-weight: semi-bold;
+}
+
+#AbilityLevel {
+    horizontal-align: right;
+    margin-left: 8px;
+    vertical-align: middle;
+    color: white;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+#AbilityTarget {
+    border-top-color: #29353b;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-color: #29353b;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 100%;
+    padding: 5px 0px 2px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flow-children: down;
+}
+
+#AbilityTarget Label {
+    color: #596e89;
+    font-size: 16px;
+}
+
+#AbilityTopRowContainer {
+    width: 100%;
+}
+
+#CurrentAbilityCosts {
+    flow-children: right;
+    horizontal-align: right;
+    vertical-align: center;
+}
+
+#CurrentAbilityCosts Label {
+    color: #596e89;
+    font-size: 16px;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-left: 10px;
+}
+
+#CurrentAbilityCosts #CurrentAbilityCooldown {
+    background-image: url("file://{images}/custom_game/status_icons/ability_cooldown_icon.png");
+    text-overflow: shrink;
+}
+
+#CurrentAbilityCosts #CurrentAbilityManaCost {
+    background-image: url("file://{images}/custom_game/status_icons/ability_manacost_icon.png");
+}
+
+#Contents {
+    padding: 0px;
+    border: 4px solid black;
+    /* background-color: gradient(linear, 0% 0%, 0% 100%, from(#1c2024fd), to(#000000fd)); */
+}
+
+#AbilityCoreDetails {
+    flow-children: down;
+}
+
+#AbilityDescriptionOuterContainer {
+    flow-children: down;
+}
+
+#AbilityLore {
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    color: #3d4e5b;
+    font-style: italic;
+    background-color: #0b1215;
+    width: 320px;
+    margin-top: 12px;
+}
+
+#CurrentAbilityCosts {
+    flow-children: right;
+    horizontal-align: right;
+    vertical-align: center;
+}
+
+#CurrentAbilityCosts Label {
+    color: #596e89;
+    font-size: 16px;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-left: 10px;
+}
+
+#CurrentAbilityCosts #CurrentAbilityCooldown {
+    background-image: url("file://{images}/custom_game/status_icons/ability_cooldown_icon.png");
+    text-overflow: shrink;
+}
+
+#CurrentAbilityCosts #CurrentAbilityManaCost {
+    background-image: url("file://{images}/custom_game/status_icons/ability_manacost_icon.png");
+}
+
+.AbilityCosts {
+    flow-children: right;
+}
+
+.armorTypeNode {
+    flow-children: right;
+    height: 28px;
+}
+
+.armorTypeNode Label {
+    color: #ffffff;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.armorTypeNode DOTAAbilityImage {
+    height: 25px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.armorTypeNode Image {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+#AbilityUnitArmorContainer {
+    flow-children: down;
+    margin-left: 8px;
+}
+
+#AbilityDescriptionContainer {
+    flow-children: down;
+    min-width: 320px;
+}
+
+#abilityAttrContainer {
+    flow-children: down;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#AbilityDescriptionContainer .DescLabel {
+    color: #9ab0cd;
+    font-size: 16px;
+    width: 320px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+
+#AbilityDescriptionContainer .DescLabel.Header {
+    margin-bottom: 0px;
+    padding-top: 4px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url("file://{images}/custom_game/hud/item_tooltip_passive.png");
+}
+
+#AbilityLore {
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    color: #3d4e5b;
+    font-style: italic;
+    background-color: #0b1215;
+    width: 320px;
+    margin-top: 12px;
+}
+
+#AbilityUpgradeLevel {
+    color: #ffcc33;
+    font-size: 14px;
+}
+
+#AbilityExtraDescription,
+#AbilityScepterDescription {
+    flow-children: down;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    margin-bottom: 12px;
+    background-color: #7a8b99;
+}
+
+#AbilityExtraDescription Label,
+#AbilityScepterDescription Label {
+    font-size: 16px;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 320px;
+}
+
+.Cooldown {
+    background-image: url("file://{images}/custom_game/status_icons/ability_cooldown_icon.png");
+    text-overflow: shrink;
+    margin-left: 5px;
+    margin-right: 2px;
+    color: #4d5560;
+    font-size: 16px;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-right: 10px;
+}
+
+.ManaCost {
+    margin-left: 5px;
+    margin-right: 2px;
+    text-overflow: shrink;
+    color: #4D5560;
+    background-image: url("file://{images}/custom_game/status_icons/ability_manacost_icon.png");
+    font-size: 16px;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-right: 10px;
+}
+
+.AbilityExtraAttributes {
+    padding-left: 8px;
+    color: #596e89;
+    font-size: 16px;
+}
+
+.UnitAttr .UnitAttrNode {
+    width: 50%;
+}
+
+.UnitAttr {
+    padding: 0 8px;
+    flow-children: right;
+    width: 100%;
+}
+
+.UnitAttr Label {
+    color: #596e89;
+    font-size: 16px;
+}
+
+.UnitAbility #AbilityName {
+    font-size: 16px;
+}
+
+.UnitAbility #AbilityDescriptionOuterContainer {
+    margin-bottom: 0;
+}
+
+.UnitAbility #AbilityDescriptionContainer {
+    min-width: 0;
+}
+
+.UnitAbility .DescLabel {
+    padding-bottom: 0px;
+}
+
+.UnitAbility .ManaCost,
+.UnitAbility .Cooldown {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.UnitAbility #AbilityDescriptionContainer .DescLabel {
+    font-size: 16px;
+}
+
+.UnitAbility #Header {
+    margin-top: 2px;
+}
+
+.UnitAbility #AbilityIcon {
+    height: 28px;
+    vertical-align: middle;
+}
+
+.SummonHeader .AbilityCosts {
+    align: right center;
+}
+
+.DescLabel .GameplayValues {
+    color: white;
+}

@@ -1,0 +1,176 @@
+// Tutorial how to use #base:
+// https://moddota.com/tools/combining-kv-files-using-base
+#base "abilities/dummy_unit_ability.txt"  
+#base "abilities/npc_ability_beast.txt"  
+#base "abilities/npc_ability_beast_building.txt"  
+#base "abilities/npc_ability_example.txt"  
+#base "abilities/npc_ability_gameplay.txt"  
+#base "abilities/npc_ability_barrack.txt"  
+#base "abilities/npc_ability_barrack_buy.txt"  
+#base "abilities/npc_ability_attack.txt"  
+
+#base "abilities/npc_ability_mech_building.txt"  
+#base "abilities/npc_ability_mech.txt"  
+
+#base "abilities/npc_ability_element_building.txt"  
+#base "abilities/npc_ability_element.txt"  
+
+#base "abilities/npc_ability_paladin_building.txt"  
+#base "abilities/npc_ability_paladin.txt"  
+
+#base "abilities/npc_ability_goblin_building.txt"  
+#base "abilities/npc_ability_goblin.txt"  
+
+#base "abilities/npc_ability_nature_building.txt"  
+#base "abilities/npc_ability_nature.txt"  
+
+#base "abilities/npc_ability_ghost_building.txt"  
+#base "abilities/npc_ability_ghost.txt"  
+
+#base "abilities/npc_ability_undead_building.txt"  
+#base "abilities/npc_ability_undead.txt"  
+
+#base "abilities/npc_ability_shadow_building.txt"  
+#base "abilities/npc_ability_shadow.txt"  
+
+#base "abilities/npc_ability_arctic_building.txt"  
+#base "abilities/npc_ability_arctic.txt"  
+
+#base "abilities/npc_ability_marine_building.txt"  
+#base "abilities/npc_ability_marine.txt"  
+
+#base "abilities/npc_ability_orc_building.txt"  
+#base "abilities/npc_ability_orc.txt"  
+
+#base "abilities/npc_ability_demi_human_building.txt"  
+#base "abilities/npc_ability_demi_human.txt"  
+
+#base "abilities/npc_ability_elf_building.txt"  
+#base "abilities/npc_ability_elf.txt"  
+
+#base "abilities/npc_ability_hybrid_building.txt" 
+#base "abilities/npc_ability_hybrid.txt" 
+
+#base "abilities/npc_ability_radiant_building.txt" 
+#base "abilities/npc_ability_radiant.txt" 
+
+#base "abilities/npc_ability_foulfell_building.txt" 
+#base "abilities/npc_ability_foulfell.txt" 
+
+#base "abilities/npc_ability_wave.txt"  
+#base "abilities/npc_ability_other.txt"  
+
+#base "abilities/npc_ability_other_fighter.txt"  
+
+#base "abilities/npc_ability_other_fighter_building.txt" 
+"DOTAAbilities"
+{
+	
+	"tower_arrow"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"icons/npc_dota_hero_pudge_png"
+		"MaxLevel" 						"1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"				"0"
+		"Building"						"1" //bool
+		"BuildingSize"					"2"
+		"BuildTime"						"10"
+		"ModelRotation"  "90.0"
+
+		"AbilityCastRange"				"200"
+		"UpdateHealth"					"1" //bool
+		"UnitName"						"tower_arrow"
+		"Scale"							"1" //bool
+		"PlayerCanControl"				"1"
+		"AbilityCooldown"				"0"
+		
+		"AbilityValues"    
+        {
+			"food"					"0"
+			"wood"					"0"
+			"gold"					"0"
+		}
+
+		
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"builder.lua"
+				"Function"		"Build"
+			}
+		}
+	}
+	"tower_fire"
+	{
+		"BaseClass"             		"ability_datadriven"
+		"AbilityTextureName"			"icons/npc_dota_hero_pudge_png"
+		"MaxLevel" 						"1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"				"0"
+		"Building"						"1" //bool
+		"BuildingSize"					"2"
+		"BuildTime"						"10"
+		"ModelRotation"  "90.0"
+
+		"AbilityCastRange"				"200"
+		"UpdateHealth"					"1" //bool
+		"UnitName"						"tower_fire"
+		"Scale"							"1" //bool
+		"PlayerCanControl"				"1"
+		"AbilityCooldown"				"0"
+		
+		"AbilityValues"    
+        {
+			"food"					"0"
+			"wood"					"0"
+			"gold"					"0"
+		}
+
+		
+
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"	"builder.lua"
+				"Function"		"Build"
+			}
+		}
+	}
+
+	 "dummy_caster_passive"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"ability/dummy_caster_passive"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+
+	"dummy_unit"
+	{
+		"AbilityBehavior"     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"BaseClass"           "ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+		"MaxLevel"                      "1"
+		
+		"Modifiers"
+		{
+		"dummy_unit"
+		{
+			"Passive"                        "1"
+			"IsHidden"                        "1"    
+			"States"
+			{
+				"MODIFIER_STATE_UNSELECTABLE" "MODIFIER_STATE_VALUE_ENABLED"
+				"MODIFIER_STATE_INVULNERABLE"    "MODIFIER_STATE_VALUE_ENABLED"
+				"MODIFIER_STATE_NOT_ON_MINIMAP" "MODIFIER_STATE_VALUE_ENABLED"
+				"MODIFIER_STATE_NO_HEALTH_BAR"  "MODIFIER_STATE_VALUE_ENABLED"
+			}
+		}
+		}
+	}
+}

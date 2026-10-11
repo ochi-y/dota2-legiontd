@@ -1,0 +1,26 @@
+{
+    "name": "legiontd",
+    "version": "1.7.0",
+    "description": "Legion TD, a Dota 2 custom game addon, with Node.js helper scripts for unit data normalization, build ability generation, precache scanning and metadata output.",
+    "license": "GPL-3.0-only",
+    "scripts": {
+        "cli": "node index.js",
+        "prepare-publish": "node scripts/prepare_publish.js"
+    },
+    "prettier": {
+        "printWidth": 200,
+        "tabWidth": 4,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": false,
+        "arrowParens": "always",
+        "proseWrap": "never"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "fs-extra": "^10.1.0",
+        "glob": "^8.0.1",
+        "inquirer": "^8.2.7",
+        "prompt-sync": "^4.2.0"
+    }
+}

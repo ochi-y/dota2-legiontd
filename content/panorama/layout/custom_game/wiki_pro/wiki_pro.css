@@ -1,0 +1,569 @@
+
+.root{
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+/* Root container */
+.wikiProRoot {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+/* Background overlay */
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa;
+    opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+}
+
+/* Main window */
+.mainWindow {
+    width: 80%;
+    height: 80%;
+    align: center center;
+    flow-children: down;
+    background-color: #0a0a0a;
+    border-radius: 4px;
+    /* Let the close button use absolute positioning */
+    overflow: noclip noclip;
+}
+
+/* Window header */
+.windowHeader {
+    width: 100%;
+    height: 50px;
+    flow-children: right;
+    padding: 0 20px;
+}
+
+.windowTitle {
+    font-size: 24px;
+    color: #ffffff;
+    vertical-align: middle;
+    horizontal-align: left;
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* Close button */
+.wikiCloseBtn {
+    width: 24px;
+    height: 24px;
+    align: right top;
+    margin-top: 10px;
+    margin-right: 0px;
+    background-color: transparent;
+    border-radius: 4px;
+    ignore-parent-flow: true;
+    z-index: 1000;
+    transition-property: background-color, wash-color;
+    transition-duration: 0.2s;
+
+    background-image: url("file://{images}/custom_game/emojione-monotone_cross-mark.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    wash-color: #888888;
+}
+
+
+.wikiCloseBtn Label {
+    font-size: 24px;
+    color: #cccccc;
+    vertical-align: center;
+    horizontal-align: center;
+    font-weight: bold;
+}
+
+.wikiCloseBtn:hover Label {
+    color: #ffffff;
+}
+
+
+/* Tab bar */
+.tabBar {
+    width: 100%;
+    height: 50px;
+    flow-children: right;
+    background-color: #080808;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.tabButton {
+    height: 100%;
+    min-width: 200px;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    margin: 0 2px;
+    transition-property: background-color, border-bottom-color;
+    transition-duration: 0.2s;
+}
+
+.tabButton Label {
+    color: #adadad;
+    font-size: 18px;
+    vertical-align: middle;
+    horizontal-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition-property: color;
+    transition-duration: 0.2s;
+}
+
+.tabButton:hover {
+}
+
+.tabButton:hover Label {
+    color: #b0b0b0;
+}
+
+.tabButton.active {
+    border-bottom-color: #4a9eff;
+}
+
+.tabButton.active Label {
+    color: #dedede;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #4a9eff33;
+}
+
+/* Content area */
+.contentArea {
+    width: 100%;
+    height: fill-parent-flow(1.0);
+    flow-children: down;
+}
+
+.tabContent {
+    width: 100%;
+    height: 100%;
+}
+
+/* Master-detail layout */
+.masterDetail {
+    width: 100%;
+    height: 100%;
+    flow-children: right;
+}
+
+/* List panel */
+.listPanel {
+    width: 320px;
+    height: 100%;
+    background-color: #050505;
+    flow-children: down;
+}
+
+
+.itemList {
+    width: 100%;
+    height: 100%;
+    overflow: clip scroll;
+    flow-children: down;
+    padding: 10px;
+}
+
+/* List item */
+.listItem {
+    width: 100%;
+    min-height: 40px;
+    background-color: #0a0a0a;
+    border: 1px solid #1a2a3a;
+    margin-bottom: 5px;
+    flow-children: right;
+    padding: 8px;
+    border-radius: 2px;
+    transition-property: background-color, border-color, transform;
+    transition-duration: 0.15s;
+}
+
+.listItem:hover {
+    background-color: #0f1f2f;
+    border-color: #2a4a6a;
+    transform: translateX(5px);
+}
+
+.listItem.active {
+    background-color: #0a1a2a;
+    border-color: #4a9eff;
+    border-width: 2px;
+    box-shadow: inset 0px 0px 5px #4a9eff33;
+}
+
+.listItemIcon {
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.listItemName {
+    color: #a0a0a0;
+    font-size: 16px;
+    vertical-align: middle;
+    horizontal-align: left;
+}
+
+.listItem.active .listItemName {
+    color: #e76969;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #4a9eff33;
+}
+
+/* Wave list items were simplified, they use the shared styles */
+
+/* Builder list item */
+.builderItem {
+    height: 50px;
+}
+
+.builderIcon {
+    width: 64px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+/* Detail panel */
+.detailPanel {
+    width: fill-parent-flow(1.0);
+    height: 100%;
+    background-color: #080808;
+    /* overflow: noclip noclip; */
+    margin-right: 20px;
+}
+
+/* Unit details */
+.unitDetail {
+    width: 100%;
+    height: 100%;
+    flow-children: right;
+}
+
+
+.unitScene {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border-radius: 2px;
+    background-color: #050510;
+    box-shadow: inset 0px 0px 10px #00000088;
+}
+
+
+.unitInfo {
+    width: fill-parent-flow(1.0);
+    flow-children: down;
+    overflow: clip scroll;
+    padding-right: 10px;
+    margin-top: 20px;
+    
+}
+
+/* Unit name heading */
+.unitName {
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+/* Attribute row */
+.attributesSection {
+    width: 100%;
+    margin-bottom: 20px;
+    flow-children: down;
+}
+
+/* Stat container */
+.statusContainer {
+    width: 100%;
+    margin-bottom: 15px;
+    flow-children: down;
+}
+
+.statusTitle {
+    font-size: 12px;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+
+.healthBar, .manaBar {
+    width: 100%;
+    height: 30px;
+    flow-children: right;
+    border-radius: 4px;
+
+}
+
+.healthBar {
+    background-color: #4a7c59;
+    border: 1px solid #5a8c69;
+}
+
+.manaBar {
+    background-color: #3d6e8c;
+    border: 1px solid #4d7e9c;
+}
+
+.statusMainValue {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    vertical-align: center;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.statusRegenValue {
+    font-size: 14px;
+    font-weight: bold;
+    color: #e8e8e8;
+    vertical-align: center;
+    text-align: right;
+    width: 50px;
+    margin-right: 15px;
+     ignore-parent-flow: true;
+    horizontal-align: right;
+}
+
+/* Detailed attributes */
+.detailAttributes {
+    width: 100%;
+    flow-children: right-wrap;
+    margin-bottom: 20px;
+}
+
+.attributeRow {
+    width: 50%;
+    height: 26px;
+    flow-children: right;
+    padding: 0 8px;
+    margin-bottom: 1px;
+    overflow: noclip noclip;
+}
+
+.attrLabel {
+    width: 70%;
+    flow-children: right;
+    vertical-align: middle;
+}
+
+.attrLabel Label {
+    color: #708090;
+    font-size: 16px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.attrIcon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.attrValue {
+    width: 30%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    horizontal-align: right;
+    padding-right: 5px;
+    text-overflow: clip;
+}
+
+/* Full width attribute row, for longer labels */
+.attributeRow.fullWidth {
+    width: 100%;
+}
+
+.attributeRow.fullWidth .attrLabel {
+    width: 70%;
+}
+
+.attributeRow.fullWidth .attrValue {
+    width: 30%;
+}
+
+/* Ability section */
+.abilitiesSection {
+    width: 100%;
+    flow-children: down;
+}
+
+.sectionTitle {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.abilitiesList {
+    width: 100%;
+    flow-children: right;
+    padding: 10px 0;
+}
+
+.abilityDisplay {
+    /* Removed - no longer needed */
+}
+
+.abilityIcon {
+    width: 64px;
+    height: 64px;
+    margin-right: 12px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #00000066;
+}
+
+/* Ability info removed - no longer showing title and description */
+
+/* Wave extra info moved to the shared attribute area */
+
+/* Builder details */
+.builderDetail {
+    width: 100%;
+    height: 100%;
+    flow-children: down;
+}
+
+/* Builder unit content area */
+.builderContentArea {
+    width: 100%;
+    height: fill-parent-flow(1.0);
+    flow-children: right;
+}
+
+.builderUnitsListPanel {
+    width: 280px;
+    height: 100%;
+    background-color: #050505;
+    flow-children: down;
+}
+
+.builderUnitDetailPanel {
+    width: fill-parent-flow(1.0);
+    height: 100%;
+}
+
+/* King details */
+.kingDetail {
+    width: 100%;
+    flow-children: down;
+}
+
+.categoryTitle {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: rgb(202, 202, 202);
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.kingAbilitiesGrid {
+    width: 100%;
+    flow-children: right-wrap;
+    padding: 20px;
+    overflow: clip scroll;
+}
+
+/* King ability entry container */
+.kingAbilityItem {
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+    background-color: #0a0a0a;
+    border: 1px solid #35485c;
+    border-radius: 4px;
+    flow-children: down;
+    padding: 15px;
+    align: center top;
+}
+
+/* King ability icon */
+.kingAbilityIcon {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px #00000088;
+    align: center center;
+}
+
+/* King ability name */
+.kingAbilityName {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 130px;
+    white-space: normal;
+    line-height: 1.2;
+    horizontal-align: center;
+    width: 100%;
+}
+
+/* Command details */
+.commandsDetail {
+    width: 100%;
+    flow-children: down;
+}
+
+.commandsList {
+    width: 100%;
+    flow-children: down;
+    padding: 0px 20px;
+    overflow: clip scroll;
+    max-height: 600px;
+}
+
+.commandItem {
+    width: 90%;
+    background-color: #0a0a0a;
+    border: 1px solid #1a2a3a;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    flow-children: down;
+}
+
+.commandTitle {
+    color: #eaeaea;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-shadow: 0px 0px 3px #4a9eff33;
+}
+
+.commandDesc {
+    color: #a0a0a0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Hidden helper class */
+.Hidden {
+    visibility: collapse;
+}

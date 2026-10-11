@@ -1,0 +1,285 @@
+
+
+.root{
+    width: 100%;
+    height: 100%;
+}
+.leaderboardRoot {
+    width: 900px;
+    height: 780px;
+    background-color: rgba(0, 0, 0, 0.988);
+    horizontal-align: center;
+    /* blur: gaussian(5); */
+    vertical-align: middle;
+
+    
+    
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    /* background-image: url("file://{images}/custom_game/load3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.bg1{
+    blur: gaussian(5);
+    ignore-parent-flow: true;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.72); */
+    /* background-color: rgb(20, 19, 30); */
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+
+    margin: 30px 20px;
+    flow-children: right;
+}
+
+#titleLabel{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+   
+}
+#titleLabel2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(255, 255, 255);
+}
+.title{
+    flow-children: right;
+}
+
+.header{
+    flow-children: down;
+    width: 100%;
+    height: 100px;
+    
+}
+.subTitle{
+    flow-children: right;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.kv{
+    flow-children: right;
+}
+.kvKey{
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(157, 147, 180);
+    margin-right: 5px;
+}
+
+.kvValue{
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(54, 202, 252);
+}
+
+#closeBtn {
+    background-image: url("file://{images}/custom_game/emojione-monotone_cross-mark.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    width: 26px;
+    height: 26px;
+    align: right top;
+    margin-right: 10px;
+    margin-top: 10px;
+    ignore-parent-flow: true;
+}
+
+#closeBtn:hover {
+    brightness: 2.4;
+}
+
+.content{
+    flow-children: down;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.contentHeader{
+    flow-children: right;
+    margin-bottom: 20px;
+}
+
+.col{
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(157, 147, 180);
+    margin-left: 2px;
+}
+
+
+.col1{
+    width: fill-parent-flow( 1.0);
+}
+
+.col2{
+    width: fill-parent-flow( 1.7);
+}
+
+.col3{
+    width: fill-parent-flow( 0.5);
+}
+
+.col4{
+    width: fill-parent-flow( 0.5);
+}
+
+.col5{
+    width: fill-parent-flow( 0.5);
+}
+.col6{
+    width: fill-parent-flow( 1.0);
+}
+
+
+#matchListContainer{
+    flow-children: down;
+    width: 100%;
+    height: 100%;
+    overflow: squish scroll;
+}
+
+#matchList{
+    flow-children: down;
+    width: 100%;
+}
+
+.match{
+    flow-children: right;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(42, 41, 65); 
+    box-shadow: #1a1a1aaa 0px 0px 4px;
+    flow-children: right;
+    margin: 2px 2px;
+}
+.matchOdd{
+    /* background-color: rgb(55, 58, 66); */
+}
+.matchEven{
+    /* background-color: rgba(34, 34, 34, 0.499); */
+}
+.loadBtn{
+    height: 50px;
+    width: 100%;
+}
+
+.loadBtn Label{
+    align:  center center;
+
+    
+}
+
+
+.loadBtn Label:hover {
+    brightness: 2.4;
+}
+.playerCol{
+    vertical-align: middle;
+    
+}
+
+.playerCol Label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgb(237, 236, 236);
+    margin-left: 2px;
+}
+
+.playerCol1{
+    margin-left: 5px;
+}
+
+.playerCol2{
+    flow-children: right;
+}
+.playerCol3{
+}
+.playerCol4{
+}
+.playerCol5{
+}
+.playerCol6{
+}
+
+
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 4px black;
+    horizontal-align: center;
+    vertical-align: middle;
+}
+.playerCol2 Label{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.playerCol3 Label{
+    color: rgb(163, 216, 16);
+}
+
+
+.playerCol3 .loseLabel{
+    color: rgb(216, 23, 16);
+}
+
+
+#dropContainer{
+    ignore-parent-flow: true;
+    align: right top;
+    flow-children: down;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+
+#drop{
+    width: 170px;
+    height: 40px;
+    horizontal-align: right;
+    
+}
+#seasonLabel{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(72, 72, 72);
+}
+.Hidden {
+    visibility: collapse;
+}
+
+
+.fighterPanel{
+    flow-children: right;
+}
+
+.fighter{
+    width: 50px;
+    height: 35px;
+}

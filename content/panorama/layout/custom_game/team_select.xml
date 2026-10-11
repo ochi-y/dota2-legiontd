@@ -1,0 +1,115 @@
+<!-- xml reconstructed by ValveResourceFormat: https://vrf.steamdb.info/ -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/battle_pass/current_battle_pass.vcss_c" />
+		<include src="s2r://panorama/styles/play.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/team_select.css" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/team_select.js" />
+	</scripts>
+	<Panel hittest="false" class="TeamSelect">
+		<Panel hittest="false" id="TeamSelectContainer" selectionpos="auto">
+			<Panel hittest="false" id="TeamsSelectEmptySpace" />
+			<Panel  class="SettingPanelRoot">
+				<Label class="SettingTitleLabel" text="#ui_settings" />
+				<Panel  class="SettingGroup">
+					<Label class="SettingGroupTitle" text="#ui_game_mode" />
+					<RadioButton id="btn_mode_all_pick" group="GameMode"  text="#ui_mode_all_pick" onmouseover="DOTAShowTextTooltip('#ui_mode_all_pick_desc')" onmouseout="DOTAHideTextTooltip()"  onactivate="OnSelectGameMode( 'all_pick' )"/>
+					<RadioButton id="btn_mode_all_prophet" selected="true" group="GameMode"  text="#ui_mode_all_prophet" onmouseover="DOTAShowTextTooltip('#ui_mode_all_prophet_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnSelectGameMode( 'all_prophet' )" />
+
+					<RadioButton id="btn_mode_host_pick" group="GameMode"  text="#ui_mode_host_pick" onmouseover="DOTAShowTextTooltip('#ui_mode_host_pick_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnSelectGameMode( 'host_pick' )" />
+
+				</Panel>
+				<Panel  class="SettingGroup">
+					<Label class="SettingGroupTitle" text="#ui_sell_mode" />
+					<RadioButton id="btn_sellmode_normal_sell"  group="Sell"  text="#ui_sellmode_normal_sell" onmouseover="DOTAShowTextTooltip('#ui_sellmode_normal_sell_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnSelectSellMode( 'normal_sell' )"/>
+					<RadioButton id="btn_sellmode_free_sell" selected="true" group="Sell"  text="#ui_sellmode_free_sell" onmouseover="DOTAShowTextTooltip('#ui_sellmode_free_sell_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnSelectSellMode( 'free_sell' )"/>
+					<RadioButton id="btn_sellmode_last_sell" group="Sell"  text="#ui_sellmode_last_sell" onmouseover="DOTAShowTextTooltip('#ui_sellmode_last_sell_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnSelectSellMode( 'last_sell' )" />
+				</Panel>
+
+				<Panel  class="SettingGroup">
+					<Label class="SettingGroupTitle" text="#ui_creep_count" />
+					<ToggleButton id="x2" class="" checked="true" text="#ui_x2" onmouseover="DOTAShowTextTooltip('#ui_x2_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnToggleConfig( 'x2' )"/>
+					<ToggleButton id="creep_stack" class="" checked="true" text="#ui_creep_stack" onmouseover="DOTAShowTextTooltip('#ui_creep_stack_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnToggleConfig( 'creep_stack' )"/>
+					<ToggleButton id="fighter_stack" style="visibility: collapse;" class="" checked="false" text="#ui_fighter_stack" onmouseover="DOTAShowTextTooltip('#ui_fighter_stack_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnToggleConfig( 'fighter_stack' )"/>
+					<ToggleButton id="half_creep" checked="false" text="#ui_half_creep" onmouseover="DOTAShowTextTooltip('#ui_half_creep_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnToggleConfig( 'half_creep' )"/>
+				</Panel>
+
+				<Panel class="SettingGroup">
+					<Label class="SettingGroupTitle" text="#ui_other" />
+					<ToggleButton id="mind_open" checked="false" text="#ui_mind_open"  onmouseover="DOTAShowTextTooltip('#ui_mind_open_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnToggleConfig( 'mind_open' )" />
+
+					<ToggleButton id="limited_income" checked="false" text="#ui_limited_income"  onmouseover="DOTAShowTextTooltip('#ui_limited_income_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnToggleConfig( 'limited_income' )" />
+
+					<ToggleButton id="dark_mode" checked="true" text="#ui_dark_mode"  onmouseover="DOTAShowTextTooltip('#ui_dark_mode_desc')" onmouseout="DOTAHideTextTooltip()" onactivate="OnToggleConfig( 'dark_mode' )" />
+
+
+				</Panel>
+				<Panel  class="SettingGroup">
+					<Label id="PermissionRedlabel" class="SettingPermissionRed" text="#ui_setting_permission_refuse"  />
+					<Label id="PermissionGreenlabel" class="SettingPermissionGreen" text="#ui_setting_permission_allow" html="true"/>
+				</Panel>
+			</Panel>
+			
+			<Panel id="TeamsList">
+				<Panel id="TeamsListGroup">
+					<Panel id="TeamListHeader">
+						<Label id="TeamListHeaderLabel" text="#custom_game_team_select" />
+						<Image id="TeamListLockedIcon" src="s2r://panorama/images/control_icons/lock_small_png.vtex" />
+					</Panel>
+					<Panel id="TeamsListRoot" />
+					<!-- <Button id="ShuffleTeamAssignmentButton" onactivate="OnShufflePlayersPressed()">
+						<Label text="#custom_game_team_select_shuffle" />
+						<Image src="s2r://panorama/images/control_icons/shuffle_psd.vtex" />
+					</Button> -->
+				</Panel>
+			</Panel>
+			<Panel id="GameAndPlayersRoot">
+				<Panel id="GameInfoPanel">
+					<Panel id="CustomGameModeName">
+						<Label id="GameModeNameLabel" text="#addon_game_name" />
+					</Panel>
+					<Panel id="MapInfo">
+						<Label id="MapInfoLabel" text="#LoadingScreenMapInfo" />
+					</Panel>
+					<Panel id="StartGameCountdownTimer">
+						<Image id="TimerBg" src="s2r://panorama/images/status_icons/timer_background_psd.vtex" />
+						<Image id="TimerRing" src="s2r://panorama/images/status_icons/timer_ring_psd.vtex" />
+						<Label id="TeamSelectTimer" text="#custom_game_team_select_timer" />
+						<Panel id="TimerLabelBox">
+							<Label id="TimerLabelAutoStart" text="#custom_game_team_select_auto_start" />
+							<Label id="TimerLabelGameStart" text="#custom_game_team_select_starting" />
+						</Panel>
+					</Panel>
+				</Panel>
+				<Panel id="UnassignedPlayerPanel">
+					<Button id="UnassignedPlayersButton" onactivate="OnLeaveTeamPressed()">
+						<Panel id="UnassignedPlayersHeader">
+							<Label text="#custom_game_team_select_unassigned_players" />
+						</Panel>
+						<Panel id="UnassignedPlayersDivider" />
+						<Panel id="UnassignedPlayersContainer" />
+					</Button>
+					<Button id="AutoAssignButton" onactivate="OnAutoAssignPressed()">
+						<Image src="s2r://panorama/images/control_icons/double_arrow_left_png.vtex" />
+						<Label text="#custom_game_team_select_auto_assign" />
+						
+					</Button>
+					
+				</Panel>
+				
+				
+				<Label id="label_all_connected" text="#custom_game_label_all_connected" />
+
+				<Button id="LockAndStartButton" class="PlayButton" onactivate="OnLockAndStartPressed()">
+					<Label text="#custom_game_team_select_lock_start" />
+				</Button>
+				<Button id="CancelAndUnlockButton" class="PlayButton" onactivate="OnCancelAndUnlockPressed()">
+					<Label text="#custom_game_team_select_cancel_unlock" />
+				</Button>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

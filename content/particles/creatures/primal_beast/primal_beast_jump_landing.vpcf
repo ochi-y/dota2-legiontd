@@ -1,0 +1,148 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{d15c9157-10e0-47bc-9333-1ac81da07b8d} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+				
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = 
+					[
+						1.000000,
+						0.000000,
+						0.000000,
+					]
+					m_entityName = "self"
+				},
+				
+				{
+					m_iControlPoint = 3
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_l.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_b.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_c.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_i.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_g.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_e.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_k.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_f.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_h.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_d.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_m.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_j.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_jump_landing_a.vpcf"
+			m_bDisableChild = true
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_impact_distort.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_hit_c.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_hit_h.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_hit_m.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_hit_p.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_hit_e.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_dust_spears.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_dust_hit_smoke_fast.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_dust_hit_burst.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_boss_pummel_dust_hit_debris.vpcf"
+		},
+	]
+}

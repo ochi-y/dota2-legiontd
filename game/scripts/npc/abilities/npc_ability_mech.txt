@@ -1,0 +1,469 @@
+"DOTAAbilities"    
+{
+    "mech_power_surge"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_power_surge"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "zuus_static_field"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/neutral_fx/harpy_chain_lightning_head.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "damage"    "50 100"
+            "mana_per_hit"    "1"
+            "mana_cost"    "10"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "legiontd_magic_defense"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/legiontd_magic_defense"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityCastPoint"    "0.3"
+        "AbilityTextureName"    "war3r/BTNSpellBreakerMagicDefend"
+        "AbilityCooldown"    "0"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "magic_damage_reduction"    "25"
+            "move_speed_bonus"    "-25"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "mech_tree_grap"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_tree_grap"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST"
+        "AbilityTextureName"    "tiny_tree_grab"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "AbilityCooldown"    "0"
+        "AbilityCastPoint"    "0"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_alchemist/alchemist_chemical_rage.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "attack_range"    "300"
+            "speed_reduction"    "0"
+            "bonus_damage"    "20 40"
+            "splash_pct"    "15"
+            "splash_width"    "200"
+            "splash_range"    "200"
+            "wood"    "50 100"
+            "attack_count"    "-1"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "legiontd_defend"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/legiontd_defend"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_TOGGLE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityCastPoint"    "0.3"
+        "AbilityTextureName"    "war3r/BTNDefendStop"
+        "AbilityCooldown"    "0"
+        "AbilityManaCost"    "0"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_windrunner/windrunner_base_attack.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "chance"    "30"
+            "damage_taken"    "35"
+            "move_speed_slow"    "30"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "mech_leadership"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "sniper_headshot_immortal"
+        "ScriptFile"    "ability/mech_leadership"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"    "1000"
+        "AbilityValues"    
+        {
+            "damage"    "6"
+            "radius"    "1000"
+        }
+    }
+    "mech_tank_attack"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "sniper_headshot_immortal_gold"
+        "ScriptFile"    "ability/mech_tank_attack"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"    "500"
+        "AbilityValues"    
+        {
+        }
+    }
+    "mech_superiority"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "sniper_headshot_immortal_gold"
+        "ScriptFile"    "ability/mech_superiority"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityCastRange"    "1000"
+        "AbilityValues"    
+        {
+            "damage"    "12"
+            "radius"    "1000"
+        }
+    }
+    "mech_vital_slice"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_vital_slice"
+        "AbilityTextureName"    "juggernaut_blade_dance"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityValues"    
+        {
+            "blade_dance_crit_chance"    "30"
+            "blade_dance_crit_mult"    "200"
+            "blade_dance_lifesteal"    
+            {
+                "value"    "0"
+            }
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+    }
+    "mech_shrapnel"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_shrapnel"
+        "MaxLevel"    "2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityTextureName"    "gyrocopter/gyro_ti10_immortal_ability_icon/gyro_ti10_immortal_missile"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/econ/items/gyrocopter/hero_gyrocopter_atomic/gyro_rocket_barrage_atomic.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "chance"    "100"
+            "damage"    "60 120"
+            "count"    "3"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "mech_tiny_astral_order_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_tiny_astral_order_ambient"
+        "MaxLevel"    "1"
+        "IsHidden"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"    "gyrocopter/gyro_ti10_immortal_ability_icon/gyro_ti10_immortal_missile"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "IsOnCastBar"    "0"
+        "precache"    
+        {
+            "particle"    "particles/econ/items/gyrocopter/hero_gyrocopter_atomic/gyro_rocket_barrage_atomic.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "mech_tiny_astral_order_back_ambient"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_tiny_astral_order_back_ambient"
+        "MaxLevel"    "1"
+        "IsHidden"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"    "gyrocopter/gyro_ti10_immortal_ability_icon/gyro_ti10_immortal_missile"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "precache"    
+        {
+            "particle"    "particles/econ/items/gyrocopter/hero_gyrocopter_atomic/gyro_rocket_barrage_atomic.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+    }
+    "mech_mana_break"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_mana_break"
+        "AbilityTextureName"    "antimage_mana_break"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilitySound"    "Hero_Antimage.ManaBreak"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_MANA_ONLY"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityValues"    
+        {
+            "percent_damage_per_burn"    "50"
+            "mana_per_hit"    "50"
+            "mana_per_hit_pct"    "0"
+        }
+    }
+    "mech_headshot"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_headshot"
+        "AbilityTextureName"    "sniper_headshot"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "AbilityValues"    
+        {
+            "damage"    "150"
+            "slow_duration"    "0"
+            "proc_chance"    "10"
+            "knockback_distance"    "30"
+            "slow"    "100"
+            "boss_proc_chance"    "3"
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_2"
+    }
+    "mech_flamethrower"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_flamethrower"
+        "AbilityTextureName"    "shredder_flamethrower"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "MaxLevel"    "1"
+        "FightRecapLevel"    "1"
+        "AbilityCastPoint"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityCooldown"    "16"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "damage_per_second"    "45"
+            "duration"    "8"
+            "width"    "275"
+            "length"    "400"
+            "debuff_linger_duration"    "2.0"
+            "unit_count"    "10"
+        }
+    }
+    "mech_tidebringer"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_tidebringer"
+        "AbilityTextureName"    "kunkka_tidebringer"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilitySound"    "Hero_Kunkka.Tidebringer.Attack"
+        "AbilityCastRange"    "150"
+        "AbilityCastPoint"    "0.0"
+        "MaxLevel"    "1"
+        "AbilityValues"    
+        {
+            "cleave_starting_width"    "150"
+            "cleave_ending_width"    "650"
+            "cleave_distance"    "1100"
+            "damage_bonus"    "0"
+            "unit_count"    "15"
+            "cleave_damage"    
+            {
+                "value"    "60"
+            }
+            "movespeed_slow"    
+            {
+                "value"    "0"
+            }
+            "movespeed_slow_duration"    
+            {
+                "value"    "0"
+            }
+            "AbilityCooldown"    
+            {
+                "value"    "6"
+            }
+        }
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_2"
+    }
+    "mech_grow"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_grow"
+        "AbilityTextureName"    "tiny_grow"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "AbilitySound"    "Tiny.Grow"
+        "AbilityCastAnimation"    "ACT_INVALID"
+        "MaxLevel"    "1"
+        "AbilityValues"    
+        {
+            "bonus_armor"    "10"
+            "bonus_damage"    
+            {
+                "value"    "50"
+            }
+            "attack_speed_reduction"    "-30"
+        }
+    }
+    "mech_sidekick"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_sidekick"
+        "AbilityTextureName"    "marci_guardian"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Hero_Marci.Guardian.Applied"
+        "AbilityCastRange"    "700"
+        "AbilityCastPoint"    "0.0"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_3"
+        "AbilityCastGestureSlot"    "DEFAULT"
+        "AbilityCooldown"    "12"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "self_lifesteal_pct"    "30"
+            "self_bonus_damage"    "30"
+            "lifesteal_pct"    "15"
+            "bonus_damage"    "15"
+        }
+    }
+    "mech_earth_splitter"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_earth_splitter"
+        "AbilityTextureName"    "elder_titan_earth_splitter"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityType"    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "SpellDispellableType"    "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"    "2"
+        "AbilitySound"    "Hero_ElderTitan.EarthSplitter.Cast"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_HERO"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+        "MaxLevel"    "1"
+        "AbilityCastRange"    "2400"
+        "AbilityCastPoint"    "0.4"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_5"
+        "AbilityCooldown"    "15"
+        "AbilityManaCost"    "25"
+        "AbilityValues"    
+        {
+            "vision_duration"    "4.0"
+            "vision_step"    "200"
+            "total_steps"    "12"
+            "unit_count"    "15"
+            "boss_damage_pct"    "5"
+            "DamageTypeTooltip"    "DAMAGE_TYPE_NONE"
+            "crack_time"    "2.7182"
+            "crack_width"    "315"
+            "crack_distance"    "2400"
+            "slow_pct"    "30"
+            "slow_duration"    "4"
+            "speed"    "1100"
+            "damage_pct"    "20"
+            "vision_width"    "500"
+            "vision_interval"    "0.22"
+        }
+    }
+    "mech_lil_shredder"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_lil_shredder"
+        "AbilityTextureName"    "snapfire_lil_shredder"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "FightRecapLevel"    "1"
+        "AbilitySound"    "Hero_Snapfire.ExplosiveShells.Cast"
+        "AbilityCastPoint"    "0.0"
+        "AbilityCastRange"    "800"
+        "AbilityCastAnimation"    "ACT_DOTA_CAST_ABILITY_1"
+        "AbilityCooldown"    "8"
+        "AbilityManaCost"    "0"
+        "AbilityValues"    
+        {
+            "damage"    "250"
+            "buffed_attacks"    
+            {
+                "value"    "6"
+            }
+            "attack_speed_bonus"    "200"
+            "attack_range_bonus"    "500"
+            "buff_duration_tooltip"    "6"
+            "base_attack_time"    "1.0"
+            "armor_reduction_per_attack"    "0.5"
+            "armor_duration"    "5.0"
+        }
+    }
+    "mech_bulwark"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/mech_bulwark"
+        "AbilityTextureName"    "mars_bulwark"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityValues"    
+        {
+            "physical_damage_reduction"    
+            {
+                "value"    "30"
+            }
+            "forward_angle"    "120"
+            "physical_damage_reduction_side"    
+            {
+                "value"    "30"
+            }
+            "side_angle"    "0"
+            "redirect_chance"    
+            {
+                "value"    "70"
+            }
+        }
+    }
+}

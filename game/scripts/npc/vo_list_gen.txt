@@ -1,0 +1,3478 @@
+"DOTA2"
+{
+    "models/heroes/antimage/antimage.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "antimage_anti_spawn_01"
+            "2"    "antimage_anti_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "antimage_anti_death_01"
+            "2"    "antimage_anti_death_02"
+        }
+        "move"    
+        {
+            "1"    "antimage_anti_move_01"
+            "2"    "antimage_anti_move_02"
+        }
+        "cast"    
+        {
+            "1"    "antimage_anti_cast_01"
+            "2"    "antimage_anti_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "antimage_anti_rare_01"
+            "2"    "antimage_anti_rare_02"
+        }
+    }
+    "models/heroes/axe/axe.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "axe_axe_spawn_01"
+            "2"    "axe_axe_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "axe_axe_death_01"
+            "2"    "axe_axe_death_02"
+        }
+        "move"    
+        {
+            "1"    "axe_axe_move_01"
+            "2"    "axe_axe_move_02"
+        }
+        "cast"    
+        {
+            "1"    "axe_axe_cast_01"
+            "2"    "axe_axe_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "axe_axe_rare_01"
+            "2"    "axe_axe_rare_02"
+        }
+    }
+    "models/heroes/bane/bane.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "bane_bane_spawn_02"
+            "2"    "bane_bane_spawn_01"
+        }
+        "death"    
+        {
+            "1"    "bane_bane_death_01"
+        }
+        "move"    
+        {
+            "1"    "bane_bane_move_01"
+            "2"    "bane_bane_move_02"
+        }
+        "cast"    
+        {
+            "1"    "bane_bane_cast_01"
+            "2"    "bane_bane_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "bane_bane_rare_01"
+            "2"    "bane_bane_rare_02"
+        }
+    }
+    "models/heroes/blood_seeker/blood_seeker.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "bloodseeker_blod_spawn_01"
+            "2"    "bloodseeker_blod_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "bloodseeker_blod_death_01"
+            "2"    "bloodseeker_blod_death_02"
+        }
+        "move"    
+        {
+            "1"    "bloodseeker_blod_move_01"
+            "2"    "bloodseeker_blod_move_02"
+        }
+        "cast"    
+        {
+            "1"    "bloodseeker_blod_cast_01"
+            "2"    "bloodseeker_blod_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "bloodseeker_blod_rare_01"
+            "2"    "bloodseeker_blod_rare_02"
+        }
+    }
+    "models/heroes/crystal_maiden/crystal_maiden.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "crystalmaiden_cm_spawn_01"
+            "2"    "crystalmaiden_cm_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "crystalmaiden_cm_death_01"
+            "2"    "crystalmaiden_cm_death_02"
+        }
+        "move"    
+        {
+            "1"    "crystalmaiden_cm_move_01"
+            "2"    "crystalmaiden_cm_move_02"
+        }
+        "cast"    
+        {
+            "1"    "crystalmaiden_cm_cast_01"
+            "2"    "crystalmaiden_cm_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "crystalmaiden_cm_rare_01"
+            "2"    "crystalmaiden_cm_rare_02"
+        }
+    }
+    "models/heroes/drow/drow_base.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "drowranger_dro_spawn_01"
+            "2"    "drowranger_dro_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "drowranger_dro_death_01"
+            "2"    "drowranger_dro_death_02"
+        }
+        "move"    
+        {
+            "1"    "drowranger_dro_move_01"
+            "2"    "drowranger_dro_move_02"
+        }
+        "cast"    
+        {
+            "1"    "drowranger_dro_cast_01"
+            "2"    "drowranger_dro_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "drowranger_dro_rare_01"
+            "2"    "drowranger_dro_rare_02"
+        }
+    }
+    "models/heroes/earthshaker/earthshaker.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "earthshaker_erth_spawn_01"
+            "2"    "earthshaker_erth_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "earthshaker_erth_death_01"
+            "2"    "earthshaker_erth_death_02"
+        }
+        "move"    
+        {
+            "1"    "earthshaker_erth_move_01"
+            "2"    "earthshaker_erth_move_02"
+        }
+        "cast"    
+        {
+            "1"    "earthshaker_erth_cast_01"
+            "2"    "earthshaker_erth_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "earthshaker_erth_rare_01"
+        }
+    }
+    "models/heroes/juggernaut/juggernaut.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "juggernaut_jug_spawn_01"
+            "2"    "juggernaut_jug_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "juggernaut_jug_death_01"
+        }
+        "move"    
+        {
+            "1"    "juggernaut_jug_move_01"
+            "2"    "juggernaut_jug_move_02"
+        }
+        "cast"    
+        {
+            "1"    "juggernaut_jug_cast_01"
+            "2"    "juggernaut_jug_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "juggernaut_jug_rare_01"
+            "2"    "juggernaut_jug_rare_02"
+        }
+    }
+    "models/heroes/mirana/mirana.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "mirana_mir_spawn_01"
+            "2"    "mirana_mir_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "mirana_mir_death_01"
+            "2"    "mirana_mir_death_02"
+        }
+        "move"    
+        {
+            "1"    "mirana_mir_move_01"
+            "2"    "mirana_mir_move_02"
+        }
+        "cast"    
+        {
+            "1"    "mirana_mir_cast_01"
+            "2"    "mirana_mir_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "mirana_mir_rare_01"
+            "2"    "mirana_mir_rare_02"
+        }
+    }
+    "models/heroes/shadow_fiend/shadow_fiend.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "nevermore_nev_spawn_01"
+            "2"    "nevermore_nev_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "nevermore_nev_death_01"
+        }
+        "move"    
+        {
+            "1"    "nevermore_nev_move_01"
+            "2"    "nevermore_nev_move_02"
+        }
+        "cast"    
+        {
+            "1"    "nevermore_nev_cast_01"
+            "2"    "nevermore_nev_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "nevermore_nev_rare_01"
+            "2"    "nevermore_nev_rare_02"
+        }
+    }
+    "models/heroes/morphling/morphling.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "morphling_mrph_spawn_01"
+        }
+        "death"    
+        {
+            "1"    "morphling_mrph_death_01"
+            "2"    "morphling_mrph_death_02"
+        }
+        "move"    
+        {
+            "1"    "morphling_mrph_move_01"
+        }
+        "cast"    
+        {
+            "1"    "morphling_mrph_cast_01"
+            "2"    "morphling_mrph_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "morphling_mrph_rare_01"
+            "2"    "morphling_mrph_rare_02"
+        }
+    }
+    "models/heroes/phantom_lancer/phantom_lancer.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "phantom_lancer_plance_spawn_01"
+            "2"    "phantom_lancer_plance_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "phantom_lancer_plance_death_01"
+            "2"    "phantom_lancer_plance_death_02"
+        }
+        "move"    
+        {
+            "1"    "phantom_lancer_plance_move_01"
+            "2"    "phantom_lancer_plance_move_02"
+        }
+        "cast"    
+        {
+            "1"    "phantom_lancer_plance_cast_01"
+            "2"    "phantom_lancer_plance_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "phantom_lancer_plance_rare_01"
+            "2"    "phantom_lancer_plance_rare_02"
+        }
+    }
+    "models/heroes/puck/puck.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "puck_puck_spawn_01"
+            "2"    "puck_puck_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "puck_puck_death_01"
+            "2"    "puck_puck_death_02"
+        }
+        "move"    
+        {
+            "1"    "puck_puck_move_01"
+            "2"    "puck_puck_move_02"
+        }
+        "cast"    
+        {
+            "1"    "puck_puck_cast_01"
+            "2"    "puck_puck_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "puck_puck_rare_01"
+            "2"    "puck_puck_rare_02"
+        }
+    }
+    "models/heroes/pudge/pudge.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "pudge_pud_spawn_01"
+            "2"    "pudge_pud_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "pudge_pud_death_01"
+            "2"    "pudge_pud_death_02"
+        }
+        "move"    
+        {
+            "1"    "pudge_pud_move_01"
+        }
+        "cast"    
+        {
+            "1"    "pudge_pud_cast_01"
+            "2"    "pudge_pud_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "pudge_pud_rare_01"
+            "2"    "pudge_pud_rare_02"
+        }
+    }
+    "models/heroes/razor/razor.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "razor_raz_spawn_01"
+            "2"    "razor_raz_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "razor_raz_death_01"
+            "2"    "razor_raz_death_02"
+        }
+        "move"    
+        {
+            "1"    "razor_raz_move_01"
+            "2"    "razor_raz_move_02"
+        }
+        "cast"    
+        {
+            "1"    "razor_raz_cast_01"
+            "2"    "razor_raz_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "razor_raz_rare_01"
+            "2"    "razor_raz_rare_02"
+        }
+    }
+    "models/heroes/sand_king/sand_king.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "sandking_skg_spawn_01"
+            "2"    "sandking_skg_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "sandking_skg_death_01"
+        }
+        "move"    
+        {
+            "1"    "sandking_skg_move_01"
+            "2"    "sandking_skg_move_02"
+        }
+        "cast"    
+        {
+            "1"    "sandking_skg_cast_01"
+            "2"    "sandking_skg_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "sandking_skg_rare_01"
+            "2"    "sandking_skg_rare_02"
+        }
+    }
+    "models/heroes/storm_spirit/storm_spirit.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "stormspirit_ss_spawn_01"
+            "2"    "stormspirit_ss_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "stormspirit_ss_death_01"
+            "2"    "stormspirit_ss_death_02"
+        }
+        "move"    
+        {
+            "1"    "stormspirit_ss_move_01"
+            "2"    "stormspirit_ss_move_02"
+        }
+        "cast"    
+        {
+            "1"    "stormspirit_ss_cast_01"
+            "2"    "stormspirit_ss_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "stormspirit_ss_rare_01"
+            "2"    "stormspirit_ss_rare_02"
+        }
+    }
+    "models/heroes/sven/sven.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "sven_sven_spawn_01"
+            "2"    "sven_sven_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "sven_sven_death_01"
+        }
+        "move"    
+        {
+            "1"    "sven_sven_move_01"
+            "2"    "sven_sven_move_02"
+        }
+        "cast"    
+        {
+            "1"    "sven_sven_cast_01"
+            "2"    "sven_sven_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "sven_sven_rare_01"
+            "2"    "sven_sven_rare_02"
+        }
+    }
+    "models/heroes/tiny/tiny_01/tiny_01.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "tiny_tiny_spawn_01"
+            "2"    "tiny_tiny_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "tiny_tiny_death_01"
+            "2"    "tiny_tiny_death_02"
+        }
+        "move"    
+        {
+            "1"    "tiny_tiny_move_01"
+        }
+        "cast"    
+        {
+            "1"    "tiny_tiny_cast_01"
+            "2"    "tiny_tiny_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "tiny_tiny_rare_01"
+            "2"    "tiny_tiny_rare_02"
+        }
+    }
+    "models/heroes/vengeful/vengeful.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "vengefulspirit_vng_spawn_01"
+            "2"    "vengefulspirit_vng_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "vengefulspirit_vng_death_01"
+            "2"    "vengefulspirit_vng_death_02"
+        }
+        "move"    
+        {
+            "1"    "vengefulspirit_vng_move_01"
+            "2"    "vengefulspirit_vng_move_02"
+        }
+        "cast"    
+        {
+            "1"    "vengefulspirit_vng_cast_01"
+            "2"    "vengefulspirit_vng_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "vengefulspirit_vng_rare_01"
+            "2"    "vengefulspirit_vng_rare_02"
+        }
+    }
+    "models/heroes/windrunner/windrunner.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "windrunner_wind_spawn_01"
+            "2"    "windrunner_wind_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "windrunner_wind_death_01"
+        }
+        "move"    
+        {
+            "1"    "windrunner_wind_move_01"
+            "2"    "windrunner_wind_move_02"
+        }
+        "cast"    
+        {
+            "1"    "windrunner_wind_cast_01"
+            "2"    "windrunner_wind_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "windrunner_wind_rare_01"
+            "2"    "windrunner_wind_rare_02"
+        }
+    }
+    "models/heroes/zeus/zeus.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "zuus_zuus_spawn_01"
+            "2"    "zuus_zuus_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "zuus_zuus_death_01"
+            "2"    "zuus_zuus_death_02"
+        }
+        "move"    
+        {
+            "1"    "zuus_zuus_move_01"
+            "2"    "zuus_zuus_move_02"
+        }
+        "cast"    
+        {
+            "1"    "zuus_zuus_cast_01"
+            "2"    "zuus_zuus_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "zuus_zuus_rare_01"
+            "2"    "zuus_zuus_rare_02"
+        }
+    }
+    "models/heroes/kunkka/kunkka.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "kunkka_kunk_spawn_01"
+            "2"    "kunkka_kunk_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "kunkka_kunk_death_01"
+            "2"    "kunkka_kunk_death_02"
+        }
+        "move"    
+        {
+            "1"    "kunkka_kunk_move_01"
+            "2"    "kunkka_kunk_move_02"
+        }
+        "cast"    
+        {
+            "1"    "kunkka_kunk_cast_01"
+            "2"    "kunkka_kunk_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "kunkka_kunk_rare_01"
+            "2"    "kunkka_kunk_rare_02"
+        }
+    }
+    "models/heroes/lina/lina.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "lina_lina_spawn_01"
+            "2"    "lina_lina_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "lina_lina_death_01"
+            "2"    "lina_lina_death_02"
+        }
+        "move"    
+        {
+            "1"    "lina_lina_move_01"
+            "2"    "lina_lina_move_02"
+        }
+        "cast"    
+        {
+            "1"    "lina_lina_cast_01"
+            "2"    "lina_lina_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "lina_lina_rare_01"
+            "2"    "lina_lina_rare_02"
+        }
+    }
+    "models/heroes/lich/lich.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "lich_lich_spawn_01"
+            "2"    "lich_lich_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "lich_lich_death_01"
+            "2"    "lich_lich_death_02"
+        }
+        "move"    
+        {
+            "1"    "lich_lich_move_01"
+            "2"    "lich_lich_move_02"
+        }
+        "cast"    
+        {
+            "1"    "lich_lich_cast_01"
+            "2"    "lich_lich_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "lich_lich_rare_01"
+            "2"    "lich_lich_rare_02"
+        }
+    }
+    "models/heroes/lion/lion.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "lion_lion_spawn_01"
+            "2"    "lion_lion_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "lion_lion_death_01"
+            "2"    "lion_lion_death_02"
+        }
+        "move"    
+        {
+            "1"    "lion_lion_move_01"
+            "2"    "lion_lion_move_02"
+        }
+        "cast"    
+        {
+            "1"    "lion_lion_cast_01"
+            "2"    "lion_lion_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "lion_lion_rare_01"
+            "2"    "lion_lion_rare_02"
+        }
+    }
+    "models/heroes/shadowshaman/shadowshaman.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "shadowshaman_shad_spawn_01"
+            "2"    "shadowshaman_shad_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "shadowshaman_shad_death_01"
+            "2"    "shadowshaman_shad_death_02"
+        }
+        "move"    
+        {
+            "1"    "shadowshaman_shad_move_01"
+            "2"    "shadowshaman_shad_move_02"
+        }
+        "cast"    
+        {
+            "1"    "shadowshaman_shad_cast_01"
+            "2"    "shadowshaman_shad_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "shadowshaman_shad_rare_01"
+            "2"    "shadowshaman_shad_rare_02"
+        }
+    }
+    "models/heroes/slardar/slardar.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "slardar_slar_spawn_01"
+            "2"    "slardar_slar_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "slardar_slar_death_01"
+            "2"    "slardar_slar_death_02"
+        }
+        "move"    
+        {
+            "1"    "slardar_slar_move_01"
+            "2"    "slardar_slar_move_02"
+        }
+        "cast"    
+        {
+            "1"    "slardar_slar_cast_01"
+            "2"    "slardar_slar_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "slardar_slar_rare_01"
+            "2"    "slardar_slar_rare_02"
+        }
+    }
+    "models/heroes/tidehunter/tidehunter.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "tidehunter_tide_spawn_01"
+            "2"    "tidehunter_tide_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "tidehunter_tide_death_01"
+            "2"    "tidehunter_tide_death_02"
+        }
+        "move"    
+        {
+            "1"    "tidehunter_tide_move_01"
+            "2"    "tidehunter_tide_move_02"
+        }
+        "cast"    
+        {
+            "1"    "tidehunter_tide_cast_01"
+            "2"    "tidehunter_tide_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "tidehunter_tide_rare_01"
+            "2"    "tidehunter_tide_rare_02"
+        }
+    }
+    "models/heroes/witchdoctor/witchdoctor.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "witchdoctor_wdoc_spawn_01"
+            "2"    "witchdoctor_wdoc_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "witchdoctor_wdoc_death_01"
+            "2"    "witchdoctor_wdoc_death_02"
+        }
+        "move"    
+        {
+            "1"    "witchdoctor_wdoc_move_01"
+            "2"    "witchdoctor_wdoc_move_02"
+        }
+        "cast"    
+        {
+            "1"    "witchdoctor_wdoc_cast_01"
+            "2"    "witchdoctor_wdoc_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "witchdoctor_wdoc_rare_01"
+            "2"    "witchdoctor_wdoc_rare_02"
+        }
+    }
+    "models/heroes/rikimaru/rikimaru.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "riki_riki_spawn_01"
+            "2"    "riki_riki_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "riki_riki_death_01"
+            "2"    "riki_riki_death_02"
+        }
+        "move"    
+        {
+            "1"    "riki_riki_move_01"
+            "2"    "riki_riki_move_02"
+        }
+        "cast"    
+        {
+            "1"    "riki_riki_cast_01"
+            "2"    "riki_riki_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "riki_riki_rare_01"
+            "2"    "riki_riki_rare_02"
+        }
+    }
+    "models/heroes/enigma/enigma.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "enigma_enig_spawn_01"
+            "2"    "enigma_enig_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "enigma_enig_death_01"
+            "2"    "enigma_enig_death_02"
+        }
+        "move"    
+        {
+            "1"    "enigma_enig_move_01"
+            "2"    "enigma_enig_move_02"
+        }
+        "cast"    
+        {
+            "1"    "enigma_enig_cast_01"
+            "2"    "enigma_enig_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "enigma_enig_rare_01"
+            "2"    "enigma_enig_rare_02"
+        }
+    }
+    "models/heroes/tinker/tinker.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "tinker_tink_spawn_01"
+            "2"    "tinker_tink_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "tinker_tink_death_01"
+            "2"    "tinker_tink_death_02"
+        }
+        "move"    
+        {
+            "1"    "tinker_tink_move_01"
+            "2"    "tinker_tink_move_02"
+        }
+        "cast"    
+        {
+            "1"    "tinker_tink_cast_01"
+            "2"    "tinker_tink_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "tinker_tink_rare_01"
+            "2"    "tinker_tink_rare_02"
+        }
+    }
+    "models/heroes/sniper/sniper.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "sniper_snip_spawn_01"
+            "2"    "sniper_snip_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "sniper_snip_death_01"
+            "2"    "sniper_snip_death_02"
+        }
+        "move"    
+        {
+            "1"    "sniper_snip_move_01"
+            "2"    "sniper_snip_move_02"
+        }
+        "cast"    
+        {
+            "1"    "sniper_snip_cast_01"
+            "2"    "sniper_snip_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "sniper_snip_rare_01"
+            "2"    "sniper_snip_rare_02"
+        }
+    }
+    "models/heroes/necrolyte/necrolyte.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "necrolyte_necr_spawn_01"
+            "2"    "necrolyte_necr_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "necrolyte_necr_death_01"
+            "2"    "necrolyte_necr_death_02"
+        }
+        "move"    
+        {
+            "1"    "necrolyte_necr_move_01"
+            "2"    "necrolyte_necr_move_02"
+        }
+        "cast"    
+        {
+            "1"    "necrolyte_necr_cast_01"
+            "2"    "necrolyte_necr_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "necrolyte_necr_rare_01"
+            "2"    "necrolyte_necr_rare_02"
+        }
+    }
+    "models/heroes/warlock/warlock.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "warlock_warl_spawn_01"
+            "2"    "warlock_warl_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "warlock_warl_death_01"
+            "2"    "warlock_warl_death_02"
+        }
+        "move"    
+        {
+            "1"    "warlock_warl_move_01"
+            "2"    "warlock_warl_move_02"
+        }
+        "cast"    
+        {
+            "1"    "warlock_warl_cast_01"
+            "2"    "warlock_warl_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "warlock_warl_rare_01"
+            "2"    "warlock_warl_rare_02"
+        }
+    }
+    "models/heroes/beastmaster/beastmaster.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "beastmaster_beas_spawn_01"
+            "2"    "beastmaster_beas_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "beastmaster_beas_ability_hawk_death_01"
+            "2"    "beastmaster_beas_ability_boar_death_01"
+        }
+        "move"    
+        {
+            "1"    "beastmaster_beas_move_01"
+            "2"    "beastmaster_beas_move_02"
+        }
+        "cast"    
+        {
+            "1"    "beastmaster_beas_cast_01"
+            "2"    "beastmaster_beas_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "beastmaster_beas_rare_01"
+            "2"    "beastmaster_beas_rare_02"
+        }
+    }
+    "models/heroes/queenofpain/queenofpain.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "queenofpain_pain_spawn_01"
+            "2"    "queenofpain_pain_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "queenofpain_pain_death_01"
+            "2"    "queenofpain_pain_death_02"
+        }
+        "move"    
+        {
+            "1"    "queenofpain_pain_move_01"
+            "2"    "queenofpain_pain_move_02"
+        }
+        "cast"    
+        {
+            "1"    "queenofpain_pain_cast_01"
+            "2"    "queenofpain_pain_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "queenofpain_pain_rare_01"
+            "2"    "queenofpain_pain_rare_02"
+        }
+    }
+    "models/heroes/venomancer/venomancer.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "venomancer_venm_spawn_01"
+            "2"    "venomancer_venm_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "venomancer_venm_death_01"
+            "2"    "venomancer_venm_death_02"
+        }
+        "move"    
+        {
+            "1"    "venomancer_venm_move_01"
+            "2"    "venomancer_venm_move_02"
+        }
+        "cast"    
+        {
+            "1"    "venomancer_venm_cast_01"
+            "2"    "venomancer_venm_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "venomancer_venm_rare_01"
+            "2"    "venomancer_venm_rare_02"
+        }
+    }
+    "models/heroes/faceless_void/faceless_void.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "faceless_void_face_spawn_01"
+            "2"    "faceless_void_face_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "faceless_void_face_death_01"
+            "2"    "faceless_void_face_death_02"
+        }
+        "move"    
+        {
+            "1"    "faceless_void_face_move_01"
+            "2"    "faceless_void_face_move_02"
+        }
+        "cast"    
+        {
+            "1"    "faceless_void_face_cast_01"
+            "2"    "faceless_void_face_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "faceless_void_face_rare_01"
+            "2"    "faceless_void_face_rare_02"
+        }
+    }
+    "models/heroes/wraith_king/wraith_king.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "skeleton_king_wraith_spawn_01"
+            "2"    "skeleton_king_wraith_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "skeleton_king_wraith_death_01"
+            "2"    "skeleton_king_wraith_death_02"
+        }
+        "move"    
+        {
+            "1"    "skeleton_king_wraith_move_01"
+            "2"    "skeleton_king_wraith_move_02"
+        }
+        "cast"    
+        {
+            "1"    "skeleton_king_wraith_cast_01"
+            "2"    "skeleton_king_wraith_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "skeleton_king_wraith_rare_01"
+            "2"    "skeleton_king_wraith_rare_02"
+        }
+    }
+    "models/heroes/death_prophet/death_prophet.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "death_prophet_dpro_spawn_01"
+            "2"    "death_prophet_dpro_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "death_prophet_dpro_death_01"
+            "2"    "death_prophet_dpro_death_02"
+        }
+        "move"    
+        {
+            "1"    "death_prophet_dpro_move_01"
+            "2"    "death_prophet_dpro_move_02"
+        }
+        "cast"    
+        {
+            "1"    "death_prophet_dpro_cast_01"
+            "2"    "death_prophet_dpro_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/phantom_assassin/phantom_assassin.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "phantom_assassin_phass_spawn_01"
+            "2"    "phantom_assassin_phass_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "phantom_assassin_phass_death_01"
+            "2"    "phantom_assassin_phass_death_02"
+        }
+        "move"    
+        {
+            "1"    "phantom_assassin_phass_move_01"
+            "2"    "phantom_assassin_phass_move_02"
+        }
+        "cast"    
+        {
+            "1"    "phantom_assassin_phass_cast_01"
+            "2"    "phantom_assassin_phass_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "phantom_assassin_phass_rare_01"
+            "2"    "phantom_assassin_phass_rare_02"
+        }
+    }
+    "models/heroes/pugna/pugna.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "pugna_pugna_spawn_01"
+            "2"    "pugna_pugna_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "pugna_pugna_death_01"
+            "2"    "pugna_pugna_death_02"
+        }
+        "move"    
+        {
+            "1"    "pugna_pugna_move_01"
+            "2"    "pugna_pugna_move_02"
+        }
+        "cast"    
+        {
+            "1"    "pugna_pugna_cast_01"
+            "2"    "pugna_pugna_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "pugna_pugna_rare_01"
+            "2"    "pugna_pugna_rare_02"
+        }
+    }
+    "models/heroes/lanaya/lanaya.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "templar_assassin_temp_spawn_01"
+            "2"    "templar_assassin_temp_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "templar_assassin_temp_death_01"
+            "2"    "templar_assassin_temp_death_02"
+        }
+        "move"    
+        {
+            "1"    "templar_assassin_temp_move_01"
+            "2"    "templar_assassin_temp_move_02"
+        }
+        "cast"    
+        {
+            "1"    "templar_assassin_temp_cast_01"
+            "2"    "templar_assassin_temp_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "templar_assassin_temp_rare_01"
+            "2"    "templar_assassin_temp_rare_02"
+        }
+    }
+    "models/heroes/viper/viper.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "viper_vipe_spawn_01"
+            "2"    "viper_vipe_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "viper_vipe_death_01"
+            "2"    "viper_vipe_death_02"
+        }
+        "move"    
+        {
+            "1"    "viper_vipe_move_01"
+            "2"    "viper_vipe_move_02"
+        }
+        "cast"    
+        {
+            "1"    "viper_vipe_cast_01"
+            "2"    "viper_vipe_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "viper_vipe_rare_02"
+            "2"    "viper_vipe_rare_01"
+        }
+    }
+    "models/heroes/luna/luna.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "luna_luna_spawn_01"
+            "2"    "luna_luna_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "luna_luna_death_01"
+            "2"    "luna_luna_death_02"
+        }
+        "move"    
+        {
+            "1"    "luna_luna_move_01"
+            "2"    "luna_luna_move_02"
+        }
+        "cast"    
+        {
+            "1"    "luna_luna_cast_01"
+            "2"    "luna_luna_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "luna_luna_rare_01"
+            "2"    "luna_luna_rare_02"
+        }
+    }
+    "models/heroes/dragon_knight/dragon_knight.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "dragon_knight_drag_spawn_01"
+            "2"    "dragon_knight_drag_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "dragon_knight_drag_death_01"
+            "2"    "dragon_knight_drag_death_02"
+        }
+        "move"    
+        {
+            "1"    "dragon_knight_drag_move_01"
+            "2"    "dragon_knight_drag_move_02"
+        }
+        "cast"    
+        {
+            "1"    "dragon_knight_drag_cast_01"
+            "2"    "dragon_knight_drag_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "dragon_knight_drag_rare_01"
+            "2"    "dragon_knight_drag_rare_02"
+        }
+    }
+    "models/heroes/dazzle/dazzle.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "dazzle_dazz_spawn_01"
+            "2"    "dazzle_dazz_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "dazzle_dazz_death_01"
+            "2"    "dazzle_dazz_death_02"
+        }
+        "move"    
+        {
+            "1"    "dazzle_dazz_move_01"
+            "2"    "dazzle_dazz_move_02"
+        }
+        "cast"    
+        {
+            "1"    "dazzle_dazz_cast_01"
+            "2"    "dazzle_dazz_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "dazzle_dazz_rare_01"
+            "2"    "dazzle_dazz_rare_02"
+        }
+    }
+    "models/heroes/rattletrap/rattletrap.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "rattletrap_ratt_spawn_01"
+            "2"    "rattletrap_ratt_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "rattletrap_ratt_death_01"
+            "2"    "rattletrap_ratt_death_02"
+        }
+        "move"    
+        {
+            "1"    "rattletrap_ratt_move_01"
+            "2"    "rattletrap_ratt_move_02"
+        }
+        "cast"    
+        {
+            "1"    "rattletrap_ratt_cast_01"
+            "2"    "rattletrap_ratt_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "rattletrap_ratt_rare_01"
+            "2"    "rattletrap_ratt_rare_02"
+        }
+    }
+    "models/heroes/leshrac/leshrac.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "leshrac_lesh_spawn_01"
+            "2"    "leshrac_lesh_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "leshrac_lesh_death_01"
+            "2"    "leshrac_lesh_death_02"
+        }
+        "move"    
+        {
+            "1"    "leshrac_lesh_move_01"
+            "2"    "leshrac_lesh_move_02"
+        }
+        "cast"    
+        {
+            "1"    "leshrac_lesh_cast_01"
+            "2"    "leshrac_lesh_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "leshrac_lesh_rare_01"
+            "2"    "leshrac_lesh_rare_02"
+        }
+    }
+    "models/heroes/furion/furion.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "furion_furi_spawn_01"
+            "2"    "furion_furi_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "furion_furi_death_01"
+            "2"    "furion_furi_death_02"
+        }
+        "move"    
+        {
+            "1"    "furion_furi_move_01"
+            "2"    "furion_furi_move_02"
+        }
+        "cast"    
+        {
+            "1"    "furion_furi_cast_01"
+            "2"    "furion_furi_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "furion_furi_rare_01"
+            "2"    "furion_furi_rare_02"
+        }
+    }
+    "models/heroes/life_stealer/life_stealer.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "life_stealer_lifest_spawn_01"
+            "2"    "life_stealer_lifest_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "life_stealer_lifest_death_01"
+            "2"    "life_stealer_lifest_death_02"
+        }
+        "move"    
+        {
+            "1"    "life_stealer_lifest_move_01"
+            "2"    "life_stealer_lifest_move_02"
+        }
+        "cast"    
+        {
+            "1"    "life_stealer_lifest_cast_01"
+            "2"    "life_stealer_lifest_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/dark_seer/dark_seer.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "dark_seer_dkseer_spawn_01"
+            "2"    "dark_seer_dkseer_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "dark_seer_dkseer_death_01"
+            "2"    "dark_seer_dkseer_death_02"
+        }
+        "move"    
+        {
+            "1"    "dark_seer_dkseer_move_01"
+            "2"    "dark_seer_dkseer_move_02"
+        }
+        "cast"    
+        {
+            "1"    "dark_seer_dkseer_cast_01"
+            "2"    "dark_seer_dkseer_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "dark_seer_dkseer_rare_01"
+            "2"    "dark_seer_dkseer_rare_02"
+        }
+    }
+    "models/heroes/clinkz/clinkz.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "clinkz_clinkz_spawn_01"
+            "2"    "clinkz_clinkz_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "clinkz_clinkz_death_01"
+            "2"    "clinkz_clinkz_death_02"
+        }
+        "move"    
+        {
+            "1"    "clinkz_clinkz_move_01"
+            "2"    "clinkz_clinkz_move_02"
+        }
+        "cast"    
+        {
+            "1"    "clinkz_clinkz_cast_01"
+            "2"    "clinkz_clinkz_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/omniknight/omniknight.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "omniknight_omni_spawn_01"
+            "2"    "omniknight_omni_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "omniknight_omni_death_01"
+            "2"    "omniknight_omni_death_02"
+        }
+        "move"    
+        {
+            "1"    "omniknight_omni_move_01"
+            "2"    "omniknight_omni_move_02"
+        }
+        "cast"    
+        {
+            "1"    "omniknight_omni_cast_01"
+            "2"    "omniknight_omni_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "omniknight_omni_rare_01"
+            "2"    "omniknight_omni_rare_02"
+        }
+    }
+    "models/heroes/enchantress/enchantress.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "enchantress_ench_spawn_01"
+            "2"    "enchantress_ench_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "enchantress_ench_death_01"
+            "2"    "enchantress_ench_death_02"
+        }
+        "move"    
+        {
+            "1"    "enchantress_ench_move_01"
+            "2"    "enchantress_ench_move_02"
+        }
+        "cast"    
+        {
+            "1"    "enchantress_ench_cast_01"
+            "2"    "enchantress_ench_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "enchantress_ench_rare_01"
+            "2"    "enchantress_ench_rare_02"
+        }
+    }
+    "models/heroes/huskar/huskar.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "huskar_husk_spawn_01"
+            "2"    "huskar_husk_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "huskar_husk_death_01"
+            "2"    "huskar_husk_death_02"
+        }
+        "move"    
+        {
+            "1"    "huskar_husk_move_01"
+            "2"    "huskar_husk_move_02"
+        }
+        "cast"    
+        {
+            "1"    "huskar_husk_cast_01"
+            "2"    "huskar_husk_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "huskar_husk_rare_01"
+            "2"    "huskar_husk_rare_02"
+        }
+    }
+    "models/heroes/nightstalker/nightstalker.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "night_stalker_nstalk_spawn_01"
+            "2"    "night_stalker_nstalk_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "night_stalker_nstalk_death_01"
+            "2"    "night_stalker_nstalk_death_02"
+        }
+        "move"    
+        {
+            "1"    "night_stalker_nstalk_move_01"
+            "2"    "night_stalker_nstalk_move_02"
+        }
+        "cast"    
+        {
+            "1"    "night_stalker_nstalk_cast_01"
+            "2"    "night_stalker_nstalk_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "night_stalker_nstalk_rare_01"
+            "2"    "night_stalker_nstalk_rare_02"
+        }
+    }
+    "models/heroes/broodmother/broodmother.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "broodmother_broo_spawn_01"
+            "2"    "broodmother_broo_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "broodmother_broo_death_01"
+            "2"    "broodmother_broo_death_02"
+        }
+        "move"    
+        {
+            "1"    "broodmother_broo_move_01"
+            "2"    "broodmother_broo_move_02"
+        }
+        "cast"    
+        {
+            "1"    "broodmother_broo_cast_01"
+            "2"    "broodmother_broo_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "broodmother_broo_rare_02"
+            "2"    "broodmother_broo_rare_01"
+        }
+    }
+    "models/heroes/bounty_hunter/bounty_hunter.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "bounty_hunter_bount_spawn_01"
+            "2"    "bounty_hunter_bount_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "bounty_hunter_bount_death_01"
+            "2"    "bounty_hunter_bount_death_02"
+        }
+        "move"    
+        {
+            "1"    "bounty_hunter_bount_move_01"
+            "2"    "bounty_hunter_bount_move_02"
+        }
+        "cast"    
+        {
+            "1"    "bounty_hunter_bount_cast_01"
+            "2"    "bounty_hunter_bount_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/weaver/weaver.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "weaver_weav_spawn_01"
+            "2"    "weaver_weav_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "weaver_weav_death_01"
+            "2"    "weaver_weav_death_02"
+        }
+        "move"    
+        {
+            "1"    "weaver_weav_move_01"
+            "2"    "weaver_weav_move_02"
+        }
+        "cast"    
+        {
+            "1"    "weaver_weav_cast_01"
+            "2"    "weaver_weav_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "weaver_weav_rare_01"
+            "2"    "weaver_weav_rare_02"
+        }
+    }
+    "models/heroes/jakiro/jakiro.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "jakiro_jak_spawn_01"
+            "2"    "jakiro_jak_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "jakiro_jak_death_01"
+            "2"    "jakiro_jak_death_02"
+        }
+        "move"    
+        {
+            "1"    "jakiro_jak_move_01"
+            "2"    "jakiro_jak_move_02"
+        }
+        "cast"    
+        {
+            "1"    "jakiro_jak_cast_01"
+            "2"    "jakiro_jak_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "jakiro_jak_rare_01"
+            "2"    "jakiro_jak_rare_02"
+        }
+    }
+    "models/heroes/batrider/batrider.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "batrider_bat_spawn_01"
+            "2"    "batrider_bat_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "batrider_bat_death_01"
+            "2"    "batrider_bat_death_02"
+        }
+        "move"    
+        {
+            "1"    "batrider_bat_move_01"
+            "2"    "batrider_bat_move_02"
+        }
+        "cast"    
+        {
+            "1"    "batrider_bat_cast_01"
+            "2"    "batrider_bat_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "batrider_bat_rare_01"
+            "2"    "batrider_bat_rare_02"
+        }
+    }
+    "models/heroes/chen/chen.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "chen_chen_spawn_01"
+            "2"    "chen_chen_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "chen_chen_death_01"
+            "2"    "chen_chen_death_02"
+        }
+        "move"    
+        {
+            "1"    "chen_chen_move_01"
+            "2"    "chen_chen_move_02"
+        }
+        "cast"    
+        {
+            "1"    "chen_chen_cast_01"
+            "2"    "chen_chen_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "chen_chen_rare_01"
+            "2"    "chen_chen_rare_02"
+        }
+    }
+    "models/heroes/spectre/spectre.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "spectre_spec_spawn_01"
+            "2"    "spectre_spec_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "spectre_spec_death_01"
+            "2"    "spectre_spec_death_02"
+        }
+        "move"    
+        {
+            "1"    "spectre_spec_move_01"
+            "2"    "spectre_spec_move_02"
+        }
+        "cast"    
+        {
+            "1"    "spectre_spec_cast_01"
+            "2"    "spectre_spec_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "spectre_spec_rare_01"
+        }
+    }
+    "models/heroes/doom/doom.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "doom_bringer_doom_spawn_01"
+        }
+        "death"    
+        {
+            "1"    "doom_bringer_doom_death_01"
+            "2"    "doom_bringer_doom_death_02"
+        }
+        "move"    
+        {
+            "1"    "doom_bringer_doom_move_01"
+            "2"    "doom_bringer_doom_move_02"
+        }
+        "cast"    
+        {
+            "1"    "doom_bringer_doom_cast_01"
+            "2"    "doom_bringer_doom_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "doom_bringer_doom_rare_01"
+        }
+    }
+    "models/heroes/ancient_apparition/ancient_apparition.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "ancient_apparition_appa_spawn_01"
+            "2"    "ancient_apparition_appa_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "ancient_apparition_appa_death_01"
+            "2"    "ancient_apparition_appa_death_02"
+        }
+        "move"    
+        {
+            "1"    "ancient_apparition_appa_move_01"
+            "2"    "ancient_apparition_appa_move_02"
+        }
+        "cast"    
+        {
+            "1"    "ancient_apparition_appa_cast_01"
+            "2"    "ancient_apparition_appa_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "ancient_apparition_appa_rare_01"
+            "2"    "ancient_apparition_appa_rare_02"
+        }
+    }
+    "models/heroes/ursa/ursa.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "ursa_ursa_spawn_01"
+            "2"    "ursa_ursa_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "ursa_ursa_death_01"
+            "2"    "ursa_ursa_death_02"
+        }
+        "move"    
+        {
+            "1"    "ursa_ursa_move_01"
+            "2"    "ursa_ursa_move_02"
+        }
+        "cast"    
+        {
+            "1"    "ursa_ursa_cast_01"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/spirit_breaker/spirit_breaker.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "spirit_breaker_spir_spawn_01"
+            "2"    "spirit_breaker_spir_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "spirit_breaker_spir_death_01"
+            "2"    "spirit_breaker_spir_death_02"
+        }
+        "move"    
+        {
+            "1"    "spirit_breaker_spir_move_01"
+            "2"    "spirit_breaker_spir_move_02"
+        }
+        "cast"    
+        {
+            "1"    "spirit_breaker_spir_cast_01"
+            "2"    "spirit_breaker_spir_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "spirit_breaker_spir_rare_01"
+            "2"    "spirit_breaker_spir_rare_02"
+        }
+    }
+    "models/heroes/gyro/gyro.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "gyrocopter_gyro_spawn_01"
+            "2"    "gyrocopter_gyro_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "gyrocopter_gyro_death_01"
+            "2"    "gyrocopter_gyro_death_02"
+        }
+        "move"    
+        {
+            "1"    "gyrocopter_gyro_move_01"
+            "2"    "gyrocopter_gyro_move_02"
+        }
+        "cast"    
+        {
+            "1"    "gyrocopter_gyro_cast_01"
+            "2"    "gyrocopter_gyro_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/alchemist/alchemist.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "alchemist_alch_spawn_01"
+            "2"    "alchemist_alch_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "alchemist_alch_death_01"
+            "2"    "alchemist_alch_death_02"
+        }
+        "move"    
+        {
+            "1"    "alchemist_alch_move_01"
+            "2"    "alchemist_alch_move_02"
+        }
+        "cast"    
+        {
+            "1"    "alchemist_alch_cast_01"
+            "2"    "alchemist_alch_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "alchemist_alch_rare_01"
+            "2"    "alchemist_alch_rare_02"
+        }
+    }
+    "models/heroes/invoker/invoker.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "invoker_invo_spawn_01"
+            "2"    "invoker_invo_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "invoker_invo_death_01"
+            "2"    "invoker_invo_death_02"
+        }
+        "move"    
+        {
+            "1"    "invoker_invo_move_01"
+            "2"    "invoker_invo_move_02"
+        }
+        "cast"    
+        {
+            "1"    "invoker_invo_cast_01"
+            "2"    "invoker_invo_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "invoker_invo_rare_01"
+            "2"    "invoker_invo_rare_02"
+        }
+    }
+    "models/heroes/silencer/silencer.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "silencer_silen_spawn_01"
+            "2"    "silencer_silen_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "silencer_silen_death_01"
+            "2"    "silencer_silen_death_02"
+        }
+        "move"    
+        {
+            "1"    "silencer_silen_move_01"
+            "2"    "silencer_silen_move_02"
+        }
+        "cast"    
+        {
+            "1"    "silencer_silen_cast_01"
+            "2"    "silencer_silen_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/obsidian_destroyer/obsidian_destroyer.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "outworld_destroyer_odest_spawn_01"
+            "2"    "outworld_destroyer_odest_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "outworld_destroyer_odest_death_01"
+            "2"    "outworld_destroyer_odest_death_02"
+        }
+        "move"    
+        {
+            "1"    "outworld_destroyer_odest_move_01"
+            "2"    "outworld_destroyer_odest_move_02"
+        }
+        "cast"    
+        {
+            "1"    "outworld_destroyer_odest_cast_01"
+            "2"    "outworld_destroyer_odest_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/lycan/lycan.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "lycan_lycan_spawn_01"
+            "2"    "lycan_lycan_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "lycan_lycan_death_01"
+            "2"    "lycan_lycan_death_02"
+        }
+        "move"    
+        {
+            "1"    "lycan_lycan_move_01"
+            "2"    "lycan_lycan_move_02"
+        }
+        "cast"    
+        {
+            "1"    "lycan_lycan_cast_01"
+            "2"    "lycan_lycan_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "lycan_lycan_rare_01"
+            "2"    "lycan_lycan_rare_02"
+        }
+    }
+    "models/heroes/brewmaster/brewmaster.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "brewmaster_brew_spawn_01"
+            "2"    "brewmaster_brew_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "brewmaster_brew_death_01"
+            "2"    "brewmaster_brew_death_02"
+        }
+        "move"    
+        {
+            "1"    "brewmaster_brew_move_01"
+            "2"    "brewmaster_brew_move_02"
+        }
+        "cast"    
+        {
+            "1"    "brewmaster_brew_cast_01"
+            "2"    "brewmaster_brew_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "brewmaster_brew_rare_01"
+            "2"    "brewmaster_brew_rare_02"
+        }
+    }
+    "models/heroes/shadow_demon/shadow_demon.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "shadow_demon_shadow_demon_spawn_01"
+            "2"    "shadow_demon_shadow_demon_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "shadow_demon_shadow_demon_death_01"
+            "2"    "shadow_demon_shadow_demon_death_02"
+        }
+        "move"    
+        {
+            "1"    "shadow_demon_shadow_demon_move_01"
+            "2"    "shadow_demon_shadow_demon_move_02"
+        }
+        "cast"    
+        {
+            "1"    "shadow_demon_shadow_demon_cast_01"
+            "2"    "shadow_demon_shadow_demon_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/lone_druid/lone_druid.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "lone_druid_lone_druid_spawn_01"
+            "2"    "lone_druid_lone_druid_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "lone_druid_lone_druid_death_01"
+            "2"    "lone_druid_lone_druid_death_02"
+        }
+        "move"    
+        {
+            "1"    "lone_druid_lone_druid_move_01"
+            "2"    "lone_druid_lone_druid_move_02"
+        }
+        "cast"    
+        {
+            "1"    "lone_druid_lone_druid_cast_01"
+            "2"    "lone_druid_lone_druid_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "lone_druid_lone_druid_rare_01"
+            "2"    "lone_druid_lone_druid_rare_02"
+        }
+    }
+    "models/heroes/chaos_knight/chaos_knight.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "chaos_knight_chaknight_spawn_01"
+            "2"    "chaos_knight_chaknight_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "chaos_knight_chaknight_death_01"
+            "2"    "chaos_knight_chaknight_death_02"
+        }
+        "move"    
+        {
+            "1"    "chaos_knight_chaknight_move_01"
+            "2"    "chaos_knight_chaknight_move_02"
+        }
+        "cast"    
+        {
+            "1"    "chaos_knight_chaknight_cast_01"
+            "2"    "chaos_knight_chaknight_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "chaos_knight_chaknight_rare_01"
+            "2"    "chaos_knight_chaknight_rare_02"
+        }
+    }
+    "models/heroes/meepo/meepo.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "meepo_meepo_spawn_01"
+            "2"    "meepo_meepo_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "meepo_meepo_death_01"
+            "2"    "meepo_meepo_death_02"
+        }
+        "move"    
+        {
+            "1"    "meepo_meepo_move_01"
+            "2"    "meepo_meepo_move_02"
+        }
+        "cast"    
+        {
+            "1"    "meepo_meepo_cast_01"
+            "2"    "meepo_meepo_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "meepo_meepo_drop_rare_01"
+            "2"    "meepo_meepo_drop_rare_02"
+        }
+    }
+    "models/heroes/treant_protector/treant_protector.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "treant_treant_spawn_01"
+            "2"    "treant_treant_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "treant_treant_death_01"
+            "2"    "treant_treant_death_02"
+        }
+        "move"    
+        {
+            "1"    "treant_treant_move_01"
+            "2"    "treant_treant_move_02"
+        }
+        "cast"    
+        {
+            "1"    "treant_treant_cast_01"
+            "2"    "treant_treant_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "treant_treant_rare_01"
+            "2"    "treant_treant_rare_02"
+        }
+    }
+    "models/heroes/ogre_magi/ogre_magi.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "ogre_magi_ogmag_spawn_01"
+            "2"    "ogre_magi_ogmag_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "ogre_magi_ogmag_death_01"
+            "2"    "ogre_magi_ogmag_death_02"
+        }
+        "move"    
+        {
+            "1"    "ogre_magi_ogmag_move_01"
+            "2"    "ogre_magi_ogmag_move_02"
+        }
+        "cast"    
+        {
+            "1"    "ogre_magi_ogmag_cast_01"
+            "2"    "ogre_magi_ogmag_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/undying/undying.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "undying_undying_spawn_01"
+            "2"    "undying_undying_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "undying_undying_death_01"
+            "2"    "undying_undying_death_02"
+        }
+        "move"    
+        {
+            "1"    "undying_undying_move_01"
+            "2"    "undying_undying_move_02"
+        }
+        "cast"    
+        {
+            "1"    "undying_undying_cast_01"
+            "2"    "undying_undying_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "undying_undying_rare_01"
+            "2"    "undying_undying_rare_02"
+        }
+    }
+    "models/heroes/rubick/rubick.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "rubick_rubick_spawn_01"
+            "2"    "rubick_rubick_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "rubick_rubick_death_01"
+            "2"    "rubick_rubick_death_02"
+        }
+        "move"    
+        {
+            "1"    "rubick_rubick_move_01"
+            "2"    "rubick_rubick_move_02"
+        }
+        "cast"    
+        {
+            "1"    "rubick_rubick_cast_01"
+            "2"    "rubick_rubick_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "rubick_rubick_rare_01"
+            "2"    "rubick_rubick_rare_02"
+        }
+    }
+    "models/heroes/disruptor/disruptor.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "disruptor_dis_spawn_01"
+            "2"    "disruptor_dis_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "disruptor_dis_death_01"
+            "2"    "disruptor_dis_death_02"
+        }
+        "move"    
+        {
+            "1"    "disruptor_dis_move_01"
+        }
+        "cast"    
+        {
+            "1"    "disruptor_dis_cast_01"
+            "2"    "disruptor_dis_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "disruptor_dis_rare_01"
+            "2"    "disruptor_dis_rare_02"
+        }
+    }
+    "models/heroes/nerubian_assassin/nerubian_assassin.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "nyx_assassin_nyx_spawn_01"
+            "2"    "nyx_assassin_nyx_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "nyx_assassin_nyx_death_01"
+            "2"    "nyx_assassin_nyx_death_02"
+        }
+        "move"    
+        {
+            "1"    "nyx_assassin_nyx_move_01"
+            "2"    "nyx_assassin_nyx_move_02"
+        }
+        "cast"    
+        {
+            "1"    "nyx_assassin_nyx_cast_01"
+            "2"    "nyx_assassin_nyx_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "nyx_assassin_nyx_rare_01"
+            "2"    "nyx_assassin_nyx_rare_02"
+        }
+    }
+    "models/heroes/siren/siren.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "naga_siren_naga_spawn_01"
+            "2"    "naga_siren_naga_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "naga_siren_naga_death_01"
+            "2"    "naga_siren_naga_death_02"
+        }
+        "move"    
+        {
+            "1"    "naga_siren_naga_move_01"
+            "2"    "naga_siren_naga_move_02"
+        }
+        "cast"    
+        {
+            "1"    "naga_siren_naga_cast_01"
+            "2"    "naga_siren_naga_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "naga_siren_naga_rare_01"
+            "2"    "naga_siren_naga_rare_02"
+        }
+    }
+    "models/heroes/keeper_of_the_light/keeper_of_the_light.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "keeper_of_the_light_keep_spawn_01"
+            "2"    "keeper_of_the_light_keep_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "keeper_of_the_light_keep_death_01"
+            "2"    "keeper_of_the_light_keep_death_02"
+        }
+        "move"    
+        {
+            "1"    "keeper_of_the_light_keep_move_01"
+            "2"    "keeper_of_the_light_keep_move_02"
+        }
+        "cast"    
+        {
+            "1"    "keeper_of_the_light_keep_cast_01"
+            "2"    "keeper_of_the_light_keep_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "keeper_of_the_light_keep_rare_01"
+            "2"    "keeper_of_the_light_keep_rare_02"
+        }
+    }
+    "models/heroes/wisp/wisp.vmdl"    
+    {
+        "spawn"    
+        {
+        }
+        "death"    
+        {
+        }
+        "move"    
+        {
+        }
+        "cast"    
+        {
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/visage/visage.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "visage_visa_spawn_01"
+            "2"    "visage_visa_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "visage_visa_death_01"
+            "2"    "visage_visa_death_02"
+        }
+        "move"    
+        {
+            "1"    "visage_visa_move_01"
+            "2"    "visage_visa_move_02"
+        }
+        "cast"    
+        {
+            "1"    "visage_visa_cast_01"
+            "2"    "visage_visa_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "visage_visa_rare_01"
+            "2"    "visage_visa_rare_02"
+        }
+    }
+    "models/heroes/slark/slark.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "slark_slark_spawn_01"
+            "2"    "slark_slark_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "slark_slark_death_01"
+            "2"    "slark_slark_death_02"
+        }
+        "move"    
+        {
+            "1"    "slark_slark_move_01"
+            "2"    "slark_slark_move_02"
+        }
+        "cast"    
+        {
+            "1"    "slark_slark_cast_01"
+            "2"    "slark_slark_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "slark_slark_rare_01"
+            "2"    "slark_slark_rare_02"
+        }
+    }
+    "models/heroes/medusa/medusa.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "medusa_medus_spawn_01"
+            "2"    "medusa_medus_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "medusa_medus_death_01"
+            "2"    "medusa_medus_death_02"
+        }
+        "move"    
+        {
+            "1"    "medusa_medus_move_01"
+            "2"    "medusa_medus_move_02"
+        }
+        "cast"    
+        {
+            "1"    "medusa_medus_cast_01"
+            "2"    "medusa_medus_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "medusa_medus_rare_01"
+            "2"    "medusa_medus_rare_02"
+        }
+    }
+    "models/heroes/troll_warlord/troll_warlord.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "troll_warlord_troll_spawn_01"
+            "2"    "troll_warlord_troll_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "troll_warlord_troll_death_01"
+            "2"    "troll_warlord_troll_death_02"
+        }
+        "move"    
+        {
+            "1"    "troll_warlord_troll_move_01"
+            "2"    "troll_warlord_troll_move_02"
+        }
+        "cast"    
+        {
+            "1"    "troll_warlord_troll_cast_01"
+            "2"    "troll_warlord_troll_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "troll_warlord_troll_rare_01"
+            "2"    "troll_warlord_troll_rare_02"
+        }
+    }
+    "models/heroes/centaur/centaur.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "centaur_cent_spawn_01"
+            "2"    "centaur_cent_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "centaur_cent_death_01"
+            "2"    "centaur_cent_death_02"
+        }
+        "move"    
+        {
+            "1"    "centaur_cent_move_01"
+            "2"    "centaur_cent_move_02"
+        }
+        "cast"    
+        {
+            "1"    "centaur_cent_cast_01"
+            "2"    "centaur_cent_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "centaur_cent_drop_rare_01"
+        }
+    }
+    "models/heroes/magnataur/magnataur.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "magnataur_magn_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "magnataur_magn_death_01"
+            "2"    "magnataur_magn_death_02"
+        }
+        "move"    
+        {
+            "1"    "magnataur_magn_move_01"
+            "2"    "magnataur_magn_move_02"
+        }
+        "cast"    
+        {
+            "1"    "magnataur_magn_cast_01"
+            "2"    "magnataur_magn_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "magnataur_magn_rare_01"
+            "2"    "magnataur_magn_rare_02"
+        }
+    }
+    "models/heroes/shredder/shredder.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "shredder_timb_spawn_01"
+            "2"    "shredder_timb_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "shredder_timb_death_01"
+        }
+        "move"    
+        {
+            "1"    "shredder_timb_move_01"
+            "2"    "shredder_timb_move_02"
+        }
+        "cast"    
+        {
+            "1"    "shredder_timb_cast_01"
+            "2"    "shredder_timb_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "shredder_timb_rare_01"
+            "2"    "shredder_timb_rare_02"
+        }
+    }
+    "models/heroes/bristleback/bristleback.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "bristleback_bristle_spawn_01"
+            "2"    "bristleback_bristle_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "bristleback_bristle_death_01"
+            "2"    "bristleback_bristle_death_02"
+        }
+        "move"    
+        {
+            "1"    "bristleback_bristle_move_01"
+            "2"    "bristleback_bristle_move_02"
+        }
+        "cast"    
+        {
+            "1"    "bristleback_bristle_cast_01"
+            "2"    "bristleback_bristle_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "bristleback_bristle_rare_01"
+            "2"    "bristleback_bristle_rare_02"
+        }
+    }
+    "models/heroes/tuskarr/tuskarr.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "tusk_tusk_spawn_01"
+            "2"    "tusk_tusk_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "tusk_tusk_death_01"
+            "2"    "tusk_tusk_death_02"
+        }
+        "move"    
+        {
+            "1"    "tusk_tusk_move_01"
+            "2"    "tusk_tusk_move_02"
+        }
+        "cast"    
+        {
+            "1"    "tusk_tusk_cast_01"
+            "2"    "tusk_tusk_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "tusk_tusk_rare_01"
+        }
+    }
+    "models/heroes/skywrath_mage/skywrath_mage.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "skywrath_mage_drag_spawn_01"
+            "2"    "skywrath_mage_drag_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "skywrath_mage_drag_death_01"
+            "2"    "skywrath_mage_drag_death_02"
+        }
+        "move"    
+        {
+            "1"    "skywrath_mage_drag_move_01"
+            "2"    "skywrath_mage_drag_move_02"
+        }
+        "cast"    
+        {
+            "1"    "skywrath_mage_drag_cast_01"
+            "2"    "skywrath_mage_drag_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/abaddon/abaddon.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "abaddon_abad_spawn_01"
+            "2"    "abaddon_abad_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "abaddon_abad_deathcoil_02"
+        }
+        "move"    
+        {
+            "1"    "abaddon_abad_move_01"
+            "2"    "abaddon_abad_move_02"
+        }
+        "cast"    
+        {
+            "1"    "abaddon_abad_cast_01"
+            "2"    "abaddon_abad_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "abaddon_abad_item_rare_01"
+        }
+    }
+    "models/heroes/elder_titan/elder_titan.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "elder_titan_elder_spawn_01"
+            "2"    "elder_titan_elder_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "elder_titan_elder_death_01"
+            "2"    "elder_titan_elder_death_02"
+        }
+        "move"    
+        {
+            "1"    "elder_titan_elder_move_01"
+            "2"    "elder_titan_elder_move_02"
+        }
+        "cast"    
+        {
+            "1"    "elder_titan_elder_cast_01"
+            "2"    "elder_titan_elder_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "elder_titan_elder_rare_01"
+        }
+    }
+    "models/heroes/legion_commander/legion_commander.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "legion_commander_legcom_spawn_01"
+            "2"    "legion_commander_legcom_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "legion_commander_legcom_death_01"
+            "2"    "legion_commander_legcom_death_02"
+        }
+        "move"    
+        {
+            "1"    "legion_commander_legcom_move_01"
+            "2"    "legion_commander_legcom_move_02"
+        }
+        "cast"    
+        {
+            "1"    "legion_commander_legcom_cast_01"
+            "2"    "legion_commander_legcom_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "legion_commander_legcom_rare_01"
+            "2"    "legion_commander_legcom_rare_02"
+        }
+    }
+    "models/heroes/ember_spirit/ember_spirit.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "ember_spirit_embr_spawn_01"
+            "2"    "ember_spirit_embr_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "ember_spirit_embr_death_01"
+            "2"    "ember_spirit_embr_death_02"
+        }
+        "move"    
+        {
+            "1"    "ember_spirit_embr_move_01"
+            "2"    "ember_spirit_embr_move_02"
+        }
+        "cast"    
+        {
+            "1"    "ember_spirit_embr_cast_01"
+            "2"    "ember_spirit_embr_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "ember_spirit_embr_rare_01"
+            "2"    "ember_spirit_embr_rare_02"
+        }
+    }
+    "models/heroes/earth_spirit/earth_spirit.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "earth_spirit_earthspi_spawn_01"
+            "2"    "earth_spirit_earthspi_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "earth_spirit_earthspi_death_01"
+            "2"    "earth_spirit_earthspi_death_02"
+        }
+        "move"    
+        {
+            "1"    "earth_spirit_earthspi_move_01"
+            "2"    "earth_spirit_earthspi_move_02"
+        }
+        "cast"    
+        {
+            "1"    "earth_spirit_earthspi_cast_01"
+            "2"    "earth_spirit_earthspi_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/terrorblade/terrorblade.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "terrorblade_terr_spawn_01"
+            "2"    "terrorblade_terr_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "terrorblade_terr_death_01"
+            "2"    "terrorblade_terr_death_02"
+        }
+        "move"    
+        {
+            "1"    "terrorblade_terr_move_01"
+            "2"    "terrorblade_terr_move_02"
+        }
+        "cast"    
+        {
+            "1"    "terrorblade_terr_cast_01"
+            "2"    "terrorblade_terr_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "terrorblade_terr_itemdrop_rare_01"
+        }
+    }
+    "models/heroes/phoenix/phoenix_bird.vmdl"    
+    {
+        "spawn"    
+        {
+        }
+        "death"    
+        {
+        }
+        "move"    
+        {
+        }
+        "cast"    
+        {
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/oracle/oracle.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "oracle_orac_spawn_01"
+            "2"    "oracle_orac_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "oracle_orac_death_01"
+            "2"    "oracle_orac_death_02"
+        }
+        "move"    
+        {
+            "1"    "oracle_orac_move_01"
+            "2"    "oracle_orac_move_02"
+        }
+        "cast"    
+        {
+            "1"    "oracle_orac_cast_01"
+            "2"    "oracle_orac_cast_02"
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/techies/techies.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "techies_tech_spawn_01"
+            "2"    "techies_tech_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "techies_tech_death_01"
+            "2"    "techies_tech_death_02"
+        }
+        "move"    
+        {
+            "1"    "techies_tech_move_01"
+            "2"    "techies_tech_move_02"
+        }
+        "cast"    
+        {
+            "1"    "techies_tech_cast_01"
+            "2"    "techies_tech_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "techies_tech_rare_01"
+            "2"    "techies_tech_rare_02"
+        }
+    }
+    "models/heroes/winterwyvern/winterwyvern.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "winter_wyvern_winwyv_spawn_01"
+            "2"    "winter_wyvern_winwyv_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "winter_wyvern_winwyv_death_01"
+            "2"    "winter_wyvern_winwyv_death_02"
+        }
+        "move"    
+        {
+            "1"    "winter_wyvern_winwyv_move_01"
+            "2"    "winter_wyvern_winwyv_move_02"
+        }
+        "cast"    
+        {
+            "1"    "winter_wyvern_winwyv_cast_01"
+            "2"    "winter_wyvern_winwyv_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "winter_wyvern_winwyv_rare_01"
+            "2"    "winter_wyvern_winwyv_rare_02"
+        }
+    }
+    "models/heroes/arc_warden/arc_warden.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "arc_warden_arcwar_spawn_01"
+            "2"    "arc_warden_arcwar_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "arc_warden_arcwar_death_01"
+            "2"    "arc_warden_arcwar_death_02"
+        }
+        "move"    
+        {
+            "1"    "arc_warden_arcwar_move_01"
+            "2"    "arc_warden_arcwar_move_02"
+        }
+        "cast"    
+        {
+            "1"    "arc_warden_arcwar_cast_01"
+            "2"    "arc_warden_arcwar_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "arc_warden_arcwar_itemdrop_rare_01"
+        }
+    }
+    "models/heroes/abyssal_underlord/abyssal_underlord_v2.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "abyssal_underlord_abys_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "abyssal_underlord_abys_death_01"
+            "2"    "abyssal_underlord_abys_death_02"
+        }
+        "move"    
+        {
+            "1"    "abyssal_underlord_abys_move_01"
+            "2"    "abyssal_underlord_abys_move_02"
+        }
+        "cast"    
+        {
+            "1"    "abyssal_underlord_abys_cast_01"
+            "2"    "abyssal_underlord_abys_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "abyssal_underlord_abys_rare_01"
+            "2"    "abyssal_underlord_abys_rare_02"
+        }
+    }
+    "models/heroes/monkey_king/monkey_king.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "monkey_king_monkey_spawn_01"
+            "2"    "monkey_king_monkey_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "monkey_king_monkey_death_01"
+            "2"    "monkey_king_monkey_death_02"
+        }
+        "move"    
+        {
+            "1"    "monkey_king_monkey_move_01"
+            "2"    "monkey_king_monkey_move_02"
+        }
+        "cast"    
+        {
+            "1"    "monkey_king_monkey_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "monkey_king_monkey_rare_01"
+            "2"    "monkey_king_monkey_rare_02"
+        }
+    }
+    "models/heroes/pangolier/pangolier.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "pangolin_pangolin_spawn_01"
+            "2"    "pangolin_pangolin_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "pangolin_pangolin_death_01"
+            "2"    "pangolin_pangolin_death_02"
+        }
+        "move"    
+        {
+            "1"    "pangolin_pangolin_move_01"
+            "2"    "pangolin_pangolin_move_02"
+        }
+        "cast"    
+        {
+            "1"    "pangolin_pangolin_cast_01"
+            "2"    "pangolin_pangolin_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "pangolin_pangolin_rare_01"
+            "2"    "pangolin_pangolin_rare_02"
+        }
+    }
+    "models/heroes/dark_willow/dark_willow.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "dark_willow_sylph_spawn_01"
+            "2"    "dark_willow_sylph_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "dark_willow_sylph_death_01"
+            "2"    "dark_willow_sylph_death_02"
+        }
+        "move"    
+        {
+            "1"    "dark_willow_sylph_move_01"
+            "2"    "dark_willow_sylph_move_02"
+        }
+        "cast"    
+        {
+            "1"    "dark_willow_sylph_cast_01"
+            "2"    "dark_willow_sylph_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "dark_willow_sylph_rare_01"
+            "2"    "dark_willow_sylph_rare_02"
+        }
+    }
+    "models/heroes/grimstroke/grimstroke.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "grimstroke_grimstroke_spawn_01_02"
+            "2"    "grimstroke_grimstroke_spawn_03_02"
+            "3"    "grimstroke_grimstroke_spawn_16_02"
+        }
+        "death"    
+        {
+            "1"    "grimstroke_grimstroke_death_01"
+            "2"    "grimstroke_grimstroke_death_02"
+        }
+        "move"    
+        {
+            "1"    "grimstroke_grimstroke_move_01"
+            "2"    "grimstroke_grimstroke_move_02"
+        }
+        "cast"    
+        {
+            "1"    "grimstroke_grimstroke_cast_01"
+            "2"    "grimstroke_grimstroke_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "grimstroke_grimstroke_rare_02_02"
+            "2"    "grimstroke_grimstroke_rare_04_02"
+            "3"    "grimstroke_grimstroke_rare_05_02"
+            "4"    "grimstroke_grimstroke_rare_06_02"
+            "5"    "grimstroke_grimstroke_rare_07_02"
+            "6"    "grimstroke_grimstroke_rare_08_02"
+            "7"    "grimstroke_grimstroke_rare_09_02"
+            "8"    "grimstroke_grimstroke_rare_11_02"
+            "9"    "grimstroke_grimstroke_rare_14_02"
+        }
+    }
+    "models/heroes/mars/mars.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "mars_mars_spawn_01"
+            "2"    "mars_mars_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "mars_mars_death_01"
+            "2"    "mars_mars_death_02"
+        }
+        "move"    
+        {
+            "1"    "mars_mars_move_01"
+            "2"    "mars_mars_move_02"
+        }
+        "cast"    
+        {
+            "1"    "mars_mars_cast_01"
+            "2"    "mars_mars_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "mars_mars_rare_full_02"
+            "2"    "mars_mars_drop_rare_01"
+            "3"    "mars_mars_drop_rare_02"
+        }
+    }
+    "models/heroes/void_spirit/void_spirit.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "void_spirit_voidspir_spawn_01"
+            "2"    "void_spirit_voidspir_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "void_spirit_voidspir_death_01"
+            "2"    "void_spirit_voidspir_death_02"
+        }
+        "move"    
+        {
+            "1"    "void_spirit_voidspir_move_01"
+            "2"    "void_spirit_voidspir_move_02"
+        }
+        "cast"    
+        {
+            "1"    "void_spirit_voidspir_cast_01"
+            "2"    "void_spirit_voidspir_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "void_spirit_voidspir_drop_rare_01"
+            "2"    "void_spirit_voidspir_drop_rare_02"
+        }
+    }
+    "models/heroes/snapfire/snapfire.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "snapfire_snapfire_spawn_01"
+            "2"    "snapfire_snapfire_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "snapfire_snapfire_death_01"
+            "2"    "snapfire_snapfire_death_02"
+        }
+        "move"    
+        {
+            "1"    "snapfire_snapfire_move_01"
+            "2"    "snapfire_snapfire_move_02"
+        }
+        "cast"    
+        {
+            "1"    "snapfire_snapfire_cast_01"
+            "2"    "snapfire_snapfire_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "snapfire_snapfire_drop_rare_01"
+            "2"    "snapfire_snapfire_drop_rare_02"
+        }
+    }
+    "models/heroes/hoodwink/hoodwink.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "hoodwink_hoodwink_spawn_01_81_02"
+        }
+        "death"    
+        {
+            "1"    "hoodwink_hoodwink_death_02"
+        }
+        "move"    
+        {
+            "1"    "hoodwink_hoodwink_move_01"
+            "2"    "hoodwink_hoodwink_move_02"
+        }
+        "cast"    
+        {
+            "1"    "hoodwink_hoodwink_cast_01"
+            "2"    "hoodwink_hoodwink_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "hoodwink_hoodwink_drop_rare_01"
+        }
+    }
+    "models/heroes/dawnbreaker/dawnbreaker.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "dawnbreaker_valora_spawn_01"
+            "2"    "dawnbreaker_valora_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "dawnbreaker_valora_death_01"
+            "2"    "dawnbreaker_valora_death_02"
+        }
+        "move"    
+        {
+            "1"    "dawnbreaker_valora_move_01"
+            "2"    "dawnbreaker_valora_move_02"
+        }
+        "cast"    
+        {
+            "1"    "dawnbreaker_valora_cast_01"
+            "2"    "dawnbreaker_valora_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "dawnbreaker_valora_drop_rare_01"
+            "2"    "dawnbreaker_valora_drop_rare_02"
+        }
+    }
+    "models/heroes/marci/marci_base.vmdl"    
+    {
+        "spawn"    
+        {
+        }
+        "death"    
+        {
+        }
+        "move"    
+        {
+            "1"    "marci_marci_move_2"
+        }
+        "cast"    
+        {
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/primal_beast/primal_beast_base.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "primal_beast_primal_spawn_01"
+            "2"    "primal_beast_primal_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "primal_beast_primal_death_01"
+            "2"    "primal_beast_primal_death_02"
+        }
+        "move"    
+        {
+            "1"    "primal_beast_primal_move_01"
+            "2"    "primal_beast_primal_move_02"
+        }
+        "cast"    
+        {
+        }
+        "rare"    
+        {
+        }
+    }
+    "models/heroes/muerta/muerta_base.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "muerta_eth_muerta_spawn_01"
+            "2"    "muerta_eth_muerta_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "muerta_eth_muerta_death_01"
+            "2"    "muerta_eth_muerta_death_02"
+        }
+        "move"    
+        {
+            "1"    "muerta_eth_muerta_move_01"
+            "2"    "muerta_eth_muerta_move_02"
+        }
+        "cast"    
+        {
+            "1"    "muerta_eth_muerta_cast_01"
+            "2"    "muerta_eth_muerta_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "muerta_eth_muerta_drop_rare_01"
+            "2"    "muerta_eth_muerta_drop_rare_02"
+        }
+    }
+    "models/heroes/ringmaster/ringmaster_base.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "ringmaster_ringmaster_spawn_01_02"
+        }
+        "death"    
+        {
+            "1"    "ringmaster_ringmaster_death_01"
+            "2"    "ringmaster_ringmaster_death_02"
+        }
+        "move"    
+        {
+            "1"    "ringmaster_ringmaster_move_01"
+            "2"    "ringmaster_ringmaster_move_02"
+        }
+        "cast"    
+        {
+            "1"    "ringmaster_ringmaster_cast_01"
+            "2"    "ringmaster_ringmaster_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "ringmaster_ringmaster_drop_rare_01"
+            "2"    "ringmaster_ringmaster_drop_rare_02"
+        }
+    }
+    "models/heroes/kez/kez_base.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "kez_kez_spawn_01"
+            "2"    "kez_kez_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "kez_kez_death_01"
+            "2"    "kez_kez_death_02"
+        }
+        "move"    
+        {
+            "1"    "kez_kez_move_01"
+            "2"    "kez_kez_move_02"
+        }
+        "cast"    
+        {
+            "1"    "kez_kez_cast_01"
+            "2"    "kez_kez_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "kez_kez_drop_rare_01"
+            "2"    "kez_kez_drop_rare_02"
+        }
+    }
+    "models/heroes/bard/bard_frog_base.vmdl"    
+    {
+        "spawn"    
+        {
+            "1"    "largo_largo_spawn_01"
+            "2"    "largo_largo_spawn_02"
+        }
+        "death"    
+        {
+            "1"    "largo_largo_death_01"
+            "2"    "largo_largo_death_02"
+        }
+        "move"    
+        {
+            "1"    "largo_largo_jam_move_01"
+            "2"    "largo_largo_jam_move_02"
+        }
+        "cast"    
+        {
+            "1"    "largo_largo_cast_01"
+            "2"    "largo_largo_cast_02"
+        }
+        "rare"    
+        {
+            "1"    "largo_largo_drop_rare_01"
+            "2"    "largo_largo_drop_rare_02"
+        }
+    }
+}

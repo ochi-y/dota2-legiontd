@@ -1,0 +1,185 @@
+"DOTAUnits"    
+{
+    "legiontd_marci"    
+    {
+        "Model"    "models/heroes/marci/marci_base.vmdl"
+        "BaseClass"    "npc_dota_creature"
+        "SoundSet"    "Hero_Marci"
+        "Level"    "1"
+        "ModelScale"    "1"
+        "ArmorPhysical"    "0"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin"    "29"
+        "AttackDamageMax"    "33"
+        "AttackRate"    "1.700000"
+        "BaseAttackSpeed"    "100"
+        "AttackAnimationPoint"    "0.300000"
+        "AttackAcquisitionRange"    "600"
+        "AttackRange"    "150"
+        "ProjectileModel"    "particles/base_attacks/ranged_badguy.vpcf"
+        "ProjectileSpeed"    "0"
+        "RingRadius"    "70"
+        "HealthBarOffset"    "200"
+        "BountyXP"    "0"
+        "BountyGoldMin"    "0"
+        "BountyGoldMax"    "0"
+        "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"    "315"
+        "MovementTurnRate"    "0.900000"
+        "StatusHealth"    "1000"
+        "StatusHealthRegen"    "2"
+        "StatusMana"    "300"
+        "StatusManaRegen"    "0.0"
+        "VisionDaytimeRange"    "1400"
+        "VisionNighttimeRange"    "800"
+        "AllGoldCost"    "150"
+        "AllFoodCost"    "1"
+        "AttackSpeedActivityModifiers"    
+        {
+            "fast"    "180"
+            "faster"    "250"
+        }
+        "HasAggressiveStance"    "0"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "777"
+                }
+                "2"    
+                {
+                    "ItemDef"    "778"
+                }
+                "3"    
+                {
+                    "ItemDef"    "779"
+                }
+                "4"    
+                {
+                    "ItemDef"    "780"
+                }
+            }
+            "HPGain"    "1000"
+            "DamageGain"    "31"
+            "ArmorGain"    "0"
+            "MagicResistGain"    "0"
+            "MoveSpeedGain"    "0"
+            "BountyGain"    "0"
+            "XPGain"    "0"
+        }
+        "DpsPerGold"    "0.121569"
+        "HealthPerGold"    "6.666667"
+        "AttackMinMax"    "0.0645"
+        "ConstructionSize"    "2"
+        "BlockPathingSize"    "0"
+        "DisableTurning"    "1"
+        "Disarmed"    "1"
+        "noHealthBar"    "1"
+        "OverrideBuildingGhost"    "building_ghost"
+        "Ability1"    "sell_building"
+        "Ability2"    "upgrade_legiontd_marci_lv2"
+        "Ability3"    "legiontd_companion_run"
+        "Ability4"    ""
+        "Ability5"    ""
+        "Ability6"    ""
+        "Ability7"    ""
+        "Ability8"    ""
+    }
+    "legiontd_marci_lv2"    
+    {
+        "Model"    "models/heroes/marci/marci_base.vmdl"
+        "BaseClass"    "npc_dota_creature"
+        "SoundSet"    "Hero_Marci"
+        "Level"    "1"
+        "ModelScale"    "1"
+        "ArmorPhysical"    "0"
+        "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+        "AttackDamageMin"    "29"
+        "AttackDamageMax"    "33"
+        "AttackRate"    "1.700000"
+        "BaseAttackSpeed"    "100"
+        "AttackAnimationPoint"    "0.300000"
+        "AttackAcquisitionRange"    "600"
+        "AttackRange"    "150"
+        "ProjectileModel"    "particles/base_attacks/ranged_badguy.vpcf"
+        "ProjectileSpeed"    "0"
+        "RingRadius"    "70"
+        "HealthBarOffset"    "200"
+        "BountyXP"    "0"
+        "BountyGoldMin"    "0"
+        "BountyGoldMax"    "0"
+        "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"    "315"
+        "MovementTurnRate"    "0.900000"
+        "StatusHealth"    "1000"
+        "StatusHealthRegen"    "2"
+        "StatusMana"    "300"
+        "StatusManaRegen"    "0.0"
+        "VisionDaytimeRange"    "1400"
+        "VisionNighttimeRange"    "800"
+        "AllGoldCost"    "350"
+        "AllFoodCost"    "2"
+        "AttackSpeedActivityModifiers"    
+        {
+            "fast"    "180"
+            "faster"    "250"
+        }
+        "HasAggressiveStance"    "0"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "27549"
+                }
+                "2"    
+                {
+                    "ItemDef"    "28244"
+                }
+                "3"    
+                {
+                    "ItemDef"    "28243"
+                }
+                "4"    
+                {
+                    "ItemDef"    "28217"
+                }
+                "5"    
+                {
+                    "ItemDef"    "32637"
+                }
+                "6"    
+                {
+                    "ItemDef"    "32638"
+                }
+            }
+            "HPGain"    "1000"
+            "DamageGain"    "31"
+            "ArmorGain"    "0"
+            "MagicResistGain"    "0"
+            "MoveSpeedGain"    "0"
+            "BountyGain"    "0"
+            "XPGain"    "0"
+        }
+        "DpsPerGold"    "0.052101"
+        "HealthPerGold"    "2.857143"
+        "AttackMinMax"    "0.0645"
+        "ConstructionSize"    "2"
+        "BlockPathingSize"    "0"
+        "DisableTurning"    "1"
+        "Disarmed"    "1"
+        "noHealthBar"    "1"
+        "OverrideBuildingGhost"    "building_ghost"
+        "Ability1"    "sell_building"
+        "Ability2"    ""
+        "Ability3"    ""
+        "Ability4"    ""
+        "Ability5"    ""
+        "Ability6"    ""
+        "Ability7"    ""
+        "Ability8"    ""
+    }
+}

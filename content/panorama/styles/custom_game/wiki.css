@@ -1,0 +1,596 @@
+.wikiRoot {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#wikiPanel {
+    width: 100%;
+    height: 100%;
+    /* flow-children: down;
+    background-image: url("file://{images}/custom_game/load2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+}
+
+#wikiPanelBg {
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+    
+    /* flow-children: down; */
+    /* background-image: url("file://{images}/custom_game/load2.png");
+    background-size: 100%;
+    blur: gaussian(2);
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    ignore-parent-flow:  true;
+}
+
+.Hidden {
+    visibility: collapse;
+}
+
+#closeBtn {
+    background-image: url("file://{images}/custom_game/emojione-monotone_cross-mark.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    width: 64px;
+    height: 64px;
+    align: right top;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+#closeBtn:hover {
+    brightness: 2.4;
+}
+
+#wikiPanelContent {
+    width: 100%;
+    height: 100%;
+    flow-children: down;
+}
+
+#topMenu {
+    width: 100%;
+    height: 100px;
+    flow-children: right;
+    /* border: 3px solid rgb(75, 163, 235); */
+}
+
+.topButton {
+    background-color: #0000004d;
+    border: 1px solid #27272771;
+    height: 100px;
+    width: fill-parent-flow(1.0);
+    transition-property: background-color, border, color;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+}
+
+.topButton Label {
+    horizontal-align: center;
+    vertical-align: middle;
+    color: #e8e9e9;
+    font-size: 32px;
+    /* text-transform: uppercase; */
+    font-family: defaultFont;
+    font-weight: normal;
+    text-overflow: shrink;
+    letter-spacing: 1px;
+}
+
+.topButton:hover {
+    /* background-color: gradient( linear, 0% 0%, 70% 0%, from( #676b70), to( #3e4144)); */
+    border: 1px solid #686b70;
+}
+
+.topButton:hover Label {
+    color: #FFF;
+}
+
+.topButton:active {
+    background-color: #7E94B1;
+    pre-transform-scale2d: 1.03;
+}
+
+#contentPanelList {
+    /* background-color: white; */
+    width: 100%;
+    height: 100%;
+    margin-top: 4px;
+    border: 1px solid rgb(62, 62, 62);
+}
+
+.KingAbilityList {
+    flow-children: right-wrap;
+    width: 100%;
+}
+
+.GameplayValues {
+    color: white;
+}
+
+.WikiTitle {
+    color: white;
+    padding: 0px 80px;
+    font-size: 100px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+}
+
+.CommandsTitle {
+    color: white;
+    padding: 0px 80px;
+    font-size: 60px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+    margin-top: 40px;
+}
+
+.KingAbilityDesc {
+    width: fill-parent-flow (1.0);
+    padding: 4px;
+    color: rgb(115, 141, 189);
+    min-height: 100px;
+    margin-left: 1px;
+    background-color: gradient( linear, 0% 0%, 100% 0%, from( #000000ff), to( #00000000));
+}
+
+.KingAbilityBlock {
+    margin-top: 20px;
+    flow-children: down;
+    padding: 0 100px;
+    width: 33%;
+    width: 100%;
+}
+
+.padd_left_5 {
+    padding-left: 5px;
+}
+
+.KingAbilityCardSub {
+    flow-children: right;
+}
+
+.KingAbilityName {
+    height: 30px;
+    width: 100%;
+    background-color: gradient(linear, 0% 0%, 100% 00%, from(#b14234), to(#00000000));
+    margin-bottom: 1px;
+}
+
+.KingAbilityName Label {
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+    text-shadow: 1px 1px 1px rgba(9, 9, 9, 0.9);
+}
+
+.KingAbilityCardSub DOTAAbilityImage {
+    height: 100px;
+    width: 100px;
+}
+
+.KingAbilityCard {
+    width: 33%;
+    flow-children: down;
+    padding: 2px;
+}
+
+.KingAbilityTitle {
+    color: white;
+    padding: 0px 0px;
+    font-size: 50px;
+}
+
+.contentPanelBottom {
+    width: 100%;
+    height: 200px;
+}
+
+.WikiDesc {
+    color: rgb(222, 222, 222);
+    padding: 0px 80px;
+    font-size: 30px;
+}
+
+.contentPanel {
+    width: 100%;
+    height: 100%;
+    overflow: squish scroll;
+    flow-children: down;
+    background-color: #000000ed;
+}
+
+.classButton:hover {
+    background-color: rgb(161, 26, 26);
+}
+
+.contentPanelSub {
+    horizontal-align: center;
+    width: fit-children;
+}
+
+#SummonsPanelSub {
+    flow-children: right-wrap;
+}
+
+#WavesPanelSub {
+    flow-children: right-wrap;
+}
+
+#BuildersPanelSub {
+    margin-top: 10px;
+    flow-children: right-wrap;
+}
+
+.UnitCard {
+    border: 2px solid black;
+    width: 300px;
+    min-height: 200px;
+    flow-children: down;
+    margin: 1px;
+    background-color: #10171c;
+    background-image: url("file://{images}/custom_game/hud/ability_tooltip.png");
+    background-repeat: no-repeat;
+    background-position: 0px -2px;
+    padding-bottom: 15px;
+}
+
+.UnitCardContent {
+    margin-left: 20px;
+    margin-right: 20px;
+    flow-children: down;
+    width: 100%;
+}
+
+.UnitCardHeader {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 7px;
+}
+
+.UnitCardHeader Label {
+    margin-left: 2px;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    horizontal-align: center;
+}
+
+.UnitCardContent DOTAAbilityImage {
+    width: 80px;
+    horizontal-align: center;
+}
+
+.UnitCardContent DOTAScenePanel {
+    width: 80px;
+    horizontal-align: center;
+}
+
+.UnitCardContent .ArmorAndAttack {
+    flow-children: right;
+}
+
+.UnitCardContent .ArmorAndAttack DOTAAbilityImage {
+    width: 40px;
+}
+
+
+
+.AttrRow {
+    width: 100%;
+    height: 20px;
+}
+
+.AttrHealth {
+    width: 100%;
+    margin-top: 15px;
+    background-color: gradient(linear, 0% 00%, 100% 00%, from(#286323), to(#7AF03C));
+    padding: 0px 1px;
+}
+
+.AttrHealth Label {
+    vertical-align: middle;
+    font-size: 15px;
+    color: white;
+}
+
+.AttrHealthText1 {
+    horizontal-align: left;
+}
+
+.AttrHealthText2 {
+    horizontal-align: center;
+}
+
+.AttrHealthText3 {
+    horizontal-align: right;
+}
+
+.AttrMana {
+    width: 100%;
+    margin-top: 1px;
+    background-color: gradient(linear, 0% 00%, 100% 00%, from(#1056DB), to(#73F5FE));
+    padding: 0px 1px;
+    margin-bottom: 1px;
+}
+
+.AttrMana Label {
+    vertical-align: middle;
+    font-size: 15px;
+    color: white;
+}
+
+.AttrMana .AttrManaText1 {
+    horizontal-align: left;
+}
+
+.AttrMana .AttrManaText2 {
+    horizontal-align: center;
+}
+
+.AttrMana .AttrManaText3 {
+    horizontal-align: right;
+}
+
+.UnitCard .AttrLeftPanel {
+    width: 140px;
+    height: 100%;
+}
+
+.UnitCard .AttrRightPanel {
+    height: 100%;
+    width: 100%;
+}
+
+.UnitCard .AttrLabelLeft {
+    font-size: 15px;
+    color: #b9b9b9;
+    vertical-align: middle;
+}
+
+.UnitCard .AttrLabelRight {
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.AttrRow1 {
+    width: 100%;
+    height: 25px;
+    flow-children: right;
+    background-color: #2b2b2b;
+    padding: 0px 1px;
+}
+
+#abilityImage {
+    width: 80px;
+    height: 80px;
+    horizontal-align: center;
+}
+
+.AttrRow2 {
+    width: 100%;
+    height: 25px;
+    flow-children: right;
+    background-color: #131313;
+    padding: 0px 1px;
+}
+
+.ArmorRow DOTAAbilityImage {
+    horizontal-align: right;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.ArmorRow Image {
+    horizontal-align: right;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.AttackRow DOTAAbilityImage {
+    horizontal-align: right;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.AttackRow Image {
+    horizontal-align: right;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.LumberRow .lumber_icon {
+    width: 20px;
+    height: 15px;
+    horizontal-align: right;
+    vertical-align: center;
+    margin-right: 5px;
+}
+
+.LumberRow .gold_icon {
+    width: 20px;
+    height: 20px;
+    horizontal-align: right;
+    vertical-align: center;
+    margin-right: 5px;
+}
+
+.LumberRow .food_icon {
+    width: 20px;
+    height: 18px;
+    horizontal-align: right;
+    vertical-align: center;
+    margin-right: 5px;
+}
+
+.IncomeRow Image {
+    width: 18px;
+    height: 18px;
+    horizontal-align: right;
+    vertical-align: center;
+}
+
+.AttrRow1 .AttrRightPanel {
+    flow-children: down;
+}
+
+.AbilityItem {
+    height: 25px;
+    min-width: 40px;
+    flow-children: right;
+}
+
+.AbilityItem Label {
+    vertical-align: middle;
+    font-size: 15px;
+    color: rgb(227, 226, 226);
+    margin-left: 5px;
+}
+
+.AbilityRow {
+    height: fit-children;
+    min-height: 25px;
+}
+
+.AbilityRow .AttrLeftPanel {
+    height: 100%;
+}
+
+.AbilityRow .AttrRightPanel {
+    height: fit-children;
+    padding: 5px 0px;
+    flow-children: down;
+}
+
+.AbilityRow .AbilityItem DOTAAbilityImage {
+    width: 25px;
+    background-color: white;
+}
+
+.margint_top_1 {
+    margin-top: 1px;
+}
+
+.margint_top_2 {
+    margin-top: 1px;
+}
+
+.margint_top_3 {
+    margin-top: 1px;
+}
+
+#CustomPrecache {
+    visibility: collapse;
+    background-image: url("file://{images}/custom_game/waves/wave_crab_1.png");
+    background-image: url("file://{images}/custom_game/waves/wave_murloc_2.png");
+    background-image: url("file://{images}/custom_game/waves/wave_scorpion_3.png");
+    background-image: url("file://{images}/custom_game/waves/wave_quilbeast_4.png");
+    background-image: url("file://{images}/custom_game/waves/wave_hawk_5.png");
+    background-image: url("file://{images}/custom_game/waves/wave_rock_golem_6.png");
+    background-image: url("file://{images}/custom_game/waves/wave_satyr_7.png");
+    background-image: url("file://{images}/custom_game/waves/wave_aoclyte_8.png");
+    background-image: url("file://{images}/custom_game/waves/wave_zombie_9.png");
+    background-image: url("file://{images}/custom_game/waves/wave_draenei_chieftain_10.png");
+    background-image: url("file://{images}/custom_game/waves/wave_clockwerk_goblin_11.png");
+    background-image: url("file://{images}/custom_game/waves/wave_siren_12.png");
+    background-image: url("file://{images}/custom_game/waves/wave_couatl_13.png");
+    background-image: url("file://{images}/custom_game/waves/wave_tuskar_warrior_14.png");
+    background-image: url("file://{images}/custom_game/waves/wave_centaur_15.png");
+    background-image: url("file://{images}/custom_game/waves/wave_salamander_16.png");
+    background-image: url("file://{images}/custom_game/waves/wave_flesh_golem_17.png");
+    background-image: url("file://{images}/custom_game/waves/wave_sludge_flinger_18.png");
+    background-image: url("file://{images}/custom_game/waves/wave_gaint_spider_19.png");
+    background-image: url("file://{images}/custom_game/waves/wave_dragon_turtle_20.png");
+    background-image: url("file://{images}/custom_game/waves/wave_hippogryph_21.png");
+    background-image: url("file://{images}/custom_game/waves/wave_mammoth_22.png");
+    background-image: url("file://{images}/custom_game/waves/wave_wildkin_23.png");
+    background-image: url("file://{images}/custom_game/waves/wave_revenant_24.png");
+    background-image: url("file://{images}/custom_game/waves/wave_succubus_25.png");
+    background-image: url("file://{images}/custom_game/waves/wave_myrmidon_26.png");
+    background-image: url("file://{images}/custom_game/waves/wave_doom_guard_27.png");
+    background-image: url("file://{images}/custom_game/waves/wave_juggernaut_28.png");
+    background-image: url("file://{images}/custom_game/waves/wave_frost_wyrm_29.png");
+    background-image: url("file://{images}/custom_game/waves/wave_magnataur_30.png");
+    background-image: url("file://{images}/custom_game/waves/wave_legion_lord_31.png");
+    background-image: url("file://{images}/custom_game/BTNAttack-Reforged.png");
+    background-image: url("file://{images}/custom_game/BTNImprovedBows-Reforged.png");
+}
+
+#builderList {
+    flow-children: right-wrap;
+    margin: 0px 10px;
+    horizontal-align: center;
+}
+
+.builderIcon {
+    flow-children: down;
+    margin: 2px;
+}
+
+.BuilderTitle {
+    padding: 0 100px;
+    font-size: 90px;
+    color: white;
+}
+
+.BuilderDesc {
+    padding: 0 100px;
+    font-size: 30px;
+    color: rgb(211, 211, 211);
+}
+
+#BuildersPanel {
+    flow-children: down;
+}
+
+.builderIcon Label {
+    horizontal-align: center;
+}
+
+.builderButton DOTAHeroImage {
+    width: 200px;
+    height: 107px;
+}
+
+.builderButton DOTAScenePanel:active {
+    pre-transform-scale2d: 1.05;
+}
+
+.builderIcon Button {
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+}
+
+.builderIcon Button:hover {
+    brightness: 2;
+}
+
+.builderIcon Button:active {
+    pre-transform-scale2d: 1.1;
+}
+
+.builderName {
+    color: white;
+}

@@ -1,0 +1,16 @@
+
+
+
+#base "vo_list_gen.txt"  
+
+"DOTA2"
+{
+	"modelMapping"
+	{
+		"models/heroes/muerta/muerta_ult.vmdl" "models/heroes/muerta/muerta_base.vmdl"
+		"models/items/razor/razor_arcana/razor_arcana.vmdl" "models/heroes/razor/razor.vmdl"
+		"models/items/faceless_void/faceless_void_arcana/faceless_void_arcana_base.vmdl" "models/heroes/faceless_void/faceless_void.vmdl"
+		"models/heroes/mirana_persona/mirana_persona_base.vmdl" "models/heroes/mirana/mirana.vmdl"
+		"models/creeps/axe_bare/axe_bare_custom_game.vmdl" "models/heroes/axe/axe.vmdl"
+	}
+}

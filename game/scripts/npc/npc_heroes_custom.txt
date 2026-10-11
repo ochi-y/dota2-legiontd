@@ -1,0 +1,828 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_target_dummy"
+	{
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+	}
+
+	"npc_dota_hero_wisp"
+	{
+		"override_hero"                          "npc_dota_hero_wisp"
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+		
+		
+	"Ability1"			"ability_invulnerable"
+		"Ability2"			""
+		"Ability3"			""
+		"Ability4"        	""
+		"Ability5"        	""
+		"Ability6"         	""
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         ""
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"Facets"
+		{
+		}
+		
+	}
+
+	//beast
+	"npc_dota_hero_beastmaster"
+	{
+		"override_hero"                          "npc_dota_hero_beastmaster"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+		
+	"Ability1"			"build_beast_gnoll_warrior"
+		"Ability2"			"build_beast_ogre_basher"
+		"Ability3"			"build_beast_ogre_harpy"
+		"Ability4"        	"build_beast_ogre_troll_fighter"
+		"Ability5"        	"build_beast_ogre_grizzly"
+		"Ability6"         	"build_beast_ogre_spawn_of_dragon"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         "hero_ambient_effects"
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//element
+	"npc_dota_hero_storm_spirit"
+	{
+		"override_hero"                          "npc_dota_hero_storm_spirit"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+	"Ability1"			"build_element_proton"
+		"Ability2"			"build_element_aqua_spirit"
+		"Ability3"			"build_element_watcher"
+		"Ability4"        	"build_element_mudman"
+		"Ability5"        	"build_element_disciple"
+		"Ability6"         	"build_element_seer_of_darkness"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//paladin
+	"npc_dota_hero_omniknight"
+	{
+		"override_hero"                          "npc_dota_hero_omniknight"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+
+		"Ability1"			"build_paladin_peasant"
+		"Ability2"			"build_paladin_archer"
+		"Ability3"			"build_paladin_footman"
+		"Ability4"        	"build_paladin_priest"
+		"Ability5"        	"build_paladin_knight"
+		"Ability6"         	"build_paladin_dragon_hawk"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+	
+	}
+	//goblin
+	"npc_dota_hero_tinker"
+	{
+		"override_hero"                          "npc_dota_hero_tinker"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+	"Ability1"			"build_goblin_small_land_mine"
+		"Ability2"			"build_goblin_geomancer"
+		"Ability3"			"build_goblin_machine_turret"
+		"Ability4"        	"build_goblin_flying_machine"
+		"Ability5"        	"build_goblin_goblin_alchemist"
+		"Ability6"         	"build_goblin_steamroller"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+	
+	}
+	//nature
+	"npc_dota_hero_leshrac"
+	{
+		"override_hero"                          "npc_dota_hero_leshrac"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+		"Ability1"			"build_nature_ent"
+		"Ability2"			"build_nature_ranger"
+		"Ability3"			"build_nature_sprite"
+		"Ability4"        	"build_nature_tree_of_travel"
+		"Ability5"        	"build_nature_halfbreed"
+		"Ability6"         	"build_nature_yggdrasil"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//ghost
+	"npc_dota_hero_necrolyte"
+	{
+		"override_hero"                          "npc_dota_hero_necrolyte"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+	"Ability1"			"build_ghost_specter"
+		"Ability2"			"build_ghost_wanderer"
+		"Ability3"			"build_ghost_phantom"
+		"Ability4"        	"build_ghost_outcast"
+		"Ability5"        	"build_ghost_apparition"
+		"Ability6"         	"build_ghost_dark_priest"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+	
+	}
+	//undead
+	"npc_dota_hero_muerta"
+	{
+		"override_hero"                          "npc_dota_hero_muerta"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+		"Ability1"			"build_undead_acolyte"
+		"Ability2"			"build_undead_ghoul"
+		"Ability3"			"build_undead_meta_wagon"
+		"Ability4"        	"build_undead_necromancer"
+		"Ability5"        	"build_undead_zombie"
+		"Ability6"         	"build_undead_guardian_of_death"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//mech
+	"npc_dota_hero_rattletrap"
+	{
+		"override_hero"                          "npc_dota_hero_rattletrap"
+
+		//"AbilityLayout"                          "12"
+		//"AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+	"Ability1"			"build_mech_peewee"
+		"Ability2"			"build_mech_infantry"
+		"Ability3"			"build_mech_captain"
+		"Ability4"        	"build_mech_tempest"
+		"Ability5"        	"build_mech_cyborg"
+		"Ability6"         	"build_mech_neotank"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//shadow
+	"npc_dota_hero_pugna"
+	{
+		"override_hero"                          "npc_dota_hero_pugna"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+	"Ability1"			"build_shadow_bone_warrior"
+		"Ability2"			"build_shadow_carrion_spitter"
+		"Ability3"			"build_shadow_gateguard"
+		"Ability4"        	"build_shadow_overseer"
+		"Ability5"        	"build_shadow_nightmare"
+		"Ability6"         	"build_shadow_lord_of_death"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//arctic
+	"npc_dota_hero_tusk"
+	{
+		"override_hero"                          "npc_dota_hero_tusk"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+                                                                                                                                                          
+		"Ability1"			"build_arctic_tuskarr"
+		"Ability2"			"build_arctic_frost_wolf"
+		"Ability3"			"build_arctic_ice_troll"
+		"Ability4"        	"build_arctic_polar_bear"
+		"Ability5"        	"build_arctic_wandigoo"
+		"Ability6"         	"build_arctic_young_frost_dragon"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+	
+	}
+	//marine
+	"npc_dota_hero_tidehunter"
+	{
+		"override_hero"                          "npc_dota_hero_tidehunter"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+		"Ability1"			"build_marine_hatchling"
+		"Ability2"			"build_marine_egg_sack"
+		"Ability3"			"build_marine_bottom_feeder"
+		"Ability4"        	"build_marine_mermaid"
+		"Ability5"        	"build_marine_komodo"
+		"Ability6"         	"build_marine_sea_giant"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//orc
+	"npc_dota_hero_juggernaut"
+	{
+		"override_hero"                          "npc_dota_hero_juggernaut"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+
+
+	"Ability1"			"build_orc_orc_warrior"
+		"Ability2"			"build_orc_orc_warlock"
+		"Ability3"			"build_orc_raider"
+		"Ability4"        	"build_orc_young_witch_doctor"
+		"Ability5"        	"build_orc_wyvern"
+		"Ability6"         	"build_orc_orc_warchief"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	//demi-human
+	"npc_dota_hero_kez"
+	{
+		"override_hero"                          "npc_dota_hero_kez"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+		
+	"Ability1"			"build_demi_human_goblin_scientist"
+		"Ability2"			"build_demi_human_servant"
+		"Ability3"			"build_demi_human_tribesman"
+		"Ability4"        	"build_demi_human_medicine_man"
+		"Ability5"        	"build_demi_human_harlot"
+		"Ability6"         	"build_demi_human_minotaur"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+		
+		"Facets"
+		{
+		}
+	}
+	//elf
+	"npc_dota_hero_puck"
+	{
+		"override_hero"                          "npc_dota_hero_puck"
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+	
+	"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+
+	"Ability1"			"build_elf_colt"
+		"Ability2"			"build_elf_novice"
+		"Ability3"			"build_elf_sentry"
+		"Ability4"        	"build_elf_prisoner"
+		"Ability5"        	"build_elf_druid"
+		"Ability6"         	"build_elf_moon_guard"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+	// 
+	//prophet
+	"npc_dota_hero_rubick"
+	{
+		"override_hero"                          "npc_dota_hero_rubick"
+
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		
+                                                                                                                                                          
+		"Ability1"			""
+		"Ability2"			""
+		"Ability3"			""
+		"Ability4"        	""
+		"Ability5"        	""
+		"Ability6"         	""
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+		
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+	}
+	//hybrid
+	"npc_dota_hero_morphling"
+	{
+		"Ability1"			"build_shape_shifter_tier_1"
+		"Ability2"			"build_shape_shifter_tier_2"
+		"Ability3"			"build_shape_shifter_tier_3"
+		"Ability4"        	"build_shape_shifter_tier_4"
+		"Ability5"        	"build_shape_shifter_tier_5"
+		"Ability6"         	"build_shape_shifter_tier_6"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+
+			"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+	}
+
+
+	"npc_dota_hero_terrorblade"
+	{
+		"override_hero"                          "npc_dota_hero_terrorblade"
+		// "AbilityLayout"                          "12"
+		// "AbilityTalentStart"                     "10"  
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementSpeed"		"550"
+
+		"Ability1"			"build_foulfell_spiderling"
+		"Ability2"			"build_foulfell_bandit"
+		"Ability3"			"build_foulfell_night_stalker"
+		"Ability4"        	"build_foulfell_medusa"
+		"Ability5"        	"build_foulfell_spectre"
+		"Ability6"         	"build_foulfell_golem_tower"
+		"Ability7"        	""
+		"Ability8"			""
+		"Ability9"			"" 
+		"Ability10"        	"" 
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         "ability_invulnerable"
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+
+		"AttributeBaseStrength"		"100"
+		"AttributeBaseAgility"		"100"
+		"AttributeBaseIntelligence"		"100"
+		"StatusManaRegen"	"100"
+
+		"Facets"
+		{
+		}
+		
+	}
+}

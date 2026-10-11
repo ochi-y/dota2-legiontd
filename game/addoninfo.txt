@@ -1,0 +1,37 @@
+"AddonInfo"
+{
+     "maps"                   " legiontd legiontd_2v2 legiontd_4v4 legiontd_solo "
+     "IsPlayable"             "1"
+     "legiontd"
+     {
+          "MaxPlayers"        "6"
+     }
+     "legiontd_4v4" 
+     {
+          "MaxPlayers"        "8"
+     }
+     "legiontd_2v2"
+     {
+          "MaxPlayers"        "4"
+     }
+     "legiontd_solo"
+     {
+          "MaxPlayers"        "2"
+     }
+     "Default_Keys"
+     {
+       
+     //    "01"
+     //    {
+     //        "Key"       "K"
+     //        "Command"   "CustomGameKeyK"
+     //        "Name"      "CustomGameKeyK"
+     //    }
+     //    "02"
+     //    {
+     //        "Key"       "T"
+     //        "Command"   "+CustomGameKeyT"
+     //        "Name"      "CustomGameKeyT"
+     //    }
+    }
+}

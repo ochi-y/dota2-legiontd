@@ -1,0 +1,17 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/overthrow_game_info.css" />
+		<include src="s2r://panorama/styles/custom_game/resource.css" />
+	</styles>
+	<Panel class="OverthrowGameInfo">
+		<Panel id="Title">
+			<Label id="TitleName" text="#addon_game_name" />
+		</Panel>
+		<Panel id="TipsRow" class="InfoRow">
+			<Label class="TipText" text="#game_info" html="true"/>
+		</Panel>
+		<!-- <Image id="laneInfo" class="laneInfo" src="file://{images}/custom_game/lane_info.png" hittest="false"/> -->
+	</Panel>
+</root>
+

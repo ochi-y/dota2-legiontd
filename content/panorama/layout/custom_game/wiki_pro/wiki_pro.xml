@@ -1,0 +1,316 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/layout/custom_game/wiki_pro/wiki_pro.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/meta.js" />
+        <include src="s2r://panorama/layout/custom_game/wiki_pro/wiki_pro.js" />
+    </scripts>
+    <snippets>
+
+    
+        <!-- Summoned unit list entry -->
+        <snippet name="SummonListItem">
+            <Button class="listItem" id="{s:unit_id}" onactivate="onSelectSummon('{s:unit_id}')">
+                <Image class="listItemIcon" src="{s:icon_path}" />
+                <Label class="listItemName" text="{s:unit_name}" />
+            </Button>
+        </snippet>
+
+        <!-- Wave list entry -->
+        <snippet name="WaveListItem">
+            <Button class="listItem waveItem" id="wave_{s:wave_num}" onactivate="onSelectWave({s:wave_num})">
+                <Label class="waveNumber" text="{s:wave_num}" />
+                <Label class="waveName" text="{s:wave_name}" />
+            </Button>
+        </snippet>
+
+        <!-- Builder list entry -->
+        <snippet name="BuilderListItem">
+            <Button class="listItem builderItem" id="{s:builder_id}" onactivate="onSelectBuilder('{s:builder_id}')">
+                <DOTAHeroImage class="builderIcon" heroname="{s:hero_name}" />
+                <Label class="listItemName" text="{s:builder_name}" />
+            </Button>
+        </snippet>
+
+        <!-- Ability entry -->
+        <snippet name="AbilityDisplay">
+            <Panel class="abilityDisplay">
+                <DOTAAbilityImage class="abilityIcon" abilityname="{s:ability_name}" showtooltip="true"/>
+                <Panel class="abilityInfo">
+                    <Label class="abilityName" text="{s:display_name}" />
+                    <Label class="abilityDesc" text="{s:description}" html="true" />
+                </Panel>
+            </Panel>
+        </snippet>
+
+        <!-- Attribute row -->
+        <snippet name="AttributeRow">
+            <Panel class="attributeRow {s:row_class}">
+                <Panel class="attrLabel">
+                    <Image class="attrIcon" src="{s:icon_path}" />
+                    <Label text="{s:label}" />
+                </Panel>
+                <Label class="attrValue" text="{s:value}" />
+            </Panel>
+        </snippet>
+    </snippets>
+
+
+    <Panel class="root" hittest="false">
+        <Panel id="wikiProRoot" class="wikiProRoot" hittest="true">
+            <!-- Translucent background overlay -->
+            <Panel id="wikiProOverlay" class="overlay" onactivate="onCloseWiki()" />
+
+            <!-- Main window -->
+            <Panel id="wikiProWindow" class="mainWindow" acceptsfocus="true" oncancel="onCloseWiki()">
+            <!-- Window header -->
+            <Panel class="windowHeader">
+                <Label class="windowTitle" text="#ui_wiki_pro" />
+                <!-- Close button -->
+                <Button id="wikiCloseBtn" class="wikiCloseBtn" onactivate="onCloseWiki()">
+                </Button>
+            </Panel>
+
+            <!-- Tab bar -->
+            <Panel class="tabBar">
+                <Button id="tabSummons" class="tabButton active" onactivate="switchTab('Summons')">
+                    <Label text="#ui_summons" />
+                </Button>
+                <Button id="tabWaves" class="tabButton" onactivate="switchTab('Waves')">
+                    <Label text="#ui_waves" />
+                </Button>
+                <Button id="tabBuilders" class="tabButton" onactivate="switchTab('Builders')">
+                    <Label text="#ui_builders" />
+                </Button>
+                <Button id="tabKing" class="tabButton" onactivate="switchTab('King')">
+                    <Label text="#ui_king" />
+                </Button>
+                <Button id="tabCommands" class="tabButton" onactivate="switchTab('Commands')">
+                    <Label text="#ui_commands" />
+                </Button>
+            </Panel>
+
+            <!-- Content area -->
+            <Panel class="contentArea">
+                <!-- Summons Tab -->
+                <Panel id="panelSummons" class="tabContent">
+                    <Panel class="masterDetail">
+                        <Panel class="listPanel">
+                            <Panel id="summonsList" class="itemList" />
+                        </Panel>
+                        <Panel class="detailPanel">
+                            <Panel id="summonDetail" class="unitDetail">
+                                <!-- 3D model -->
+                                <DOTAScenePanel id="summonScene" class="unitScene"
+                                    unit="npc_dota_roshan"
+                                    particleonly="false"
+                                    renderdeferred="true"
+                                    rotateonhover="false"
+                                    antialias="true" />
+
+                                <!-- Unit info -->
+                                <Panel class="unitInfo">
+                                    <!-- Unit name -->
+                                    <Label id="summonNameTitle" class="unitName" text="Unit Name" />
+
+                                    <!-- Base attributes -->
+                                    
+                                    <Panel class="attributesSection">
+                                        <Panel class="statusContainer">
+                                            <Label class="statusTitle" text="MAX HEALTH" />
+                                            <Panel id="summonHealth" class="healthBar">
+                                                <Label id="summonHealthValue" class="statusMainValue" text="0" />
+                                                <Label id="summonHealthRegen" class="statusRegenValue" text="+0" />
+                                            </Panel>
+                                        </Panel>
+                                        <Panel class="statusContainer">
+                                            <Label class="statusTitle" text="MAX MANA" />
+                                            <Panel id="summonMana" class="manaBar">
+                                                <Label id="summonManaValue" class="statusMainValue" text="0" />
+                                                <Label id="summonManaRegen" class="statusRegenValue" text="+0" />
+                                            </Panel>
+                                        </Panel>
+                                    </Panel>
+
+                                    <!-- Detailed attributes -->
+                                    <Panel id="summonAttributes" class="detailAttributes" />
+
+                                    <!-- Ability list -->
+
+                                    <Panel class="abilitiesSection">
+                                        <Label class="sectionTitle" text="#ui_abilities" />
+                                        <Panel id="summonAbilities" class="abilitiesList" />
+                                    </Panel>
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+
+                <!-- Waves Tab -->
+                <Panel id="panelWaves" class="tabContent Hidden">
+                    <Panel class="masterDetail">
+                        <Panel class="listPanel">
+                            <Panel id="wavesList" class="itemList waveList" />
+                        </Panel>
+                        <Panel class="detailPanel">
+                            <Panel id="waveDetail" class="unitDetail">
+                                <!-- 3D model -->
+                                <DOTAScenePanel id="waveScene" class="unitScene"
+                                    unit="npc_dota_roshan"
+                                    particleonly="false"
+                                    renderdeferred="true"
+                                    rotateonhover="false"
+                                    antialias="true" />
+
+                                <Panel class="unitInfo">
+                                    <!-- Wave name -->
+                                    <Label id="waveNameTitle" class="unitName" text="Wave Name" />
+
+                                    <Panel class="attributesSection">
+                                        <Panel class="statusContainer">
+                                            <Label class="statusTitle" text="MAX HEALTH" />
+                                            <Panel id="waveHealth" class="healthBar">
+                                                <Label id="waveHealthValue" class="statusMainValue" text="0" />
+                                                <Label id="waveHealthRegen" class="statusRegenValue" text="+0" />
+                                            </Panel>
+                                        </Panel>
+                                        <Panel class="statusContainer">
+                                            <Label class="statusTitle" text="MAX MANA" />
+                                            <Panel id="waveMana" class="manaBar">
+                                                <Label id="waveManaValue" class="statusMainValue" text="0" />
+                                                <Label id="waveManaRegen" class="statusRegenValue" text="+0" />
+                                            </Panel>
+                                        </Panel>
+                                    </Panel>
+
+                                    <Panel id="waveAttributes" class="detailAttributes" />
+
+                                    <Panel class="abilitiesSection">
+                                        <Label class="sectionTitle" text="#ui_abilities" />
+                                        <Panel id="waveAbilities" class="abilitiesList" />
+                                    </Panel>
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+
+                <!-- Builders Tab -->
+                <Panel id="panelBuilders" class="tabContent Hidden">
+                    <Panel class="masterDetail">
+                        <Panel class="listPanel">
+                            <Panel id="buildersList" class="itemList builderList" />
+                        </Panel>
+                        <Panel class="detailPanel">
+                            <Panel id="builderDetail" class="builderDetail">
+                                <!-- Fighter selection and details -->
+                                <Panel class="builderContentArea">
+                                    <!-- Unit list on the left -->
+                                    <Panel class="builderUnitsListPanel">
+                                        <Panel id="builderFightersList" class="itemList" />
+                                    </Panel>
+
+                                    <!-- Unit details on the right -->
+                                    <Panel class="builderUnitDetailPanel">
+                                        <Panel id="builderUnitDetail" class="unitDetail">
+                                            <!-- 3D model -->
+                                            <DOTAScenePanel id="builderUnitScene" class="unitScene"
+                                                unit="npc_dota_roshan"
+                                                particleonly="false"
+                                                renderdeferred="true"
+                                                rotateonhover="false"
+                                                antialias="true" />
+
+                                            <Panel class="unitInfo">
+                                                <!-- Unit name -->
+                                                <Label id="builderUnitNameTitle" class="unitName" text="Unit Name" />
+
+                                                <Panel class="attributesSection">
+                                                    <Panel class="statusContainer">
+                                                        <Label class="statusTitle" text="MAX HEALTH" />
+                                                        <Panel id="builderUnitHealth" class="healthBar">
+                                                            <Label id="builderUnitHealthValue" class="statusMainValue" text="0" />
+                                                            <Label id="builderUnitHealthRegen" class="statusRegenValue" text="+0" />
+                                                        </Panel>
+                                                    </Panel>
+                                                    <Panel class="statusContainer">
+                                                        <Label class="statusTitle" text="MAX MANA" />
+                                                        <Panel id="builderUnitMana" class="manaBar">
+                                                            <Label id="builderUnitManaValue" class="statusMainValue" text="0" />
+                                                            <Label id="builderUnitManaRegen" class="statusRegenValue" text="+0" />
+                                                        </Panel>
+                                                    </Panel>
+                                                </Panel>
+
+                                                <Panel id="builderUnitAttributes" class="detailAttributes" />
+
+                                                <Panel class="abilitiesSection">
+                                                    <Label class="sectionTitle" text="#ui_abilities" />
+                                                    <Panel id="builderUnitAbilities" class="abilitiesList" />
+                                                </Panel>
+                                            </Panel>
+                                        </Panel>
+                                    </Panel>
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+
+                <!-- King Tab -->
+                <Panel id="panelKing" class="tabContent Hidden">
+                    <Panel class="masterDetail">
+                        <Panel class="listPanel">
+                            <Panel class="itemList">
+                                <Button class="listItem active" id="kingUpgrades" onactivate="selectKingCategory('upgrades')">
+                                    <Label class="listItemName" text="#ui_upgrades" />
+                                </Button>
+                                <Button class="listItem" id="kingInnate" onactivate="selectKingCategory('innate')">
+                                    <Label class="listItemName" text="#ui_innate" />
+                                </Button>
+                                <Button class="listItem" id="kingAbilities" onactivate="selectKingCategory('abilities')">
+                                    <Label class="listItemName" text="#ui_abilities" />
+                                </Button>
+                            </Panel>
+                        </Panel>
+                        <Panel class="detailPanel">
+                            <Panel id="kingDetail" class="kingDetail">
+                                <Label id="kingCategoryTitle" class="categoryTitle" text="#ui_upgrades" />
+                                <Panel id="kingAbilitiesList" class="kingAbilitiesGrid" />
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+
+                <!-- Commands Tab -->
+                <Panel id="panelCommands" class="tabContent Hidden">
+                    <Panel class="masterDetail">
+                        <Panel class="listPanel">
+                            <Panel class="itemList">
+                                <Button class="listItem active" id="cmdGeneral" onactivate="selectCommandCategory('general')">
+                                    <Label class="listItemName" text="#ui_general_commands" />
+                                </Button>
+                                <Button class="listItem" id="cmdCheats" onactivate="selectCommandCategory('cheats')">
+                                    <Label class="listItemName" text="#ui_cheatcodes" />
+                                </Button>
+                                <Button class="listItem" id="cmdWhitelist" onactivate="selectCommandCategory('whitelist')">
+                                    <Label class="listItemName" text="#ui_whitelist_commands" />
+                                </Button>
+                            </Panel>
+                        </Panel>
+                        <Panel class="detailPanel">
+                            <Panel id="commandsDetail" class="commandsDetail">
+                                <Label id="commandsCategoryTitle" class="categoryTitle" text="#ui_general_commands" />
+                                <Panel id="commandsList" class="commandsList" />
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </Panel>
+        </Panel>
+    </Panel>
+</root>

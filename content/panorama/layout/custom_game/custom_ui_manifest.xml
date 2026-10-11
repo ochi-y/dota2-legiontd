@@ -1,0 +1,58 @@
+<root> 
+	<scripts>
+		<include src="s2r://panorama/layout/custom_game/main/custom_ui_manifest.js" />
+		
+		<include src="s2r://panorama/scripts/custom_game/util.js" />
+		<!-- <include src="s2r://panorama/scripts/custom_game/meta.js" /> -->
+		<include src="file://{resources}/scripts/playertables/playertables_base.js"/>
+		<include src="s2r://panorama/scripts/custom_game/move_camera.js" />
+		<include src="s2r://panorama/scripts/custom_game/display_error.js" />
+	</scripts>
+
+	<Panel>
+		<!-- CustomUIElements go here   -->
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/selection.xml"/>
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/barebones_hud_base.xml"/>
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/building_helper.xml" />
+		<!-- <CustomUIElement type="GameInfo"            layoutfile="file://{resources}/layout/custom_game/overthrow_game_info.xml"/> -->
+		
+		
+		<CustomUIElement type="GameSetup"           layoutfile="file://{resources}/layout/custom_game/team_select.xml"/>
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/gamemode_select.xml" />
+
+		<!-- <CustomUIElement type="EndScreen"  layoutfile="file://{resources}/layout/custom_game/multiteam_end_screen_x.xml"/> -->
+
+		<CustomUIElement type="Hud"  layoutfile="file://{resources}/layout/custom_game/multiteam_end_screen_x.xml"/>
+	
+		<!-- <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/give_resource.xml" />  -->
+		
+		<!-- <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/leaderboard.xml" /> -->
+
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/leaderboard/leaderboard.xml" />
+
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/wiki_pro/wiki_pro.xml" />
+
+
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/roundinfo.xml" /> 
+
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/resource.xml" /> 
+
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/top_buttons.xml" /> 
+
+
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/profile/profile.xml" /> 
+		
+		<!-- <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/skin/skin.xml" /> -->
+
+			<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/hud_main.xml" />
+
+
+		<!-- From Overthrow:
+        <CustomUIElement type="Hud"                 layoutfile="file://{resources}/layout/custom_game/overthrow_item_notification.xml"/>
+       <CustomUIElement type="HudTopBar"           layoutfile="file://{resources}/layout/custom_game/multiteam_top_scoreboard.xml"/>
+       
+        <CustomUIElement type="GameInfo"            layoutfile="file://{resources}/layout/custom_game/overthrow_game_info.xml"/>
+		 <CustomUIElement type="FlyoutScoreboard"    layoutfile="file://{resources}/layout/custom_game/multiteam_flyout_scoreboard.xml"/>
+		-->
+	</Panel>
+</root>

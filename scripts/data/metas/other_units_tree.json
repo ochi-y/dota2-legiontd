@@ -1,0 +1,139 @@
+{
+    "trees": [
+        {
+            "name": "foulfell_spiderling",
+            "upgrades": [
+                {
+                    "name": "foulfell_araknarok",
+                    "upgrades": [
+                        {
+                            "name": "foulfell_mechanical_spiderling",
+                            "upgrades": []
+                        },
+                        {
+                            "name": "foulfell_lycosidae_spiderling",
+                            "upgrades": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "foulfell_bandit",
+            "upgrades": [
+                {
+                    "name": "foulfell_elite_bandit",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "foulfell_night_stalker",
+            "upgrades": [
+                {
+                    "name": "foulfell_darkheart",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "foulfell_medusa",
+            "upgrades": [
+                {
+                    "name": "foulfell_death_adder",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "foulfell_spectre",
+            "upgrades": [
+                {
+                    "name": "foulfell_shadowveil",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "foulfell_golem_tower",
+            "upgrades": [
+                {
+                    "name": "foulfell_ancient_golem_tower",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "radiant_soldier",
+            "upgrades": [
+                {
+                    "name": "radiant_mars",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "radiant_shadow_shaman",
+            "upgrades": [
+                {
+                    "name": "radiant_marauder",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "radiant_juggernaut",
+            "upgrades": [
+                {
+                    "name": "radiant_blademaster",
+                    "upgrades": [
+                        {
+                            "name": "radiant_kez_katana",
+                            "upgrades": []
+                        },
+                        {
+                            "name": "radiant_kez_sai",
+                            "upgrades": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "radiant_relict",
+            "upgrades": [
+                {
+                    "name": "radiant_wukong",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "radiant_thunder_beast",
+            "upgrades": [
+                {
+                    "name": "radiant_storm_spirit",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "radiant_ember_spirit",
+            "upgrades": [
+                {
+                    "name": "radiant_ashes",
+                    "upgrades": []
+                }
+            ]
+        },
+        {
+            "name": "legiontd_marci",
+            "upgrades": [
+                {
+                    "name": "legiontd_marci_lv2",
+                    "upgrades": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "camera": {
+        "camera_1": 167,
+        "shot_camera": 56,
+        "hero_camera": 55,
+        "cardpackcamera": 6,
+        "herocamera": 5,
+        "shot_cameraA": 3,
+        "default_camera": 3,
+        "shot_cam": 2,
+        "camera_start": 2,
+        "test_camera": 1,
+        "radiant_camera": 1,
+        "dire_camera": 1,
+        "frontpage_camera": 1,
+        "hero_camera_main": 1,
+        "camera_0": 1,
+        "camera_top": 1,
+        "camera_bottom": 1,
+        "hero_camera_arcana": 1,
+        "bg_camera": 1
+    },
+    "map": {
+        "scenes/rank_divine_ambient": 26,
+        "scenes/rank_tier_ambient": 25,
+        "scenes/loadout_preview_rays": 12,
+        "backgrounds/accept_popup_test": 10,
+        "scenes/shining_default": 9,
+        "scenes/ui_card_to_dust": 7,
+        "scenes/ui_dust_button": 7,
+        "scenes/battlepass_ti6_header": 6,
+        "scenes/playercardpack": 6,
+        "scenes/item_received": 6,
+        "scenes/ui_dustingprogress": 6,
+        "scenes/ui_tier_max": 6,
+        "scenes/plus_logo": 5,
+        "scenes/battlepass_ti6/twoflags": 4,
+        "scenes/battlepass_ti6/queststart": 4,
+        "scenes/battlepass_ti6/aegis_rotate": 4,
+        "scenes/bluespotlight": 4,
+        "scenes/rank_tier_levelup": 3,
+        "scenes/hero_level_icon": 3,
+        "scenes/dota_plus_card_fx": 3,
+        "scenes/wintercompendium2016/queststart": 3,
+        "scenes/treasure_opened_generic": 2,
+        "scenes/plus_button": 2,
+        "backgrounds/spectate_background_default": 2,
+        "scenes/battlepass_ti7/arcana_vote_ti7": 2,
+        "backgrounds/hero_showcase_arcana_zeus": 2,
+        "backgrounds/hero_showcase_arc_warden": 2,
+        "backgrounds/dueling_fates_main_bg": 2,
+        "backgrounds/dueling_fates_main": 2,
+        "scenes/battlepass_ti7/aegis_rotate": 2,
+        "scenes/battlepass_ti8/aegis_rotate": 2,
+        "scenes/battlepass_ti8/rewardintro": 2,
+        "scenes/battle_pass/cavern_crawl_challenge_fx": 2,
+        "scenes/hud/levelupburst": 2,
+        "scenes/hud/healthbarburner": 2,
+        "scenes/pregame_dire_ambient": 2,
+        "scenes/hud/hero_relic_gem_fx": 2,
+        "scenes/red_godrays": 2,
+        "scenes/badge_level_up": 2,
+        "scenes/battlepass_ti6_rewardintro": 2,
+        "scenes/questline_reward_slardar": 2,
+        "scenes/questline_reward_ogre_magi": 2,
+        "scenes/questline_reward_luna": 2,
+        "scenes/questline_reward_kunkka": 2,
+        "scenes/battlepass_ti7/terrain_upsell": 2,
+        "scenes/battlepass_winter_rewardintro": 2,
+        "scenes/prestige_kunkka_shadow": 2,
+        "scenes/battlepass_ti7/wisp_arcana": 2,
+        "scenes/battlepass_ti8_header_undersea": 2,
+        "scenes/battlepass_ti8/dota_cavern_battlepass": 2,
+        "scenes/battlepass_ti8/prestige_lion": 2,
+        "scenes/campaign_winter2016_header": 2,
+        "backgrounds/dashboard_parallax_test": 1,
+        "scenes/find_match_status": 1,
+        "scenes/home_button": 1,
+        "backgrounds/test": 1,
+        "backgrounds/dotaplus_dashboard_background": 1,
+        "scenes/treasure_opening": 1,
+        "": 1,
+        "scenes/hero_relics_fx": 1,
+        "scenes/battle_cup/battle_cup_rotate_fall_2016": 1,
+        "scenes/play_searching": 1,
+        "scenes/battle_cup/battle_cup_text_burst": 1,
+        "scenes/battlepass_ti8/generic_uprays": 1,
+        "backgrounds/hero_showcase_arcana_pudge_2cells_bg": 1,
+        "backgrounds/hero_showcase_arcana_pudge_2cells": 1,
+        "backgrounds/hero_showcase_underlord_frontpage_cell": 1,
+        "backgrounds/hero_frontpage_grimstroke": 1,
+        "scenes/battlepass_ti7/battlepass_bundle": 1,
+        "scenes/battlepass_ti8/prestige_lion_frontpage": 1,
+        "backgrounds/underhollow_ad": 1,
+        "backgrounds/underhollow_ad_particles": 1,
+        "scenes/battlepass_ti8/battlepass_bundle_background": 1,
+        "scenes/battlepass_ti8/battlepass_bundle_foreground": 1,
+        "backgrounds/parallax_basemap": 1,
+        "scenes/cm_spinwheel": 1,
+        "scenes/darkmoon_spinwheel": 1,
+        "scenes/battle_pass/cavern_crawl_flare_fx": 1,
+        "scenes/hud/ability_draft_picker": 1,
+        "scenes/hud/autocasting": 1,
+        "scenes/inspect_hero_model_effect": 1,
+        "scenes/hud/current_champion": 1,
+        "backgrounds/pregame_phase": 1,
+        "scenes/versus_hline": 1,
+        "scenes/versus_godrays": 1,
+        "backgrounds/tower_showcase_radiant": 1,
+        "backgrounds/tower_showcase_dire": 1,
+        "scenes/hud/hero_relic_burst_generic_fx": 1,
+        "backgrounds/hero_showcase_juggernaut_arcana": 1,
+        "scenes/sparkles": 1,
+        "scenes/juggernaut_arcana_title": 1,
+        "backgrounds/hero_showcase_arcana_monkey_king": 1,
+        "backgrounds/hero_showcase_arc_warden_bg": 1,
+        "backgrounds/hero_showcase_armadillo": 1,
+        "backgrounds/hero_showcase_armadillo_hero": 1,
+        "backgrounds/hero_showcase_sylph": 1,
+        "backgrounds/hero_showcase_grimstroke": 1,
+        "backgrounds/hero_showcase_monkey_king": 1,
+        "backgrounds/hero_showcase_arcana_pudge": 1,
+        "scenes/pudge_arcana_title": 1,
+        "backgrounds/hero_showcase_underlord": 1,
+        "scenes/halloween2015_bats": 1,
+        "scenes/halloween2015_candles": 1,
+        "scenes/battle_cup/battle_cup_background_particle": 1,
+        "scenes/battle_cup/battle_cup_rotate_winter": 1,
+        "scenes/badge_level": 1,
+        "scenes/battlepass_fall2016_header": 1,
+        "scenes/questline_reward_razor": 1,
+        "scenes/questline_reward_bane": 1,
+        "scenes/questline_reward_bounty_hunter": 1,
+        "scenes/questline_reward_halloween": 1,
+        "scenes/battlepass_ti7_header_undersea": 1,
+        "scenes/battlepass_ti7_flags": 1,
+        "scenes/battlepass_ti7/roshan_rotate": 1,
+        "scenes/battlepass_ti7/slark_game_fx": 1,
+        "scenes/slark_chancegame": 1,
+        "scenes/battlepass_ti8_flags": 1,
+        "scenes/battlepass_ti8/custom_creeps": 1,
+        "scenes/battlepass_ti8/roshan_rotate": 1,
+        "scenes/battlepass_ti6/singleflag1": 1,
+        "scenes/battlepass_ti6/lina_game_fx": 1,
+        "scenes/lina_chancegame": 1,
+        "scenes/questline_reward_ursa": 1,
+        "scenes/questline_reward_clinkz": 1,
+        "scenes/questline_reward_wr": 1,
+        "scenes/prestigereward_lc": 1,
+        "scenes/rewards_prestigereward_lc": 1,
+        "scenes/battlepass_ti6/tree_game": 1,
+        "scenes/campaign_ambient": 1,
+        "scenes/questline_reward_lich": 1,
+        "scenes/questline_reward_lina": 1,
+        "scenes/questline_reward_dk": 1,
+        "scenes/questline_reward_es": 1,
+        "scenes/questline_reward_antimage": 1,
+        "scenes/questline_reward_treant": 1,
+        "scenes/questline_reward_zeus": 1,
+        "scenes/battlepass_ti7/sharkburst": 1
+    },
+    "light": {
+        "hero_light": 57,
+        "light_hero": 10,
+        "cardpacklight": 6,
+        "bp_light": 5,
+        "herolight": 2,
+        "default_RF": 2,
+        "model_light": 1,
+        "ad_light": 1,
+        "light_armadillo": 1,
+        "light_armadillo_fg": 1,
+        "global_light": 1
+    },
+    "renderdeferred": {
+        "false": 108,
+        "true": 55
+    },
+    "deferredalpha": {
+        "true": 25,
+        "false": 12
+    },
+    "particleonly": {
+        "false": 167,
+        "true": 164
+    },
+    "live-mode": {
+        "high_end_only": 2
+    },
+    "onload": {
+        "DOTASceneFireEntityInput( ui_home_embers, start, 1 )": 1
+    },
+    "require-composition-layer": {
+        "true": 3
+    },
+    "unit": {
+        "npc_dota_hero_beastmaster": 1,
+        "npc_dota_hero_pudge": 1,
+        "npc_dota_creep_badguys_ranged_upgraded_mega": 1,
+        "npc_dota_hero_sniper": 1,
+        "npc_dota_hero_tidehunter": 1,
+        "npc_dota_hero_invoker": 1,
+        "npc_dota_hero_rubick": 1
+    },
+    "allowrotation": {
+        "true": 16
+    },
+    "drawbackground": {
+        "0": 2,
+        "false": 1
+    },
+    "rendershadows": {
+        "false": 59,
+        "true": 2
+    },
+    "antialias": {
+        "true": 113,
+        "false": 2
+    },
+    "activity-modifier": {
+        "PostGameIdle": 2
+    },
+    "environment": {
+        "full_body_right_side": 3
+    },
+    "rotateonmousemove": {
+        "true": 14
+    },
+    "yawmin": {
+        "5": 2,
+        "62": 2,
+        "-5": 3,
+        "-2": 3,
+        "-0.3": 2,
+        "-10": 2,
+        "-32": 2,
+        "-24": 2,
+        "-0": 1,
+        "-3": 1,
+        "-20": 1,
+        "": 1,
+        "-6": 1,
+        "-16": 1
+    },
+    "yawmax": {
+        "0": 2,
+        "2": 3,
+        "3": 1,
+        "5": 3,
+        "6": 1,
+        "9": 2,
+        "10": 1,
+        "16": 1,
+        "24": 2,
+        "32": 2,
+        "56": 2,
+        "0.3": 2,
+        "-12": 1,
+        "-0": 1
+    },
+    "pitchmin": {
+        "0": 6,
+        "-2": 5,
+        "-8": 4,
+        "-4": 3,
+        "-1": 2,
+        "-0": 1,
+        "-3": 1,
+        "-12": 1,
+        "-5": 1
+    },
+    "pitchmax": {
+        "0": 6,
+        "2": 9,
+        "3": 1,
+        "8": 1,
+        "12": 4,
+        "-6": 1,
+        "": 1,
+        "2`": 1
+    },
+    "anti-alias": {
+        "true": 12
+    },
+    "panoramasurfacexml": {
+        "file://{resources}/layout/models/playercardpack/modelmaterial_playercardpack.xml": 5,
+        "file://{resources}/layout/hud/dota_hud_ad_texture_sheet.xml": 1,
+        "file://{resources}/layout/models/playercardpack/modelmaterial_playercardpack_premium.xml": 1
+    },
+    "panoramasurfacewidth": {
+        "800": 1,
+        "1024": 6
+    },
+    "panoramasurfaceheight": {
+        "800": 1,
+        "1024": 6
+    },
+    "pin-fov": {
+        "vertical": 1
+    },
+    "rotateonhover": {
+        "true": 8,
+        "false": 1
+    },
+    "renderwaterreflections": {
+        "true": 1
+    },
+    "acceleration": {
+        "0.5": 5
+    },
+    "tabindex": {
+        "auto": 1
+    },
+    "onmouseover": {
+        "DOTAShowEconItemTooltip( 11547, -1, -1 )": 3,
+        "DOTAShowEconItemTooltip( 12006, -1, -1 )": 1,
+        "DOTAShowEconItemTooltip( 11961, -1, -1 )": 1,
+        "DOTAShowEconItemTooltip( 12194, -1, -1 )": 1,
+        "DOTAShowEconItemTooltip( 12196, -1, -1 )": 1
+    },
+    "onmouseout": {
+        "DOTAHideEconItemTooltip()": 7
+    },
+    "onactivate": {
+        "DOTAShowItemDefPage( 11547 )": 3,
+        "DOTAShowItemDefPage( 12006 )": 1,
+        "DOTAShowItemDefPage( 11961 )": 1,
+        "DOTAShowItemDefPage( 12194 )": 1,
+        "DOTAShowItemDefPage( 12196 )": 1
+    }
+}

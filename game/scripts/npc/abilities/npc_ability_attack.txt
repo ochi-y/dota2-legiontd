@@ -1,0 +1,207 @@
+"DOTAAbilities"    
+{
+    "attack_normal"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/attack_normal"
+        "AbilityTextureName"    "attack/attack_normal"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "attack_pierce"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/attack_pierce"
+        "AbilityTextureName"    "attack/attack_pierce"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "attack_siege"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/attack_siege"
+        "AbilityTextureName"    "attack/attack_siege"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "attack_magic"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/attack_magic"
+        "AbilityTextureName"    "attack/attack_magic"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "attack_chaos"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/attack_chaos"
+        "AbilityTextureName"    "attack/attack_chaos"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "attack_hero"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/attack_hero"
+        "AbilityTextureName"    "attack/attack_hero"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "armor_light"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/armor_light"
+        "AbilityTextureName"    "attack/armor_light"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "armor_medium"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/armor_medium"
+        "AbilityTextureName"    "attack/armor_medium"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "armor_heavy"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/armor_heavy"
+        "AbilityTextureName"    "attack/armor_heavy"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "armor_fortified"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/armor_fortified"
+        "AbilityTextureName"    "attack/armor_fortified"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "armor_hero"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/armor_hero"
+        "AbilityTextureName"    "attack/armor_hero"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+    "armor_unarmored"    
+    {
+        "BaseClass"    "ability_lua"
+        "ScriptFile"    "ability/attack/armor_unarmored"
+        "AbilityTextureName"    "attack/armor_unarmored"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"    "DAMAGE_TYPE_PHYSICAL"
+        "IsOnCastBar"    "1"
+        "precache"    
+        {
+            "particle"    "particles/generic_gameplay/generic_manaburn.vpcf"
+        }
+        "AbilityValues"    
+        {
+        }
+    }
+}

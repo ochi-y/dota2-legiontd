@@ -1,0 +1,8 @@
+planefight
+{
+	material materials/overviews/planefight.vmat
+	pos_x -12253
+	pos_y 12268
+	scale 23.957
+}
+

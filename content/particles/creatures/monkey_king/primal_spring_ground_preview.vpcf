@@ -1,0 +1,51 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{d15c9157-10e0-47bc-9333-1ac81da07b8d} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nMaxParticles = 0
+	m_nBehaviorVersion = 12
+	m_controlPointConfigurations = 
+	[
+		
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			m_ChildRef = resource:"particles/creatures/monkey_king/primal_spring_ground_preview_smoke.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/monkey_king/primal_spring_ground_preview_ring_glyph.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/monkey_king/primal_spring_ground_preview_yinyang.vpcf"
+			m_flDelay = 0.200000
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/monkey_king/primal_spring_ground_preview_core_ring.vpcf"
+			m_flDelay = 0.750000
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/monkey_king/primal_spring_ground_preview_spiral_arm.vpcf"
+		},
+		
+		{
+			m_ChildRef = resource:"particles/creatures/monkey_king/primal_spring_ground_preview_emblem.vpcf"
+			m_flDelay = 0.500000
+		},
+	]
+}

@@ -1,0 +1,33 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/styles/custom_game/top_buttons.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/top_buttons.js" />
+    </scripts>
+    <snippets>
+        
+    </snippets>
+    <Panel class="topButtonRoot" hittest="false">
+
+        <Button id="DashboardButton" onactivate="DOTAHUDShowDashboard()" onmouseover="UIShowTextTooltip( #DOTA_HUD_BackToDashboard )" onmouseout="UIHideTextTooltip()" />
+        <Button id="ToggleScoreboardButton" onactivate="DOTAHUDToggleScoreboard()" onmouseover="UIShowTextTooltip( #DOTA_HUD_Scoreboard )" onmouseout="UIHideTextTooltip()" />
+
+
+        <Button id="SettingsButton" onactivate="DOTAShowSettingsPopup()" onmouseover="UIShowTextTooltip( #DOTA_HUD_Settings )" onmouseout="UIHideTextTooltip()" />
+
+        <Button hittest="true" class="topButton " id="LeaderButtonFs" onactivate="onClickLeaderboard('fs');" onmouseover="DOTAShowTextTooltip(&apos;#dota2_leaderboard&apos;)" onmouseout="DOTAHideTextTooltip()" />
+
+        <!-- <Button hittest="true" class="topButton " id="home" onactivate="onClickHome();" onmouseover="DOTAShowTextTooltip(&apos;#ui_home&apos;)" onmouseout="DOTAHideTextTooltip()" /> -->
+
+        <Button hittest="true" class="topButton " id="WikiProButton" onactivate="onClickWikiPro();" onmouseover="DOTAShowTextTooltip(&apos;Wiki Pro&apos;)" onmouseout="DOTAHideTextTooltip()" />
+
+        <!-- <Button hittest="true" class="topButton " id="SkinButton" onactivate="onClickSkin();" onmouseover="DOTAShowTextTooltip(&apos;#dota2_skin&apos;)" onmouseout="DOTAHideTextTooltip()" /> -->
+        
+	        <Button hittest="true" class="topButton " id="DiscordButton" onactivate="ExternalBrowserGoToURL(https://discord.gg/YXT9t7scYF)" onmouseover="DOTAShowTextTooltip(&apos;#dota2_discord&apos;)" onmouseout="DOTAHideTextTooltip()" />
+        
+        <Button id="ToggleCombatLogButton" onactivate="DOTAHUDToggleCombatLog()" onmouseover="UIShowTextTooltip( #DOTA_HUD_CombatLog )" onmouseout="UIHideTextTooltip()" />
+        
+    </Panel>
+</root>

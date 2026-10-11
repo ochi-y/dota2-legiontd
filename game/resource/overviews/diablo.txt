@@ -1,0 +1,8 @@
+diablo
+{
+	material materials/overviews/diablo.vmat
+	pos_x -16017
+	pos_y 15939
+	scale 31.065
+}
+

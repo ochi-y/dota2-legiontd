@@ -1,0 +1,6694 @@
+"DOTAUnits"    
+{
+    "arctic_tuskarr_spearman_skin_0"    
+    {
+        "include_keys_from"    "arctic_tuskarr_spearman"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9699"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9698"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9703"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9701"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9702"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9700"
+                }
+            }
+        }
+    }
+    "arctic_tuskarr_spearman_skin_1"    
+    {
+        "include_keys_from"    "arctic_tuskarr_spearman"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18715"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18884"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22290"
+                }
+                "4"    
+                {
+                    "ItemDef"    "18954"
+                }
+                "5"    
+                {
+                    "ItemDef"    "18885"
+                }
+                "6"    
+                {
+                    "ItemDef"    "22289"
+                }
+            }
+        }
+    }
+    "arctic_pandaren_skin_1"    
+    {
+        "include_keys_from"    "arctic_pandaren"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "26410"
+                }
+                "2"    
+                {
+                    "ItemDef"    "26409"
+                }
+                "3"    
+                {
+                    "ItemDef"    "26408"
+                }
+                "4"    
+                {
+                    "ItemDef"    "26411"
+                }
+                "5"    
+                {
+                    "ItemDef"    "26535"
+                }
+            }
+        }
+    }
+    "arctic_pandaren_skin_2"    
+    {
+        "include_keys_from"    "arctic_pandaren"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12981"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12983"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12984"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12982"
+                }
+            }
+        }
+    }
+    "arctic_magnataur_skin_1"    
+    {
+        "include_keys_from"    "arctic_magnataur"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7959"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7955"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7958"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7957"
+                }
+                "5"    
+                {
+                    "ItemDef"    "7956"
+                }
+            }
+        }
+    }
+    "arctic_magnataur_skin_2"    
+    {
+        "include_keys_from"    "arctic_magnataur"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "8168"
+                }
+                "2"    
+                {
+                    "ItemDef"    "8135"
+                }
+                "3"    
+                {
+                    "ItemDef"    "8175"
+                }
+                "4"    
+                {
+                    "ItemDef"    "8186"
+                }
+                "5"    
+                {
+                    "ItemDef"    "8187"
+                }
+            }
+        }
+    }
+    "arctic_azure_dragon_skin_1"    
+    {
+        "include_keys_from"    "arctic_azure_dragon"
+        "Model"    "models/items/dragon_knight/dplus_ancient_dragon_ancient_dragon_forms/dplus_ancient_dragon_ancient_dragon_forms.vmdl"
+    }
+    "arctic_azure_dragon_skin_2"    
+    {
+        "include_keys_from"    "arctic_azure_dragon"
+        "Model"    "models/items/dragon_knight/dragon_immortal_1/dragon_immortal_1.vmdl"
+    }
+    "arctic_azure_dragon_skin_3"    
+    {
+        "include_keys_from"    "arctic_azure_dragon"
+        "Model"    "models/items/dragon_knight/dragon_knight_dragons_honor_dragon/dragon_knight_dragons_honor_dragon.vmdl"
+    }
+    "arctic_azure_dragon_skin_4"    
+    {
+        "include_keys_from"    "arctic_azure_dragon"
+        "Model"    "models/items/dragon_knight/ti8_dk_third_awakening_dragon/ti8_dk_third_awakening_dragon.vmdl"
+    }
+    "arctic_azure_dragon_skin_5"    
+    {
+        "include_keys_from"    "arctic_azure_dragon"
+        "Model"    "models/items/dragon_knight/silver_dragon_king_dragon/silver_dragon_king_dragon.vmdl"
+    }
+    "beast_ogre_pulverizer_skin_1"    
+    {
+        "include_keys_from"    "beast_ogre_pulverizer"
+        "Model"    "models/items/ogre_magi/ogre_arcana/ogre_magi_arcana.vmdl"
+        "SoundSet"    "Hero_OgreMagi"
+        "skin"    "1"
+        "ModelScale"    "0.9"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "133"
+                }
+                "2"    
+                {
+                    "ItemDef"    "134"
+                }
+                "3"    
+                {
+                    "ItemDef"    "135"
+                }
+                "4"    
+                {
+                    "ItemDef"    "105"
+                }
+                "5"    
+                {
+                    "ItemDef"    "698"
+                }
+                "6"    
+                {
+                    "ItemDef"    "534"
+                }
+                "7"    
+                {
+                    "ItemDef"    "136"
+                }
+                "11"    
+                {
+                    "ItemDef"    "12536"
+                }
+                "12"    
+                {
+                    "ItemDef"    "13670"
+                }
+            }
+        }
+    }
+    "beast_ogre_pulverizer_skin_2"    
+    {
+        "include_keys_from"    "beast_ogre_pulverizer"
+        "Model"    "models/heroes/ogre_magi/ogre_magi.vmdl"
+        "SoundSet"    "Hero_OgreMagi"
+        "ModelScale"    "0.9"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18098"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18097"
+                }
+                "3"    
+                {
+                    "ItemDef"    "18100"
+                }
+                "4"    
+                {
+                    "ItemDef"    "18099"
+                }
+                "5"    
+                {
+                    "ItemDef"    "18101"
+                }
+            }
+        }
+    }
+    "beast_ogre_pulverizer_skin_3"    
+    {
+        "include_keys_from"    "beast_ogre_pulverizer"
+        "Model"    "models/heroes/ogre_magi/ogre_magi.vmdl"
+        "SoundSet"    "Hero_OgreMagi"
+        "ModelScale"    "0.9"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9224"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9227"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9229"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9226"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9225"
+                }
+            }
+        }
+    }
+    "beast_ogre_troll_champion_skin_1"    
+    {
+        "include_keys_from"    "beast_ogre_troll_champion"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7867"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7873"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7875"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9677"
+                }
+            }
+        }
+    }
+    "beast_ogre_troll_champion_skin_2"    
+    {
+        "include_keys_from"    "beast_ogre_troll_champion"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7867"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7873"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7875"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9677"
+                }
+            }
+        }
+    }
+    "beast_ogre_greymane_skin_1"    
+    {
+        "include_keys_from"    "beast_ogre_greymane"
+        "Model"    "models/items/lone_druid/bear/spirit_of_anger/spirit_of_anger.vmdl"
+    }
+    "beast_ogre_greymane_skin_2"    
+    {
+        "include_keys_from"    "beast_ogre_greymane"
+        "Model"    "models/items/lone_druid/bear/lone_druid_northland_wander_bear_2/lone_druid_northland_wander_bear_2.vmdl"
+    }
+    "beast_ogre_greymane_skin_3"    
+    {
+        "include_keys_from"    "beast_ogre_greymane"
+        "Model"    "models/items/lone_druid/bear/tarzan_and_kingkong_spirit/tarzan_and_kingkong_spirit.vmdl"
+    }
+    "beast_ogre_dragon_aspect_skin_1"    
+    {
+        "include_keys_from"    "beast_ogre_dragon_aspect"
+        "Model"    "models/items/dragon_knight/dk_dragons_dynasty_ability/dk_dragons_dynasty_ability.vmdl"
+        "skin"    "3"
+    }
+    "beast_ogre_dragon_aspect_skin_2"    
+    {
+        "include_keys_from"    "beast_ogre_dragon_aspect"
+        "Model"    "models/items/dragon_knight/neverdying_knight_dragon/neverdying_knight_dragon.vmdl"
+        "skin"    "1"
+    }
+    "beast_ogre_dragon_aspect_skin_3"    
+    {
+        "include_keys_from"    "beast_ogre_dragon_aspect"
+        "Model"    "models/items/dragon_knight/aurora_warrior_set_dragon_style2_aurora_warrior_set/aurora_warrior_set_dragon_style2_aurora_warrior_set.vmdl"
+        "skin"    "3"
+    }
+    "beast_ogre_dragon_aspect_skin_4"    
+    {
+        "include_keys_from"    "beast_ogre_dragon_aspect"
+        "Model"    "models/items/dragon_knight/ti9_cache_dk_scorching_amber_dragoon_form/ti9_cache_dk_scorching_amber_dragoon_form.vmdl"
+        "skin"    "3"
+    }
+    "demi_human_mutant_skin_1"    
+    {
+        "include_keys_from"    "demi_human_mutant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "25611"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9403"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9404"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9329"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9304"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9402"
+                }
+                "7"    
+                {
+                    "ItemDef"    "9315"
+                }
+                "8"    
+                {
+                    "ItemDef"    "124"
+                }
+                "11"    
+                {
+                    "ItemDef"    "123"
+                }
+            }
+        }
+    }
+    "demi_human_mutant_skin_2"    
+    {
+        "include_keys_from"    "demi_human_mutant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7627"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9403"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9404"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9329"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9304"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9402"
+                }
+                "7"    
+                {
+                    "ItemDef"    "9315"
+                }
+                "8"    
+                {
+                    "ItemDef"    "124"
+                }
+                "11"    
+                {
+                    "ItemDef"    "123"
+                }
+            }
+        }
+    }
+    "demi_human_mutant_skin_3"    
+    {
+        "include_keys_from"    "demi_human_mutant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "5571"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9403"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9404"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9329"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9304"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9402"
+                }
+                "7"    
+                {
+                    "ItemDef"    "9315"
+                }
+                "8"    
+                {
+                    "ItemDef"    "124"
+                }
+                "11"    
+                {
+                    "ItemDef"    "123"
+                }
+            }
+        }
+    }
+    "demi_human_mutant_skin_4"    
+    {
+        "include_keys_from"    "demi_human_mutant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17939"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17935"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17938"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17937"
+                }
+                "5"    
+                {
+                    "ItemDef"    "17934"
+                }
+                "6"    
+                {
+                    "ItemDef"    "17940"
+                }
+                "7"    
+                {
+                    "ItemDef"    "17936"
+                }
+            }
+        }
+    }
+    "demi_human_alpha_male_skin_1"    
+    {
+        "include_keys_from"    "demi_human_alpha_male"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22708"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22709"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22710"
+                }
+                "4"    
+                {
+                    "ItemDef"    "23281"
+                }
+                "5"    
+                {
+                    "ItemDef"    "23282"
+                }
+            }
+        }
+    }
+    "demi_human_alpha_male_skin_2"    
+    {
+        "include_keys_from"    "demi_human_alpha_male"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22708"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22709"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22710"
+                }
+                "4"    
+                {
+                    "ItemDef"    "23281"
+                }
+                "5"    
+                {
+                    "ItemDef"    "23282"
+                }
+            }
+        }
+    }
+    "demi_human_alpha_male_skin_3"    
+    {
+        "include_keys_from"    "demi_human_alpha_male"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14475"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14474"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14477"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14478"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14476"
+                }
+            }
+        }
+    }
+    "demi_human_medicine_man_skin_1"    
+    {
+        "include_keys_from"    "demi_human_medicine_man"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7361"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7358"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7356"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7357"
+                }
+                "5"    
+                {
+                    "ItemDef"    "7359"
+                }
+            }
+        }
+    }
+    "demi_human_medicine_man_skin_2"    
+    {
+        "include_keys_from"    "demi_human_medicine_man"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "29231"
+                }
+                "2"    
+                {
+                    "ItemDef"    "29234"
+                }
+                "3"    
+                {
+                    "ItemDef"    "29230"
+                }
+                "4"    
+                {
+                    "ItemDef"    "29233"
+                }
+                "5"    
+                {
+                    "ItemDef"    "29232"
+                }
+            }
+        }
+    }
+    "demi_human_medicine_man_skin_3"    
+    {
+        "include_keys_from"    "demi_human_medicine_man"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22199"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22201"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22198"
+                }
+                "4"    
+                {
+                    "ItemDef"    "22200"
+                }
+                "5"    
+                {
+                    "ItemDef"    "22197"
+                }
+            }
+        }
+    }
+    "demi_human_medicine_man_skin_4"    
+    {
+        "include_keys_from"    "demi_human_medicine_man"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13469"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13466"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13468"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13471"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13467"
+                }
+            }
+        }
+    }
+    "demi_human_oracle_skin_1"    
+    {
+        "include_keys_from"    "demi_human_oracle"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12602"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12603"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12601"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12600"
+                }
+            }
+        }
+    }
+    "demi_human_oracle_skin_2"    
+    {
+        "include_keys_from"    "demi_human_oracle"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13912"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13911"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13913"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13914"
+                }
+            }
+        }
+    }
+    "demi_human_oracle_skin_3"    
+    {
+        "include_keys_from"    "demi_human_oracle"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13420"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13417"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13418"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13419"
+                }
+            }
+        }
+    }
+    "demi_human_oracle_skin_4"    
+    {
+        "include_keys_from"    "demi_human_oracle"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "19217"
+                }
+                "2"    
+                {
+                    "ItemDef"    "19216"
+                }
+                "3"    
+                {
+                    "ItemDef"    "19218"
+                }
+                "4"    
+                {
+                    "ItemDef"    "19219"
+                }
+            }
+        }
+    }
+    "demi_human_mistress_skin_1"    
+    {
+        "include_keys_from"    "demi_human_mistress"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7529"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7527"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7530"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7528"
+                }
+            }
+        }
+    }
+    "demi_human_mistress_skin_2"    
+    {
+        "Model"    "models/items/queenofpain/queenofpain_arcana/queenofpain_arcana.vmdl"
+        "include_keys_from"    "demi_human_mistress"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12930"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13769"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13770"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13768"
+                }
+            }
+        }
+    }
+    "demi_human_minotaur_skin_1"    
+    {
+        "include_keys_from"    "demi_human_minotaur"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "27159"
+                }
+                "2"    
+                {
+                    "ItemDef"    "27161"
+                }
+                "3"    
+                {
+                    "ItemDef"    "29936"
+                }
+                "4"    
+                {
+                    "ItemDef"    "27158"
+                }
+            }
+        }
+    }
+    "demi_human_minotaur_skin_2"    
+    {
+        "include_keys_from"    "demi_human_minotaur"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9735"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9738"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9730"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9737"
+                }
+            }
+        }
+    }
+    "element_adept_skin_1"    
+    {
+        "include_keys_from"    "element_adept"
+        "Model"    "models/items/io/io_calavera/io_calavera.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "element_oceanus_skin_1"    
+    {
+        "include_keys_from"    "element_oceanus"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7562"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7558"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7560"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7561"
+                }
+                "5"    
+                {
+                    "ItemDef"    "7559"
+                }
+            }
+        }
+    }
+    "element_oceanus_skin_2"    
+    {
+        "include_keys_from"    "element_oceanus"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "575"
+                }
+                "2"    
+                {
+                    "ItemDef"    "507"
+                }
+                "4"    
+                {
+                    "ItemDef"    "577"
+                }
+                "5"    
+                {
+                    "ItemDef"    "574"
+                }
+                "11"    
+                {
+                    "ItemDef"    "6833"
+                }
+                "12"    
+                {
+                    "ItemDef"    "7603"
+                }
+            }
+        }
+    }
+    "element_violet_skin_1"    
+    {
+        "include_keys_from"    "element_violet"
+        "Model"    "models/creeps/ice_biome/diregull/diregull.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "element_messiah_skin_1"    
+    {
+        "include_keys_from"    "element_messiah"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "256"
+                }
+                "2"    
+                {
+                    "ItemDef"    "528"
+                }
+                "5"    
+                {
+                    "ItemDef"    "255"
+                }
+                "6"    
+                {
+                    "ItemDef"    "254"
+                }
+                "11"    
+                {
+                    "ItemDef"    "13773"
+                }
+                "12"    
+                {
+                    "ItemDef"    "9198"
+                }
+            }
+        }
+    }
+    "element_messiah_skin_2"    
+    {
+        "include_keys_from"    "element_messiah"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14452"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14451"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14450"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14449"
+                }
+            }
+        }
+    }
+    "element_fenix_skin_1"    
+    {
+        "include_keys_from"    "element_fenix"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14993"
+                }
+                "2"    
+                {
+                    "ItemDef"    "627"
+                }
+                "3"    
+                {
+                    "ItemDef"    "535"
+                }
+                "4"    
+                {
+                    "ItemDef"    "592"
+                }
+            }
+        }
+    }
+    "element_fenix_skin_2"    
+    {
+        "include_keys_from"    "element_fenix"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13713"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13712"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13714"
+                }
+                "13"    
+                {
+                    "ItemDef"    "535"
+                }
+            }
+        }
+    }
+    "element_fenix_skin_3"    
+    {
+        "include_keys_from"    "element_fenix"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9523"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9524"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9525"
+                }
+                "13"    
+                {
+                    "ItemDef"    "535"
+                }
+            }
+        }
+    }
+    "elf_crusader_skin_1"    
+    {
+        "include_keys_from"    "elf_crusader"
+        "Model"    "models/heroes/terrorblade/terrorblade_arcana.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "307"
+                }
+                "2"    
+                {
+                    "ItemDef"    "476"
+                }
+                "3"    
+                {
+                    "ItemDef"    "478"
+                }
+                "4"    
+                {
+                    "ItemDef"    "8650"
+                }
+                "5"    
+                {
+                    "ItemDef"    "540"
+                }
+                "6"    
+                {
+                    "ItemDef"    "306"
+                }
+                "11"    
+                {
+                    "ItemDef"    "5957"
+                }
+            }
+        }
+    }
+    "elf_crusader_skin_2"    
+    {
+        "include_keys_from"    "elf_crusader"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14338"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14341"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14342"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14340"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14339"
+                }
+            }
+        }
+    }
+    "elf_crusader_skin_3"    
+    {
+        "include_keys_from"    "elf_crusader"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9499"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9498"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9501"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9497"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9500"
+                }
+            }
+        }
+    }
+    "elf_nightsaber_skin_1"    
+    {
+        "include_keys_from"    "elf_nightsaber"
+        "ProjectileModel"    "particles/econ/items/luna/luna_eternal_eclipse/luna_attack_eternal_eclipse.vpcf"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "6729"
+                }
+                "2"    
+                {
+                    "ItemDef"    "6720"
+                }
+                "3"    
+                {
+                    "ItemDef"    "6723"
+                }
+                "4"    
+                {
+                    "ItemDef"    "6724"
+                }
+                "5"    
+                {
+                    "ItemDef"    "6721"
+                }
+            }
+        }
+    }
+    "elf_nightsaber_skin_2"    
+    {
+        "include_keys_from"    "elf_nightsaber"
+        "ProjectileModel"    "particles/econ/items/luna/nightsilver_woods_weapon/luna_attack_nightsilver.vpcf"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7693"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7842"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7841"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7843"
+                }
+                "5"    
+                {
+                    "ItemDef"    "7840"
+                }
+            }
+        }
+    }
+    "elf_nightsaber_skin_3"    
+    {
+        "include_keys_from"    "elf_nightsaber"
+        "ProjectileModel"    "particles/econ/items/luna/luna_ti9_weapon/luna_ti9_moon_glaive_model.vpcf"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22211"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22209"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22208"
+                }
+                "4"    
+                {
+                    "ItemDef"    "22213"
+                }
+                "5"    
+                {
+                    "ItemDef"    "22210"
+                }
+            }
+        }
+    }
+    "elf_nightsaber_skin_4"    
+    {
+        "include_keys_from"    "elf_nightsaber"
+        "ModelScale"    "0.8"
+        "ProjectileModel"    "particles/econ/items/luna/luna_lucent_rider/luna_attack_lucent_rider.vpcf"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12554"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12553"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12552"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12549"
+                }
+                "5"    
+                {
+                    "ItemDef"    "12551"
+                }
+            }
+        }
+    }
+    "elf_sword_mage_skin_1"    
+    {
+        "include_keys_from"    "elf_sword_mage"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "3"    
+                {
+                    "ItemDef"    "301"
+                }
+                "4"    
+                {
+                    "ItemDef"    "303"
+                }
+                "5"    
+                {
+                    "ItemDef"    "304"
+                }
+                "6"    
+                {
+                    "ItemDef"    "302"
+                }
+                "11"    
+                {
+                    "ItemDef"    "12414"
+                }
+                "12"    
+                {
+                    "ItemDef"    "14962"
+                }
+            }
+        }
+    }
+    "elf_warden_skin_1"    
+    {
+        "include_keys_from"    "elf_warden"
+        "Model"    "models/heroes/phantom_assassin/pa_arcana.vmdl"
+        "SoundSet"    "Hero_PhantomAssassin"
+        "Ability10"    "midas_golden_valkyrie_ambient"
+        "HasAggressiveStance"    "0"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9320"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7247"
+                }
+                "3"    
+                {
+                    "ItemDef"    "139"
+                }
+                "4"    
+                {
+                    "ItemDef"    "138"
+                }
+                "5"    
+                {
+                    "ItemDef"    "141"
+                }
+            }
+        }
+    }
+    "elf_warden_skin_2"    
+    {
+        "include_keys_from"    "elf_warden"
+        "Model"    "models/heroes/phantom_assassin/phantom_assassin.vmdl"
+        "SoundSet"    "Hero_PhantomAssassin"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "137"
+                }
+                "2"    
+                {
+                    "ItemDef"    "138"
+                }
+                "3"    
+                {
+                    "ItemDef"    "139"
+                }
+                "4"    
+                {
+                    "ItemDef"    "140"
+                }
+                "5"    
+                {
+                    "ItemDef"    "141"
+                }
+            }
+        }
+    }
+    "elf_warden_skin_3"    
+    {
+        "include_keys_from"    "elf_warden"
+        "Model"    "models/heroes/phantom_assassin/phantom_assassin.vmdl"
+        "SoundSet"    "Hero_PhantomAssassin"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "19178"
+                }
+                "2"    
+                {
+                    "ItemDef"    "19177"
+                }
+                "3"    
+                {
+                    "ItemDef"    "19180"
+                }
+                "4"    
+                {
+                    "ItemDef"    "19179"
+                }
+                "5"    
+                {
+                    "ItemDef"    "19176"
+                }
+            }
+        }
+    }
+    "ghost_soul_of_hero_skin_1"    
+    {
+        "include_keys_from"    "ghost_soul_of_hero"
+        "Model"    "models/heroes/wraith_king/wraith_king.vmdl"
+        "SoundSet"    "Hero_SkeletonKing"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "500"
+                }
+                "2"    
+                {
+                    "ItemDef"    "149"
+                }
+                "3"    
+                {
+                    "ItemDef"    "483"
+                }
+                "4"    
+                {
+                    "ItemDef"    "148"
+                }
+                "5"    
+                {
+                    "ItemDef"    "150"
+                }
+                "6"    
+                {
+                    "ItemDef"    "151"
+                }
+                "7"    
+                {
+                    "ItemDef"    "152"
+                }
+            }
+        }
+    }
+    "ghost_soul_of_hero_skin_2"    
+    {
+        "include_keys_from"    "ghost_soul_of_hero"
+        "Model"    "models/heroes/wraith_king/wraith_king.vmdl"
+        "SoundSet"    "Hero_SkeletonKing"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13041"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13040"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13039"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13038"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13036"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13037"
+                }
+            }
+        }
+    }
+    "ghost_soul_of_hero_skin_3"    
+    {
+        "include_keys_from"    "ghost_soul_of_hero"
+        "Model"    "models/heroes/wraith_king/wraith_king.vmdl"
+        "SoundSet"    "Hero_SkeletonKing"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17657"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17654"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17656"
+                }
+                "5"    
+                {
+                    "ItemDef"    "17658"
+                }
+                "6"    
+                {
+                    "ItemDef"    "17655"
+                }
+                "11"    
+                {
+                    "ItemDef"    "12424"
+                }
+            }
+        }
+    }
+    "ghost_soul_of_villain_skin_1"    
+    {
+        "include_keys_from"    "ghost_soul_of_villain"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9736"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9734"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9731"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9733"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9732"
+                }
+            }
+        }
+    }
+    "ghost_soul_of_villain_skin_2"    
+    {
+        "include_keys_from"    "ghost_soul_of_villain"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "505"
+                }
+                "3"    
+                {
+                    "ItemDef"    "169"
+                }
+                "4"    
+                {
+                    "ItemDef"    "170"
+                }
+                "5"    
+                {
+                    "ItemDef"    "171"
+                }
+                "6"    
+                {
+                    "ItemDef"    "8651"
+                }
+                "7"    
+                {
+                    "ItemDef"    "569"
+                }
+                "11"    
+                {
+                    "ItemDef"    "12931"
+                }
+                "12"    
+                {
+                    "ItemDef"    "6694"
+                }
+            }
+        }
+    }
+    "ghost_dark_priest_skin_1"    
+    {
+        "include_keys_from"    "ghost_dark_priest"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13899"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13896"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13898"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13897"
+                }
+            }
+        }
+    }
+    "ghost_dark_priest_skin_2"    
+    {
+        "include_keys_from"    "ghost_dark_priest"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13062"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13061"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13064"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13060"
+                }
+            }
+        }
+    }
+    "ghost_meridian_skin_1"    
+    {
+        "include_keys_from"    "ghost_meridian"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13355"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13356"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13358"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13357"
+                }
+            }
+        }
+    }
+    "ghost_meridian_skin_2"    
+    {
+        "include_keys_from"    "ghost_meridian"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13828"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13825"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13826"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13827"
+                }
+            }
+        }
+    }
+    "goblin_geomancer_skin_1"    
+    {
+        "include_keys_from"    "goblin_geomancer"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13030"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13032"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13029"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13031"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13028"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13033"
+                }
+            }
+        }
+    }
+    "goblin_geomancer_skin_2"    
+    {
+        "include_keys_from"    "goblin_geomancer"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9834"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9837"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9836"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9833"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9835"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9832"
+                }
+            }
+        }
+    }
+    "goblin_clockwreck_skin_1"    
+    {
+        "include_keys_from"    "goblin_clockwreck"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "484"
+                }
+                "2"    
+                {
+                    "ItemDef"    "485"
+                }
+                "3"    
+                {
+                    "ItemDef"    "8635"
+                }
+                "4"    
+                {
+                    "ItemDef"    "724"
+                }
+                "5"    
+                {
+                    "ItemDef"    "231"
+                }
+                "6"    
+                {
+                    "ItemDef"    "446"
+                }
+            }
+        }
+    }
+    "goblin_clockwreck_skin_2"    
+    {
+        "include_keys_from"    "goblin_clockwreck"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17952"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17951"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17954"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17953"
+                }
+                "5"    
+                {
+                    "ItemDef"    "17955"
+                }
+            }
+        }
+    }
+    "goblin_clockwreck_skin_3"    
+    {
+        "include_keys_from"    "goblin_clockwreck"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13296"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13295"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13294"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13293"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13292"
+                }
+            }
+        }
+    }
+    "goblin_machine_robot_skin_1"    
+    {
+        "include_keys_from"    "goblin_machine_robot"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14067"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14066"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14065"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14064"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14063"
+                }
+            }
+        }
+    }
+    "goblin_machine_robot_skin_2"    
+    {
+        "include_keys_from"    "goblin_machine_robot"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7972"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7967"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7969"
+                }
+                "5"    
+                {
+                    "ItemDef"    "7968"
+                }
+                "12"    
+                {
+                    "ItemDef"    "13777"
+                }
+            }
+        }
+    }
+    "goblin_helicopter_skin_1"    
+    {
+        "include_keys_from"    "goblin_helicopter"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9829"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9828"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9827"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9831"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9830"
+                }
+            }
+        }
+    }
+    "goblin_helicopter_skin_2"    
+    {
+        "include_keys_from"    "goblin_helicopter"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "6965"
+                }
+                "2"    
+                {
+                    "ItemDef"    "8378"
+                }
+                "3"    
+                {
+                    "ItemDef"    "8381"
+                }
+                "4"    
+                {
+                    "ItemDef"    "8385"
+                }
+                "5"    
+                {
+                    "ItemDef"    "8383"
+                }
+            }
+        }
+    }
+    "goblin_goblin_blaster_skin_1"    
+    {
+        "include_keys_from"    "goblin_goblin_blaster"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "8018"
+                }
+                "2"    
+                {
+                    "ItemDef"    "8020"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7431"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7744"
+                }
+                "5"    
+                {
+                    "ItemDef"    "7430"
+                }
+                "6"    
+                {
+                    "ItemDef"    "8019"
+                }
+            }
+        }
+    }
+    "goblin_goblin_blaster_skin_2"    
+    {
+        "include_keys_from"    "goblin_goblin_blaster"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12853"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12849"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12850"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12854"
+                }
+                "5"    
+                {
+                    "ItemDef"    "12848"
+                }
+                "6"    
+                {
+                    "ItemDef"    "12851"
+                }
+            }
+        }
+    }
+    "goblin_goblin_blaster_skin_3"    
+    {
+        "include_keys_from"    "goblin_goblin_blaster"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14723"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14722"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14721"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14725"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14724"
+                }
+                "6"    
+                {
+                    "ItemDef"    "14720"
+                }
+            }
+        }
+    }
+    "marine_sky_dragon_skin_1"    
+    {
+        "include_keys_from"    "marine_sky_dragon"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12476"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12477"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12475"
+                }
+            }
+        }
+    }
+    "marine_sky_dragon_skin_2"    
+    {
+        "include_keys_from"    "marine_sky_dragon"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13728"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13701"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13702"
+                }
+            }
+        }
+    }
+    "marine_sky_dragon_skin_3"    
+    {
+        "include_keys_from"    "marine_sky_dragon"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17860"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17861"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17862"
+                }
+            }
+        }
+    }
+    "marine_king_claw_skin_1"    
+    {
+        "include_keys_from"    "marine_king_claw"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22333"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22332"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22330"
+                }
+                "4"    
+                {
+                    "ItemDef"    "22331"
+                }
+            }
+        }
+    }
+    "marine_king_claw_skin_2"    
+    {
+        "include_keys_from"    "marine_king_claw"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9081"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9080"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9079"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9082"
+                }
+            }
+        }
+    }
+    "marine_king_claw_skin_3"    
+    {
+        "include_keys_from"    "marine_king_claw"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9447"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9441"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9440"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9448"
+                }
+            }
+        }
+    }
+    "marine_king_claw_skin_4"    
+    {
+        "include_keys_from"    "marine_king_claw"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "23221"
+                }
+                "2"    
+                {
+                    "ItemDef"    "23219"
+                }
+                "3"    
+                {
+                    "ItemDef"    "23220"
+                }
+            }
+        }
+    }
+    "marine_trident_skin_1"    
+    {
+        "include_keys_from"    "marine_trident"
+        "Model"    "models/heroes/slardar/slardar.vmdl"
+        "SoundSet"    "Hero_Slardar"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "8792"
+                }
+                "2"    
+                {
+                    "ItemDef"    "8791"
+                }
+                "3"    
+                {
+                    "ItemDef"    "8789"
+                }
+                "4"    
+                {
+                    "ItemDef"    "8790"
+                }
+            }
+        }
+    }
+    "marine_trident_skin_2"    
+    {
+        "include_keys_from"    "marine_trident"
+        "Model"    "models/heroes/slardar/slardar.vmdl"
+        "SoundSet"    "Hero_Slardar"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "23656"
+                }
+                "2"    
+                {
+                    "ItemDef"    "23658"
+                }
+                "3"    
+                {
+                    "ItemDef"    "23659"
+                }
+                "4"    
+                {
+                    "ItemDef"    "23657"
+                }
+            }
+        }
+    }
+    "marine_trident_skin_3"    
+    {
+        "include_keys_from"    "marine_trident"
+        "Model"    "models/heroes/slardar/slardar.vmdl"
+        "SoundSet"    "Hero_Slardar"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12943"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12941"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12944"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12942"
+                }
+            }
+        }
+    }
+    "marine_sea_giant_skin_1"    
+    {
+        "include_keys_from"    "marine_sea_giant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "6472"
+                }
+                "2"    
+                {
+                    "ItemDef"    "6469"
+                }
+                "3"    
+                {
+                    "ItemDef"    "6468"
+                }
+                "4"    
+                {
+                    "ItemDef"    "6471"
+                }
+                "5"    
+                {
+                    "ItemDef"    "6470"
+                }
+                "6"    
+                {
+                    "ItemDef"    "6467"
+                }
+            }
+        }
+    }
+    "marine_sea_giant_skin_2"    
+    {
+        "include_keys_from"    "marine_sea_giant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "4200"
+                }
+                "2"    
+                {
+                    "ItemDef"    "4156"
+                }
+                "3"    
+                {
+                    "ItemDef"    "4155"
+                }
+                "4"    
+                {
+                    "ItemDef"    "4201"
+                }
+            }
+        }
+    }
+    "marine_sea_giant_skin_3"    
+    {
+        "include_keys_from"    "marine_sea_giant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13244"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13247"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13242"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13243"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13245"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13246"
+                }
+            }
+        }
+    }
+    "marine_hydra_skin_1"    
+    {
+        "include_keys_from"    "marine_hydra"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7078"
+                }
+                "2"    
+                {
+                    "ItemDef"    "6943"
+                }
+                "3"    
+                {
+                    "ItemDef"    "10890"
+                }
+                "4"    
+                {
+                    "ItemDef"    "6940"
+                }
+                "5"    
+                {
+                    "ItemDef"    "6942"
+                }
+                "6"    
+                {
+                    "ItemDef"    "6933"
+                }
+            }
+        }
+    }
+    "marine_hydra_skin_2"    
+    {
+        "include_keys_from"    "marine_hydra"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9336"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9338"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9335"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9334"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9337"
+                }
+            }
+        }
+    }
+    "marine_hydra_skin_3"    
+    {
+        "include_keys_from"    "marine_hydra"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9917"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9916"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9918"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9914"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9915"
+                }
+            }
+        }
+    }
+    "marine_hydra_mini_skin_1"    
+    {
+        "include_keys_from"    "marine_hydra_mini"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7078"
+                }
+                "2"    
+                {
+                    "ItemDef"    "6943"
+                }
+                "3"    
+                {
+                    "ItemDef"    "10890"
+                }
+                "4"    
+                {
+                    "ItemDef"    "6940"
+                }
+                "5"    
+                {
+                    "ItemDef"    "6942"
+                }
+                "6"    
+                {
+                    "ItemDef"    "6933"
+                }
+            }
+        }
+    }
+    "marine_hydra_mini_skin_2"    
+    {
+        "include_keys_from"    "marine_hydra_mini"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9336"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9338"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9335"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9334"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9337"
+                }
+            }
+        }
+    }
+    "marine_hydra_mini_skin_3"    
+    {
+        "include_keys_from"    "marine_hydra_mini"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9917"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9916"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9918"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9914"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9915"
+                }
+            }
+        }
+    }
+    "mech_veteran_skin_1"    
+    {
+        "include_keys_from"    "mech_veteran"
+        "Model"    "models/heroes/antimage/antimage.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "563"
+                }
+                "2"    
+                {
+                    "ItemDef"    "1"
+                }
+                "3"    
+                {
+                    "ItemDef"    "215"
+                }
+                "4"    
+                {
+                    "ItemDef"    "216"
+                }
+                "5"    
+                {
+                    "ItemDef"    "217"
+                }
+                "6"    
+                {
+                    "ItemDef"    "218"
+                }
+                "7"    
+                {
+                    "ItemDef"    "335"
+                }
+            }
+        }
+    }
+    "mech_veteran_skin_2"    
+    {
+        "include_keys_from"    "mech_veteran"
+        "Model"    "models/heroes/antimage/antimage.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14508"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14512"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14507"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14510"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14506"
+                }
+                "6"    
+                {
+                    "ItemDef"    "14509"
+                }
+                "7"    
+                {
+                    "ItemDef"    "14511"
+                }
+            }
+        }
+    }
+    "mech_veteran_skin_3"    
+    {
+        "include_keys_from"    "mech_veteran"
+        "Model"    "models/heroes/antimage/antimage.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "24931"
+                }
+                "2"    
+                {
+                    "ItemDef"    "24932"
+                }
+                "3"    
+                {
+                    "ItemDef"    "24921"
+                }
+                "4"    
+                {
+                    "ItemDef"    "24922"
+                }
+                "5"    
+                {
+                    "ItemDef"    "24923"
+                }
+                "6"    
+                {
+                    "ItemDef"    "24924"
+                }
+                "7"    
+                {
+                    "ItemDef"    "24930"
+                }
+            }
+        }
+    }
+    "mech_zeus_skin_1"    
+    {
+        "include_keys_from"    "mech_zeus"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18476"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18478"
+                }
+                "3"    
+                {
+                    "ItemDef"    "18477"
+                }
+                "4"    
+                {
+                    "ItemDef"    "18475"
+                }
+                "5"    
+                {
+                    "ItemDef"    "18479"
+                }
+            }
+        }
+    }
+    "mech_zeus_skin_2"    
+    {
+        "include_keys_from"    "mech_zeus"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "27421"
+                }
+                "2"    
+                {
+                    "ItemDef"    "27422"
+                }
+                "3"    
+                {
+                    "ItemDef"    "27423"
+                }
+                "4"    
+                {
+                    "ItemDef"    "23714"
+                }
+                "5"    
+                {
+                    "ItemDef"    "27420"
+                }
+            }
+        }
+    }
+    "mech_admiral_skin_1"    
+    {
+        "include_keys_from"    "mech_admiral"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "28554"
+                }
+                "2"    
+                {
+                    "ItemDef"    "28557"
+                }
+                "3"    
+                {
+                    "ItemDef"    "28560"
+                }
+                "4"    
+                {
+                    "ItemDef"    "28556"
+                }
+                "5"    
+                {
+                    "ItemDef"    "28561"
+                }
+                "6"    
+                {
+                    "ItemDef"    "28559"
+                }
+                "7"    
+                {
+                    "ItemDef"    "28555"
+                }
+                "8"    
+                {
+                    "ItemDef"    "28558"
+                }
+            }
+        }
+    }
+    "mech_admiral_skin_2"    
+    {
+        "include_keys_from"    "mech_admiral"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13197"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13194"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13191"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13196"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13192"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13193"
+                }
+                "7"    
+                {
+                    "ItemDef"    "13195"
+                }
+                "8"    
+                {
+                    "ItemDef"    "13198"
+                }
+            }
+        }
+    }
+    "mech_admiral_skin_3"    
+    {
+        "include_keys_from"    "mech_admiral"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "8426"
+                }
+                "2"    
+                {
+                    "ItemDef"    "8423"
+                }
+                "3"    
+                {
+                    "ItemDef"    "8413"
+                }
+                "4"    
+                {
+                    "ItemDef"    "8417"
+                }
+                "5"    
+                {
+                    "ItemDef"    "8421"
+                }
+                "6"    
+                {
+                    "ItemDef"    "8415"
+                }
+                "7"    
+                {
+                    "ItemDef"    "8412"
+                }
+                "8"    
+                {
+                    "ItemDef"    "8419"
+                }
+            }
+        }
+    }
+    "mech_krogoth_skin_1"    
+    {
+        "include_keys_from"    "mech_krogoth"
+        "Model"    "models/items/tiny/tiny_anthozoa_giant_neck/tiny_anthozoa_giant_neck.vmdl"
+    }
+    "mech_krogoth_skin_2"    
+    {
+        "include_keys_from"    "mech_krogoth"
+        "Model"    "models/items/tiny/tiny_bad_to_the_bone_neck/tiny_bad_to_the_bone_neck.vmdl"
+    }
+    "mech_krogoth_skin_3"    
+    {
+        "include_keys_from"    "mech_krogoth"
+        "Model"    "models/items/tiny/frozen_stonehenge/frozen_stonehenge_lvl_03.vmdl"
+    }
+    "nature_meliai_skin_1"    
+    {
+        "include_keys_from"    "nature_meliai"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13005"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13002"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13001"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13004"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13011"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13006"
+                }
+                "7"    
+                {
+                    "ItemDef"    "13010"
+                }
+            }
+        }
+    }
+    "nature_meliai_skin_2"    
+    {
+        "include_keys_from"    "nature_meliai"
+        "Model"    "models/items/drow/drow_arcana/drow_arcana.vmdl"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "19093"
+                }
+                "2"    
+                {
+                    "ItemDef"    "19089"
+                }
+                "3"    
+                {
+                    "ItemDef"    "19094"
+                }
+                "4"    
+                {
+                    "ItemDef"    "19091"
+                }
+                "5"    
+                {
+                    "ItemDef"    "19092"
+                }
+                "6"    
+                {
+                    "ItemDef"    "19088"
+                }
+                "7"    
+                {
+                    "ItemDef"    "19090"
+                }
+            }
+        }
+    }
+    "nature_meliai_skin_3"    
+    {
+        "include_keys_from"    "nature_meliai"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13076"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13070"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13071"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13075"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13074"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13072"
+                }
+                "7"    
+                {
+                    "ItemDef"    "13073"
+                }
+            }
+        }
+    }
+    "nature_thunderbird_skin_1"    
+    {
+        "include_keys_from"    "nature_thunderbird"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9298"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9296"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9297"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14949"
+                }
+            }
+        }
+    }
+    "nature_thunderbird_skin_2"    
+    {
+        "include_keys_from"    "nature_thunderbird"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14126"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14123"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14125"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14124"
+                }
+            }
+        }
+    }
+    "nature_guardian_skin_1"    
+    {
+        "include_keys_from"    "nature_guardian"
+        "Model"    "models/items/furion/treant_stump.vmdl"
+        "ModelScale"    "1.4"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "nature_guardian_skin_2"    
+    {
+        "include_keys_from"    "nature_guardian"
+        "ModelScale"    "1.4"
+        "Model"    "models/items/furion/treant/abyssal_prophet_abyssal_prophet_treant/abyssal_prophet_abyssal_prophet_treant.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "nature_guardian_skin_3"    
+    {
+        "include_keys_from"    "nature_guardian"
+        "ModelScale"    "1.4"
+        "Model"    "models/items/furion/treant/defender_of_the_jungle_lakad_coconut/defender_of_the_jungle_lakad_coconut.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "nature_guardian_skin_4"    
+    {
+        "include_keys_from"    "nature_guardian"
+        "ModelScale"    "1.4"
+        "Model"    "models/items/furion/treant/ravenous_woodfang/ravenous_woodfang.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "nature_tree_of_life_skin_1"    
+    {
+        "include_keys_from"    "nature_tree_of_life"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9705"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9706"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12181"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9704"
+                }
+            }
+        }
+    }
+    "nature_tree_of_life_skin_2"    
+    {
+        "include_keys_from"    "nature_tree_of_life"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "24178"
+                }
+                "2"    
+                {
+                    "ItemDef"    "24194"
+                }
+                "3"    
+                {
+                    "ItemDef"    "24195"
+                }
+                "4"    
+                {
+                    "ItemDef"    "24179"
+                }
+            }
+        }
+    }
+    "nature_tree_of_life_skin_3"    
+    {
+        "include_keys_from"    "nature_tree_of_life"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18775"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18774"
+                }
+                "3"    
+                {
+                    "ItemDef"    "18777"
+                }
+                "4"    
+                {
+                    "ItemDef"    "18776"
+                }
+            }
+        }
+    }
+    "nature_tree_of_knowledge_skin_1"    
+    {
+        "include_keys_from"    "nature_tree_of_knowledge"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "23265"
+                }
+                "2"    
+                {
+                    "ItemDef"    "23266"
+                }
+                "3"    
+                {
+                    "ItemDef"    "23263"
+                }
+                "4"    
+                {
+                    "ItemDef"    "23264"
+                }
+            }
+        }
+    }
+    "nature_tree_of_knowledge_skin_2"    
+    {
+        "include_keys_from"    "nature_tree_of_knowledge"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17828"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17825"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17827"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17829"
+                }
+                "5"    
+                {
+                    "ItemDef"    "17826"
+                }
+            }
+        }
+    }
+    "nature_tree_of_knowledge_skin_3"    
+    {
+        "include_keys_from"    "nature_tree_of_knowledge"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "19402"
+                }
+                "2"    
+                {
+                    "ItemDef"    "19399"
+                }
+                "3"    
+                {
+                    "ItemDef"    "19400"
+                }
+                "4"    
+                {
+                    "ItemDef"    "19401"
+                }
+            }
+        }
+    }
+    "orc_wolverine_skin_1"    
+    {
+        "include_keys_from"    "orc_wolverine"
+        "Model"    "models/heroes/axe/axe.vmdl"
+        "SoundSet"    "Hero_Axe"
+        "Ability8"    ""
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22216"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22219"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22218"
+                }
+                "4"    
+                {
+                    "ItemDef"    "22215"
+                }
+                "5"    
+                {
+                    "ItemDef"    "22217"
+                }
+            }
+        }
+    }
+    "orc_wolverine_skin_2"    
+    {
+        "include_keys_from"    "orc_wolverine"
+        "Model"    "models/heroes/axe/axe.vmdl"
+        "SoundSet"    "Hero_Axe"
+        "Ability8"    ""
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18549"
+                }
+                "2"    
+                {
+                    "ItemDef"    "8468"
+                }
+                "3"    
+                {
+                    "ItemDef"    "4164"
+                }
+                "4"    
+                {
+                    "ItemDef"    "4163"
+                }
+            }
+        }
+    }
+    "orc_blood_orc_warlock_skin_1"    
+    {
+        "include_keys_from"    "orc_blood_orc_warlock"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14002"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14269"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13998"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14001"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14946"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13997"
+                }
+                "7"    
+                {
+                    "ItemDef"    "14000"
+                }
+                "8"    
+                {
+                    "ItemDef"    "13999"
+                }
+            }
+        }
+    }
+    "orc_elder_witch_doctor_skin_1"    
+    {
+        "include_keys_from"    "orc_elder_witch_doctor"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9679"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12328"
+                }
+            }
+        }
+    }
+    "orc_elder_witch_doctor_skin_2"    
+    {
+        "include_keys_from"    "orc_elder_witch_doctor"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9384"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9385"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9382"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9374"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9383"
+                }
+            }
+        }
+    }
+    "orc_wind_rider_skin_1"    
+    {
+        "include_keys_from"    "orc_wind_rider"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13332"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13331"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13334"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13333"
+                }
+            }
+        }
+    }
+    "orc_wind_rider_skin_2"    
+    {
+        "include_keys_from"    "orc_wind_rider"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9410"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9407"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9406"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9405"
+                }
+            }
+        }
+    }
+    "orc_wind_rider_skin_3"    
+    {
+        "include_keys_from"    "orc_wind_rider"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17925"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17922"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17921"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17924"
+                }
+            }
+        }
+    }
+    "orc_thrall_skin_1"    
+    {
+        "include_keys_from"    "orc_thrall"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "4150"
+                }
+                "2"    
+                {
+                    "ItemDef"    "4151"
+                }
+                "3"    
+                {
+                    "ItemDef"    "4152"
+                }
+                "4"    
+                {
+                    "ItemDef"    "4109"
+                }
+                "5"    
+                {
+                    "ItemDef"    "19"
+                }
+                "6"    
+                {
+                    "ItemDef"    ""
+                }
+                "7"    
+                {
+                    "ItemDef"    ""
+                }
+                "8"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "orc_thrall_skin_2"    
+    {
+        "include_keys_from"    "orc_thrall"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9359"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9373"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9358"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9372"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9360"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9371"
+                }
+                "7"    
+                {
+                    "ItemDef"    ""
+                }
+                "8"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "orc_thrall_skin_3"    
+    {
+        "include_keys_from"    "orc_thrall"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12990"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12989"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12988"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12992"
+                }
+                "5"    
+                {
+                    "ItemDef"    "12991"
+                }
+                "6"    
+                {
+                    "ItemDef"    "12987"
+                }
+                "7"    
+                {
+                    "ItemDef"    ""
+                }
+                "8"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "paladin_militia_skin_1"    
+    {
+        "include_keys_from"    "paladin_militia"
+        "Model"    "models/creeps/lane_creeps/creep_bad_melee/creep_bad_flagbearer_mega.vmdl"
+    }
+    "paladin_militia_skin_2"    
+    {
+        "include_keys_from"    "paladin_militia"
+        "Model"    "models/creeps/lane_creeps/creep_bad_melee/creep_bad_melee_flagbearer_mega_crystal.vmdl"
+    }
+    "paladin_militia_skin_3"    
+    {
+        "include_keys_from"    "paladin_militia"
+        "Model"    "models/creeps/lane_creeps/ti9_chameleon_radiant/ti9_chameleon_radiant_flagbearer_melee_mega.vmdl"
+    }
+    "paladin_guard_skin_1"    
+    {
+        "include_keys_from"    "paladin_guard"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "7360"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7437"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7438"
+                }
+                "4"    
+                {
+                    "ItemDef"    "7440"
+                }
+                "5"    
+                {
+                    "ItemDef"    "7441"
+                }
+                "6"    
+                {
+                    "ItemDef"    "7439"
+                }
+            }
+        }
+    }
+    "paladin_guard_skin_2"    
+    {
+        "include_keys_from"    "paladin_guard"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18000"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17967"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17969"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17968"
+                }
+                "5"    
+                {
+                    "ItemDef"    "17999"
+                }
+                "6"    
+                {
+                    "ItemDef"    "18001"
+                }
+                "7"    
+                {
+                    "ItemDef"    "17998"
+                }
+            }
+        }
+    }
+    "paladin_guard_skin_3"    
+    {
+        "include_keys_from"    "paladin_guard"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9132"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9136"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9135"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9134"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9131"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9133"
+                }
+                "7"    
+                {
+                    "ItemDef"    "9130"
+                }
+            }
+        }
+    }
+    "paladin_high_priest_skin_1"    
+    {
+        "include_keys_from"    "paladin_high_priest"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9954"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9953"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9952"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9950"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9951"
+                }
+            }
+        }
+    }
+    "paladin_high_priest_skin_2"    
+    {
+        "include_keys_from"    "paladin_high_priest"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "19349"
+                }
+                "2"    
+                {
+                    "ItemDef"    "19348"
+                }
+                "3"    
+                {
+                    "ItemDef"    "19351"
+                }
+                "4"    
+                {
+                    "ItemDef"    "19347"
+                }
+                "5"    
+                {
+                    "ItemDef"    "19350"
+                }
+            }
+        }
+    }
+    "paladin_cavalier_skin_1"    
+    {
+        "include_keys_from"    "paladin_cavalier"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13989"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13988"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13987"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13984"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13986"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13985"
+                }
+            }
+        }
+    }
+    "paladin_cavalier_skin_2"    
+    {
+        "include_keys_from"    "paladin_cavalier"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12790"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12786"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12789"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12785"
+                }
+                "5"    
+                {
+                    "ItemDef"    "12791"
+                }
+                "6"    
+                {
+                    "ItemDef"    "12788"
+                }
+            }
+        }
+    }
+    "paladin_cavalier_skin_3"    
+    {
+        "include_keys_from"    "paladin_cavalier"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9783"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9782"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9785"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9780"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9781"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9784"
+                }
+            }
+        }
+    }
+    "paladin_royal_griffin_skin_1"    
+    {
+        "include_keys_from"    "paladin_royal_griffin"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "6975"
+                }
+                "2"    
+                {
+                    "ItemDef"    "6733"
+                }
+                "3"    
+                {
+                    "ItemDef"    "6974"
+                }
+                "4"    
+                {
+                    "ItemDef"    "6734"
+                }
+                "5"    
+                {
+                    "ItemDef"    "6973"
+                }
+                "6"    
+                {
+                    "ItemDef"    "6972"
+                }
+                "12"    
+                {
+                    "ItemDef"    ""
+                }
+                "15"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "paladin_royal_griffin_skin_2"    
+    {
+        "include_keys_from"    "paladin_royal_griffin"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12522"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12519"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12521"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12524"
+                }
+                "5"    
+                {
+                    "ItemDef"    "12518"
+                }
+                "6"    
+                {
+                    "ItemDef"    "12520"
+                }
+                "12"    
+                {
+                    "ItemDef"    ""
+                }
+                "15"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "paladin_royal_griffin_skin_3"    
+    {
+        "include_keys_from"    "paladin_royal_griffin"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13931"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13934"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13932"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13937"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13933"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13936"
+                }
+                "12"    
+                {
+                    "ItemDef"    ""
+                }
+                "15"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "paladin_royal_griffin_skin_4"    
+    {
+        "include_keys_from"    "paladin_royal_griffin"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9779"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9778"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9777"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9776"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9774"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9775"
+                }
+                "12"    
+                {
+                    "ItemDef"    ""
+                }
+                "15"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "shadow_dark_magen_skin_1"    
+    {
+        "include_keys_from"    "shadow_dark_mage"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22312"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22316"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22311"
+                }
+                "4"    
+                {
+                    "ItemDef"    "22314"
+                }
+                "5"    
+                {
+                    "ItemDef"    "22309"
+                }
+                "6"    
+                {
+                    "ItemDef"    "22313"
+                }
+                "7"    
+                {
+                    "ItemDef"    "22310"
+                }
+                "8"    
+                {
+                    "ItemDef"    "22315"
+                }
+            }
+        }
+    }
+    "shadow_doppelganger_skin_1"    
+    {
+        "include_keys_from"    "shadow_doppelganger"
+        "skin"    "0"
+    }
+    "shadow_doppelganger_skin_2"    
+    {
+        "include_keys_from"    "shadow_doppelganger"
+        "Model"    "models/heroes/faceless_void/faceless_void.vmdl"
+        "skin"    "0"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14647"
+                }
+                "2"    
+                {
+                    "ItemDef"    "7571"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14651"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14649"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14650"
+                }
+            }
+        }
+    }
+    "shadow_doppelganger_skin_3"    
+    {
+        "include_keys_from"    "shadow_doppelganger"
+        "Model"    "models/heroes/faceless_void/faceless_void.vmdl"
+        "skin"    "0"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "25739"
+                }
+                "2"    
+                {
+                    "ItemDef"    "25740"
+                }
+                "3"    
+                {
+                    "ItemDef"    "4020"
+                }
+                "4"    
+                {
+                    "ItemDef"    "25706"
+                }
+                "5"    
+                {
+                    "ItemDef"    "25738"
+                }
+            }
+        }
+    }
+    "shadow_hades_skin_1"    
+    {
+        "include_keys_from"    "shadow_hades"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "25396"
+                }
+                "2"    
+                {
+                    "ItemDef"    "25398"
+                }
+                "3"    
+                {
+                    "ItemDef"    "25397"
+                }
+                "4"    
+                {
+                    "ItemDef"    "25400"
+                }
+                "5"    
+                {
+                    "ItemDef"    "25399"
+                }
+                "6"    
+                {
+                    "ItemDef"    "25401"
+                }
+                "7"    
+                {
+                    "ItemDef"    "25314"
+                }
+            }
+        }
+    }
+    "shadow_hades_skin_2"    
+    {
+        "include_keys_from"    "shadow_hades"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9985"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9990"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9986"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9989"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9987"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9988"
+                }
+                "7"    
+                {
+                    "ItemDef"    "9991"
+                }
+            }
+        }
+    }
+    "undead_freezen_ghoul_skin_1"    
+    {
+        "include_keys_from"    "undead_freezen_ghoul"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "23454"
+                }
+                "2"    
+                {
+                    "ItemDef"    "23451"
+                }
+                "3"    
+                {
+                    "ItemDef"    "23452"
+                }
+                "4"    
+                {
+                    "ItemDef"    "23453"
+                }
+            }
+        }
+    }
+    "undead_freezen_ghoul_skin_2"    
+    {
+        "include_keys_from"    "undead_freezen_ghoul"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "727"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17799"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17800"
+                }
+            }
+        }
+    }
+    "undead_freezen_ghoul_skin_3"    
+    {
+        "include_keys_from"    "undead_freezen_ghoul"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13787"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12934"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9199"
+                }
+            }
+        }
+    }
+    "undead_war_machine_skin_1"    
+    {
+        "include_keys_from"    "undead_war_machine"
+        "Model"    "models/items/undying/flesh_golem/davy_jones_set_davy_jones_set_kraken/davy_jones_set_davy_jones_set_kraken.vmdl"
+    }
+    "undead_war_machine_skin_2"    
+    {
+        "include_keys_from"    "undead_war_machine"
+        "Model"    "models/items/undying/flesh_golem/undying_frankenstein_ability/undying_frankenstein_ability.vmdl"
+    }
+    "undead_war_machine_skin_3"    
+    {
+        "include_keys_from"    "undead_war_machine"
+        "Model"    "models/items/undying/flesh_golem/grim_harvest_golem/grim_harvest_golem.vmdl"
+    }
+    "undead_the_butcher_skin_1"    
+    {
+        "include_keys_from"    "undead_the_butcher"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12807"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12804"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12805"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12809"
+                }
+                "5"    
+                {
+                    "ItemDef"    "12803"
+                }
+                "6"    
+                {
+                    "ItemDef"    "12806"
+                }
+                "7"    
+                {
+                    "ItemDef"    "12808"
+                }
+            }
+        }
+    }
+    "undead_the_butcher_skin_2"    
+    {
+        "include_keys_from"    "undead_the_butcher"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18063"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18068"
+                }
+                "3"    
+                {
+                    "ItemDef"    "18065"
+                }
+                "4"    
+                {
+                    "ItemDef"    "18067"
+                }
+                "5"    
+                {
+                    "ItemDef"    "18064"
+                }
+                "6"    
+                {
+                    "ItemDef"    "18069"
+                }
+                "7"    
+                {
+                    "ItemDef"    "18066"
+                }
+            }
+        }
+    }
+    "undead_the_butcher_skin_3"    
+    {
+        "include_keys_from"    "undead_the_butcher"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14038"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14034"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14037"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14033"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14036"
+                }
+                "6"    
+                {
+                    "ItemDef"    "14039"
+                }
+                "7"    
+                {
+                    "ItemDef"    "14035"
+                }
+            }
+        }
+    }
+    "undead_the_butcher_skin_4"    
+    {
+        "include_keys_from"    "undead_the_butcher"
+        "Model"    "models/heroes/pudge_cute/pudge_cute.vmdl"
+        "ModelScale"    "1.3"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "713"
+                }
+                "2"    
+                {
+                    "ItemDef"    "696"
+                }
+                "3"    
+                {
+                    "ItemDef"    "697"
+                }
+                "4"    
+                {
+                    "ItemDef"    "709"
+                }
+                "5"    
+                {
+                    "ItemDef"    "712"
+                }
+                "6"    
+                {
+                    "ItemDef"    "805"
+                }
+                "7"    
+                {
+                    "ItemDef"    "768"
+                }
+                "8"    
+                {
+                    "ItemDef"    "391"
+                }
+            }
+        }
+    }
+    "undead_death_dragon_skin_1"    
+    {
+        "include_keys_from"    "undead_death_dragon"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14778"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14777"
+                }
+            }
+        }
+    }
+    "undead_death_dragon_skin_2"    
+    {
+        "include_keys_from"    "undead_death_dragon"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22873"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22876"
+                }
+            }
+        }
+    }
+    "undead_death_dragon_skin_3"    
+    {
+        "include_keys_from"    "undead_death_dragon"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9276"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9277"
+                }
+            }
+        }
+    }
+    "wave_quilbeast_4_skin_1"    
+    {
+        "include_keys_from"    "wave_quilbeast_4"
+        "Model"    "models/items/beastmaster/boar/ti9_cache_beast_master_dinosaurs_telepathy_beast/ti9_cache_beast_master_dinosaurs_telepathy_beast.vmdl"
+    }
+    "wave_quilbeast_4_skin_2"    
+    {
+        "include_keys_from"    "wave_quilbeast_4"
+        "Model"    "models/items/beastmaster/boar/legacy_of_the_nords_battle_boar/legacy_of_the_nords_battle_boar.vmdl"
+    }
+    "wave_quilbeast_4_skin_3"    
+    {
+        "include_keys_from"    "wave_quilbeast_4"
+        "Model"    "models/items/beastmaster/boar/ti9_cache_bm_chieftain_of_the_primal_tribes_beast/ti9_cache_bm_chieftain_of_the_primal_tribes_beast.vmdl"
+    }
+    "barrack_militia_skin_1"    
+    {
+        "include_keys_from"    "barrack_militia"
+        "Model"    "models/creeps/lane_creeps/creep_bad_melee/creep_bad_melee.vmdl"
+    }
+    "barrack_militia_skin_2"    
+    {
+        "include_keys_from"    "barrack_militia"
+        "Model"    "models/creeps/neutral_creeps/n_creep_troll_skeleton/n_creep_skeleton_melee.vmdl"
+        "ModelScale"    "1"
+    }
+    "barrack_bowman_skin_1"    
+    {
+        "include_keys_from"    "barrack_bowman"
+        "Model"    "models/creeps/item_creeps/i_creep_necro_archer/necro_archer.vmdl"
+        "ModelScale"    "0.6"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+                "6"    
+                {
+                    "ItemDef"    ""
+                }
+                "7"    
+                {
+                    "ItemDef"    ""
+                }
+                "8"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "barrack_bowman_skin_2"    
+    {
+        "include_keys_from"    "barrack_bowman"
+        "Model"    "models/creeps/lane_creeps/creep_bad_ranged/lane_dire_ranged.vmdl"
+        "ProjectileModel"    "particles/base_attacks/ranged_badguy.vpcf"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+                "6"    
+                {
+                    "ItemDef"    ""
+                }
+                "7"    
+                {
+                    "ItemDef"    ""
+                }
+                "8"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "barrack_ghoul_skin_1"    
+    {
+        "include_keys_from"    "barrack_ghoul"
+        "Model"    "models/creeps/ice_biome/undeadtusk/undead_tuskskeleton01.vmdl"
+    }
+    "barrack_ghoul_skin_2"    
+    {
+        "include_keys_from"    "barrack_ghoul"
+        "Model"    "models/creeps/ice_biome/undeadtusk/undead_tuskskeleton_armor01.vmdl"
+    }
+    "barrack_warrior_skin_1"    
+    {
+        "include_keys_from"    "barrack_warrior"
+        "Model"    "models/creeps/lane_creeps/creep_2021_dire/creep_2021_dire_melee.vmdl"
+    }
+    "barrack_warrior_skin_2"    
+    {
+        "include_keys_from"    "barrack_warrior"
+        "Model"    "models/creeps/mars_soldier/mars_soldier_custom_game.vmdl"
+        "SoundSet"    "Hero_Mars"
+    }
+    "barrack_whelp_skin_1"    
+    {
+        "include_keys_from"    "barrack_whelp"
+        "Model"    "models/creeps/neutral_creeps/n_creep_black_drake/n_creep_black_drake.vmdl"
+    }
+    "barrack_whelp_skin_2"    
+    {
+        "include_keys_from"    "barrack_whelp"
+        "Model"    "models/creeps/ice_biome/diregull/diregull.vmdl"
+    }
+    "barrack_hermit_skin_1"    
+    {
+        "include_keys_from"    "barrack_hermit"
+        "Model"    "models/creeps/ice_biome/penguin/penguin.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+                "6"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "barrack_commander_skin_1"    
+    {
+        "include_keys_from"    "barrack_commander"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "691"
+                }
+                "2"    
+                {
+                    "ItemDef"    "692"
+                }
+                "3"    
+                {
+                    "ItemDef"    "693"
+                }
+                "4"    
+                {
+                    "ItemDef"    "694"
+                }
+                "5"    
+                {
+                    "ItemDef"    "695"
+                }
+            }
+        }
+    }
+    "barrack_commander_skin_2"    
+    {
+        "include_keys_from"    "barrack_commander"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "26439"
+                }
+                "2"    
+                {
+                    "ItemDef"    "26438"
+                }
+                "3"    
+                {
+                    "ItemDef"    "26442"
+                }
+                "4"    
+                {
+                    "ItemDef"    "26441"
+                }
+                "5"    
+                {
+                    "ItemDef"    "26440"
+                }
+            }
+        }
+    }
+    "barrack_commander_skin_3"    
+    {
+        "include_keys_from"    "barrack_commander"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18303"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18300"
+                }
+                "3"    
+                {
+                    "ItemDef"    "18301"
+                }
+                "4"    
+                {
+                    "ItemDef"    "18378"
+                }
+                "5"    
+                {
+                    "ItemDef"    "18302"
+                }
+            }
+        }
+    }
+    "barrack_furbolg_skin_2"    
+    {
+        "include_keys_from"    "barrack_furbolg"
+        "Model"    "models/creeps/neutral_creeps/n_creep_beast/n_creep_beast.vmdl"
+    }
+    "barrack_blood_orc_skin_1"    
+    {
+        "include_keys_from"    "barrack_blood_orc"
+        "Model"    "models/creeps/knoll_1/werewolf_boss.vmdl"
+    }
+    "barrack_frost_wolf_skin_1"    
+    {
+        "include_keys_from"    "barrack_frost_wolf"
+        "Model"    "models/items/lycan/wolves/_ascension_of_the_hallowed_beast_summons/_ascension_of_the_hallowed_beast_summons.vmdl"
+    }
+    "barrack_frost_wolf_skin_2"    
+    {
+        "include_keys_from"    "barrack_frost_wolf"
+        "Model"    "models/items/lycan/wolves/alpha_summon_01/alpha_summon_01.vmdl"
+    }
+    "barrack_ice_troll_skin_1"    
+    {
+        "include_keys_from"    "barrack_ice_troll"
+        "Model"    "models/creeps/neutral_creeps/n_creep_troll_dark_a/n_creep_troll_dark_a.vmdl"
+        "ProjectileModel"    "particles/items2_fx/skadi_projectile.vpcf"
+        "SoundSet"    "n_creep_Ranged"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "barrack_pandaren_skin_1"    
+    {
+        "include_keys_from"    "barrack_pandaren"
+        "Model"    "models/items/lone_druid/true_form/frostivus2018_lone_druid_inuit_trueform/frostivus2018_lone_druid_inuit_trueform.vmdl"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "barrack_pandaren_skin_2"    
+    {
+        "include_keys_from"    "barrack_pandaren"
+        "Model"    "models/items/lone_druid/true_form/tarzan_and_kingkong_trueform/tarzan_and_kingkong_trueform.vmdl"
+        "ModelScale"    "0.9"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "barrack_shaman_skin_1"    
+    {
+        "include_keys_from"    "barrack_shaman"
+        "Model"    "models/heroes/shadowshaman/shadowshaman.vmdl"
+        "ProjectileModel"    "particles/units/heroes/hero_shadowshaman/shadowshaman_base_attack.vpcf"
+        "SoundSet"    "Hero_ShadowShaman"
+        "ModelScale"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "8370"
+                }
+                "2"    
+                {
+                    "ItemDef"    "246"
+                }
+                "3"    
+                {
+                    "ItemDef"    "250"
+                }
+                "4"    
+                {
+                    "ItemDef"    "251"
+                }
+                "5"    
+                {
+                    "ItemDef"    "248"
+                }
+                "6"    
+                {
+                    "ItemDef"    "249"
+                }
+                "7"    
+                {
+                    "ItemDef"    "247"
+                }
+            }
+        }
+    }
+    "barrack_shaman_skin_2"    
+    {
+        "include_keys_from"    "barrack_shaman"
+        "Model"    "models/heroes/shadowshaman/shadowshaman.vmdl"
+        "ProjectileModel"    "particles/units/heroes/hero_shadowshaman/shadowshaman_base_attack.vpcf"
+        "SoundSet"    "Hero_ShadowShaman"
+        "ModelScale"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13367"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13364"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13366"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13369"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13368"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13365"
+                }
+            }
+        }
+    }
+    "barrack_infernal_skin_1"    
+    {
+        "include_keys_from"    "barrack_infernal"
+        "Model"    "models/items/warlock/golem/ti_8_warlock_darkness_apostate_golem/ti_8_warlock_darkness_apostate_golem.vmdl"
+    }
+    "barrack_infernal_skin_2"    
+    {
+        "include_keys_from"    "barrack_infernal"
+        "Model"    "models/items/warlock/golem/warlock_the_infernal_master_golem/warlock_the_infernal_master_golem.vmdl"
+        "ambientParticle"    "particles/econ/items/warlock/warlock_golem_infernal_master/warlock_golem_infernal_master.vpcf"
+        "wearable"    ""
+    }
+    "barrack_infernal_skin_3"    
+    {
+        "include_keys_from"    "barrack_infernal"
+        "Model"    "models/items/warlock/golem/obsidian_golem/obsidian_golem.vmdl"
+        "ambientParticle"    "particles/econ/items/warlock/warlock_golem_obsidian/golem_ambient_obsidian.vpcf"
+        "wearable"    ""
+    }
+    "barrack_infernal_skin_4"    
+    {
+        "include_keys_from"    "barrack_infernal"
+        "Model"    "models/items/warlock/golem/puppet_summoner_golem/puppet_summoner_golem.vmdl"
+        "ambientParticle"    "particles/models/items/warlock/ti10_puppet_summoner_golem/ti10_puppet_summoner_golem.vpcf"
+        "wearable"    ""
+    }
+    "barrack_demon_skin_1"    
+    {
+        "include_keys_from"    "barrack_demon"
+        "Model"    "models/items/terrorblade/tb_samurai_samurai_demon/tb_samurai_samurai_demon.vmdl"
+    }
+    "barrack_demon_skin_2"    
+    {
+        "include_keys_from"    "barrack_demon"
+        "Model"    "models/items/terrorblade/dotapit_s3_fallen_light_metamorphosis/dotapit_s3_fallen_light_metamorphosis.vmdl"
+    }
+    "barrack_demon_skin_3"    
+    {
+        "include_keys_from"    "barrack_demon"
+        "Model"    "models/items/terrorblade/terrorblade_ultimate_depravity_ability/terrorblade_ultimate_depravity_ability.vmdl"
+    }
+    "wave_hawk_5_skin_1"    
+    {
+        "include_keys_from"    "wave_hawk_5"
+        "Model"    "models/items/beastmaster/hawk/ti9_cache_beast_master_dinosaurs_telepathy_hawk/ti9_cache_beast_master_dinosaurs_telepathy_hawk.vmdl"
+    }
+    "wave_hawk_5_skin_2"    
+    {
+        "include_keys_from"    "wave_hawk_5"
+        "Model"    "models/items/beastmaster/hawk/fotw_eagle/fotw_eagle.vmdl"
+    }
+    "wave_hawk_5_skin_3"    
+    {
+        "include_keys_from"    "wave_hawk_5"
+        "Model"    "models/items/beastmaster/hawk/ti9_cache_bm_chieftain_of_the_primal_tribes_bird/ti9_cache_bm_chieftain_of_the_primal_tribes_bird.vmdl"
+    }
+    "wave_satyr_7_skin_1"    
+    {
+        "include_keys_from"    "wave_satyr_7"
+        "Model"    "models/heroes/rikimaru/rikimaru.vmdl"
+        "SoundSet"    "Hero_Riki"
+        "ModelScale"    "0.9"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "322"
+                }
+                "2"    
+                {
+                    "ItemDef"    "163"
+                }
+                "3"    
+                {
+                    "ItemDef"    "164"
+                }
+                "4"    
+                {
+                    "ItemDef"    "166"
+                }
+                "5"    
+                {
+                    "ItemDef"    "165"
+                }
+                "6"    
+                {
+                    "ItemDef"    "561"
+                }
+            }
+        }
+    }
+    "wave_satyr_7_skin_2"    
+    {
+        "include_keys_from"    "wave_satyr_7"
+        "Model"    "models/heroes/rikimaru/rikimaru.vmdl"
+        "SoundSet"    "Hero_Riki"
+        "ModelScale"    "0.9"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14771"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14774"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14775"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14776"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14773"
+                }
+                "6"    
+                {
+                    "ItemDef"    "14772"
+                }
+            }
+        }
+    }
+    "wave_satyr_7_skin_3"    
+    {
+        "include_keys_from"    "wave_satyr_7"
+        "Model"    "models/heroes/rikimaru/rikimaru.vmdl"
+        "SoundSet"    "Hero_Riki"
+        "ModelScale"    "0.9"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "26810"
+                }
+                "2"    
+                {
+                    "ItemDef"    "26809"
+                }
+                "3"    
+                {
+                    "ItemDef"    "26808"
+                }
+                "4"    
+                {
+                    "ItemDef"    "26811"
+                }
+                "5"    
+                {
+                    "ItemDef"    "26806"
+                }
+                "6"    
+                {
+                    "ItemDef"    "26807"
+                }
+            }
+        }
+    }
+    "wave_aoclyte_8_skin_1"    
+    {
+        "include_keys_from"    "wave_aoclyte_8"
+        "Model"    "models/items/invoker/forge_spirit/esl_relics_forge_spirit/esl_relics_forge_spirit_dpc.vmdl"
+    }
+    "wave_aoclyte_8_skin_2"    
+    {
+        "include_keys_from"    "wave_aoclyte_8"
+        "Model"    "models/items/invoker/forge_spirit/nightlord_crypt_sentinel/nightlord_crypt_sentinel.vmdl"
+    }
+    "wave_aoclyte_8_skin_3"    
+    {
+        "include_keys_from"    "wave_aoclyte_8"
+        "Model"    "models/items/invoker/forge_spirit/iceforged_spirit/iceforged_spirit.vmdl"
+    }
+    "wave_aoclyte_8_skin_4"    
+    {
+        "include_keys_from"    "wave_aoclyte_8"
+        "Model"    "models/items/invoker/forge_spirit/steampowered_magic_forge_spirit/steampowered_magic_forge_spirit.vmdl"
+    }
+    "wave_zombie_9_skin_1"    
+    {
+        "include_keys_from"    "wave_zombie_9"
+        "Model"    "models/heroes/undying/undying_minion.vmdl"
+    }
+    "wave_zombie_9_skin_2"    
+    {
+        "include_keys_from"    "wave_zombie_9"
+        "Model"    "models/items/undying/idol_of_ruination/ruin_wight_minion_torso.vmdl"
+        "ModelScale"    "1.3"
+    }
+    "wave_zombie_9_skin_3"    
+    {
+        "include_keys_from"    "wave_zombie_9"
+        "Model"    "models/items/undying/undying_fall20_immortal_head/undying_fall20_immortal_minion.vmdl"
+    }
+    "wave_draenei_chieftain_10_skin_1"    
+    {
+        "include_keys_from"    "wave_draenei_chieftain_10"
+        "ambientParticle1"    "particles/econ/items/monkey_king/arcana/monkey_king_arcana_water.vpcf"
+        "skin"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17235"
+                }
+                "2"    
+                {
+                    "ItemDef"    "608"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9050"
+                }
+                "4"    
+                {
+                    "ItemDef"    "609"
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "wave_draenei_chieftain_10_skin_2"    
+    {
+        "include_keys_from"    "wave_draenei_chieftain_10"
+        "skin"    "2"
+        "ambientParticle1"    "particles/econ/items/monkey_king/arcana/monkey_king_arcana_death.vpcf"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17235"
+                }
+                "2"    
+                {
+                    "ItemDef"    "608"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9050"
+                }
+                "4"    
+                {
+                    "ItemDef"    "609"
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "wave_draenei_chieftain_10_skin_3"    
+    {
+        "include_keys_from"    "wave_draenei_chieftain_10"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "609"
+                }
+                "2"    
+                {
+                    "ItemDef"    "594"
+                }
+                "3"    
+                {
+                    "ItemDef"    "608"
+                }
+                "4"    
+                {
+                    "ItemDef"    "657"
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "wave_draenei_chieftain_10_skin_4"    
+    {
+        "include_keys_from"    "wave_draenei_chieftain_10"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "25371"
+                }
+                "2"    
+                {
+                    "ItemDef"    "25353"
+                }
+                "3"    
+                {
+                    "ItemDef"    "25352"
+                }
+                "4"    
+                {
+                    "ItemDef"    "25354"
+                }
+            }
+        }
+    }
+    "wave_siren_12_skin_1"    
+    {
+        "include_keys_from"    "wave_siren_12"
+        "Model"    "models/items/enigma/eidolon/geodesic/geodesic.vmdl"
+    }
+    "wave_siren_12_skin_2"    
+    {
+        "include_keys_from"    "wave_siren_12"
+        "Model"    "models/items/enigma/eidolon/absolute_zero_updated_eidolon/absolute_zero_updated_eidolon.vmdl"
+    }
+    "wave_siren_12_skin_3"    
+    {
+        "include_keys_from"    "wave_siren_12"
+        "Model"    "models/items/enigma/eidolon/life_cycle_life_cycle_eidolons/life_cycle_life_cycle_eidolons.vmdl"
+    }
+    "wave_tuskar_warrior_14_skin_1"    
+    {
+        "include_keys_from"    "wave_tuskar_warrior_14"
+        "Model"    "models/heroes/brewmaster/brewmaster_firespirit.vmdl"
+        "SoundSet"    "Brewmaster_Fire"
+    }
+    "wave_tuskar_warrior_14_skin_2"    
+    {
+        "include_keys_from"    "wave_tuskar_warrior_14"
+        "Model"    "models/heroes/brewmaster/brewmaster_windspirit.vmdl"
+        "SoundSet"    "Brewmaster_Storm"
+    }
+    "wave_tuskar_warrior_14_skin_3"    
+    {
+        "include_keys_from"    "wave_tuskar_warrior_14"
+        "Model"    "models/heroes/brewmaster/brewmaster_voidspirit.vmdl"
+        "SoundSet"    "Brewmaster_Earth"
+    }
+    "wave_salamander_16_skin_1"    
+    {
+        "include_keys_from"    "wave_salamander_16"
+        "Model"    "models/creeps/neutral_creeps/n_creep_thunder_lizard/n_creep_thunder_lizard_big.vmdl"
+        "ModelScale"    "0.6"
+    }
+    "wave_flesh_golem_17_skin_1"    
+    {
+        "include_keys_from"    "wave_flesh_golem_17"
+        "Model"    "models/items/undying/flesh_golem/corrupted_scourge_corpse_hive/corrupted_scourge_corpse_hive.vmdl"
+    }
+    "wave_flesh_golem_17_skin_2"    
+    {
+        "include_keys_from"    "wave_flesh_golem_17"
+        "Model"    "models/items/undying/flesh_golem/incurable_pestilence_golem/incurable_pestilence_golem.vmdl"
+    }
+    "wave_flesh_golem_17_skin_3"    
+    {
+        "include_keys_from"    "wave_flesh_golem_17"
+        "Model"    "models/items/undying/flesh_golem/elegy_of_abyssal_samurai_golem/elegy_of_abyssal_samurai_golem.vmdl"
+    }
+    "wave_gaint_spider_19_skin_1"    
+    {
+        "include_keys_from"    "wave_gaint_spider_19"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "101"
+                }
+                "2"    
+                {
+                    "ItemDef"    "102"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9090"
+                }
+                "5"    
+                {
+                    "ItemDef"    "565"
+                }
+                "6"    
+                {
+                    "ItemDef"    "566"
+                }
+            }
+        }
+    }
+    "wave_gaint_spider_19_skin_2"    
+    {
+        "include_keys_from"    "wave_gaint_spider_19"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "27519"
+                }
+                "2"    
+                {
+                    "ItemDef"    "27518"
+                }
+                "3"    
+                {
+                    "ItemDef"    "27516"
+                }
+                "4"    
+                {
+                    "ItemDef"    "27517"
+                }
+                "5"    
+                {
+                    "ItemDef"    "27521"
+                }
+            }
+        }
+    }
+    "wave_gaint_spider_19_skin_3"    
+    {
+        "include_keys_from"    "wave_gaint_spider_19"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9426"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9425"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9423"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9424"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9427"
+                }
+            }
+        }
+    }
+    "wave_gaint_spider_19_skin_5"    
+    {
+        "include_keys_from"    "wave_gaint_spider_19"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "8392"
+                }
+                "2"    
+                {
+                    "ItemDef"    "8394"
+                }
+                "3"    
+                {
+                    "ItemDef"    "8395"
+                }
+                "4"    
+                {
+                    "ItemDef"    "8397"
+                }
+                "5"    
+                {
+                    "ItemDef"    "8399"
+                }
+            }
+        }
+    }
+    "wave_gaint_spider_19_skin_6"    
+    {
+        "include_keys_from"    "wave_gaint_spider_19"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17920"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17916"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17919"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17915"
+                }
+                "5"    
+                {
+                    "ItemDef"    "17918"
+                }
+            }
+        }
+    }
+    "wave_gaint_spider_19_skin_7"    
+    {
+        "include_keys_from"    "wave_gaint_spider_19"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9797"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9808"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9804"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9807"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9562"
+                }
+            }
+        }
+    }
+    "wave_gaint_spider_19_skin_8"    
+    {
+        "include_keys_from"    "wave_gaint_spider_19"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13270"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13269"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13273"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13272"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13271"
+                }
+            }
+        }
+    }
+    "wave_mammoth_22_skin_1"    
+    {
+        "include_keys_from"    "wave_mammoth_22"
+        "Model"    "models/creeps/neutral_creeps/n_creep_eimermole/n_creep_eimermole_lamp.vmdl"
+    }
+    "wave_mammoth_23_skin_1"    
+    {
+        "include_keys_from"    "wave_wildkin_23"
+        "Model"    "models/creeps/neutral_creeps/n_creep_vulture_a/n_creep_vulture_a.vmdl"
+    }
+    "wave_myrmidon_26_skin_1"    
+    {
+        "include_keys_from"    "wave_myrmidon_26"
+        "Model"    "models/creeps/lane_creeps/creep_radiant_hulk/creep_radiant_ancient_hulk.vmdl"
+        "SoundSet"    "Hero_WarlockGolem"
+        "ModelScale"    "0.8"
+    }
+    "wave_myrmidon_26_skin_2"    
+    {
+        "include_keys_from"    "wave_myrmidon_26"
+        "Model"    "models/creeps/lane_creeps/creep_radiant_hulk/creep_radiant_diretide_ancient_hulk.vmdl"
+        "SoundSet"    "Hero_WarlockGolem"
+        "ModelScale"    "0.8"
+    }
+    "wave_myrmidon_26_skin_3"    
+    {
+        "include_keys_from"    "wave_myrmidon_26"
+        "Model"    "models/creeps/lane_creeps/creep_radiant_hulk/creep_radiant_winter_ancient_hulk.vmdl"
+        "SoundSet"    "Hero_WarlockGolem"
+        "ModelScale"    "0.8"
+    }
+    "wave_crab_1_skin_1"    
+    {
+        "include_keys_from"    "wave_crab_1"
+        "Model"    "models/creeps/neutral_creeps/n_creep_kobold/kobold_b/n_creep_kobold_b.vmdl"
+        "SoundSet"    "n_creep_Melee"
+        "ModelScale"    "0.8"
+    }
+    "wave_crab_1_skin_2"    
+    {
+        "include_keys_from"    "wave_crab_1"
+        "Model"    "models/creeps/neutral_creeps/n_creep_troll_skeleton/n_creep_skeleton_melee.vmdl"
+        "SoundSet"    "n_creep_Melee"
+        "ModelScale"    "1"
+    }
+    "wave_crab_1_skin_3"    
+    {
+        "include_keys_from"    "wave_crab_1"
+        "Model"    "models/creeps/lane_creeps/creep_radiant_melee/radiant_melee.vmdl"
+        "SoundSet"    "n_creep_Melee"
+        "ModelScale"    "0.8"
+    }
+    "wave_crab_1_skin_4"    
+    {
+        "include_keys_from"    "wave_crab_1"
+        "Model"    "models/creeps/lane_creeps/creep_bad_melee/creep_bad_melee.vmdl"
+        "SoundSet"    "n_creep_Melee"
+        "ModelScale"    "0.8"
+    }
+    "wave_murloc_2_skin_1"    
+    {
+        "include_keys_from"    "wave_murloc_2"
+        "Model"    "models/creeps/item_creeps/i_creep_necro_warrior/necro_warrior.vmdl"
+        "SoundSet"    "Creep_Good_Melee"
+        "ModelScale"    "0.5"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+                "6"    
+                {
+                    "ItemDef"    ""
+                }
+                "7"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "wave_murloc_2_skin_2"    
+    {
+        "include_keys_from"    "wave_murloc_2"
+        "Model"    "models/creeps/neutral_creeps/n_creep_forest_trolls/n_creep_forest_troll_berserker.vmdl"
+        "SoundSet"    "n_creep_Ranged"
+        "ModelScale"    "0.9"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+                "6"    
+                {
+                    "ItemDef"    ""
+                }
+                "7"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "wave_scorpion_3_skin_1"    
+    {
+        "include_keys_from"    "wave_scorpion_3"
+        "Model"    "models/creeps/neutral_creeps/n_creep_worg_small/n_creep_worg_small.vmdl"
+        "SoundSet"    "Lycan_Wolf"
+        "ModelScale"    "1"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "wave_scorpion_3_skin_2"    
+    {
+        "include_keys_from"    "wave_scorpion_3"
+        "Model"    "models/creeps/neutral_creeps/n_creep_worg_large/n_creep_worg_large.vmdl"
+        "SoundSet"    "Lycan_Wolf"
+        "ModelScale"    "0.8"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    ""
+                }
+                "2"    
+                {
+                    "ItemDef"    ""
+                }
+                "3"    
+                {
+                    "ItemDef"    ""
+                }
+                "4"    
+                {
+                    "ItemDef"    ""
+                }
+                "5"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "wave_doom_guard_27_skin_1"    
+    {
+        "include_keys_from"    "wave_doom_guard_27"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "25314"
+                }
+                "2"    
+                {
+                    "ItemDef"    "25396"
+                }
+                "3"    
+                {
+                    "ItemDef"    "25397"
+                }
+                "4"    
+                {
+                    "ItemDef"    "25398"
+                }
+                "5"    
+                {
+                    "ItemDef"    "25399"
+                }
+                "6"    
+                {
+                    "ItemDef"    "25400"
+                }
+                "7"    
+                {
+                    "ItemDef"    "25401"
+                }
+            }
+        }
+    }
+    "wave_doom_guard_27_skin_2"    
+    {
+        "include_keys_from"    "wave_doom_guard_27"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9985"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9986"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9987"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9988"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9989"
+                }
+                "6"    
+                {
+                    "ItemDef"    "9990"
+                }
+                "7"    
+                {
+                    "ItemDef"    "9991"
+                }
+            }
+        }
+    }
+    "wave_juggernaut_28_skin_1"    
+    {
+        "include_keys_from"    "wave_juggernaut_28"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14956"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14958"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14955"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14959"
+                }
+                "5"    
+                {
+                    "ItemDef"    "18369"
+                }
+                "6"    
+                {
+                    "ItemDef"    "14957"
+                }
+            }
+        }
+    }
+    "wave_juggernaut_28_skin_2"    
+    {
+        "include_keys_from"    "wave_juggernaut_28"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13177"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13184"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13176"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13179"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13185"
+                }
+                "6"    
+                {
+                    "ItemDef"    "13178"
+                }
+            }
+        }
+    }
+    "wave_magnataur_30_skin_1"    
+    {
+        "include_keys_from"    "wave_magnataur_30"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14695"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14698"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14697"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14696"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14694"
+                }
+            }
+        }
+    }
+    "wave_magnataur_30_skin_2"    
+    {
+        "include_keys_from"    "wave_magnataur_30"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14048"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14045"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14044"
+                }
+                "4"    
+                {
+                    "ItemDef"    "14046"
+                }
+                "5"    
+                {
+                    "ItemDef"    "14047"
+                }
+            }
+        }
+    }
+    "wave_rock_golem_6_skin_1"    
+    {
+        "include_keys_from"    "wave_rock_golem_6"
+        "Model"    "models/creeps/pine_cone/pine_cone.vmdl"
+        "SoundSet"    "n_creep_Melee"
+    }
+    "undead_revenant_skin_1"    
+    {
+        "include_keys_from"    "undead_revenant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12571"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12570"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12569"
+                }
+                "4"    
+                {
+                    "ItemDef"    "12572"
+                }
+                "11"    
+                {
+                    "ItemDef"    "501"
+                }
+            }
+        }
+    }
+    "undead_revenant_skin_2"    
+    {
+        "include_keys_from"    "undead_revenant"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18510"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9462"
+                }
+                "3"    
+                {
+                    "ItemDef"    "7462"
+                }
+                "4"    
+                {
+                    "ItemDef"    "652"
+                }
+                "11"    
+                {
+                    "ItemDef"    "501"
+                }
+            }
+        }
+    }
+    "shadow_carrion_nightcrawler_skin_1"    
+    {
+        "include_keys_from"    "shadow_carrion_nightcrawler"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "17887"
+                }
+                "2"    
+                {
+                    "ItemDef"    "17889"
+                }
+                "3"    
+                {
+                    "ItemDef"    "17886"
+                }
+                "4"    
+                {
+                    "ItemDef"    "17890"
+                }
+                "5"    
+                {
+                    "ItemDef"    "17888"
+                }
+            }
+        }
+    }
+    "shadow_carrion_nightcrawler_skin_2"    
+    {
+        "include_keys_from"    "shadow_carrion_nightcrawler"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "13222"
+                }
+                "2"    
+                {
+                    "ItemDef"    "13238"
+                }
+                "3"    
+                {
+                    "ItemDef"    "13224"
+                }
+                "4"    
+                {
+                    "ItemDef"    "13223"
+                }
+                "5"    
+                {
+                    "ItemDef"    "13225"
+                }
+            }
+        }
+    }
+    "shadow_carrion_nightcrawler_skin_3"    
+    {
+        "include_keys_from"    "shadow_carrion_nightcrawler"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9931"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9928"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9930"
+                }
+                "4"    
+                {
+                    "ItemDef"    "9927"
+                }
+                "5"    
+                {
+                    "ItemDef"    "9929"
+                }
+            }
+        }
+    }
+    "shadow_carrion_nightcrawler_skin_4"    
+    {
+        "include_keys_from"    "shadow_carrion_nightcrawler"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18472"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18469"
+                }
+                "3"    
+                {
+                    "ItemDef"    "18471"
+                }
+                "4"    
+                {
+                    "ItemDef"    "18473"
+                }
+                "5"    
+                {
+                    "ItemDef"    "18470"
+                }
+            }
+        }
+    }
+    "shadow_lord_of_death_skin_1"    
+    {
+        "include_keys_from"    "shadow_lord_of_death"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "9021"
+                }
+                "2"    
+                {
+                    "ItemDef"    "9019"
+                }
+                "3"    
+                {
+                    "ItemDef"    "9020"
+                }
+            }
+        }
+    }
+    "shadow_lord_of_death_skin_2"    
+    {
+        "include_keys_from"    "shadow_lord_of_death"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22844"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22845"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22843"
+                }
+            }
+        }
+    }
+    "shadow_lord_of_death_skin_3"    
+    {
+        "include_keys_from"    "shadow_lord_of_death"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "22844"
+                }
+                "2"    
+                {
+                    "ItemDef"    "22845"
+                }
+                "3"    
+                {
+                    "ItemDef"    "22843"
+                }
+            }
+        }
+    }
+    "shadow_lord_of_death_skin_4"    
+    {
+        "include_keys_from"    "shadow_lord_of_death"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "18034"
+                }
+                "2"    
+                {
+                    "ItemDef"    "18035"
+                }
+                "3"    
+                {
+                    "ItemDef"    "18036"
+                }
+            }
+        }
+    }
+    "shadow_lord_of_death_skin_5"    
+    {
+        "Model"    "models/heroes/shadow_fiend/shadow_fiend_arcana.vmdl"
+        "include_keys_from"    "shadow_lord_of_death"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "2"    
+                {
+                    "ItemDef"    "6996"
+                }
+                "11"    
+                {
+                    "ItemDef"    ""
+                }
+            }
+        }
+    }
+    "undead_guardian_of_death_skin_1"    
+    {
+        "include_keys_from"    "undead_guardian_of_death"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "12295"
+                }
+                "2"    
+                {
+                    "ItemDef"    "12293"
+                }
+                "3"    
+                {
+                    "ItemDef"    "12294"
+                }
+            }
+        }
+    }
+    "undead_guardian_of_death_skin_2"    
+    {
+        "include_keys_from"    "undead_guardian_of_death"
+        "Creature"    
+        {
+            "AttachWearables"    
+            {
+                "1"    
+                {
+                    "ItemDef"    "14200"
+                }
+                "2"    
+                {
+                    "ItemDef"    "14197"
+                }
+                "3"    
+                {
+                    "ItemDef"    "14199"
+                }
+            }
+        }
+    }
+    "mech_doomsday_machine_skin_1"    
+    {
+        "include_keys_from"    "mech_doomsday_machine"
+        "Model"    "models/heroes/aghanim_bathtime/aghanim_bathtime.vmdl"
+    }
+    "mech_doomsday_machine_skin_2"    
+    {
+        "include_keys_from"    "mech_doomsday_machine"
+        "Model"    "models/heroes/aghanim_dude/aghanim_dude.vmdl"
+    }
+    "mech_doomsday_machine_skin_3"    
+    {
+        "include_keys_from"    "mech_doomsday_machine"
+        "Model"    "models/heroes/aghanim_barbarian/aghanim_barbarian.vmdl"
+    }
+    "mech_doomsday_machine_skin_4"    
+    {
+        "include_keys_from"    "mech_doomsday_machine"
+        "Model"    "models/heroes/aghanim_mad_maghs/aghanim_mad_maghs.vmdl"
+    }
+}

@@ -1,0 +1,616 @@
+@define common_rarity_color: #88A6D9;
+@define elite_rarity_color: #D02B29;
+@define legendary_rarity_color: #7266FF;
+@define aghanims_room_color: #3375FF;
+@define transition_room_color: #FABE23;
+@define trap_room_color: #7266FF;
+@define bonus_room_color: #FF7F37;
+
+.CustomHudRoot {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.Hidden {
+    visibility: collapse;
+}
+
+.CustomHudContents {
+    width: 100%;
+    height: 100%;
+}
+
+.smallicon {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.smallicon2 {}
+
+#damageTable {
+    width: 500px;
+    height: 557px;
+    vertical-align: bottom;
+    horizontal-align: right;
+    margin-bottom: 150px;
+    margin-right: 0px;
+    transition-property: background-color, transform, opacity;
+    transition-duration: 0.45s;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#damageTableTitle {
+    horizontal-align: center;
+    margin: 7px 0px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#damageTableMain {
+    horizontal-align: right;
+    width: 450px;
+    height: 100%;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(rgba(20, 20, 25, 0.92)), to(rgba(10, 10, 15, 0.88)));
+    flow-children: down;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#damageTableBtn {
+    horizontal-align: right;
+    background-color: green;
+    width: 50px;
+    height: 84px;
+    margin-right: 241px;
+    z-index: -1;
+    vertical-align: middle;
+}
+
+#ControlPanelSlideThumbContainer {
+    transform: scaleX(-1);
+}
+
+.RightArrowButtonIcon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    horizontal-align: right;
+    background-image: url("file://{resources}/images/control_icons/single_arrow_left_png.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    wash-color: #D0D0D0;
+    transform: translateX(-1px);
+    transition-property: transform, wash-color;
+    transition-delay: 0.0s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transform: rotateZ(0deg) translateX(0px);
+}
+
+#ControlPanelSlideThumb:hover {
+    /* background-color: gradient( linear, 0% 0%, 70% 0%, from( #181818), to( #474747)); */
+}
+
+#ControlPanelSlideThumb:hover .RightArrowButtonIcon {
+    transform: rotateZ(0deg) translateX(-4px);
+    wash-color: white;
+}
+
+#ControlPanelSlideThumbContainer {
+    transform: scaleX(-1);
+    width: 40px;
+    height: 200px;
+    vertical-align: middle;
+    horizontal-align: right;
+    margin-right: 449px;
+}
+
+#ControlPanelSlideThumb {
+    width: 20px;
+    height: 120px;
+    vertical-align: middle;
+    transform: translateX(0px);
+    /* background-color: gradient( linear, 0% 0%, 70% 0%, from( #111111), to( #3b3b3b)); */
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition-property: background-color;
+    transition-delay: 0.0s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.Minimized .damageTable .RightArrowButtonIcon {
+    transform: rotateZ(180deg) translateX(-8px);
+}
+
+.Minimized .damageTable #ControlPanelSlideThumb:hover .RightArrowButtonIcon {
+    transform: rotateZ(180deg) translateX(-4px);
+    wash-color: white;
+}
+
+.damageTable. #ControlPanelSlideThumb:hover .RightArrowButtonIcon {
+    transform: translateX(3px) rotateZ(180deg);
+    wash-color: white;
+}
+
+.Minimized .damageTable {
+    transform: translateX(451px) translateY(-0px);
+    opacity: 0.95;
+}
+
+#damageItemList {
+    width: 100%;
+    flow-children: down;
+    height: 100%;
+    overflow: squish scroll;
+}
+
+.damageItem {
+    height: 27px;
+    margin: 2px 14px;
+    width: 100%;
+    flow-children: right;
+}
+
+/* Smooth movement animation */
+.damage-item-animated {
+    transition-property: position, transform, opacity;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.damageItemLeft {
+    width: 25%;
+    height: 100%;
+}
+
+.damageItemLeft Label {
+    horizontal-align: right;
+}
+
+.damageItemMid {
+    width: 15%;
+    height: 100%;
+}
+
+.damageItemRight {
+    height: 100%;
+    width: 60%;
+    /* flow-children: right; */
+}
+
+.damageItemMid Label {
+    horizontal-align: middle;
+    vertical-align: center;
+
+    color: #e2ea90;
+}
+
+.damageItemName {
+    horizontal-align: right;
+    color: #e4e4e4;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+#damageItemColor {
+    width: 60%;
+    background-color: rgb(227, 42, 42);
+    height: 100%;
+}
+
+#damageColorPhysical {
+    width: 10%;
+    background-color: rgba(240, 120, 90, 0.85);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    transition-property: width;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+#damageColorMagical {
+    width: 10%;
+    background-color: rgba(100, 150, 230, 0.85);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    transition-property: width;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+#damageColorPure {
+    width: 10%;
+    background-color: rgba(180, 140, 220, 0.85);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    transition-property: width;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+#damageColorHpremoval {
+    width: 10%;
+    background-color: rgba(150, 150, 150, 0.85);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    transition-property: width;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+#damageList {
+    width: 100%;
+    height: 100%;
+    flow-children: right;
+    transition-property: width;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+#damageList Label {
+    color: #ffffff;
+    font-size: 14px;
+    horizontal-align: middle;
+    vertical-align: center;
+}
+
+.damageItemNumber {
+    horizontal-align: right;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #ffffff;
+    /* text-shadow: 2px 2px 0px 1.0 #000000; */
+
+    /* ignore-parent-flow: true; */
+}
+
+@keyframes 'scalein' {
+
+    0% {
+
+        opacity: 0;
+        pre-transform-scale2d: 1.1;
+    }
+
+    100% {
+
+        opacity: 1;
+        pre-transform-scale2d: 1;
+    }
+}
+
+#unitPool {
+    width: fit-children;
+    horizontal-align: middle;
+    vertical-align: center;
+    padding: 8px 12px;
+    flow-children: none;
+    background-color: gradient(
+        radial,
+        50% 50%,
+        0% 0%,
+        80% 80%,
+        from(#1a1a1aee),
+        color-stop(0.5, #0f0f0fdd),
+        to(#050505cc)
+    );
+    border: 1px solid #333333aa;
+    border-radius: 8px;
+    background-color: rgb(26, 26, 26);
+}
+
+@keyframes 'AghanimRewardsHUDclose' {
+    0% {
+        opacity: 1;
+        brightness: 1;
+        pre-transform-scale2d: 1;
+        transform: translateY(0px);
+    }
+    100% {
+        opacity: 0;
+        brightness: 0;
+        pre-transform-scale2d: .95;
+        transform: translateY(150px);
+    }
+}
+
+@keyframes 'fadeInScale' {
+    0% {
+        opacity: 0;
+        transform: scaleX(0.8) scaleY(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleX(1) scaleY(1);
+    }
+}
+
+@keyframes 'slideInFromBottom' {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes 'slashAppear' {
+    0% {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+#unitPool.Hidden {
+    opacity: 0;
+}
+
+#unitCollection {
+    flow-children: down;
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 6px;
+    width: fit-children;
+}
+
+.unitTier {
+    flow-children: right;
+    margin-left: 4px;
+    padding: 2px;
+}
+
+.unitTierLine {
+    flow-children: right;
+    margin-bottom: 4px;
+    padding: 2px 6px;
+    border-bottom: 1px solid #1a1a1a60;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    width: fit-children;
+}
+
+
+.unitTierLineTitle {
+    vertical-align: middle;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #888888;
+    font-weight: bold;
+    margin-right: 15px;
+    letter-spacing: 1px;
+    width: 50px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.unitPoolCell {
+    margin: 2px;
+    width: 80px;
+    height: 85px;
+    flow-children: down;
+    
+    border-radius: 4px;
+    transition-property: transform, brightness, box-shadow;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+.unitPoolCellName {
+    horizontal-align: center;
+    font-size: 11px;
+    white-space: normal;
+    color: #cccccc;
+    text-transform: uppercase;
+    margin-top: 2px;
+    padding: 0px 2px;
+    letter-spacing: 0.3px;
+    max-width: 76px;
+    text-align: center;
+    opacity: 0.9;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
+    line-height: 1.2;
+    max-height: 26px;
+    overflow: clip clip;
+}
+
+#unitPoolCellCont{
+    horizontal-align: center;
+    border-radius: 3px;
+    overflow: clip;
+    background-color: #0a0a0a60;
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+    flow-children: none;
+}
+#fighterAbilityImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+/* New used mark system */
+.usedMark {
+    width: 100%;
+    height: 100%;
+    background-color: gradient(
+        radial,
+        50% 50%,
+        0% 0%,
+        80% 80%,
+        from(#00000080),
+        to(#000000cc)
+    );
+    visibility: collapse;
+    border-radius: 3px;
+}
+
+.usedMarkText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff3333;
+    horizontal-align: center;
+    vertical-align: center;
+    text-shadow: 0px 0px 8px 2.0 #ff0000;
+}
+
+/* Slash strike-through container */
+.usedSlash {
+    width: 100%;
+    height: 100%;
+    visibility: collapse;
+    border-radius: 3px;
+    overflow: clip;
+}
+
+/* Slash line */
+.slashLine {
+    width: 100%;
+    height: 100%;
+    background-color: gradient( linear, 0% 0%, 100% 100%, from( transparent ), color-stop( 0.47, transparent ), color-stop( 0.47, #ff4444 ), color-stop( 0.53, #ff4444 ), color-stop( 0.53, transparent ), to( transparent ) );
+    box-shadow: 0px 0px 6px 1.0 rgba(255, 0, 0, 0.6);
+}
+
+.unitPoolCell DOTAAbilityImage {
+    width: 56px;
+    height: 56px;
+    horizontal-align: center;
+}
+
+.unitPoolCellUsed {
+}
+
+.unitPoolCellUsed .usedMark {
+    visibility: visible;
+    animation-name: fadeInScale;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+}
+
+.unitPoolCellUsed .usedSlash {
+    visibility: visible;
+    animation-name: slashAppear;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-out;
+}
+
+.unitPoolCellUsed .unitPoolCellName {
+    color: #666666;
+    opacity: 0.6;
+}
+
+.unitPoolCellUsed DOTAAbilityImage {
+    opacity: 0.3;
+    brightness: 0.5;
+}
+
+
+#unitPoolTitle {
+    font-size: 24px;
+    color: gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    horizontal-align: center;
+    letter-spacing: 3px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+#closeBtn {
+    background-image: url("file://{images}/custom_game/emojione-monotone_cross-mark.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    align: right top;
+    margin-right: 10px;
+    margin-top: 10px;
+    ignore-parent-flow: true;
+    z-index: 100;
+    transition-property: brightness, transform;
+    transition-duration: 0.15s;
+    border-radius: 12px;
+    background-color: #1a1a1a40;
+}
+
+
+#closeBtn:hover {
+    brightness: 2;
+    transform: scaleX(1.1) scaleY(1.1);
+    background-color: #2a1a1a60;
+}
+
+#unitPoolBtn {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 36px;
+    vertical-align: bottom;
+    horizontal-align: right;
+    background-color: gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(#1a1a1aee),
+        to(#0f0f0fee)
+    );
+    margin-bottom: 50px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #4a4a4a;
+    border-radius: 6px;
+    transition-property: brightness, transform, box-shadow;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+#unitPoolBtn:hover {
+    brightness: 1.3;
+    transform: translateY(-1px);
+    box-shadow: 0px 2px 8px rgba(100, 180, 255, 0.3);
+    border-color: #6a9aff60;
+}
+
+#unitPoolBtn:active {
+
+    sound: "ui_friends_slide_in";
+}
+
+#unitPoolBtn Label {
+
+    vertical-align: center;
+    horizontal-align: center;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: 0px;
+    vertical-align: top;
+    horizontal-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+    text-shadow: 1px 3px 4px #000;
+}

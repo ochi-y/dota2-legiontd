@@ -1,0 +1,321 @@
+<!-- xml reconstructed by ValveResourceFormat: https://vrf.steamdb.info/ -->
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="file://{resources}/layout/custom_game/hud_demo/hud_hero_demo.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/layout/custom_game/hud_demo/hud_hero_demo_particle.js" />
+        <include src="file://{resources}/layout/custom_game/hud_demo/hud_hero_demo_sound.js" />
+        <include src="file://{resources}/layout/custom_game/hud_demo/hud_hero_demo.js" />
+    </scripts>
+    <snippets>
+        <snippet name="snippet_sound">
+            <Panel class="soundItem">
+                <Button class="DemoButton" acceptsjoyfocus="true" >
+                    <Label text="{s:sound_name}" />
+                </Button>
+            </Panel>
+        </snippet>
+        <snippet name="snippet_unit">
+            <Panel class="unitItem">
+                <Button class="DemoButton UnitButton" acceptsjoyfocus="true"  id="unit_btn">
+                    <DOTAScenePanel id="unitScene" renderdeferred="true" style="width:200px;height:150px;" unit="npc_dota_roshan" particleonly='false' rotateonhover='true' antialias="true" yawmin='-180' yawmax='180' pitchmin='-50' pitchmax='50'/>
+                </Button>
+                <Label text="{s:unit_name}"  />
+            </Panel>
+        </snippet>
+
+        <snippet name="snippet_ability">
+            <Panel class="abilityItem">
+                <Button class="DemoButton AbilityButton" acceptsjoyfocus="true"  id="ability_btn">
+                   <DOTAAbilityImage id="ability_image" style="width:100px;height:100px;" abilityname="war3_unstable_concoction" class="abilityIcon" /> 
+                </Button>
+                <!-- <Label text="{s:ability_name}"  /> -->
+            </Panel>
+        </snippet>
+
+        <snippet name="snippet_particle_type">
+            <Panel class="particle_type">
+                <ToggleButton class="ParticleTypeButton"  id="particle_type_btn" acceptsjoyfocus="true" >
+                    <Label text="{s:particle_type}" />
+                </ToggleButton>
+            </Panel>
+        </snippet>
+        <snippet name="snippet_particle">
+            <Panel class="snippet_particle">
+                <Button class="DemoButton" acceptsjoyfocus="true" >
+                    <Label text="{s:name}" />
+                </Button>
+                <Panel  class="particle_color">
+                </Panel>
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel hittest="false" class="CustomHudRoot">
+        <Panel id="SelectHeroContainer" acceptsfocus="true" oncancel="EscapeHeroPickerSearch()">
+            <DOTAUIHeroPicker id="HeroPicker" />
+            <Button id="CancelButton" class="CloseButton" acceptsjoyfocus="true" onactivate="CloseHeroPicker()" />
+        </Panel>
+        <Panel id="SelectSoundContainer" acceptsfocus="true" oncancel="EscapeSoundPickerSearch()">
+            <Button id="SoundCancelButton" class="CloseButton" acceptsjoyfocus="true" onactivate="CloseSoundPicker()" />
+            <Panel class="Row">
+                <ToggleButton id="DotaEnabled_Button" class="DemoToggleButton" acceptsjoyfocus="true" onactivate="ToggleSoundType('core')">
+                    <Label text="#DotaEnabled_Button" />
+                </ToggleButton>
+                <ToggleButton id="HeroEnabled_Button" class="DemoToggleButton" acceptsjoyfocus="true" onactivate="ToggleSoundType('hero')">
+                    <Label text="#HeroEnabled_Button" />
+                </ToggleButton>
+                <ToggleButton id="MusicEnabled_Button" class="DemoToggleButton" acceptsjoyfocus="true" onactivate="ToggleSoundType('music')">
+                    <Label text="#MusicEnabled_Button" />
+                </ToggleButton>
+            </Panel>
+            <Panel class="Row">
+                <TextEntry id="SoundText" class="LineEntry" tabindex="auto" ontabforward="" placeholder="sound" onblur="" oninputsubmit="UpdateSound()"/>
+                <TextEntry id="SoundText1" class="LineEntry" tabindex="auto" />
+            </Panel>
+            <Panel id="SoundList">
+
+            </Panel>
+        </Panel>
+        <Panel id="SelectParticleContainer" acceptsfocus="true" oncancel="EscapeParticlePickerSearch()">
+            <Button id="ParticleCancelButton" class="CloseButton" acceptsjoyfocus="true" onactivate="CloseParticlePicker()" />
+            <Panel class="ParticleType" id="ParticleType">
+            </Panel>
+            <Panel class="Row">
+                <TextEntry id="ParticleText" class="LineEntryMax" tabindex="auto" ontabforward="" placeholder="name" onblur="" oninputsubmit="UpdateParticle()"/>
+                <TextEntry id="ParticleColor" class="LineEntryMax" tabindex="auto" ontabforward="" placeholder="color" onblur="" oninputsubmit="UpdateParticle()"/>
+            </Panel>
+            <Panel class="Row">
+                <TextEntry id="ParticleText1" class="LineEntryMax" tabindex="auto" />
+            </Panel>
+            <Panel class="Row">
+                <TextEntry id="ParticleText2" class="LineEntryMax" tabindex="auto" text="" placeholder="page" onblur="" oninputsubmit="UpdateParticle()"/>
+                <TextEntry id="ParticleTextColor" class="LineEntryMax" tabindex="auto" text="" />
+            </Panel>
+            <Panel id="ParticleList">
+            </Panel>
+        </Panel>
+        <Panel id="SelectUnitContainer" acceptsfocus="true" oncancel="EscapeUnitPickerSearch()" class="">
+            <Button id="UnitCancelButton" class="CloseButton" acceptsjoyfocus="true" onactivate="CloseUnitPicker()" />
+            <Panel class="Row">
+                <TextEntry id="UnitText" class="LineEntryMax" tabindex="auto" ontabforward="" placeholder="" onblur="" oninputsubmit="UpdateUnitPicker()" text="war3"/>
+            </Panel>
+            <Panel class="Row">
+                <TextEntry id="UnitText2" class="LineEntryMax" tabindex="auto" text="npc"/>
+            </Panel>
+            <Panel id="UnitList">
+            </Panel>
+        </Panel>
+
+        <Panel id="SelectAbilityContainer" acceptsfocus="true" oncancel="" class="">
+            <Button id="AbilityCancelButton" class="CloseButton" acceptsjoyfocus="true" onactivate="CloseAbilityPicker()" />
+            <Panel class="Row">
+                <TextEntry id="AbilityText" class="LineEntryMax" tabindex="auto" ontabforward="" placeholder="" onblur="" oninputsubmit="UpdateAbilityPicker()" text=""/>
+            </Panel>
+            <Panel class="Row">
+                <TextEntry id="AbilityText2" class="LineEntryMax" tabindex="auto" text=""/>
+            </Panel>
+            <Panel id="AbilityList">
+            </Panel>
+        </Panel>
+
+        <Panel id="UnitSceneContainer"  acceptsfocus="true" oncancel="">
+            <Button id="UnitSceneButton" class="CloseButton" acceptsjoyfocus="true" onactivate="CloseUnitScene()" />
+
+        	<!-- <DOTAScenePanel id="RankScene" unit="arctic_tuskarr_spearman"  style="width:500px;height:500px;" map="scenes/hero_level_icon" camera="shot_camera" renderdeferred="true" deferredalpha="true" antialias="true" hittest="false" particleonly="false" live-mode="high_end_only" /> -->
+
+            <DOTAScenePanel id="unitSceneA"   style="width:700px;height:700px;" renderdeferred="true"  unit="nature_goliath" particleonly='false' rotateonhover='true' antialias="true" yawmin='-180' yawmax='180' pitchmin='-50' pitchmax='50'/>
+        </Panel>
+        <Panel class="ControlPanel">
+            <Panel class="ControlPanelContainer">
+                <Panel id="Header">
+                    <Panel class="HeroDemoTextContainer">
+                        <Label id="HeroDemoHeroName" text="{s:hero_name}" />
+                    </Panel>
+                </Panel>
+                <Panel id="SpawnUnitsCategory" class="Category">
+                    <Label class="CategoryHeader" text="#SpawnUnits_ButtonCategory" />
+                    <Panel class="CategoryButtonContainer">
+                        <Panel id="SpawnHeroButton" class="Row DemoButton" onactivate="ToggleHeroPicker( false )" acceptsjoyfocus="true">
+                            <DOTAHeroImage id="HeroPickerImage" class="HeroImage" heroimagestyle="landscape" />
+                            <Label id="SpawnHeroName" text="{s:hero_name}" />
+                            <Panel class="HeroPickerArrow" />
+						</Panel>
+                        <Panel class="Row">
+                            <Button id="SpawnAllyButton" class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( SpawnAllyButtonPressed )">
+                                <Label text="#Ally_Button" />
+                            </Button>
+                            <Button id="SpawnEnemyButton" class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( SpawnEnemyButtonPressed )">
+                                <Label text="#Enemy_Button" />
+                            </Button>
+                        </Panel>
+                        <Panel id="SwitchHeroButton" class="Row DemoButton" onactivate="FireCustomGameEvent_Str( SwitchHeroButtonPressed )" acceptsjoyfocus="true">
+                            <Label id="SwitchSpawnHeroName" text="#SWITCH_HERO_BUTTON" />
+                            <Panel class="HeroPickerArrow" />
+						</Panel>
+                        <!-- <Panel class="HorizontalRule" /> -->
+                    </Panel>
+                </Panel>
+                <Panel id="UnitCategory" class="Category">
+                    <Label class="CategoryHeader" text="#Unit_Category" />
+                    <Panel class="Row">
+                        <Button class="DemoButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( DummyTargetButtonPressed )">
+                            <Label text="#DummyTarget_Button" />
+                        </Button>
+                    </Panel>
+                    <Panel id="SpawnUnitButton1" class="Row DemoButton" onactivate="ToggleUnitPicker( 1 )" acceptsjoyfocus="true">
+                        <DOTAScenePanel id="UnitSelectScene1" renderdeferred="true" style="width:50px;height:50px;" unit="wave_rock_golem_6" particleonly='false' rotateonhover='true' antialias="true" yawmin='-180' yawmax='180' pitchmin='-50' pitchmax='50'/>
+                        <Label id="SpawnUnitName1" text="wave_rock_golem_6" />
+                        <Panel class="HeroPickerArrow" />
+						</Panel>
+                    <Panel class="Row">
+                        <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( CreepTarget_Enemy_1 )">
+                            <Label text="#CreepTarget_Enemy" />
+                        </Button>
+                        <Button class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( CreepTarget_Friend_1 )">
+                            <Label text="#CreepTarget_Friend" />
+                        </Button>
+                    </Panel>
+
+                    <!-- Unit slot 2 -->
+                    <Panel id="SpawnUnitButton2" class="Row DemoButton" onactivate="ToggleUnitPicker( 2 )" acceptsjoyfocus="true">
+                        <DOTAScenePanel id="UnitSelectScene2" renderdeferred="true" style="width:50px;height:50px;" unit="wave_aoclyte_8" particleonly='false' rotateonhover='true' antialias="true" yawmin='-180' yawmax='180' pitchmin='-50' pitchmax='50'/>
+                        <Label id="SpawnUnitName2" text="wave_aoclyte_8" />
+                        <Panel class="HeroPickerArrow" />
+					</Panel>
+                    <Panel class="Row">
+                        <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( CreepTarget_Enemy_2 )">
+                            <Label text="#CreepTarget_Enemy" />
+                        </Button>
+                        <Button class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( CreepTarget_Friend_2 )">
+                            <Label text="#CreepTarget_Friend" />
+                        </Button>
+                    </Panel>
+
+                    <!-- Unit slot 3 -->
+                    <Panel id="SpawnUnitButton3" class="Row DemoButton" onactivate="ToggleUnitPicker( 3 )" acceptsjoyfocus="true">
+                        <DOTAScenePanel id="UnitSelectScene3" renderdeferred="true" style="width:50px;height:50px;" unit="wave_gaint_spider_19" particleonly='false' rotateonhover='true' antialias="true" yawmin='-180' yawmax='180' pitchmin='-50' pitchmax='50'/>
+                        <Label id="SpawnUnitName3" text="wave_gaint_spider_19" />
+                        <Panel class="HeroPickerArrow" />
+					</Panel>
+                    <Panel class="Row">
+                        <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( CreepTarget_Enemy_3 )">
+                            <Label text="#CreepTarget_Enemy" />
+                        </Button>
+                        <Button class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( CreepTarget_Friend_3 )">
+                            <Label text="#CreepTarget_Friend" />
+                        </Button>
+                    </Panel>
+                </Panel>
+
+                <Panel id="AbilitySelectCategory" class="Category CollapseCategory">
+                    <Label class="CategoryHeader" text="#AbilitySelect_Category" onactivate="ToggleCategoryVisibility( &apos;#AbilitySelectCategory&apos; )" />
+                    <Panel class="CategoryButtonContainer">
+                        <Panel id="AbilitySelectButton" class="Row DemoButton" onactivate="ToggleAbilitySelectPicker()" acceptsjoyfocus="true">
+                            <DOTAAbilityImage id="AbilitySelectImage" style="width:40px;height:40px;" abilityname="war3_unstable_concoction" class="abilityIcon" />
+                            <Label id="AbilitySelectName" text="#npc_dota_creep_goodguys_melee" />
+                            <Panel class="HeroPickerArrow" />
+						</Panel>
+                        <Panel class="Row">
+                            <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( AbilitySelect_ADD )">
+                                <Label text="#AbilitySelect_ADD" />
+                            </Button>
+                            <Button class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( AbilitySelect_REMOVE )">
+                                <Label text="#AbilitySelect_REMOVE" />
+                            </Button>
+                        </Panel>
+                    </Panel>
+                </Panel>
+
+                <Panel id="SoundCategory" class="Category">
+                    <Label class="CategoryHeader" text="#Sound_ButtonCategory" />
+                    <Panel class="Row">
+                        <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="ToggleSoundPicker( false )">
+                            <Label text="#Sound_Button" />
+                        </Button>
+                        <Button class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="ToggleParticlePicker( false )">
+                            <Label text="#Particle_Button" />
+                        </Button>
+                    </Panel>
+                    
+                </Panel>
+                <Panel id="EditUnitsCategory" class="Category">
+                    <Label class="CategoryHeader" text="#EditUnits_ButtonCategory" />
+                    <Panel class="CategoryButtonContainer">
+                        <Panel class="Row">
+                            <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="ResetSelectedHeroes()">
+                                <Label text="#Reset_Button" />
+                            </Button>
+                            <Button class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="RemoveSelectedHeroes()">
+                                <Label text="#RemoveSpawns_Button" />
+                            </Button>
+                        </Panel>
+                        <Panel class="Row">
+                            <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="KillSelectedHeroes()">
+                                <Label text="Kill" />
+                            </Button>
+                            <Button class="DemoButton RightButton" acceptsjoyfocus="true" onactivate="Clone_BUTTON()">
+                                <Label text="#Clone_BUTTON" />
+                            </Button>
+                        </Panel>
+                        <Panel class="Row">
+                            <Button class="DemoButton" acceptsjoyfocus="true" onactivate="OpenUnitScene()">
+                                <Label text="#UNIT_SCENE_BUTTON" />
+                            </Button>
+                        </Panel>
+                    </Panel>
+                </Panel>
+                <Panel id="LegionCategory" class="Category" style="">
+                    <Label class="CategoryHeader" text="#Legion_ButtonCategory" />
+                    <Panel class="Row">
+                        <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( AddGold_Button )">
+                            <Label text="#AddGold_Button"/>
+                        </Button>
+                        <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( AddLumber_Button )">
+                            <Label text="#AddLumber_Button"/>
+                        </Button>
+                        <Button class="DemoButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( AddFood_Button )">
+                            <Label text="#AddFood_Button"/>
+                        </Button>
+                    </Panel>
+                </Panel>
+                <Panel id="" class="Category">
+                    <Label class="CategoryHeader" text="Others" />
+                    <Panel class="Row">
+                        <ToggleButton id="AttackArmorTypeButton" class="DemoToggleButton LeftButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( ToggleAttackArmorTypePressed )">
+                            <Label text="Enable armor types"/>
+                        </ToggleButton>
+                        <ToggleButton id="AIButton" class="DemoToggleButton RightButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( ToggleAIPressed )">
+                            <Label text="Enable AI"/>
+                        </ToggleButton>
+                    </Panel>
+                </Panel>
+                
+                <Panel id="GlobalCategory" class="Category">
+                    <Label class="CategoryHeader" text="#Global_ButtonCategory" />
+                    <Panel class="CategoryButtonContainer">
+                        <Panel class="Row">
+                            <ToggleButton id="FreeSpellsButton" class="DemoToggleButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( FreeSpellsButtonPressed )">
+                                <Label text="#FreeSpells_Button" />
+                            </ToggleButton>
+                            <Button id="RefreshButton" acceptsjoyfocus="true" onactivate="FireCustomGameEvent_Str( RefreshButtonPressed )" onmouseover="UIShowTextTooltip( #Refresh_Button )" onmouseout="UIHideTextTooltip()">
+                                <Panel class="RefreshIcon" />
+                            </Button>
+                        </Panel>
+                    </Panel>
+                </Panel>
+                
+                <Panel id="Footer">
+                    <TextButton class="DemoButton LeftButton PauseButton" acceptsjoyfocus="true" text="#PauseDemo_Button" onactivate="FireCustomGameEvent_Str( PauseButtonPressed )" />
+                    <TextButton class="DemoButton RightButton QuitButton" acceptsjoyfocus="true" text="#QuitDemo_Button" onactivate="FireCustomGameEvent_Str( LeaveButtonPressed )" />
+                </Panel>
+            </Panel>
+            <Panel id="ControlPanelSlideThumbContainer" require-composition-layer="true">
+                <Button id="ControlPanelSlideThumb" acceptsjoyfocus="true" onactivate="SlideThumbActivate()">
+                    <Panel class="RightArrowButtonIcon" />
+                </Button>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

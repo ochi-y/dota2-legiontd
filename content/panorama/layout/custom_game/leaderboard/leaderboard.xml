@@ -1,0 +1,92 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/layout/custom_game/leaderboard/leaderboard.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/layout/custom_game/leaderboard/leaderboard.js" />
+    </scripts>
+    <snippets>
+        <snippet name="snippet_scoreLine">
+            <Panel class="player">
+                <Panel class="playerCol playerCol1">
+                    <Label  text="{s:line_no}" />
+                </Panel>
+                <Panel class="playerCol playerCol2">
+                    <DOTAAvatarImage id="avatar" class="avatar" steamid="local"/>
+                    <Label  text="{s:player_name}" />
+                </Panel>
+                <Panel class="playerCol playerCol3">
+                    <Label  text="{s:rank_score}" />
+                </Panel>
+                <Panel class="playerCol playerCol4">
+                    <Label  text="{s:winrate}" />
+                </Panel>
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel class="root"  hittest="false" >
+        <Panel id="leaderboardRoot" class="leaderboardRoot Hidden" hittest="true">
+            <Panel  class="bg"></Panel>
+            <Panel class="container">
+                <Button id="closeBtn" onactivate="onCloseBtn();" />
+                <Panel class="container1">
+                    <Panel class="header">
+                        <Panel id="dropContainer" class="">
+                            <DropDown id="modeDrop" style="" oninputsubmit="onModeDropSelected()"> </DropDown>
+                            <DropDown id="drop" style="" oninputsubmit="onDropSelected()"> </DropDown>
+                        </Panel>
+                        <Panel  class="title">
+                            <Label id="titleLabel" class="" text="{s:leaderboard_title}" />
+                            <Panel id="" class="HelpIcon" onmouseover="UIShowTextTooltip( #ui_leaderboard_desc )" onmouseout="UIHideTextTooltip()">
+                            </Panel>
+                        </Panel>
+                        <Panel  class="subTitle">
+                            <Panel  class="kv">
+                                <Label  class="kvKey" text="#ui_your_elo" />
+                                <Label  class="kvValue" text="{s:player_elo}" />
+                            </Panel>
+                            <Panel  class="kv">
+                                <Label  class="kvKey" text="#ui_position" />
+                                <Label  class="kvValue" text="{s:player_pos}" />
+                            </Panel>
+                            <Panel  class="kv">
+                                <Label  class="kvKey" text="#ui_matchs" />
+                                <Label  class="kvValue" text="{s:player_match_count}" />
+                            </Panel>
+                            <Panel  class="kv">
+                                <Label  class="kvKey" text="#ui_winrate" />
+                                <Label  class="kvValue" text="{s:player_winrate}" />
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                    <Panel  class="content">
+                        <Panel  class="contentHeader">
+                            <Label class="col col1" text="#ui_pos" />
+                            <Label class="col col2" text="#ui_player" />
+                            <Label class="col col3" text="#ui_elo" />
+                            <Label class="col col4" text="#ui_winrate" />
+                        </Panel>
+                        <Panel id="playerList" class="">
+                            <Panel class="player">
+                                <Panel class="playerCol playerCol1">
+                                    <Label  text="1" />
+                                </Panel>
+                                <Panel class="playerCol playerCol2">
+                                    <DOTAAvatarImage class="avatar" steamid="local"/>
+                                    <Label  text="2" />
+                                </Panel>
+                                <Panel class="playerCol playerCol3">
+                                    <Label  text="3150" />
+                                </Panel>
+                                <Panel class="playerCol playerCol4">
+                                    <Label  text="100.00%" />
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

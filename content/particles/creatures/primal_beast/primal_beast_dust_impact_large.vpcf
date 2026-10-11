@@ -1,0 +1,260 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{d15c9157-10e0-47bc-9333-1ac81da07b8d} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_flConstantLifespan = 1.750000
+	m_nMaxParticles = 65
+	m_nBehaviorVersion = 12
+	m_nFirstMultipleOverride_BackwardCompat = 8
+	m_controlPointConfigurations = 
+	[
+		
+		{
+			m_name = "point"
+			m_drivers = 
+			[
+				
+				{
+					m_iAttachType = "PATTACH_POINT"
+					m_attachmentName = "attach_hitloc"
+					m_entityName = "self"
+				},
+				
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_nFireParticleOnSequenceFrame = 19
+				m_hitboxSetName = "default"
+				m_bAnimationNonLooping = true
+			}
+		},
+		
+		{
+			m_name = "absorigin"
+			m_drivers = 
+			[
+				
+				{
+					m_iAttachType = "PATTACH_ABSORIGIN"
+					m_entityName = "self"
+				},
+			]
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes/monkey_king/monkey_king.vmdl"
+				m_sequenceName = "taunt_pogo_stick_loadout_effigy"
+				m_nFireParticleOnSequenceFrame = 76
+				m_bAnimationNonLooping = true
+			}
+		},
+	]
+	m_PreEmissionOperators = 
+	[
+		
+		{
+			_class = "C_OP_SetSingleControlPointPosition"
+			m_vecCP1Pos = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+		},
+	]
+	m_Emitters = 
+	[
+		
+		{
+			_class = "C_OP_InstantaneousEmitter"
+			m_nParticlesToEmit = 
+			{
+				m_nType = "PF_TYPE_LITERAL"
+				m_flLiteralValue = 35.000000
+			}
+		},
+	]
+	m_Initializers = 
+	[
+		
+		{
+			_class = "C_INIT_RingWave"
+			m_nControlPointNumber = 1
+			m_flInitialRadius = 
+			{
+				m_nType = "PF_TYPE_LITERAL"
+				m_flLiteralValue = 15.000000
+			}
+			m_flInitialSpeedMin = 
+			{
+				m_nType = "PF_TYPE_LITERAL"
+				m_flLiteralValue = 175.000000
+			}
+			m_flInitialSpeedMax = 
+			{
+				m_nType = "PF_TYPE_LITERAL"
+				m_flLiteralValue = 425.000000
+			}
+		},
+		
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 65.000000
+			m_flRadiusMax = 160.000000
+		},
+		
+		{
+			_class = "C_INIT_RandomRotation"
+		},
+		
+		{
+			_class = "C_INIT_RandomSequence"
+			m_nSequenceMax = 16
+		},
+		
+		{
+			_class = "C_INIT_RandomRotationSpeed"
+			m_flDegreesMin = -15.000000
+			m_flDegreesMax = 15.000000
+		},
+		
+		{
+			_class = "C_INIT_RandomAlpha"
+			m_nAlphaMin = 60
+			m_nAlphaMax = 120
+		},
+		
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 1.000000
+			m_fLifetimeMax = 2.000000
+		},
+		
+		{
+			_class = "C_INIT_RandomColor"
+			m_ColorMin = 
+			[
+				176,
+				170,
+				141,
+				255,
+			]
+			m_ColorMax = 
+			[
+				191,
+				191,
+				172,
+				255,
+			]
+		},
+		
+		{
+			_class = "C_INIT_PositionOffset"
+			m_OffsetMax = 
+			[
+				0.000000,
+				0.000000,
+				45.000000,
+			]
+		},
+		
+		{
+			_class = "C_INIT_InitialVelocityNoise"
+			m_vecOutputMax = 
+			[
+				1.000000,
+				1.000000,
+				275.000000,
+			]
+			m_flNoiseScaleLoc = 0.600000
+		},
+		
+		{
+			_class = "C_INIT_PositionPlaceOnGround"
+		},
+	]
+	m_Operators = 
+	[
+		
+		{
+			_class = "C_OP_Decay"
+		},
+		
+		{
+			_class = "C_OP_BasicMovement"
+			m_Gravity = 
+			[
+				0.000000,
+				0.000000,
+				18.000000,
+			]
+			m_fDrag = 0.085000
+		},
+		
+		{
+			_class = "C_OP_SpinUpdate"
+		},
+		
+		{
+			_class = "C_OP_FadeOut"
+			m_flFadeOutTimeMin = 0.300000
+			m_flFadeOutTimeMax = 0.900000
+		},
+		
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flStartScale = 0.300000
+			m_flEndScale = 1.300000
+			m_flBias = 0.650000
+		},
+		
+		{
+			_class = "C_OP_VectorNoise"
+			m_nFieldOutput = 0
+			m_vecOutputMin = 
+			[
+				-3.000000,
+				-3.000000,
+				-4.000000,
+			]
+			m_vecOutputMax = 
+			[
+				3.000000,
+				3.000000,
+				4.000000,
+			]
+			m_fl4NoiseScale = 0.500000
+			m_bAdditive = true
+		},
+	]
+	m_Renderers = 
+	[
+		
+		{
+			_class = "C_OP_RenderSprites"
+			m_vecTexturesInput = 
+			[
+				
+				{
+					m_hTexture = resource:"materials/particle/smoke1/smoke1.vtex"
+				},
+				
+				{
+					m_hTexture = resource:"materials/particle/tile/tile_clouds_01.vtex"
+				},
+			]
+			m_nFeatheringMode = "PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL"
+			m_flDepthBias = 2.000000
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			m_ChildRef = resource:"particles/creatures/primal_beast/primal_beast_dust_impact_flek_large.vpcf"
+		},
+	]
+}

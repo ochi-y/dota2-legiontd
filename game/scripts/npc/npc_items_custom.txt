@@ -1,0 +1,309 @@
+"DOTAAbilities"    
+{
+    "item_king_control"    
+    {
+        "BaseClass"    "item_lua"
+        "ScriptFile"    "item_ability/item_king_control"
+        "AbilityTextureName"    "watchers_gaze"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "ItemDroppable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "ItemInitiallySellable"    "0"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "5"
+        "MaxUpgradeLevel"    "5"
+        "ItemBaseLevel"    "1"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "attack_slow"    "25"
+        }
+    }
+    "item_gameplay_prophet_remake"    
+    {
+        "BaseClass"    "item_lua"
+        "ScriptFile"    "item_ability/item_gameplay_prophet_remake"
+        "AbilityTextureName"    "item_refresher"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "ItemDroppable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "ItemInitiallySellable"    "0"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "1"
+        "MaxUpgradeLevel"    "5"
+        "ItemBaseLevel"    "1"
+        "ItemInitialCharges"    "5"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "gold"    "0 50 100 150 200"
+            "wood"    "0 50 100 150 200"
+        }
+    }
+    "item_gameplay_remake"    
+    {
+        "BaseClass"    "item_lua"
+        "ScriptFile"    "item_ability/item_gameplay_remake"
+        "AbilityTextureName"    "refresher_shard"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "ItemDroppable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "ItemInitiallySellable"    "0"
+        "ItemInitialCharges"    "5"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "5"
+        "MaxUpgradeLevel"    "5"
+        "ItemBaseLevel"    "1"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "gold"    "0 50 100 150 200"
+            "wood"    "100 200 300 400 500"
+        }
+    }
+    "item_holy_light"    
+    {
+        "BaseClass"    "item_lua"
+        "ScriptFile"    "item_ability/item_holy_light"
+        "AbilityTextureName"    "fusion_rune"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "ItemDroppable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "ItemInitiallySellable"    "0"
+        "ItemInitialCharges"    "1"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "0"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "heal"    "10000"
+        }
+    }
+    "item_unstuck"    
+    {
+        "BaseClass"    "item_lua"
+        "ScriptFile"    "item_ability/item_unstuck"
+        "AbilityTextureName"    "greater_crit_drow_arcana"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+        "ItemDroppable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "AbilityCastPoint"    "0"
+        "AbilityCooldown"    "0"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "precache"    
+        {
+            "particle"    "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+        }
+        "AbilityValues"    
+        {
+            "unit_cooldown"    "5"
+        }
+    }
+    "item_test_kill"    
+    {
+        "BaseClass"    "item_lua"
+        "ScriptFile"    "item_ability/item_test_kill"
+        "AbilityTextureName"    "item_dagon"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+        "AbilityCastPoint"    "0"
+        "ItemDroppable"    "1"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "AbilityCastRange"    "30000"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "AbilityValues"    
+        {
+            "radius"    "400"
+        }
+    }
+    "item_sandbag"    
+    {
+        "BaseClass"    "item_datadriven"
+        "AbilityTextureName"    "imba_courier"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityCastPoint"    "0"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "ItemDroppable"    "1"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "AbilityCastRange"    "900"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "AbilityCooldown"    "0"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "ability/common"
+                "Function"    "createSandbag"
+                "Target"    "POINT"
+            }
+        }
+    }
+    "item_test_spawn"    
+    {
+        "BaseClass"    "item_datadriven"
+        "AbilityTextureName"    "item_necronomicon"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityCastPoint"    "0"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "ItemDroppable"    "1"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "AbilityCastRange"    "30000"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "AbilityCooldown"    "0"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "ability/common"
+                "Function"    "item_test_spawn"
+                "Target"    "POINT"
+            }
+        }
+    }
+    "item_test_spawn_good"    
+    {
+        "BaseClass"    "item_datadriven"
+        "AbilityTextureName"    "item_necronomicon_2"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_POINT"
+        "AbilityCastPoint"    "0"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ALLIES_YES"
+        "ItemDroppable"    "1"
+        "ItemPurchasable"    "0"
+        "ItemSellable"    "0"
+        "AbilityCastRange"    "30000"
+        "ItemShareability"    "ITEM_NOT_SHAREABLE"
+        "AbilityCooldown"    "0"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "ability/common"
+                "Function"    "item_test_spawn_good"
+                "Target"    "POINT"
+            }
+        }
+    }
+    "item_rapier_x"    
+    {
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "BaseClass"    "item_lua"
+        "AbilityTextureName"    "rapier"
+        "ScriptFile"    "item_ability/item_rapier_x"
+        "Model"    "models/props_gameplay/treasure_chest001.vmdl"
+        "Effect"    "particles/generic_gameplay/dropped_aegis.vpcf"
+        "ItemCost"    "0"
+        "ItemPermanent"    "0"
+        "ItemDroppable"    "1"
+        "ItemSellable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemKillable"    "0"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "attackSpeed"    "50"
+            "damage"    "150"
+            "hp"    "10000"
+            "armor"    "6"
+        }
+    }
+    "item_fighter_level_up"    
+    {
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"    "item_lua"
+        "AbilityTextureName"    "tome_of_knowledge"
+        "ScriptFile"    "item_ability/item_fighter_level_up"
+        "Model"    "models/props_gameplay/treasure_chest001.vmdl"
+        "Effect"    "particles/generic_gameplay/dropped_aegis.vpcf"
+        "ItemCost"    "0"
+        "ItemPermanent"    "0"
+        "ItemDroppable"    "0"
+        "ItemSellable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemKillable"    "0"
+        "IsSummonAbility"    "1"
+        "LegionUiType"    "goldAndFood"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "start_round"    "11"
+        }
+    }
+    "item_fighter_level_up_builder"    
+    {
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "BaseClass"    "item_lua"
+        "AbilityTextureName"    "tome_of_knowledge"
+        "ScriptFile"    "item_ability/item_fighter_level_up_builder"
+        "Model"    "models/props_gameplay/treasure_chest001.vmdl"
+        "Effect"    "particles/generic_gameplay/dropped_aegis.vpcf"
+        "ItemCost"    "0"
+        "ItemPermanent"    "0"
+        "AbilityUnitTargetTeam"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"    "DOTA_UNIT_TARGET_CREEP"
+        "AbilityUnitTargetFlags"    "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "ItemDroppable"    "0"
+        "ItemSellable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemKillable"    "0"
+        "AbilityCastRange"    "900"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "start_round"    "11"
+        }
+    }
+    "item_legiontd_aghanims_scepter"    
+    {
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"    "item_lua"
+        "AbilityTextureName"    "ultimate_scepter_tease"
+        "ScriptFile"    "item_ability/item_legiontd_aghanims_scepter"
+        "Model"    "models/props_gameplay/treasure_chest001.vmdl"
+        "Effect"    "particles/generic_gameplay/dropped_aegis.vpcf"
+        "ItemCost"    "0"
+        "ItemPermanent"    "0"
+        "ItemDroppable"    "0"
+        "ItemSellable"    "0"
+        "ItemPurchasable"    "0"
+        "ItemKillable"    "0"
+        "IsSummonAbility"    "1"
+        "LegionUiType"    "gold"
+        "precache"    
+        {
+        }
+        "AbilityValues"    
+        {
+            "required_round"    "16"
+            "required_level"    "2"
+        }
+    }
+}

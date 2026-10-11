@@ -1,0 +1,98 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/layout/custom_game/multiteam_end_screen/multiteam_end_screen.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/layout/custom_game/multiteam_end_screen/multiteam_end_screen_x.js" />
+    </scripts>
+    <snippets>
+        <snippet name="end_screen_player">
+            <Panel class="PlayerRow">
+            
+
+                <Panel id="PlayerRowContainer">
+                    <Panel id="Hero" class="ScoreCol_Hero ScoreboardPanel">
+                        <Image id="HeroIcon" heroimagestyle="landscape" scaling="stretch-to-fit-preserve-aspect" />
+                    </Panel>
+                    <Panel id="PlayerDetailsContainer" class="ScoreCol_PlayerDetails ScoreboardPanel">
+                        <Panel id="PlayerAndHeroName">
+                            <Label id="PlayerName" text="AAAAA" />
+                            <Label id="HeroNameAndDescription" text="#custom_scoreboard_hero_name_and_desc" />
+                        </Panel>
+                    </Panel>
+                    <!-- <Panel id="TeamScoreSpace" class="ScoreCol_TeamScore" /> -->
+                    <Panel id="KillsContainer" class="ScoreCol_Kills ScoreboardPanel">
+                        <Label id="Kills" text="999" />
+                    </Panel>
+                    <Panel id="DeathsContainer" class="ScoreCol_Deaths ScoreboardPanel">
+                        <Label id="Deaths" text="999" />
+                    </Panel>
+                    <Panel id="LumberContainer" class="ScoreCol_Deaths ScoreboardPanel">
+                        <Label id="Lumber" text="2/0" />
+                    </Panel>
+                    <!-- <Panel id="AssistsContainer" class="ScoreCol_Assists ScoreboardPanel">
+                        <Label id="Assists" class="Assists" text="999" />
+                    </Panel> -->
+                    <Panel id="EloContainer" class="ScoreCol_Assists ScoreboardPanel">
+                        <Label id="Elo" class="Assists" text="--" />
+                    </Panel>
+                    <!-- <Panel id="PlayerItemsContainer" class="ScoreCol_Items ScoreboardPanel" /> -->
+                    <!-- <Panel id="GoldContainer" class="ScoreCol_Gold ScoreboardPanel">
+                        <Label id="PlayerGoldAmount" text="999" />
+                    </Panel> -->
+                </Panel>
+            </Panel>
+        </snippet>
+        <snippet name="end_screen_team">
+            <Panel hittest="false" class="FlyoutTeam">
+                <Panel class="FlyoutTeamData">
+                    <Panel class="TeamInfo ScoreCol_TeamInfo">
+                        <Panel id="TeamColor_GradentFromTransparentLeft" />
+                        <Panel id="TeamLogo" />
+					</Panel>
+                    <Panel id="PlayersContainer" />
+				</Panel>
+                <!-- <Panel id="TeamScorePanel" class="ScoreCol_TeamScore">
+                    <Label id="TeamScore" text="$" />
+                </Panel> -->
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel hittest="false" class="root" >
+        <Panel hittest="false" id="EndScreenWindow" class="EndScreenWindow">
+            <Panel class="EndScreenContentWrapper">
+                <Panel id="VictoryRow">
+                    <Label id="EndScreenTeamName" text="#custom_end_screen_victory_message" />
+                    <Label id="EndScreenVictory" text="#custom_end_screen_victory_message" />
+                </Panel>
+                <Panel id="tableCols" class="Legend Hidden">
+                    <Panel class="LegendPanel ScoreCol_TeamInfo" />
+                    <Panel class="LegendPanel ScoreCol_Hero" />
+                    <Panel class="LegendPanel ScoreCol_PlayerDetails" />
+                    <!-- <Label class="LegendPanel ScoreCol_TeamScore" text="#custom_end_screen_legend_team_score" /> -->
+                    <Label class="LegendPanel ScoreCol_Kills colHeader" text="#tootip_kills" />
+                    <Label class="LegendPanel ScoreCol_Deaths colHeader" text="#tootip_value" />
+                    <Label class="LegendPanel ScoreCol_Deaths colHeader" text="#tootip_lumber" />
+                    <!-- <Label class="LegendPanel ScoreCol_Assists colHeader" text="#tootip_rank" /> -->
+                    <Label class="LegendPanel ScoreCol_Assists colHeader" text="#tootip_elo" />
+                    <!-- <Label class="LegendPanel ScoreCol_Items" text="#custom_end_screen_legend_items" /> -->
+                    <!-- <Label class="LegendPanel ScoreCol_Gold" text="#custom_end_screen_legend_gold" /> -->
+                </Panel>
+                
+                <Panel id="LoadingContainer">
+                    <Label id="LoadingText" text="Loading teams..." />
+                </Panel>
+                <Panel id="TeamsContainer" />
+                <Panel id="ButtonsContainer">
+                    <Button id="CloseButton" onactivate="OnCloseButtonPressed();">
+                        <Label text="#ui_close" />
+                    </Button>
+                    <Button id="QuitButton" onactivate="Game.Disconnect();">
+                        <Label text="#dota_dashboard_quit" />
+                    </Button>
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>

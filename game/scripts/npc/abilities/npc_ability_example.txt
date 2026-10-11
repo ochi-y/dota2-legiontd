@@ -1,0 +1,117 @@
+"DOTAAbilities"    
+{
+    "teck_example_1"    
+    {
+        "BaseClass"    "ability_datadriven"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityTextureName"    "icons/npc_dota_hero_lion_png"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "10.0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "UpgradeToLevel"    "3"
+        "UnitLevel"    "1"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "teckTree.lua"
+                "Function"    "teckResearchStart"
+            }
+        }
+        "OnChannelInterrupted"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "teckTree.lua"
+                "Function"    "teckResearchInterrupted"
+            }
+        }
+        "OnChannelSucceeded"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "teckTree.lua"
+                "Function"    "teckResearchSucceeded"
+            }
+        }
+        "AbilityValues"    
+        {
+            "gold"    "10"
+        }
+    }
+    "teck_example_2"    
+    {
+        "BaseClass"    "ability_datadriven"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityTextureName"    "icons/npc_dota_hero_lion_png"
+        "AbilityCastPoint"    "0"
+        "AbilityChannelTime"    "10.0"
+        "MaxLevel"    "1"
+        "AbilityCooldown"    "0"
+        "AbilityCastAnimation"    "ACT_DOTA_TELEPORT"
+        "UpgradeToLevel"    "3"
+        "UnitLevel"    "1"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "teckTree.lua"
+                "Function"    "teckResearchStart"
+            }
+        }
+        "OnChannelInterrupted"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "teckTree.lua"
+                "Function"    "teckResearchInterrupted"
+            }
+        }
+        "OnChannelSucceeded"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "teckTree.lua"
+                "Function"    "teckResearchSucceeded"
+            }
+        }
+        "AbilityValues"    
+        {
+            "gold"    "10"
+        }
+    }
+    "tower_example"    
+    {
+        "BaseClass"    "ability_datadriven"
+        "AbilityTextureName"    "icons/npc_dota_hero_pudge_png"
+        "MaxLevel"    "1"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityCastPoint"    "0"
+        "Building"    "1"
+        "BuildingSize"    "2"
+        "BuildTime"    "3"
+        "ModelRotation"    "90.0"
+        "AbilityCastRange"    "200"
+        "UpdateHealth"    "1"
+        "UnitName"    "example_building"
+        "Scale"    "1"
+        "PlayerCanControl"    "1"
+        "AbilityCooldown"    "0"
+        "OnSpellStart"    
+        {
+            "RunScript"    
+            {
+                "ScriptFile"    "builder.lua"
+                "Function"    "Build"
+            }
+        }
+        "AbilityValues"    
+        {
+            "food"    "1"
+            "wood"    "1"
+            "gold"    "1"
+        }
+    }
+}

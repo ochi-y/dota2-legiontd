@@ -1,0 +1,63 @@
+<!-- xml reconstructed by ValveResourceFormat: https://vrf.steamdb.info/ -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/scepter_tooltips.css" />
+	</styles>
+	<scripts>
+		 <include src="s2r://panorama/scripts/custom_game/meta.js" />
+		<include src="s2r://panorama/scripts/custom_game/scepter_tooltips.js" />
+	</scripts>
+	<snippets>
+		<snippet name="ScepterTooltip">
+			<Panel class="tooltipRoot">
+				<Panel class="ScepterHeader">
+					<Label id="ScepterTitle" text="#DOTA_Tooltip_ability_item_legiontd_aghanims_scepter" class="summonUnit" />
+				</Panel>
+
+				<Panel id="panelGap" class="">
+					
+				</Panel>
+				<Panel class="ScepterContent" id="ScepterContent">
+					<Label   id="ScepterDesc"  html="true"  text="#DOTA_Tooltip_ability_item_legiontd_aghanims_scepter_Description" class="summonUnit" />
+					<Panel class="KingAbilityCard">
+						<Panel  class="KingAbilityName">
+							<Label id="abilityName" class="" text="Ability A" />
+						</Panel>
+						<Panel class="KingAbilityCardSub">
+							<DOTAAbilityImage id="abilityIcon" class="KingAbilityImage"  style="width:50px;height:50px;"  abilityname="orc_pulverize" showtooltip="false"/>
+							<Label id="abilityDesc" class="KingAbilityDesc" text="Ability Desc"  html="true"/>
+						</Panel>
+					</Panel>
+
+					<Panel  class="attrLine">
+						<Label  class="attrKey" text="#ui_required_round"  html="false"/>
+						<Label  class="attrValue" text="{s:round}"  html="false"/>
+					</Panel>
+					<Panel  class="attrLine">
+						<Label  class="attrKey" text="#ui_required_lv"  html="false"/>
+						<Label  class="attrValue" text="{s:level}"  html="false"/>
+					</Panel>
+					<Panel  class="attrLine">
+						<Label  class="attrKey" text="#ui_gold_cost_1"  html="false"/>
+						<Label  class="attrValue" text="{s:gold_cost}"  html="false"/>
+					</Panel>
+
+				</Panel>
+			</Panel>
+		</snippet>
+
+		<snippet name="UnitAttr">
+			<Panel class="UnitAttr">
+				<Panel id="AttrLeft" class="UnitAttrNode">
+					<Label text="{s:attr_key}" html="true" class="AttrKey" />
+				</Panel>
+				<Panel id="AttrRight" class="UnitAttrNode">
+					<Label text="{s:attr_value}" html="true" class="AttrValue"/>
+				</Panel>
+			</Panel>
+		</snippet>
+
+	</snippets>
+	<Panel class="TooltipContents" ontooltiploaded="SetupTooltip()" />
+</root>

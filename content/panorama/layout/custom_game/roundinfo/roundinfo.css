@@ -1,0 +1,286 @@
+.roundinfoRoot {
+    width: 100%;
+    height: 100%;
+}
+
+#bigInfo {
+    width: 431px;
+    align: right top;
+    margin-right: 22px;
+    margin-top: 52px;
+    background-color: white;
+    padding: 10px 10px;
+    background-color: #0d0f12ee;
+    border-radius: 2px;
+    flow-children: down;
+}
+
+.Visible {
+    visibility: visible;
+}
+
+.Hidden {
+    visibility: collapse;
+}
+
+#bigContent {
+    width: 100%;
+    flow-children: down;
+    margin-top: 10px;
+}
+
+#roundHead {
+    width: 411px;
+    height: 34px;
+    border: 1px solid #738477;
+    border-radius: 4px;
+    transition-property: brightness, border-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.playeList {
+    width: 100%;
+    flow-children: down;
+}
+
+#roundHead:hover {
+    brightness: 1.2;
+    border-color: #8a9288;
+}
+
+#roundHeadBg {
+    width: 40%;
+    height: 34px;
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#4A9FB8), to(#66D9F0));
+    border-radius: 4px;
+    horizontal-align: right;
+    transition-property: width;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    box-shadow: inset 0px 0px 6px #66D9F044;
+}
+
+#roundLabelLeft {
+    horizontal-align: left;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    transition-property: color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+#roundLabelRight {
+    horizontal-align: right;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    transition-property: color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+.teamInfo {
+    flow-children: down;
+    width: 100%;
+}
+
+.tableHeader {
+    flow-children: right;
+    width: 100%;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #2a3540;
+}
+
+.colPlayer {
+    width: 30%;
+    vertical-align: middle;
+}
+
+.colValue {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.colIncome {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.colLumber {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.colKills {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.colHeader {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #a8b5c5;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000000aa;
+}
+
+.tableLine {
+    flow-children: right;
+    width: 100%;
+    padding: 2px 0;
+    transition-property: background-color;
+    transition-duration: 0.15s;
+}
+
+.tableLine:hover {
+    background-color: #1a202888;
+}
+
+.colItem {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #d8dfe6;
+    text-shadow: 1px 1px 2px #00000088;
+    transition-property: color, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.playerAvatar {
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 0px 4px black;
+    horizontal-align: center;
+    margin-top: 17px;
+}
+
+.colPlayer {
+    flow-children: right;
+}
+
+.aliveAndHp {
+    flow-children: right;
+    width: 100%;
+    height: 22px;
+    margin-top: 2px;
+}
+
+.gameAlive {
+    flow-children: right;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.gameHp {
+    flow-children: right;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.aliveLabel {
+    horizontal-align: right;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-right: 4px;
+    text-align: right;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.modesLabel {
+    font-size: 18px;
+    color: #adadad;
+    text-transform: uppercase;
+    margin-right: 2px;
+}
+
+.aliveColor {
+    horizontal-align: right;
+    width: 50%;
+    height: 100%;
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#6BAA40), to(#5A9830));
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    box-shadow: inset 0px 0px 4px #7FE83F33;
+}
+
+.hpColor {
+    horizontal-align: left;
+    width: 50%;
+    height: 100%;
+    background-color: gradient(linear, 0% 0%, 100% 0%, from(#D75A56), to(#C04A46));
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    box-shadow: inset 0px 0px 4px #EC615D33;
+}
+
+.hpLabel {
+    horizontal-align: left;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 4px;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.aliveValue {}
+
+.hpValue {}
+
+.divider {
+    width: 100%;
+    height: 5px;
+    margin-bottom: 4px;
+}
+
+.aliveAndHpLeft {
+    width: 50%;
+    height: 100%;
+    margin-right: 1px;
+}
+
+.aliveAndHpRight {
+    width: 50%;
+    height: 100%;
+    margin-left: 1px;
+}
+
+#modesBoard {
+    flow-children: right;
+}
+
+#player_name {
+    height: 16px;
+    margin-right: 10px;
+    width: 100%;
+    color: #e8ecf0;
+    font-weight: bold;
+    saturation: 0.95;
+    brightness: 0.8;
+    transition-property: color, brightness;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}

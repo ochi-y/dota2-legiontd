@@ -1,0 +1,30 @@
+.AddonLoadingRoot {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    background-image: url("file://{images}/custom_game/load1.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#TitlePanel {
+    horizontal-align: left;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 100px;
+    flow-children: right;
+    background-color: rgba(49, 49, 49, 0.5);
+    border-radius: 5px;
+    padding: 0px 4px;
+}
+
+#AddonTitle {
+    /* margin-bottom: -15px; */
+    vertical-align: center;
+    text-transform: uppercase;
+    font-size: 64px;
+    color: white;
+    line-height: 75px;
+    /* text-shadow: 2px 2px 2px #000000; */
+}

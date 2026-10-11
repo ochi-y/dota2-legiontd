@@ -1,0 +1,33 @@
+<!-- xml reconstructed by ValveResourceFormat: https://vrf.steamdb.info/ -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/resource.css" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/resource.js" />
+	</scripts>
+	<Panel class="ResourceRoot" hittest="false">
+		<Panel id="ResourcePanel">
+			<!-- <Label id="ResourcesLabel" text="#resources" html="true" class="TitleFont" /> -->
+			<Panel id="GoldIconPanel">
+				<Image id="GoldIcon" src="file://{images}/custom_game/gold_icon.png" onmouseover="UIShowTextTooltip('#tip_gold')" onmouseout="UIHideTextTooltip()" />
+			</Panel>
+			<Panel id="GoldLabelPanel" onmouseout="UIHideTextTooltip()" onmouseover="UIShowTextTooltip('#gold_desc')">
+				<Label id="GoldText" text="0" html="true" class="TitleFont" />
+			</Panel>
+			<Panel id="LumberIconPanel">
+				<Image id="LumberIcon" src="file://{images}/custom_game/lumber_icon.png" onmouseover="UIShowTextTooltip('#tip_wood')" onmouseout="UIHideTextTooltip()" />
+			</Panel>
+			<Panel id="LumberLabelPanel" onmouseover="UIShowTextTooltip('#wood_desc')" onmouseout="UIHideTextTooltip()">
+				<Label id="LumberText" text="0" class="TitleFont" />
+			</Panel>
+			<Panel id="CheeseIconPanel">
+				<Image id="CheeseIcon" src="file://{images}/custom_game/cheese_icon.png" onmouseover="UIShowTextTooltip('#tip_food')" onmouseout="UIHideTextTooltip()" />
+			</Panel>
+			<Panel id="CheeseLabelPanel" onmouseover="UIShowTextTooltip('#food_desc')" onmouseout="UIHideTextTooltip()">
+				<Label id="CheeseText" text="1" html="true" class="TitleFont" />
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

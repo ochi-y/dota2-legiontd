@@ -1,0 +1,77 @@
+.diffRoot
+{
+	width: 100%;
+	height: 100%;
+}
+#diffPanel{
+	flow-children:down;
+	height: 340px;
+	width: 300px;
+	
+	background-image:url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat round;
+	horizontal-align:left;
+	vertical-align: top;
+	margin-left: 135px;
+}
+#diffPanelTop{
+	height: 20%;
+	width: 100%;
+}
+#diffPanelBottom
+{
+	flow-children:right;
+	height: 70%;
+	width: 100%;
+}
+#btn_vote{
+	width: 100%;
+	height: 35px;
+}
+#modePanel{
+	width: 50%;
+	height: 100%;
+	flow-children:down;
+}
+.btn_diff
+{
+	height: 35px;
+	horizontal-align: middle;
+	margin-top: 20px;
+	background-color: #272822;
+
+}
+.btn_diff:hover
+{
+	background-color: green;
+}
+.myfont
+{
+	font-size: 24px;
+	horizontal-align: middle;
+	vertical-align: center;
+}
+.radiobtn{
+	width: 100px;
+	horizontal-align:center;
+	vertical-align: middle;
+}
+
+#diff{
+	width: 50%;
+	height: 100%;
+	flow-children:down;
+}
+
+.diffrow{
+	width: 100%;
+	height: 30px;
+	flow-children:right;
+}
+
+.lb_diff{
+	horizontal-align:left;
+	vertical-align: middle;
+}

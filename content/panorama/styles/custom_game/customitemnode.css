@@ -1,0 +1,150 @@
+
+#Contents.ItemTooltipRoot{
+	background-image:url("s2r://panorama/images/custom_game/bg_search_results_psd_png.vtex");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat round;	
+	width: 300px; 
+	padding: 9px 13px;
+}
+#bg{
+	
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+	
+}
+#Container{
+	flow-children:down;
+	width: 100%;
+	border: 0;
+	box-shadow: none;
+	padding: 1px;
+}
+
+.tpCell{
+	width: 100%;
+	flow-children:right;
+}
+
+.title{
+	horizontal-align:center;
+	vertical-align: middle;
+	font-size: 22px;
+	height: 35px;
+	font-family: Goudy Trajan Medium,FZKai-Z03,TH Sarabun New,YDYGO 540;
+	font-weight: bold;
+	color:#ff8800;
+}
+
+#attrList{
+	flow-children:down;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.attrCell{
+	flow-children:right;
+	width: 100%;
+}
+
+.normal{
+	font-size: 18px;
+	margin-left: 5px;
+	vertical-align: middle;
+	font-family: Goudy Trajan Medium,FZKai-Z03,TH Sarabun New,YDYGO 540;
+	font-weight: bold;
+	color:white;
+}
+
+.needUnit{
+	color: gray;
+	font-family: Goudy Trajan Medium,FZKai-Z03,TH Sarabun New,YDYGO 540;
+	font-weight: bold;
+}
+.build_owned{
+	color: green;
+}
+.limit_got{
+	color: red;
+}
+#itemImage{
+	width: 48px;
+	height: 48px;
+	margin-left: 20px;
+}
+
+.customFont{
+	font-family: Goudy Trajan Medium,FZKai-Z03,TH Sarabun New,YDYGO 540;
+	font-weight: bold;
+}
+#lb_eattr{
+	color:#3ED038;
+}
+
+.number{
+	font-family: monospaceNumbersFont;
+	color: white;
+	vertical-align: middle;
+}
+
+#itemType{
+	horizontal-align:right;
+}
+
+#itemCost{
+	horizontal-align:right;
+	color: yellow;
+}
+
+#gold{
+	color:yellow;
+	font-size: 14px;
+	vertical-align: middle;
+}
+#wood{
+	color:green;
+	font-size: 14px;
+	vertical-align: middle;
+}
+#food{
+	color:#ff8800;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.itemName{
+	color:white;
+	font-size: 18	px;
+	horizontal-align:left;
+	margin-bottom: 0;
+}
+#resourcePanel{
+	flow-children:right;
+}
+
+.resItem{
+	flow-children:right;
+	margin-right:10px;
+}
+.resNumber{
+	
+	color:white;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.resIcon{
+	width:20px;
+	height:20px;
+	margin-right:3px;
+}
+.itemDesc{
+	color:white;
+	font-size: 16px;
+	margin-top:12px;
+	margin-left:0;
+}
+#buildRequirement{
+	margin-top:12px;
+	color: #FBFF40;
+	font-size: 16px;
+}

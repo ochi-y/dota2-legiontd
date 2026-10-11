@@ -1,0 +1,87 @@
+"DOTAAbilities"    
+{
+    "hybrid_morphs_tier_1"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "ScriptFile"    "ability/hybrid_morphs_tier_1"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+        }
+    }
+    "hybrid_morphs_tier_2"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "ScriptFile"    "ability/hybrid_morphs_tier_2"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+        }
+    }
+    "hybrid_morphs_tier_3"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "ScriptFile"    "ability/hybrid_morphs_tier_3"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+        }
+    }
+    "hybrid_morphs_tier_4"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "ScriptFile"    "ability/hybrid_morphs_tier_4"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+        }
+    }
+    "hybrid_morphs_tier_5"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "ScriptFile"    "ability/hybrid_morphs_tier_5"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+        }
+    }
+    "hybrid_morphs_tier_6"    
+    {
+        "BaseClass"    "ability_lua"
+        "AbilityTextureName"    "life_stealer_feast"
+        "ScriptFile"    "ability/hybrid_morphs_tier_6"
+        "FightRecapLevel"    "1"
+        "MaxLevel"    "1"
+        "AbilityType"    "DOTA_ABILITY_TYPE_BASIC"
+        "AbilityBehavior"    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "SpellImmunityType"    "SPELL_IMMUNITY_ENEMIES_YES"
+        "AbilityValues"    
+        {
+        }
+    }
+}

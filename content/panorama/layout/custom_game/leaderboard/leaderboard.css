@@ -1,0 +1,244 @@
+
+
+.root{
+    width: 100%;
+    height: 100%;
+}
+.leaderboardRoot {
+    width: 900px;
+    height: 780px;
+    background-color: rgba(0, 0, 0, 0.66);
+    horizontal-align: center;
+    /* blur: gaussian(5); */
+    vertical-align: middle;
+
+}
+
+/* .bg{
+    width: 100%;
+    height: 100%;
+    background-image: url("file://{images}/custom_game/load3.png");
+    background-size: 100%;
+    blur: gaussian(3);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.72); */
+    background-color: rgb(20, 19, 30);
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+
+    margin: 30px 20px;
+    flow-children: down;
+}
+#titleLabel{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+   
+}
+#titleLabel2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(255, 255, 255);
+}
+.title{
+    flow-children: right;
+}
+
+.header{
+    flow-children: down;
+    width: 100%;
+    height: 100px;
+    
+}
+.subTitle{
+    flow-children: right;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.kv{
+    flow-children: right;
+    margin-right: 20px;
+}
+.kvKey{
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(157, 147, 180);
+    margin-right: 5px;
+}
+
+.kvValue{
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(54, 202, 252);
+}
+
+#closeBtn {
+    background-image: url("file://{images}/custom_game/emojione-monotone_cross-mark.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    width: 26px;
+    height: 26px;
+    align: right top;
+    margin-right: 10px;
+    margin-top: 10px;
+    ignore-parent-flow: true;
+}
+
+#closeBtn:hover {
+    brightness: 2.4;
+}
+
+.content{
+    flow-children: down;
+    width: 100%;
+    height: 100%;
+}
+.contentHeader{
+    flow-children: right;
+}
+
+.col{
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(157, 147, 180);
+    margin-left: 2px;
+}
+
+
+.col1{
+    width: 80px;
+}
+
+.col2{
+    width: fill-parent-flow( 1.0);
+}
+
+.col3{
+    width: fill-parent-flow( 1.0);
+}
+
+.col4{
+    width: fill-parent-flow( 1.0);
+}
+
+
+#playerList{
+    flow-children: down;
+    width: 100%;
+    height: 100%;
+    overflow: squish scroll;
+}
+
+.player{
+    flow-children: right;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(42, 41, 65);
+    box-shadow: #1a1a1aaa 0px 0px 4px;
+    margin: 2px 2px;
+    flow-children: right;
+}
+.playerCol{
+    vertical-align: middle;
+    
+}
+
+.playerCol Label{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(237, 236, 236);
+    margin-left: 2px;
+}
+
+.playerCol1{
+    margin-left: 5px;
+    width: 80px;
+}
+
+.playerCol2{
+    width: fill-parent-flow( 1.0);
+    flow-children: right;
+}
+.playerCol3{
+    width: fill-parent-flow( 1.0);
+}
+.playerCol4{
+    width: fill-parent-flow( 1.0);
+}
+
+
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 4px black;
+    horizontal-align: center;
+    vertical-align: middle;
+}
+.playerCol2 Label{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.playerCol3 Label{
+    color: rgb(163, 216, 16);
+}
+
+#dropContainer{
+    ignore-parent-flow: true;
+    align: right top;
+    flow-children: right;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+#drop{
+    width: 170px;
+    height: 30px;
+    horizontal-align: right;
+    
+}
+#drop Label{
+    font-size: 16px;
+    margin-top: 0px;
+    
+}
+#modeDrop Label{
+    font-size: 16px;
+    margin-top: 0px;
+}
+#modeDrop{
+    width: 170px;
+    height: 30px;
+    horizontal-align: right;
+    margin-right: 5px;
+    
+}
+#seasonLabel{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(72, 72, 72);
+}
+.Hidden {
+    visibility: collapse;
+}
